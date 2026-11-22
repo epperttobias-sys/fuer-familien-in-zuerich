@@ -1101,6 +1101,13 @@ window.FAMILIENAGENDA = {
    "domain": "www.hof-narr.ch",
    "ok": true,
    "count": 5
+  },
+  "q-localcities": {
+   "name": "localcities.ch (Vereine, Höfe, Märkte)",
+   "bezirk": "Quellen",
+   "domain": "www.localcities.ch",
+   "ok": true,
+   "count": 216
   }
  },
  "events": [
@@ -1843,6 +1850,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4764069",
+   "q": "q-localcities",
+   "name": "Circus Conelli 2026 - Das Original",
+   "von": "2026-11-22",
+   "bis": "2026-12-06",
+   "ort": "Restaurant Bauschänzli, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4764069",
+   "w": "https://www.ticketcorner.ch/artist/circus-conelli/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4817047",
+   "q": "q-localcities",
+   "name": "Circus Monti - Poussière d'étoiles",
+   "von": "2026-11-22",
+   "bis": "2026-11-29",
+   "ort": "Kasernenareal, 8004 Zürich",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4817047",
+   "w": "https://circus-monti.ch/tickets"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7787359",
@@ -1896,6 +1935,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4788551",
+   "q": "q-localcities",
+   "name": "Die Zauberorgel",
+   "von": "2026-11-22",
+   "bis": "2026-12-06",
+   "ort": "Theater am Hechtplatz, 8001 Zürich",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4788551",
+   "w": "https://theaterhechtplatz.ch/produktionen/zauberorgel/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7753735",
@@ -1944,6 +1999,22 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/futsal-schueli.html?calentry=2"
+  },
+  {
+   "gemeinden": [
+    "n"
+   ],
+   "id": "n-lc4904637",
+   "q": "q-localcities",
+   "name": "Hotel Sonne Küsnacht - Winterzaubergarten",
+   "von": "2026-11-22",
+   "bis": "2027-01-17",
+   "ort": "Sonne Boutiquehotel und Seerestaurants, 8700 Küsnacht ZH",
+   "veranstalter": "",
+   "time": "14.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4904637",
+   "w": "https://sonne.ch/restaurants-und-bar/winterzaubergarten/"
   },
   {
    "gemeinden": [
@@ -2037,6 +2108,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.wallisellen.ch/_rte/anlass/7784782",
    "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4869465",
+   "q": "q-localcities",
+   "name": "Kerzenziehen Glaubten",
+   "von": "2026-11-22",
+   "bis": "2026-11-29",
+   "ort": "Kirchliches Zentrum Glaubten, 8046 Zürich",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4869465",
+   "w": "https://www.kerzenziehen-glaubten.ch"
   },
   {
    "gemeinden": [
@@ -2151,6 +2238,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4904281",
+   "q": "q-localcities",
+   "name": "Küss den Frosch ein Märchen auf Rollschuhen",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Sportzentrum Fronwald, 8046 Zürich",
+   "veranstalter": "",
+   "time": "11.30 - 11.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4904281",
+   "w": "https://www.zrsc.ch"
+  },
+  {
+   "gemeinden": [
     "niederweningen"
    ],
    "id": "niederweningen-915-642",
@@ -2163,6 +2266,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/915/eventdate/642",
    "w": "https://kultur-wehntal.ch/anlaesse/anlass-details/Linard-Badrill-Familienkonzert"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4697731",
+   "q": "q-localcities",
+   "name": "MÄDELSFLOHMARKT - Flohmi von und für FRAUEN - in ZÜRICH",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Tanzwerk101, 8005 Zürich",
+   "veranstalter": "",
+   "time": "11.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4697731",
+   "w": "https://www.maedelsflohmarkt.ch/"
   },
   {
    "gemeinden": [
@@ -2433,6 +2552,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4909947",
+   "q": "q-localcities",
+   "name": "Weihnachtsworkshop von 1st Blossom in der Zürcher Weihnachtsallee!",
+   "von": "2026-11-22",
+   "bis": "2026-11-28",
+   "ort": "8004 Zürich",
+   "veranstalter": "",
+   "time": "11.20 - 13.20",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4909947",
+   "w": "https://1stblossom.ch/workshops/"
+  },
+  {
+   "gemeinden": [
+    "sg"
+   ],
+   "id": "sg-lc4904259",
+   "q": "q-localcities",
+   "name": "Winterzauber Weihnachtsmarkt",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Dorfstrasse und Juckerhof Seegräben, 8607 Aathal-Seegräben",
+   "veranstalter": "",
+   "time": "11.00 - 18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/seegraeben/349/4904259",
+   "w": "http://winterzauber.ch/"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33614-0",
@@ -2448,6 +2599,22 @@ window.FAMILIENAGENDA = {
     "label": "ab 12 Jahren"
    },
    "url": "https://www.kinderthur.ch/events/wir-kreieren-zusammen-einen-weihnachtszug/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812959",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Dodo x Glattastic",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812959",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21844306/?affiliate=ZPF"
   },
   {
    "gemeinden": [
@@ -2775,6 +2942,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "wz"
+   ],
+   "id": "wz-lc4838077",
+   "q": "q-localcities",
+   "name": "Kursreihe- Clowneskes Theater",
+   "von": "2026-11-23",
+   "bis": "2026-12-07",
+   "ort": "Schönau Areal, 8620 Wetzikon ZH",
+   "veranstalter": "",
+   "time": "18.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/wetzikon-zh/373/4838077",
+   "w": "https://marisazuerrer.ch"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7809094",
@@ -2791,6 +2974,38 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.bubikon.ch/_rte/anlass/7809094",
    "w": "https://www.gabrielaglaus.com/mami-kind-yoga"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4916831",
+   "q": "q-localcities",
+   "name": "Medienflohmarkt",
+   "von": "2026-11-23",
+   "bis": "2026-12-18",
+   "ort": "PBZ Bibliothek Oerlikon, 8050 Zürich",
+   "veranstalter": "",
+   "time": "11.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4916831",
+   "w": "https://www.pbz.ch/event/medienflohmarkt-4/"
+  },
+  {
+   "gemeinden": [
+    "du"
+   ],
+   "id": "du-lc4879115",
+   "q": "q-localcities",
+   "name": "Meiers Weihnachtszauber",
+   "von": "2026-11-23",
+   "bis": "2026-12-24",
+   "ort": "Garten-Center Meier, 8635 Dürnten",
+   "veranstalter": "",
+   "time": "09.00 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/duernten/329/4879115",
+   "w": "https://www.gartencenter-meier.ch/event/1062/meiers-weihnachtszauber"
   },
   {
    "gemeinden": [
@@ -3143,6 +3358,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-lc4915695",
+   "q": "q-localcities",
+   "name": "Herbstmarkt der Heilpädagogischen Schule Uster",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "SEKUNDARSCHULE WEIDLI, 8610 Uster",
+   "veranstalter": "",
+   "time": "09.00 - 15.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uster/513/4915695"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-infoevening_en-21",
@@ -3351,6 +3581,38 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578043",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4813041",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Dan White",
+   "von": "2026-11-24",
+   "bis": "2026-12-01",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4813041",
+   "w": "https://www.ticketcorner.ch/artist/zauberpark-am-flughafen-zuerich/zauberpark-am-flughafen-zuerich-kids-act-4149391/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "n"
+   ],
+   "id": "n-lc4801681",
+   "q": "q-localcities",
+   "name": "„Küsnachterli“ am Adventsmarkt",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Ortsmuseum Küsnacht, 8700 Küsnacht ZH",
+   "veranstalter": "",
+   "time": "12.00 - 20.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4801681",
+   "w": "https://www.ortsmuseum-kuesnacht.ch/"
   },
   {
    "gemeinden": [
@@ -3756,6 +4018,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4769175",
+   "q": "q-localcities",
+   "name": "Der Zauberer von Oz",
+   "von": "2026-11-25",
+   "bis": "2026-12-05",
+   "ort": "Schauspielhaus Pfauen, 8001 Zürich",
+   "veranstalter": "",
+   "time": "20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4769175",
+   "w": "https://www.schauspielhaus.ch/de/spielplan/38226/der-zauberer-von-oz"
+  },
+  {
+   "gemeinden": [
     "l"
    ],
    "id": "l-6879-12599",
@@ -3887,6 +4165,26 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3456/eventdate/2052"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4790013",
+   "q": "q-localcities",
+   "name": "Familie Flöz: Dr. Nest",
+   "von": "2026-11-25",
+   "bis": "2026-11-26",
+   "ort": "Theater Winterthur, 8400 Winterthur",
+   "veranstalter": "",
+   "time": "19.30",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4790013",
+   "w": "https://www.theaterwinterthur.ch/familie-floez"
   },
   {
    "gemeinden": [
@@ -4431,6 +4729,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4893683",
+   "q": "q-localcities",
+   "name": "Laternenführung «Weihnachten & Krippen»",
+   "von": "2026-11-25",
+   "bis": "2026-12-11",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": {
+    "min": 5,
+    "max": 9,
+    "label": "5 bis 9 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893683",
+   "w": "https://www.landesmuseum.ch"
+  },
+  {
+   "gemeinden": [
     "aeugst"
    ],
    "id": "aeugst-2700-2125",
@@ -4649,6 +4967,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "d"
+   ],
+   "id": "d-lc4678655",
+   "q": "q-localcities",
+   "name": "Wochenmarkt Dübendorf",
+   "von": "2026-11-25",
+   "bis": "2026-12-30",
+   "ort": "Stadthausplatz, 8600 Dübendorf",
+   "veranstalter": "",
+   "time": "08.00 - 11.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/duebendorf/497/4678655",
+   "w": "https://www.vvd.ch"
+  },
+  {
+   "gemeinden": [
     "hausenamalbis"
    ],
    "id": "hausenamalbis-fa392382",
@@ -4676,6 +5010,38 @@ window.FAMILIENAGENDA = {
    "time": "13.30",
    "age": null,
    "url": "https://www.lanterne-magique.org/clubs/mannedorf/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4878721",
+   "q": "q-localcities",
+   "name": "Zauberpark am Flughafen Zürich",
+   "von": "2026-11-25",
+   "bis": "2026-12-02",
+   "ort": "The Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4878721",
+   "w": "https://zauberpark.ch/tickets/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812965",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Joris",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812965",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725738/?affiliate=ZPF"
   },
   {
    "gemeinden": [
@@ -5224,6 +5590,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-lc4259574",
+   "q": "q-localcities",
+   "name": "Uster Märt",
+   "von": "2026-11-26",
+   "bis": "2026-11-27",
+   "ort": "Innenstadt, 8610 Uster",
+   "veranstalter": "",
+   "time": "10.00 - 22.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uster/513/4259574",
+   "w": "https://www.uster.ch/maerktered/3709"
+  },
+  {
+   "gemeinden": [
     "v"
    ],
    "id": "v-17260-106195",
@@ -5240,6 +5622,22 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17260/eventdate/106195",
    "w": "https://kerzenziehenvolketswil.jimdofree.com/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4867177",
+   "q": "q-localcities",
+   "name": "Weihnachtsmarkt am Münsterhof",
+   "von": "2026-11-26",
+   "bis": "2026-12-24",
+   "ort": "8001 Zürich",
+   "veranstalter": "",
+   "time": "11.00 - 21.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4867177",
+   "w": "https://www.Zuerich-weihnachtsmarkt.ch"
   },
   {
    "gemeinden": [
@@ -5270,6 +5668,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578058",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812967",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Professor & Profesora Bummbastic",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812967",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-kids-act-flughafenpark-im-circle-21725780/?affiliate=ZPF"
   },
   {
    "gemeinden": [
@@ -5314,6 +5728,38 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.richterswil.ch/_rte/anlass/7748974",
    "w": "https://www.refrichterswil.ch/"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-lc4712735",
+   "q": "q-localcities",
+   "name": "AdventsMärt",
+   "von": "2026-11-27",
+   "bis": "2026-11-28",
+   "ort": "Brunnehof, 8904 Aesch ZH",
+   "veranstalter": "",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/aesch-zh/593/4712735",
+   "w": "https://kultur-aesch-zh.ch/event/muttertagsmaert-2026/"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-lc4919221",
+   "q": "q-localcities",
+   "name": "AdventsMärt 2026",
+   "von": "2026-11-27",
+   "bis": "2026-11-28",
+   "ort": "Brunnenhof, 8904 Aesch ZH",
+   "veranstalter": "",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/aesch-zh/593/4919221",
+   "w": "https://kultur-aesch-zh.ch/event/adventsmaert-2026/"
   },
   {
    "gemeinden": [
@@ -5422,6 +5868,37 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.buelach.ch/dienstleistungen/101029"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4764071",
+   "q": "q-localcities",
+   "name": "Circus Conelli 2026 - Gala Abend",
+   "von": "2026-11-27",
+   "bis": "2026-12-04",
+   "ort": "Restaurant Bauschänzli, 8001 Zürich",
+   "veranstalter": "",
+   "time": "18.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4764071",
+   "w": "https://www.ticketcorner.ch/artist/circus-conelli/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4824879",
+   "q": "q-localcities",
+   "name": "Dietiker Weihnachtsmarkt und Samichlaus-Einzug",
+   "von": "2026-11-27",
+   "bis": "2026-11-29",
+   "ort": "8953 Dietikon",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4824879"
   },
   {
    "gemeinden": [
@@ -5702,6 +6179,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "wz"
+   ],
+   "id": "wz-lc4897509",
+   "q": "q-localcities",
+   "name": "Illumination der Wetziker Weihnachtsbeleuchtung",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Leueplatz oder Vorplatz Gebäude H45, 8620 Wetzikon ZH",
+   "veranstalter": "",
+   "time": "18.00 - 22.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/wetzikon-zh/373/4897509",
+   "w": "https://www.weihnachtsbeleuchtung-wetzikon.ch"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7700869",
@@ -5872,6 +6365,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4893691",
+   "q": "q-localcities",
+   "name": "Laternenführung «Weihnachten & Krippen»",
+   "von": "2026-11-27",
+   "bis": "2026-12-15",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": {
+    "min": 5,
+    "max": 9,
+    "label": "5 bis 9 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893691",
+   "w": "https://www.landesmuseum.ch"
+  },
+  {
+   "gemeinden": [
     "bruetten"
    ],
    "id": "bruetten-7719472",
@@ -5883,6 +6396,26 @@ window.FAMILIENAGENDA = {
    "time": "19.00 - 21.00",
    "age": null,
    "url": "https://www.bruetten.ch/_rte/anlass/7719472"
+  },
+  {
+   "gemeinden": [
+    "gossau"
+   ],
+   "id": "gossau-lc4897797",
+   "q": "q-localcities",
+   "name": "Mami & Kind - Tanzen und Musik - Weihnachtszauber",
+   "von": "2026-11-27",
+   "bis": "2026-12-11",
+   "ort": "Gabriela's Musik, Geschichten & Kindertanzen, 8625 Gossau ZH",
+   "veranstalter": "",
+   "time": "16.00 - 16.40",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/gossau-zh/345/4897797",
+   "w": "https://www.gabrielaglaus.com/agenda"
   },
   {
    "gemeinden": [
@@ -5975,6 +6508,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4914327",
+   "q": "q-localcities",
+   "name": "Sabina's Köstlichkeite am Weihnachtsmarkt in Dietikon",
+   "von": "2026-11-27",
+   "bis": "2026-11-29",
+   "ort": "Sabina's Köstlichkeite, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4914327"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7735714",
@@ -6009,6 +6557,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "hettlingen"
+   ],
+   "id": "hettlingen-lc4903677",
+   "q": "q-localcities",
+   "name": "Weihnachtsmarkt Hettlingen 2026",
+   "von": "2026-11-27",
+   "bis": "2026-11-28",
+   "ort": "Café Fortuna, 8442 Hettlingen",
+   "veranstalter": "",
+   "time": "16.00 - 21.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/hettlingen/561/4903677",
+   "w": "https://www.weihnachtsmarkt-hettlingen.ch"
+  },
+  {
+   "gemeinden": [
     "dietlikon"
    ],
    "id": "dietlikon-fa381101",
@@ -6037,6 +6601,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578064",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4850919",
+   "q": "q-localcities",
+   "name": "Zauberpark mit GReeeN",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4850919",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725728/?affiliate=ZPF"
   },
   {
    "gemeinden": [
@@ -6099,6 +6679,22 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 12.00",
    "age": null,
    "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3695/eventdate/9909"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4815153",
+   "q": "q-localcities",
+   "name": "Adventsbasteln mit Naturmaterialien",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Stadtgärtnerei Zürich, 8047 Zürich",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4815153",
+   "w": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/adventsbasteln-mit-naturmaterialien.html"
   },
   {
    "gemeinden": [
@@ -6169,6 +6765,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "k"
+   ],
+   "id": "k-lc4692333",
+   "q": "q-localcities",
+   "name": "Adventsmarkt",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "8126 Zumikon",
+   "veranstalter": "",
+   "time": "11.00 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zumikon/441/4692333",
+   "w": "https://www.zumikon.ch/_rte/anlass/4678514"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4921903",
+   "q": "q-localcities",
+   "name": "Adventsmarkt Samstag, 28. November 2026 – Im Innenhof vom Arche Brockenhaus",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Arche Brockenhaus & Bistro, 8048 Zürich",
+   "veranstalter": "",
+   "time": "10.00 - 15.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4921903",
+   "w": "https://www.archezuerich.ch/adventsmarkt"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7300175",
@@ -6229,6 +6857,70 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.forum-magazin.ch/dietlikon/agenda/20261128-adventsworkshop-fur-familien-368991/"
+  },
+  {
+   "gemeinden": [
+    "m"
+   ],
+   "id": "m-lc4907719",
+   "q": "q-localcities",
+   "name": "Adventszauber in der LANDI Mönchaltorf",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "LANDI Laden Mönchaltorf, 8617 Mönchaltorf",
+   "veranstalter": "",
+   "time": "09.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/moenchaltorf/521/4907719",
+   "w": "https://landi.swiss/de-CH/cooperative/landi-zola/events/adventszauber-in-landilaeden"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-lc4907721",
+   "q": "q-localcities",
+   "name": "Adventszauber in der LANDI Pfäffikon",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "LANDI Pfäffikon, 8330 Pfäffikon ZH",
+   "veranstalter": "",
+   "time": "09.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/pfaeffikon/489/4907721",
+   "w": "https://landi.swiss/de-CH/cooperative/landi-zola/events/adventszauber-in-landilaeden"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4907725",
+   "q": "q-localcities",
+   "name": "Adventszauber in der LANDI Töss",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "LANDI Töss, 8406 Winterthur",
+   "veranstalter": "",
+   "time": "09.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4907725",
+   "w": "https://landi.swiss/de-CH/cooperative/landi-zola/content/anlaesse-landi-zola"
+  },
+  {
+   "gemeinden": [
+    "v"
+   ],
+   "id": "v-lc4907723",
+   "q": "q-localcities",
+   "name": "Adventszauber in der LANDI Volketswil Hegnau",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "LANDI Volketswil, 8604 Volketswil",
+   "veranstalter": "",
+   "time": "09.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/volketswil/529/4907723",
+   "w": "https://landi.swiss/de-CH/cooperative/landi-zola/events/adventszauber-in-landilaeden"
   },
   {
    "gemeinden": [
@@ -6487,6 +7179,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4814043",
+   "q": "q-localcities",
+   "name": "Captain Silberzahn - Das Familienmusical",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Zentrum Arche, 8405 Winterthur",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4814043",
+   "w": "https://www.ticketcorner.ch/event/captain-silberzahn-das-familienmusical-zentrum-arche-21855411/?affiliate=GUI"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7206671",
@@ -6565,6 +7277,22 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 23.00",
    "age": null,
    "url": "https://www.fehraltorf.ch/_rte/anlass/7795498",
+   "w": "https://vv-fehraltorf.ch/"
+  },
+  {
+   "gemeinden": [
+    "h"
+   ],
+   "id": "h-lc4814661",
+   "q": "q-localcities",
+   "name": "Chlausmärt Fehraltorf",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Hintergasse im Dorfzentrum, 8320 Fehraltorf",
+   "veranstalter": "",
+   "time": "10.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/fehraltorf/449/4814661",
    "w": "https://vv-fehraltorf.ch/"
   },
   {
@@ -6756,6 +7484,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4892977",
+   "q": "q-localcities",
+   "name": "Familientheater: Nils Holgerssons wunderbare Reise",
+   "von": "2026-11-28",
+   "bis": "2026-12-06",
+   "ort": "Kanzlei Club, 8004 Zürich",
+   "veranstalter": "",
+   "time": "11.00 - 13.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4892977",
+   "w": "https://www.andakids.ch/nilsholgersson"
+  },
+  {
+   "gemeinden": [
     "wiesendangen"
    ],
    "id": "wiesendangen-7202858",
@@ -6903,6 +7651,22 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3196&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=6191028112ea48a7eb3003574ef3cccb"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4761231",
+   "q": "q-localcities",
+   "name": "JETZT - Der Zauber des Augenblicks",
+   "von": "2026-11-28",
+   "bis": "2026-12-06",
+   "ort": "CLOSE - Theater für Mentalmagie und Zauberkunst, 8005 Zürich",
+   "veranstalter": "",
+   "time": "20.00 - 21.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4761231",
+   "w": "https://www.closetheater.ch"
   },
   {
    "gemeinden": [
@@ -7123,6 +7887,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "kloten"
+   ],
+   "id": "kloten-lc4805933",
+   "q": "q-localcities",
+   "name": "Klotener Weihnachtsmarkt 2026",
+   "von": "2026-11-28",
+   "bis": "2026-11-29",
+   "ort": "8302 Kloten",
+   "veranstalter": "",
+   "time": "12.00 - 21.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4805933",
+   "w": "https://www.klotener-weihnachtsmarkt.ch/"
+  },
+  {
+   "gemeinden": [
     "wiesendangen"
    ],
    "id": "wiesendangen-7794070",
@@ -7196,6 +7976,22 @@ window.FAMILIENAGENDA = {
    "time": "19.30 - 21.00",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7731895"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4872217",
+   "q": "q-localcities",
+   "name": "Mit Squillo ins Zauberland Oper",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Opernhaus Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00 - 15.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4872217",
+   "w": "https://www.opernhaus.ch/spielplan/kalendarium/ohrwurm-squillo/"
   },
   {
    "gemeinden": [
@@ -7318,6 +8114,37 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/516/eventdate/1057",
    "w": "https://www.kulturhedingen.ch"
+  },
+  {
+   "gemeinden": [
+    "wz"
+   ],
+   "id": "wz-lc4852611",
+   "q": "q-localcities",
+   "name": "Robehuuser Wuchemärt",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Rössliplatz Robenhausen, 8620 Wetzikon ZH",
+   "veranstalter": "",
+   "time": "08.00 - 11.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/wetzikon-zh/373/4852611"
+  },
+  {
+   "gemeinden": [
+    "ba"
+   ],
+   "id": "ba-lc4883825",
+   "q": "q-localcities",
+   "name": "Samichlaus Express (28. Nov., 13:00)",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Bahnhof SBB Bauma, 8494 Bauma",
+   "veranstalter": "",
+   "time": "13.00 - 14.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/bauma/657/4883825",
+   "w": "https://www.ticketino.com/de/Event/217917"
   },
   {
    "gemeinden": [
@@ -7593,6 +8420,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4893671",
+   "q": "q-localcities",
+   "name": "Weihnachten & Krippen - Winterlicht im Glas",
+   "von": "2026-11-28",
+   "bis": "2026-12-21",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "10.30 - 12.30",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893671",
+   "w": "https://www.landesmuseum.ch"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7801111",
@@ -7604,6 +8451,22 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 14.00",
    "age": null,
    "url": "https://www.waedenswil.ch/_rte/anlass/7801111"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4894441",
+   "q": "q-localcities",
+   "name": "Weihnachtsgeschichten",
+   "von": "2026-11-28",
+   "bis": "2026-12-17",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.30 - 14.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4894441",
+   "w": "https://www.landesmuseum.ch"
   },
   {
    "gemeinden": [
@@ -7635,6 +8498,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-lc4364035",
+   "q": "q-localcities",
+   "name": "Wochenmarkt Pfäffikon ZH",
+   "von": "2026-11-28",
+   "bis": "2026-12-19",
+   "ort": "Wochenmarkt Pfäffikon, 8330 Pfäffikon ZH",
+   "veranstalter": "",
+   "time": "08.00 - 13.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/pfaeffikon/489/4364035",
+   "w": "https://wochenmarktpfaeffikon.ch"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -7648,6 +8527,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578076",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4813049",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Lunik (ZKB Night)",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4813049",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725726/?affiliate=ZPF"
   },
   {
    "gemeinden": [
@@ -7831,6 +8726,22 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://samichlaus-buelach.ch/einzug/"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4869683",
+   "q": "q-localcities",
+   "name": "Chlaus-Einzug in Dietikon",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "8953 Dietikon",
+   "veranstalter": "",
+   "time": "17.15 - 18.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4869683",
+   "w": "https://www.samichlaus-dietikon.ch/content/"
   },
   {
    "gemeinden": [
@@ -8602,7 +9513,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-29",
    "ort": "Bauma",
    "veranstalter": "",
-   "time": "",
+   "time": "10.30 - 12.00",
    "age": null,
    "url": "https://dvzo.ch/samichlaus-express/"
   },
@@ -8824,6 +9735,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6293/eventdate/25502",
    "w": "https://www.ruetner-weihnachtsmarkt.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812977",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Fabio Landert & Sven Ivanic",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812977",
+   "w": "https://www.ticketcorner.ch/artist/zauberpark-am-flughafen-zuerich/zauberpark-am-flughafen-zuerich-music-act-4149401/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
   },
   {
    "gemeinden": [
@@ -9713,6 +10640,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-lc4889467",
+   "q": "q-localcities",
+   "name": "Klingender Adventskalender",
+   "von": "2026-12-01",
+   "bis": "2026-12-18",
+   "ort": "Musikschulzentrum Dorf, 8610 Uster",
+   "veranstalter": "",
+   "time": "17.30 - 17.45",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uster/513/4889467",
+   "w": "https://musikschuleuster.ch"
+  },
+  {
+   "gemeinden": [
     "dietlikon"
    ],
    "id": "dietlikon-1652-6368",
@@ -9733,6 +10676,22 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-lc4920357",
+   "q": "q-localcities",
+   "name": "Lichterlabyrinth in der Predigerkirche",
+   "von": "2026-12-01",
+   "bis": "2026-12-03",
+   "ort": "Evang.-ref. Predigerkirche, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4920357",
+   "w": "https://reformiert-zuerich.ch/kirchenkreise/eins/news/news-predigerkirche/lichterlabyrinth/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-fa369413",
    "q": "q-kath",
    "name": "Light up the Night: Gemeinsam durch den Advent",
@@ -9743,6 +10702,26 @@ window.FAMILIENAGENDA = {
    "time": "18.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/zuerich-wipkingen/agenda/20261201-light-up-the-night-gemeinsam-durch-den-advent-369413/"
+  },
+  {
+   "gemeinden": [
+    "gossau"
+   ],
+   "id": "gossau-lc4897805",
+   "q": "q-localcities",
+   "name": "Mami & Kind - Tanzen und Musik - Weihnachtszauber",
+   "von": "2026-12-01",
+   "bis": "2026-12-15",
+   "ort": "Gabriela's Musik, Geschichten & Kindertanzen, 8625 Gossau ZH",
+   "veranstalter": "",
+   "time": "16.20 - 17.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/gossau-zh/345/4897805",
+   "w": "https://www.gabrielaglaus.com/agenda"
   },
   {
    "gemeinden": [
@@ -9761,6 +10740,22 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4923979",
+   "q": "q-localcities",
+   "name": "Musikalischer Adventskalender",
+   "von": "2026-12-01",
+   "bis": "2026-12-23",
+   "ort": "Eingangsfoyer, 8001 Zürich",
+   "veranstalter": "",
+   "time": "17.30 - 17.45",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4923979",
+   "w": "https://www.opernhaus.ch/spielplan/kalendarium/musikalischer_adventskalender/"
   },
   {
    "gemeinden": [
@@ -9866,6 +10861,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4825023",
+   "q": "q-localcities",
+   "name": "Urdorfer Adventsfenster 2026",
+   "von": "2026-12-01",
+   "bis": "2027-01-06",
+   "ort": "Gem&auml;ss &Uuml;bersichtsplan auf dem Flyer, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4825023",
+   "w": "http://www.urdorf.ch"
+  },
+  {
+   "gemeinden": [
     "v"
    ],
    "id": "v-17264-106191",
@@ -9900,6 +10911,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812981",
+   "q": "q-localcities",
+   "name": "Zauberpark mit 77 Bombay Street",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812981",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725739/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -9916,6 +10943,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901189",
+   "q": "q-localcities",
+   "name": "2. Adventsfenster 2026",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Schulhaus Bahnhofstrasse, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901189"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-fa379035",
@@ -9928,6 +10970,22 @@ window.FAMILIENAGENDA = {
    "time": "17.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/zuerich-wipkingen/agenda/20261202-advent-mobil-379035/"
+  },
+  {
+   "gemeinden": [
+    "uitikon"
+   ],
+   "id": "uitikon-lc4824561",
+   "q": "q-localcities",
+   "name": "Adventsfenster",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Werkhof Uitikon, 8142 Uitikon Waldegg",
+   "veranstalter": "",
+   "time": "17.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uitikon/637/4824561",
+   "w": "https://www.frauenverein-uitikon.ch/sei_dabei/adventsfenster"
   },
   {
    "gemeinden": [
@@ -10174,6 +11232,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4776553",
+   "q": "q-localcities",
+   "name": "Christchindlimärt im Rathausdurchgang",
+   "von": "2026-12-02",
+   "bis": "2026-12-05",
+   "ort": "Rathaus Winterthur, 8400 Winterthur",
+   "veranstalter": "",
+   "time": "09.00 - 18.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4776553",
+   "w": "https://christchindlimaert-winterthur.ch"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7811992",
@@ -10332,6 +11406,26 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6931/eventdate/12637",
    "w": "https://familienclub-herrliberg.ch/events/familiencafe-elki-kafi/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4883331",
+   "q": "q-localcities",
+   "name": "Familienführung Opernhaus",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Opernhaus Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "15.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4883331",
+   "w": "https://www.opernhaus.ch/spielplan/kalendarium/familienfuehrung-ohz/"
   },
   {
    "gemeinden": [
@@ -11175,6 +12269,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812983",
+   "q": "q-localcities",
+   "name": "Zauberpark mit John Newman",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812983",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725727/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -11382,6 +12492,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565071",
    "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4878807",
+   "q": "q-localcities",
+   "name": "Einzug der Samichläuse - Adventsfenster Öffnung",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Bauernhof Familie Zollinger, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4878807",
+   "w": "https://samichlaus-urdorf.ch/"
   },
   {
    "gemeinden": [
@@ -11706,6 +12832,41 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "schlieren"
+   ],
+   "id": "schlieren-lc4907753",
+   "q": "q-localcities",
+   "name": "Lichterfahrt",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Tertianum am Rietpark, 8952 Schlieren",
+   "veranstalter": "",
+   "time": "17.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4907753"
+  },
+  {
+   "gemeinden": [
+    "gossau"
+   ],
+   "id": "gossau-lc4897811",
+   "q": "q-localcities",
+   "name": "Mami & Kind - Tanzen und Musik - Weihnachtszauber",
+   "von": "2026-12-03",
+   "bis": "2026-12-17",
+   "ort": "Gabriela's Musik, Geschichten & Kindertanzen, 8625 Gossau ZH",
+   "veranstalter": "",
+   "time": "15.00 - 15.40",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/gossau-zh/345/4897811",
+   "w": "https://www.gabrielaglaus.com/agenda"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-www.figurentheater-winterthur.ch/de/spielplan/minimum-4baa/2026-12-03",
@@ -11971,6 +13132,70 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4730661",
+   "q": "q-localcities",
+   "name": "Weihnachten & Krippen",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "18.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4730661",
+   "w": "https://www.landesmuseum.ch/de/veranstaltung/weihnachten-krippen-46196"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4896307",
+   "q": "q-localcities",
+   "name": "Weihnachtsgeschichten",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00 - 15.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4896307",
+   "w": "https://www.landesmuseum.ch/de/veranstaltung/weihnachtsgeschichten-52488"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4821367",
+   "q": "q-localcities",
+   "name": "Weihnachtsmarkt im Luberzenareal",
+   "von": "2026-12-03",
+   "bis": "2026-12-13",
+   "ort": "Luberzen-Areal, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4821367",
+   "w": "https://www.wildeluft.ch/weihnachtszauber"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4813055",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Loco Escrito",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4813055",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725742/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -11999,6 +13224,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.waedenswil.ch/_rte/anlass/7658299",
    "w": "https://theater-ticino.ch/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901193",
+   "q": "q-localcities",
+   "name": "4. Adventsfenster 2026",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Luginb&uuml;hl Petrissage Massagen, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901193"
   },
   {
    "gemeinden": [
@@ -12256,6 +13496,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565182",
    "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
+  },
+  {
+   "gemeinden": [
+    "staefa"
+   ],
+   "id": "staefa-lc4837391",
+   "q": "q-localcities",
+   "name": "Eine musikalisch-theatralische Vorahnung auf Weihnachten",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Gemeindesaal Obstgarten, 8712 Stäfa",
+   "veranstalter": "",
+   "time": "19.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/staefa/453/4837391",
+   "w": "https://lesegesellschaft.ch/home/christbaumduft-und-"
   },
   {
    "gemeinden": [
@@ -12652,6 +13908,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4893661",
+   "q": "q-localcities",
+   "name": "Laternenführung «Weihnachten & Krippen»",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": {
+    "min": 5,
+    "max": 9,
+    "label": "5 bis 9 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893661",
+   "w": "https://www.landesmuseum.ch"
+  },
+  {
+   "gemeinden": [
     "stallikon"
    ],
    "id": "stallikon-8798-8256",
@@ -12951,6 +14227,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "weiningen"
+   ],
+   "id": "weiningen-lc4821859",
+   "q": "q-localcities",
+   "name": "Weihnachtsdorf 2026",
+   "von": "2026-12-04",
+   "bis": "2026-12-06",
+   "ort": "Seejogg, 8104 Weiningen ZH",
+   "veranstalter": "",
+   "time": "16.00 - 22.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/weiningen-zh/621/4821859",
+   "w": "https://www.seejogg.ch/"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt31378-0",
@@ -12999,6 +14291,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4874457",
+   "q": "q-localcities",
+   "name": "Winti Winter Circus \"FANTASTIKUM\"",
+   "von": "2026-12-04",
+   "bis": "2026-12-13",
+   "ort": "owi zentrum winterthur, 8400 Winterthur",
+   "veranstalter": "",
+   "time": "19.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4874457",
+   "w": "https://shop.winter-circus.tixu.io/tickets/1?event=3"
+  },
+  {
+   "gemeinden": [
     "dietlikon"
    ],
    "id": "dietlikon-fa381102",
@@ -13027,6 +14335,37 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578067",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812987",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Kunz",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812987",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725731/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901195",
+   "q": "q-localcities",
+   "name": "5. Adventsfenster 2026",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Siedlung Im Heidenkeller 7b, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901195"
   },
   {
    "gemeinden": [
@@ -13060,6 +14399,21 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.uetikonamsee.ch/_rte/anlass/7731712"
+  },
+  {
+   "gemeinden": [
+    "schlieren"
+   ],
+   "id": "schlieren-lc4914989",
+   "q": "q-localcities",
+   "name": "Adventsmärt in Schlieren",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Stürmeierhuus 1. Stock, 8952 Schlieren",
+   "veranstalter": "",
+   "time": "10.00 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4914989"
   },
   {
    "gemeinden": [
@@ -13250,6 +14604,26 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7800211",
    "w": "http://www.tvbubikon.ch."
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4920877",
+   "q": "q-localcities",
+   "name": "Der Samichlaus kommt zu Besuch!",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "PBZ Pestalozzi-Bibliothek Schwamendingen, 8051 Zürich",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4920877",
+   "w": "https://www.pbz.ch/event/der-samichlaus-kommt-zu-besuch-2/"
   },
   {
    "gemeinden": [
@@ -13588,6 +14962,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4919989",
+   "q": "q-localcities",
+   "name": "Kamishibai: Der kleine Weihnachtsmann",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "PBZ Pestalozzi-Bibliothek Unterstrass, 8057 Zürich",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 2,
+    "max": 12,
+    "label": "ab 2 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4919989",
+   "w": "https://www.pbz.ch/event/kamishibai-der-kleine-weihnachtsmann-4/"
+  },
+  {
+   "gemeinden": [
     "rafz"
    ],
    "id": "rafz-7828609",
@@ -13733,6 +15127,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.weiningen.ch/_rte/anlass/7836379",
    "w": "https://www.seejogg.ch/"
+  },
+  {
+   "gemeinden": [
+    "waedenswil"
+   ],
+   "id": "waedenswil-lc4853231",
+   "q": "q-localcities",
+   "name": "Marianne Racine «Schwedenstubete zur Weihnachtszeit»",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Theater Ticino, 8820 Wädenswil",
+   "veranstalter": "",
+   "time": "20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/waedenswil/389/4853231",
+   "w": "https://racinevoc.ch"
   },
   {
    "gemeinden": [
@@ -14155,6 +15565,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4906799",
+   "q": "q-localcities",
+   "name": "Schaustelle DIY Weihnachtsmarkt 5. & 6. 12. 2026",
+   "von": "2026-12-05",
+   "bis": "2026-12-06",
+   "ort": "Jugendkulturhaus Dynamo, 8006 Zürich",
+   "veranstalter": "",
+   "time": "14.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4906799",
+   "w": "https://www.dynamo.ch/schaustelle"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-7516-11294",
@@ -14290,6 +15716,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4856657",
+   "q": "q-localcities",
+   "name": "Weihnachtsführung",
+   "von": "2026-12-05",
+   "bis": "2026-12-19",
+   "ort": "8400 Winterthur",
+   "veranstalter": "",
+   "time": "17.00 - 18.30",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "6 bis 18 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4856657"
+  },
+  {
+   "gemeinden": [
     "a"
    ],
    "id": "a-7834681",
@@ -14335,6 +15780,26 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.faellanden.ch/_rte/anlass/7585525",
    "w": "https://www.refkirchefaellanden.ch"
+  },
+  {
+   "gemeinden": [
+    "langnauamalbis"
+   ],
+   "id": "langnauamalbis-lc4660077",
+   "q": "q-localcities",
+   "name": "Wie Wildtiere überwintern",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Wildnispark Zürich, 8135 Langnau am Albis",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/langnau-am-albis/377/4660077",
+   "w": "https://angebote.paerke.ch/de/subscription/subscriber/51888"
   },
   {
    "gemeinden": [
@@ -14449,6 +15914,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4850921",
+   "q": "q-localcities",
+   "name": "Zauberpark mit 01099",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4850921",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725740/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -14462,6 +15943,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578106",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4650351",
+   "q": "q-localcities",
+   "name": "25. Zürcher Samichlaus-Schwimmen",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Innenstadt - Frauenbad Stadthausquai, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.00 - 15.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4650351",
+   "w": "https://www.seetickets.com/ch"
   },
   {
    "gemeinden": [
@@ -14490,6 +15987,21 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 12.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/abenteuerhalle.html?calentry=7"
+  },
+  {
+   "gemeinden": [
+    "schlieren"
+   ],
+   "id": "schlieren-lc4727353",
+   "q": "q-localcities",
+   "name": "Advent in Schlieren",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Kirchgasse, 8952 Schlieren",
+   "veranstalter": "",
+   "time": "15.00 - 18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4727353"
   },
   {
    "gemeinden": [
@@ -14535,6 +16047,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4246/eventdate/10087",
    "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/adventsfenster-wettswil-dae-samichlaus-chunt/363/2026/12/6"
+  },
+  {
+   "gemeinden": [
+    "schlieren"
+   ],
+   "id": "schlieren-lc4914993",
+   "q": "q-localcities",
+   "name": "Adventsmärt in Schlieren",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Stürmeierhuus 1. Stock, 8952 Schlieren",
+   "veranstalter": "",
+   "time": "11.00 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4914993"
   },
   {
    "gemeinden": [
@@ -14658,6 +16185,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "m"
+   ],
+   "id": "m-lc4795153",
+   "q": "q-localcities",
+   "name": "Besuch von Samichlaus und Schmutzli",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Naturstation Silberweide, 8617 Mönchaltorf",
+   "veranstalter": "",
+   "time": "12.00 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/moenchaltorf/521/4795153"
+  },
+  {
+   "gemeinden": [
     "s"
    ],
    "id": "s-2715",
@@ -14728,6 +16270,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.meilen.ch/_rte/anlass/7798870",
    "w": "https://kath-meilen.ch"
+  },
+  {
+   "gemeinden": [
+    "v"
+   ],
+   "id": "v-lc4828907",
+   "q": "q-localcities",
+   "name": "Chlaus - Koffermärt Volketswil",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Gemeinschaftszentrum «In der Au», 8604 Volketswil",
+   "veranstalter": "",
+   "time": "10.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/volketswil/529/4828907",
+   "w": "https://www.kultur-volketswil.ch/Kulturelle-Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -15070,6 +16628,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4907403",
+   "q": "q-localcities",
+   "name": "Geschichten in der Weihnachtszeit",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Kunsthaus Zürich Chipperfield-Bau, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.00 - 16.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4907403",
+   "w": "https://www.kunsthaus.ch/besuch-planen/programm/geschichten-in-der-weihnachtszeit/"
+  },
+  {
+   "gemeinden": [
     "g"
    ],
    "id": "g-fa387713",
@@ -15201,6 +16779,22 @@ window.FAMILIENAGENDA = {
    "time": "15.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/ukrainische-mission/agenda/20261206-kinderkatechese-326181/"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4761237",
+   "q": "q-localcities",
+   "name": "Kinderklassik Konzert \"Der Nussknacker und der Mäusekönig\"",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Zehntenscheune, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "11.00 - 11.40",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4761237",
+   "w": "https://www.ticketpark.ch/customers/vorverkauf-dietikon/"
   },
   {
    "gemeinden": [
@@ -15550,6 +17144,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-lc4923851",
+   "q": "q-localcities",
+   "name": "Samichlaus Umzug Uster 2026",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Stadthausplatz Uster, 8610 Uster",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uster/513/4923851",
+   "w": "https://www.humoria-uster.ch"
+  },
+  {
+   "gemeinden": [
     "richterswil"
    ],
    "id": "richterswil-fa377831",
@@ -15606,6 +17216,22 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.stadel.ch/_rte/anlass/7617262"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4807801",
+   "q": "q-localcities",
+   "name": "Samichlausbsuech",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "14.30 - 16.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807801",
+   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
   },
   {
    "gemeinden": [
@@ -15733,6 +17359,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "bb"
+   ],
+   "id": "bb-lc4745581",
+   "q": "q-localcities",
+   "name": "WEIHNACHTSMÄRT IM HOF",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Ritterhaus Bubikon, 8608 Bubikon",
+   "veranstalter": "",
+   "time": "11.00 - 17.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/bubikon/317/4745581",
+   "w": "https://www.ritterhaus.ch/veranstaltungen/"
+  },
+  {
+   "gemeinden": [
     "e"
    ],
    "id": "e-7290860",
@@ -15745,6 +17387,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.egg.ch/_rte/anlass/7290860",
    "w": "https://weihnachtsmarkt-egg.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4875647",
+   "q": "q-localcities",
+   "name": "Weihnachtssingen",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Tonhalle Zürich, 8002 Zürich",
+   "veranstalter": "",
+   "time": "11.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4875647",
+   "w": "https://classicpoint.net/weihnachtssingen/147999"
   },
   {
    "gemeinden": [
@@ -15778,6 +17436,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812995",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Eileen Alister",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812995",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21844308/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -15791,6 +17465,37 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578118",
    "w": "http://www.schluefweg.ch/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901197",
+   "q": "q-localcities",
+   "name": "7. Adventsfenster 2026",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Kath. Pfarramt Hl. Bruder Klaus, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901197"
+  },
+  {
+   "gemeinden": [
+    "oberengstringen"
+   ],
+   "id": "oberengstringen-lc4890249",
+   "q": "q-localcities",
+   "name": "Adventsfenster Gemeinde Oberengstringen",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Gemeindeverwaltung Oberengstringen, 8102 Oberengstringen",
+   "veranstalter": "",
+   "time": "18.00 - 21.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/oberengstringen/601/4890249",
+   "w": "https://adventsfenster-oberengstringen.ch/index.php/planung-2026"
   },
   {
    "gemeinden": [
@@ -16202,6 +17907,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "geroldswil"
+   ],
+   "id": "geroldswil-lc4669777",
+   "q": "q-localcities",
+   "name": "Märli",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Bibliothek Geroldswil, 8954 Geroldswil",
+   "veranstalter": "",
+   "time": "16.30 - 17.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/geroldswil/581/4669777"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7668139",
@@ -16352,6 +18076,21 @@ window.FAMILIENAGENDA = {
    "time": "12.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/langnau-am-albis/agenda/20261207-zama-zmittag-assa-405924/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901199",
+   "q": "q-localcities",
+   "name": "8. Adventsfenster 2026",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Schulhaus Embri, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901199"
   },
   {
    "gemeinden": [
@@ -16794,6 +18533,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901201",
+   "q": "q-localcities",
+   "name": "9. Adventsfenster 2026",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901201"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-fa378378",
@@ -16806,6 +18560,22 @@ window.FAMILIENAGENDA = {
    "time": "17.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/zuerich-wipkingen/agenda/20261209-advent-mobil-378378/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4923987",
+   "q": "q-localcities",
+   "name": "Adventsanlass I Tandem im Museum",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Kunst Museum Winterthur - Beim Stadthaus, 8400 Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4923987",
+   "w": "https://www.kmw.ch/agenda/"
   },
   {
    "gemeinden": [
@@ -17209,6 +18979,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "schlieren"
+   ],
+   "id": "schlieren-lc4802569",
+   "q": "q-localcities",
+   "name": "Eröffnung Adventsfenster",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Tertianum am Rietpark, 8952 Schlieren",
+   "veranstalter": "",
+   "time": "18.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4802569",
+   "w": "https://www.tertianum.ch/wohn-pflegezentrum/tertianum-am-rietpark"
+  },
+  {
+   "gemeinden": [
     "richterswil"
    ],
    "id": "richterswil-7740982",
@@ -17576,6 +19362,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4749703",
+   "q": "q-localcities",
+   "name": "Kinderballett Nussknacker",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Gate 27, 8400 Winterthur",
+   "veranstalter": "",
+   "time": "18.30 - 20.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "4 bis 14 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4749703",
+   "w": "https://www.ticketino.com/de/Event/Kinderballett-Nussknacker/214421"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7809385",
@@ -17592,6 +19398,26 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.opfikon.ch/_rte/anlass/7809385",
    "w": "https://www.ref-opfikon.ch/veranstaltung/16761"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4893665",
+   "q": "q-localcities",
+   "name": "Laternenführung «Weihnachten & Krippen»",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": {
+    "min": 5,
+    "max": 9,
+    "label": "5 bis 9 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893665",
+   "w": "https://www.landesmuseum.ch"
   },
   {
    "gemeinden": [
@@ -17780,6 +19606,21 @@ window.FAMILIENAGENDA = {
     "label": "Kindergarten"
    },
    "url": "https://www.wiesendangen.ch/_rte/anlass/7263209"
+  },
+  {
+   "gemeinden": [
+    "d"
+   ],
+   "id": "d-lc4918627",
+   "q": "q-localcities",
+   "name": "Pro Femina Weihnachtsfeier",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Restaurant Hecht, 8600 Dübendorf",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/duebendorf/497/4918627"
   },
   {
    "gemeinden": [
@@ -17988,6 +19829,52 @@ window.FAMILIENAGENDA = {
    "time": "15.00 - 16.00",
    "age": null,
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1877/eventdate/1397"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901203",
+   "q": "q-localcities",
+   "name": "10. Adventsfenster 2026",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901203"
+  },
+  {
+   "gemeinden": [
+    "schlieren"
+   ],
+   "id": "schlieren-lc4921347",
+   "q": "q-localcities",
+   "name": "Adventsfenster in der Bibliothek Schlieren",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Bibliothek Schlieren, 8952 Schlieren",
+   "veranstalter": "",
+   "time": "18.30 - 19.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4921347"
+  },
+  {
+   "gemeinden": [
+    "m"
+   ],
+   "id": "m-lc4889469",
+   "q": "q-localcities",
+   "name": "Adventszauber",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Mönchhofsaal, 8617 Mönchaltorf",
+   "veranstalter": "",
+   "time": "19.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/moenchaltorf/521/4889469",
+   "w": "https://musikschuleuster.ch"
   },
   {
    "gemeinden": [
@@ -18413,6 +20300,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-lc4911231",
+   "q": "q-localcities",
+   "name": "Offenes Adventssingen",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Röm.-kath. Kirche St. Andreas, 8610 Uster",
+   "veranstalter": "",
+   "time": "09.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uster/513/4911231",
+   "w": "https://www.pfarrei-uster.ch/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-pekip-nachmittag-5",
@@ -18603,6 +20506,37 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-lc4875339",
+   "q": "q-localcities",
+   "name": "Walliseller Adventsmarkt",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Signum-Platz, 8304 Wallisellen",
+   "veranstalter": "",
+   "time": "16.00 - 21.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/wallisellen/233/4875339",
+   "w": "https://qv-wallisellen-sued.ch/de/adventsmarkt"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4886861",
+   "q": "q-localcities",
+   "name": "Weihnachtsfeier 65+",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Röm.-kath. Pfarreizentrum Heiliger Bruder Klaus, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "15.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4886861"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33247-0",
@@ -18614,6 +20548,37 @@ window.FAMILIENAGENDA = {
    "time": "19.00 - 21.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/wenn-eltern-auseinandergehen-2/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901205",
+   "q": "q-localcities",
+   "name": "11. Adventsfenster 2026",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901205"
+  },
+  {
+   "gemeinden": [
+    "hb"
+   ],
+   "id": "hb-lc4917447",
+   "q": "q-localcities",
+   "name": "Adventsfenster im Brunisberg",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Heim Brunisberg, 8634 Hombrechtikon",
+   "veranstalter": "",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/hombrechtikon/413/4917447",
+   "w": "https://www.brunisberg.ch/"
   },
   {
    "gemeinden": [
@@ -19194,6 +21159,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901209",
+   "q": "q-localcities",
+   "name": "12. Adventsfenster 2026",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Physiofit, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901209"
+  },
+  {
+   "gemeinden": [
     "richterswil"
    ],
    "id": "richterswil-7770460",
@@ -19497,6 +21477,22 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.dietikon.ch/_rte/anlass/7565233",
    "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
+  },
+  {
+   "gemeinden": [
+    "du"
+   ],
+   "id": "du-lc4893063",
+   "q": "q-localcities",
+   "name": "Duftende Weihnachtsgeschenke selber machen",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Garten-Center Meier, 8635 Dürnten",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/duernten/329/4893063",
+   "w": "https://www.gartencenter-meier.ch/event/1061/duftende-weihnachtsgeschenke-selber-machen"
   },
   {
    "gemeinden": [
@@ -19867,6 +21863,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4921531",
+   "q": "q-localcities",
+   "name": "Puer natus est nobis – Weihnachtliche Renaissancemusik von Ludwig Senfl",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Evang.-ref. Kirche St. Arbogast, 8404 Winterthur",
+   "veranstalter": "",
+   "time": "18.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4921531",
+   "w": "https://lamaraviglia.ch/"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-fa402919",
@@ -20011,6 +22023,22 @@ window.FAMILIENAGENDA = {
    "time": "13.15 - 17.00",
    "age": null,
    "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7940/eventdate/8490"
+  },
+  {
+   "gemeinden": [
+    "dielsdorf"
+   ],
+   "id": "dielsdorf-lc4907869",
+   "q": "q-localcities",
+   "name": "Weihnachtsmarkt Dielsdorf 2026",
+   "von": "2026-12-12",
+   "bis": "2026-12-13",
+   "ort": "Früebli-Areal (Schulhaus Früebli), 8157 Dielsdorf",
+   "veranstalter": "",
+   "time": "12.00 - 23.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dielsdorf/281/4907869",
+   "w": "https://wemadi.ch"
   },
   {
    "gemeinden": [
@@ -20402,6 +22430,26 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.meilen.ch/_rte/anlass/7783555",
    "w": "https://www.ref-meilen.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4749369",
+   "q": "q-localcities",
+   "name": "Familienführung",
+   "von": "2026-12-13",
+   "bis": "2027-01-03",
+   "ort": "Museum Rietberg, 8002 Zürich",
+   "veranstalter": "",
+   "time": "10.15 - 11.15",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4749369",
+   "w": "https://shop.e-guma.ch/museum-rietberg/de/events"
   },
   {
    "gemeinden": [
@@ -21124,6 +23172,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901211",
+   "q": "q-localcities",
+   "name": "14. Adventsfenster 2026",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901211"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7837222",
@@ -21407,6 +23470,21 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 10.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/voloshkagemeinsammitdenkleinsten.html?calentry=3"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901213",
+   "q": "q-localcities",
+   "name": "15. Adventsfenster 2026",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901213"
   },
   {
    "gemeinden": [
@@ -21850,6 +23928,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901215",
+   "q": "q-localcities",
+   "name": "16. Adventsfenster 2026",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901215"
+  },
+  {
+   "gemeinden": [
     "m"
    ],
    "id": "m-7549108",
@@ -22010,6 +24103,22 @@ window.FAMILIENAGENDA = {
     "label": "Babys"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/7219313"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4700737",
+   "q": "q-localcities",
+   "name": "Der Geist der Weihnacht",
+   "von": "2026-12-16",
+   "bis": "2026-12-27",
+   "ort": "Theater 11, 8050 Zürich",
+   "veranstalter": "",
+   "time": "18.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4700737",
+   "w": "https://www.ticketcorner.ch/artist/der-geist-der-weihnacht-das-musical/?affiliate=FBM&referer_info=fbm_guidle"
   },
   {
    "gemeinden": [
@@ -22838,6 +24947,37 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901217",
+   "q": "q-localcities",
+   "name": "17. Adventsfenster 2026",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901217"
+  },
+  {
+   "gemeinden": [
+    "uitikon"
+   ],
+   "id": "uitikon-lc4831639",
+   "q": "q-localcities",
+   "name": "Adventsfenster",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "8142 Uitikon Waldegg",
+   "veranstalter": "",
+   "time": "18.00 - 22.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/uitikon/637/4831639",
+   "w": "https://uitikon.die-mitte.ch/events/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-288",
@@ -23226,6 +25366,22 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-lc4848869",
+   "q": "q-localcities",
+   "name": "Oropax – Eilig Abend - Weihnachtsshow",
+   "von": "2026-12-17",
+   "bis": "2026-12-18",
+   "ort": "Millers , 8008 Zürich",
+   "veranstalter": "",
+   "time": "20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4848869",
+   "w": "https://www.millers.ch/spielplan/tickets-kaufen-tp?tp_show=D74A7584-BF9C-4EE3-A6A5-06523B0D0261&cHash=aaacb3873f8381f2ccab77a3510ab7ee"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-pekip-nachmittag-6",
    "name": "PEKiP Prager-Eltern-Kind Programm (Gruppe 2)",
    "von": "2026-12-17",
@@ -23323,6 +25479,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901219",
+   "q": "q-localcities",
+   "name": "18. Adventsfenster 2026",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Feuerwehr Urdorf, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901219"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7789978",
@@ -23334,6 +25505,22 @@ window.FAMILIENAGENDA = {
    "time": "18.00 - 21.00",
    "age": null,
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7789978"
+  },
+  {
+   "gemeinden": [
+    "oberengstringen"
+   ],
+   "id": "oberengstringen-lc4890251",
+   "q": "q-localcities",
+   "name": "Adventsfenster Werkhof Oberengstringen",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Werkhof Oberengstringen, 8102 Oberengstringen",
+   "veranstalter": "",
+   "time": "18.00 - 21.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/oberengstringen/601/4890251",
+   "w": "https://adventsfenster-oberengstringen.ch/index.php/planung-2026"
   },
   {
    "gemeinden": [
@@ -23798,6 +25985,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901221",
+   "q": "q-localcities",
+   "name": "19. Adventsfenster 2026",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Natur- und Vogelschutzverein Urdorf, W&ouml;schh&uuml;sli, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901221"
+  },
+  {
+   "gemeinden": [
     "t"
    ],
    "id": "t-7731721",
@@ -24097,6 +26299,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "du"
+   ],
+   "id": "du-lc4890093",
+   "q": "q-localcities",
+   "name": "Kinder basteln Weihnachtsgeschenke: winterliches Windlicht",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Garten-Center Meier, 8635 Dürnten",
+   "veranstalter": "",
+   "time": "09.30 - 10.30",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/duernten/329/4890093",
+   "w": "https://www.gartencenter-meier.ch/event/1060/kinder-basteln-weihnachtsgeschenke-winterliches-windlicht"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7284101",
@@ -24296,6 +26518,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4920457",
+   "q": "q-localcities",
+   "name": "Weihnachtsoratorium für Kinder",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Grossmünster, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.00 - 14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4920457",
+   "w": "https://reformiert-zuerich.ch/kirchenkreise/eins/angebote/kinder-und-familien/weihnachtsoratorium-kinder/"
+  },
+  {
+   "gemeinden": [
     "pfungen"
    ],
    "id": "pfungen-fa380676",
@@ -24338,6 +26576,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7638769",
    "w": "https://jtb.ch/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901223",
+   "q": "q-localcities",
+   "name": "20. Adventsfenster 2026",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901223"
   },
   {
    "gemeinden": [
@@ -24490,6 +26743,22 @@ window.FAMILIENAGENDA = {
     "label": "Jugendliche"
    },
    "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3342&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=14550d2aa1bd9159a92c5444b0a207b8"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4887153",
+   "q": "q-localcities",
+   "name": "Jodlergsang und Wiehanchtszauber",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Refomierte Kirche , 8953 Dietikon",
+   "veranstalter": "",
+   "time": "16.00 - 17.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4887153",
+   "w": "https://stadtjodlerdietikon.ch"
   },
   {
    "gemeinden": [
@@ -24663,6 +26932,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4807803",
+   "q": "q-localcities",
+   "name": "Weihnachtsatelier & Lebkuchenbäckerei",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "13.30 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807803",
+   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4873063",
+   "q": "q-localcities",
+   "name": "Weihnachtsmusik bei Kerzenlicht",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Evang.-ref. Kirche Neumünster, 8008 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4873063",
+   "w": "https://musikkirche.ch/2026/06/weihnachtsmusik-bei-kerzenlicht-869/"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-fa400397",
@@ -24690,6 +26991,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7794808",
    "w": "https://www.oberemuehle.ch/events/kinderveranstaltungen/familienveranstaltungen/winterrodeln-mit-der-speed-tubing-bahn-7458503425610772210"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4901225",
+   "q": "q-localcities",
+   "name": "21. Adventsfenster 2026",
+   "von": "2026-12-21",
+   "bis": "2026-12-21",
+   "ort": "8902 Urdorf",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4901225"
   },
   {
    "gemeinden": [
@@ -24842,6 +27158,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4726821",
+   "q": "q-localcities",
+   "name": "Die grosse Weihnachtsgala",
+   "von": "2026-12-22",
+   "bis": "2026-12-22",
+   "ort": "Tonhalle Zürich, 8002 Zürich",
+   "veranstalter": "",
+   "time": "19.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4726821",
+   "w": "https://www.ticketcorner.ch/artist/philharmonie-baden-baden/die-grosse-weihnachtsgala-3935635/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33060-0",
@@ -24916,6 +27248,22 @@ window.FAMILIENAGENDA = {
    "time": "09.00 - 17.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=294"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-lc4903061",
+   "q": "q-localcities",
+   "name": "Klostertage Weihnachten",
+   "von": "2026-12-23",
+   "bis": "2026-12-26",
+   "ort": "Kloster Kappel, 8926 Kappel am Albis",
+   "veranstalter": "",
+   "time": "12.00 - 13.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kappel-am-albis/21/4903061",
+   "w": "https://www.klosterkappel.ch/de/form/klostertage-weihnachten"
   },
   {
    "gemeinden": [
@@ -25653,6 +28001,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-lc4909467",
+   "q": "q-localcities",
+   "name": "Gemeinsam Weihnachten feiern",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Reformiertes Kirchgemeindehaus Pfäffikon ZH, 8330 Pfäffikon ZH",
+   "veranstalter": "",
+   "time": "18.00 - 22.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/pfaeffikon/489/4909467"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-fa369328",
@@ -26073,6 +28436,38 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-lc4906693",
+   "q": "q-localcities",
+   "name": "Weihnachtszauber im Sonnenberg",
+   "von": "2026-12-24",
+   "bis": "2026-12-25",
+   "ort": "Sonnenberg Restaurant, 8032 Zürich",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4906693",
+   "w": "https://www.sonnenberg-zurich.ch/weihnachten/"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4807805",
+   "q": "q-localcities",
+   "name": "Weihnachtszauber im Stall",
+   "von": "2026-12-24",
+   "bis": "2026-12-25",
+   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807805",
+   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-296",
    "name": "Ausstellung: Vernetzte Natur – Lebenswerte Stadt",
    "von": "2026-12-25",
@@ -26082,6 +28477,25 @@ window.FAMILIENAGENDA = {
    "time": "09.00 - 17.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=296"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4886871",
+   "q": "q-localcities",
+   "name": "Familien-Weihnachtsgottesdienst",
+   "von": "2026-12-25",
+   "bis": "2026-12-25",
+   "ort": "Kath. Kirche Urdorf, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "17.00 - 18.30",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4886871"
   },
   {
    "gemeinden": [
@@ -26163,6 +28577,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4910107",
+   "q": "q-localcities",
+   "name": "Ökumenische Weihnachtsfeier für alle",
+   "von": "2026-12-25",
+   "bis": "2026-12-25",
+   "ort": "Katholischen Kirche St. Agatha, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "11.30 - 14.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4910107"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-297",
@@ -26207,6 +28636,22 @@ window.FAMILIENAGENDA = {
    "time": "11.15",
    "age": null,
    "url": "https://www.tonhalle-orchester.ch/konzerte/kalender/festtags-matinee-2055644/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4906763",
+   "q": "q-localcities",
+   "name": "Joyeux Noël - Weihnachten im Sablier",
+   "von": "2026-12-26",
+   "bis": "2026-12-26",
+   "ort": "Sablier Rooftop Restaurant & Bar, 8058 Zürich",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4906763",
+   "w": "https://www.sablier.ch/de/weihnachten/"
   },
   {
    "gemeinden": [
@@ -26621,6 +29066,22 @@ window.FAMILIENAGENDA = {
    "time": "18.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/pfungen/agenda/20261231-okum-silvester-gottesdienst-382511/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc1838541",
+   "q": "q-localcities",
+   "name": "Silvesterzauber",
+   "von": "2026-12-31",
+   "bis": "2026-12-31",
+   "ort": "8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00 - 03.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/1838541",
+   "w": "http://www.silvesterzauber.ch/"
   },
   {
    "gemeinden": [
