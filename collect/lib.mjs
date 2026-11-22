@@ -545,7 +545,7 @@ export const SYSTEMS = {
     const NO = new RegExp(site.no || "$^", "i"), byId = new Map();
     for (const cat of site.cats) {
       const want = new RegExp(cat.re, "i");
-      for (let p = 1; p <= (site.maxPages ?? 25); p++) {
+      for (let p = 1; p <= (cat.pages ?? site.maxPages ?? 25); p++) {
         const html = await get(`${base}${site.path}?category_id%5B%5D=${cat.id}&radius=${site.radius || "radius_25"}${p > 1 ? `&page=${p}` : ""}`);
         const cards = [...html.matchAll(/<div class="row teaser[^"]*"[\s\S]*?href="(\/de\/veranstaltungen\/[^"?]+\/(\d+))\?[^"]*?eventDateTime=(\d\d)\.(\d\d)\.(\d{4})(?:%20%20(\d\d:\d\d)(?:%20-%20(\d\d:\d\d))?)?[^"]*"[\s\S]*?<h2\s+class="h3">([\s\S]*?)<\/h2>[\s\S]*?<p>[^<]*<\/p>\s*<p>([^<]*)<\/p>/g)];
         if (process.env.DEBUG_LC) console.log("lc", cat.id, p, cards.length, cards.at(-1)?.slice(3, 6).join("."), byId.size);
@@ -554,7 +554,7 @@ export const SYSTEMS = {
         for (const m of cards) {
           const [, path, id, dd, mm, yy, t1, t2, rawName, place] = m, d = `${yy}-${mm}-${dd}`; last = d;
           const name = decode(strip(rawName)).replace(/\s+/g, " ").trim();
-          if (!want.test(name) || NO.test(name)) continue;
+          if (!want.test(name) || (NO.test(name) && !/kinder|famili|kids|jugend/i.test(name))) continue;
           const ev = byId.get(id);
           if (ev) { if (d < ev.von) ev.von = d; if (d > ev.bis) ev.bis = d; continue; }
           byId.set(id, { id: "lc" + id, name, von: d, bis: d, place: decode(place).trim(), url: base + path, time: t1 ? (t2 ? `${t1.replace(":", ".")} - ${t2.replace(":", ".")}` : t1.replace(":", ".")) : "" });
