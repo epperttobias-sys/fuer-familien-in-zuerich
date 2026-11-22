@@ -313,358 +313,57 @@
    "name": "Aesch",
    "bezirk": "Dietikon",
    "domain": "www.aesch-zh.ch",
-   "ok": false,
+   "ok": true,
    "count": 7
   },
   "birmensdorf": {
    "name": "Birmensdorf",
    "bezirk": "Dietikon",
    "domain": "www.birmensdorf.ch",
-   "ok": false,
+   "ok": true,
    "count": 36
   },
   "dietikon": {
    "name": "Dietikon",
    "bezirk": "Dietikon",
    "domain": "www.dietikon.ch",
-   "ok": false,
+   "ok": true,
    "count": 24
   },
   "oberengstringen": {
    "name": "Oberengstringen",
    "bezirk": "Dietikon",
    "domain": "www.oberengstringen.ch",
-   "ok": false,
+   "ok": true,
    "count": 6
   },
   "uitikon": {
    "name": "Uitikon",
    "bezirk": "Dietikon",
    "domain": "www.uitikon.ch",
-   "ok": false,
+   "ok": true,
    "count": 3
   },
   "unterengstringen": {
    "name": "Unterengstringen",
    "bezirk": "Dietikon",
    "domain": "www.unterengstringen.ch",
-   "ok": false,
+   "ok": true,
    "count": 3
   },
   "urdorf": {
    "name": "Urdorf",
    "bezirk": "Dietikon",
    "domain": "www.urdorf.ch",
-   "ok": false,
+   "ok": true,
    "count": 60
   },
   "weiningen": {
    "name": "Weiningen",
    "bezirk": "Dietikon",
    "domain": "www.weiningen.ch",
-   "ok": false,
-   "count": 4
-  },
-  "aeugst": {
-   "name": "Aeugst am Albis",
-   "bezirk": "Affoltern",
-   "domain": "www.aeugst-albis.ch",
-   "ok": true,
-   "count": 11
-  },
-  "hedingen": {
-   "name": "Hedingen",
-   "bezirk": "Affoltern",
-   "domain": "www.hedingen.ch",
    "ok": true,
    "count": 5
-  },
-  "knonau": {
-   "name": "Knonau",
-   "bezirk": "Affoltern",
-   "domain": "www.knonau.ch",
-   "ok": true,
-   "count": 38
-  },
-  "mettmenstetten": {
-   "name": "Mettmenstetten",
-   "bezirk": "Affoltern",
-   "domain": "www.mettmenstetten.ch",
-   "ok": true,
-   "count": 30
-  },
-  "obfelden": {
-   "name": "Obfelden",
-   "bezirk": "Affoltern",
-   "domain": "www.obfelden.ch",
-   "ok": true,
-   "count": 0
-  },
-  "stallikon": {
-   "name": "Stallikon",
-   "bezirk": "Affoltern",
-   "domain": "www.stallikon.ch",
-   "ok": true,
-   "count": 35
-  },
-  "feuerthalen": {
-   "name": "Feuerthalen",
-   "bezirk": "Andelfingen",
-   "domain": "www.feuerthalen.ch",
-   "ok": true,
-   "count": 3
-  },
-  "kleinandelfingen": {
-   "name": "Kleinandelfingen",
-   "bezirk": "Andelfingen",
-   "domain": "www.kleinandelfingen.ch",
-   "ok": true,
-   "count": 5
-  },
-  "laufenuhwiesen": {
-   "name": "Laufen-Uhwiesen",
-   "bezirk": "Andelfingen",
-   "domain": "www.uhwiesen.ch",
-   "ok": true,
-   "count": 3
-  },
-  "bachenbuelach": {
-   "name": "Bachenbülach",
-   "bezirk": "Bülach",
-   "domain": "www.bachenbuelach.ch",
-   "ok": true,
-   "count": 4
-  },
-  "bassersdorf": {
-   "name": "Bassersdorf",
-   "bezirk": "Bülach",
-   "domain": "www.bassersdorf.ch",
-   "ok": true,
-   "count": 4
-  },
-  "dietlikon": {
-   "name": "Dietlikon",
-   "bezirk": "Bülach",
-   "domain": "www.dietlikon.ch",
-   "ok": true,
-   "count": 7
-  },
-  "freiensteinteufen": {
-   "name": "Freienstein-Teufen",
-   "bezirk": "Bülach",
-   "domain": "www.freienstein-teufen.ch",
-   "ok": true,
-   "count": 0
-  },
-  "hoeri": {
-   "name": "Höri",
-   "bezirk": "Bülach",
-   "domain": "www.hoeri.ch",
-   "ok": true,
-   "count": 0
-  },
-  "wasterkingen": {
-   "name": "Wasterkingen",
-   "bezirk": "Bülach",
-   "domain": "www.wasterkingen.ch",
-   "ok": true,
-   "count": 0
-  },
-  "daenikon": {
-   "name": "Dänikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.daenikon.ch",
-   "ok": true,
-   "count": 0
-  },
-  "huettikon": {
-   "name": "Hüttikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.huettikon.ch",
-   "ok": true,
-   "count": 0
-  },
-  "neerach": {
-   "name": "Neerach",
-   "bezirk": "Dielsdorf",
-   "domain": "www.neerach.ch",
-   "ok": true,
-   "count": 5
-  },
-  "niederweningen": {
-   "name": "Niederweningen",
-   "bezirk": "Dielsdorf",
-   "domain": "www.niederweningen.ch",
-   "ok": true,
-   "count": 4
-  },
-  "otelfingen": {
-   "name": "Otelfingen",
-   "bezirk": "Dielsdorf",
-   "domain": "www.otelfingen.ch",
-   "ok": true,
-   "count": 7
-  },
-  "regensberg": {
-   "name": "Regensberg",
-   "bezirk": "Dielsdorf",
-   "domain": "www.regensberg.ch",
-   "ok": true,
-   "count": 0
-  },
-  "weiach": {
-   "name": "Weiach",
-   "bezirk": "Dielsdorf",
-   "domain": "www.weiach.ch",
-   "ok": true,
-   "count": 0
-  },
-  "geroldswil": {
-   "name": "Geroldswil",
-   "bezirk": "Dietikon",
-   "domain": "www.geroldswil.ch",
-   "ok": true,
-   "count": 0
-  },
-  "gr": {
-   "name": "Grüningen",
-   "bezirk": "Hinwil",
-   "domain": "www.grueningen.ch",
-   "ok": true,
-   "count": 1
-  },
-  "ru": {
-   "name": "Rüti",
-   "bezirk": "Hinwil",
-   "domain": "www.rueti.ch",
-   "ok": true,
-   "count": 11
-  },
-  "horgen": {
-   "name": "Horgen",
-   "bezirk": "Horgen",
-   "domain": "www.horgen.ch",
-   "ok": true,
-   "count": 47
-  },
-  "l": {
-   "name": "Herrliberg",
-   "bezirk": "Meilen",
-   "domain": "www.herrliberg.ch",
-   "ok": true,
-   "count": 26
-  },
-  "hb": {
-   "name": "Hombrechtikon",
-   "bezirk": "Meilen",
-   "domain": "www.hombrechtikon.ch",
-   "ok": true,
-   "count": 11
-  },
-  "n": {
-   "name": "Küsnacht",
-   "bezirk": "Meilen",
-   "domain": "www.kuesnacht.ch",
-   "ok": true,
-   "count": 26
-  },
-  "o": {
-   "name": "Oetwil am See",
-   "bezirk": "Meilen",
-   "domain": "www.oetwil.ch",
-   "ok": true,
-   "count": 22
-  },
-  "wi": {
-   "name": "Wila",
-   "bezirk": "Pfäffikon",
-   "domain": "www.wila.ch",
-   "ok": true,
-   "count": 5
-  },
-  "r": {
-   "name": "Maur",
-   "bezirk": "Uster",
-   "domain": "www.maur.ch",
-   "ok": true,
-   "count": 17
-  },
-  "v": {
-   "name": "Volketswil",
-   "bezirk": "Uster",
-   "domain": "www.volketswil.ch",
-   "ok": true,
-   "count": 15
-  },
-  "altikon": {
-   "name": "Altikon",
-   "bezirk": "Winterthur",
-   "domain": "www.altikon.ch",
-   "ok": true,
-   "count": 1
-  },
-  "dinhard": {
-   "name": "Dinhard",
-   "bezirk": "Winterthur",
-   "domain": "www.dinhard.ch",
-   "ok": true,
-   "count": 14
-  },
-  "elgg": {
-   "name": "Elgg",
-   "bezirk": "Winterthur",
-   "domain": "www.elgg.ch",
-   "ok": true,
-   "count": 8
-  },
-  "ellikonanderthur": {
-   "name": "Ellikon an der Thur",
-   "bezirk": "Winterthur",
-   "domain": "www.ellikonanderthur.ch",
-   "ok": true,
-   "count": 1
-  },
-  "hagenbuch": {
-   "name": "Hagenbuch",
-   "bezirk": "Winterthur",
-   "domain": "www.hagenbuch-zh.ch",
-   "ok": true,
-   "count": 2
-  },
-  "turbenthal": {
-   "name": "Turbenthal",
-   "bezirk": "Winterthur",
-   "domain": "www.turbenthal.ch",
-   "ok": true,
-   "count": 4
-  },
-  "nuerensdorf": {
-   "name": "Nürensdorf",
-   "bezirk": "Bülach",
-   "domain": "www.nuerensdorf.ch",
-   "ok": true,
-   "count": 0
-  },
-  "oberglatt": {
-   "name": "Oberglatt",
-   "bezirk": "Dielsdorf",
-   "domain": "www.oberglatt.ch",
-   "ok": true,
-   "count": 7
-  },
-  "wettswilamalbis": {
-   "name": "Wettswil am Albis",
-   "bezirk": "Affoltern",
-   "domain": "www.wettswil.ch",
-   "ok": true,
-   "count": 23
-  },
-  "schlatt": {
-   "name": "Schlatt",
-   "bezirk": "Winterthur",
-   "domain": "www.schlatt.ch",
-   "ok": true,
-   "count": 0
   },
   "bb": {
    "name": "Bubikon",
@@ -853,7 +552,7 @@
    "bezirk": "Pfäffikon",
    "domain": "www.ilef.ch",
    "ok": true,
-   "count": 105
+   "count": 106
   },
   "li": {
    "name": "Lindau",
@@ -1000,7 +699,7 @@
    "bezirk": "Winterthur",
    "domain": "www.rickenbach-zh.ch",
    "ok": true,
-   "count": 55
+   "count": 56
   },
   "seuzach": {
    "name": "Seuzach",
@@ -1036,6 +735,307 @@
    "domain": "www.stadt-zuerich.ch",
    "ok": true,
    "count": 252
+  },
+  "aeugst": {
+   "name": "Aeugst am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.aeugst-albis.ch",
+   "ok": false,
+   "count": 11
+  },
+  "hedingen": {
+   "name": "Hedingen",
+   "bezirk": "Affoltern",
+   "domain": "www.hedingen.ch",
+   "ok": false,
+   "count": 5
+  },
+  "knonau": {
+   "name": "Knonau",
+   "bezirk": "Affoltern",
+   "domain": "www.knonau.ch",
+   "ok": false,
+   "count": 38
+  },
+  "mettmenstetten": {
+   "name": "Mettmenstetten",
+   "bezirk": "Affoltern",
+   "domain": "www.mettmenstetten.ch",
+   "ok": false,
+   "count": 29
+  },
+  "obfelden": {
+   "name": "Obfelden",
+   "bezirk": "Affoltern",
+   "domain": "www.obfelden.ch",
+   "ok": false,
+   "count": 0
+  },
+  "stallikon": {
+   "name": "Stallikon",
+   "bezirk": "Affoltern",
+   "domain": "www.stallikon.ch",
+   "ok": false,
+   "count": 35
+  },
+  "feuerthalen": {
+   "name": "Feuerthalen",
+   "bezirk": "Andelfingen",
+   "domain": "www.feuerthalen.ch",
+   "ok": false,
+   "count": 3
+  },
+  "kleinandelfingen": {
+   "name": "Kleinandelfingen",
+   "bezirk": "Andelfingen",
+   "domain": "www.kleinandelfingen.ch",
+   "ok": false,
+   "count": 5
+  },
+  "laufenuhwiesen": {
+   "name": "Laufen-Uhwiesen",
+   "bezirk": "Andelfingen",
+   "domain": "www.uhwiesen.ch",
+   "ok": false,
+   "count": 2
+  },
+  "bachenbuelach": {
+   "name": "Bachenbülach",
+   "bezirk": "Bülach",
+   "domain": "www.bachenbuelach.ch",
+   "ok": false,
+   "count": 2
+  },
+  "bassersdorf": {
+   "name": "Bassersdorf",
+   "bezirk": "Bülach",
+   "domain": "www.bassersdorf.ch",
+   "ok": false,
+   "count": 4
+  },
+  "dietlikon": {
+   "name": "Dietlikon",
+   "bezirk": "Bülach",
+   "domain": "www.dietlikon.ch",
+   "ok": false,
+   "count": 7
+  },
+  "freiensteinteufen": {
+   "name": "Freienstein-Teufen",
+   "bezirk": "Bülach",
+   "domain": "www.freienstein-teufen.ch",
+   "ok": false,
+   "count": 0
+  },
+  "hoeri": {
+   "name": "Höri",
+   "bezirk": "Bülach",
+   "domain": "www.hoeri.ch",
+   "ok": false,
+   "count": 0
+  },
+  "wasterkingen": {
+   "name": "Wasterkingen",
+   "bezirk": "Bülach",
+   "domain": "www.wasterkingen.ch",
+   "ok": false,
+   "count": 0
+  },
+  "daenikon": {
+   "name": "Dänikon",
+   "bezirk": "Dielsdorf",
+   "domain": "www.daenikon.ch",
+   "ok": false,
+   "count": 0
+  },
+  "huettikon": {
+   "name": "Hüttikon",
+   "bezirk": "Dielsdorf",
+   "domain": "www.huettikon.ch",
+   "ok": false,
+   "count": 0
+  },
+  "neerach": {
+   "name": "Neerach",
+   "bezirk": "Dielsdorf",
+   "domain": "www.neerach.ch",
+   "ok": false,
+   "count": 5
+  },
+  "niederweningen": {
+   "name": "Niederweningen",
+   "bezirk": "Dielsdorf",
+   "domain": "www.niederweningen.ch",
+   "ok": false,
+   "count": 4
+  },
+  "otelfingen": {
+   "name": "Otelfingen",
+   "bezirk": "Dielsdorf",
+   "domain": "www.otelfingen.ch",
+   "ok": false,
+   "count": 7
+  },
+  "regensberg": {
+   "name": "Regensberg",
+   "bezirk": "Dielsdorf",
+   "domain": "www.regensberg.ch",
+   "ok": false,
+   "count": 0
+  },
+  "weiach": {
+   "name": "Weiach",
+   "bezirk": "Dielsdorf",
+   "domain": "www.weiach.ch",
+   "ok": false,
+   "count": 0
+  },
+  "geroldswil": {
+   "name": "Geroldswil",
+   "bezirk": "Dietikon",
+   "domain": "www.geroldswil.ch",
+   "ok": false,
+   "count": 0
+  },
+  "gr": {
+   "name": "Grüningen",
+   "bezirk": "Hinwil",
+   "domain": "www.grueningen.ch",
+   "ok": false,
+   "count": 1
+  },
+  "ru": {
+   "name": "Rüti",
+   "bezirk": "Hinwil",
+   "domain": "www.rueti.ch",
+   "ok": false,
+   "count": 11
+  },
+  "horgen": {
+   "name": "Horgen",
+   "bezirk": "Horgen",
+   "domain": "www.horgen.ch",
+   "ok": false,
+   "count": 30
+  },
+  "l": {
+   "name": "Herrliberg",
+   "bezirk": "Meilen",
+   "domain": "www.herrliberg.ch",
+   "ok": false,
+   "count": 26
+  },
+  "hb": {
+   "name": "Hombrechtikon",
+   "bezirk": "Meilen",
+   "domain": "www.hombrechtikon.ch",
+   "ok": false,
+   "count": 11
+  },
+  "n": {
+   "name": "Küsnacht",
+   "bezirk": "Meilen",
+   "domain": "www.kuesnacht.ch",
+   "ok": false,
+   "count": 21
+  },
+  "o": {
+   "name": "Oetwil am See",
+   "bezirk": "Meilen",
+   "domain": "www.oetwil.ch",
+   "ok": false,
+   "count": 21
+  },
+  "wi": {
+   "name": "Wila",
+   "bezirk": "Pfäffikon",
+   "domain": "www.wila.ch",
+   "ok": false,
+   "count": 4
+  },
+  "r": {
+   "name": "Maur",
+   "bezirk": "Uster",
+   "domain": "www.maur.ch",
+   "ok": false,
+   "count": 14
+  },
+  "v": {
+   "name": "Volketswil",
+   "bezirk": "Uster",
+   "domain": "www.volketswil.ch",
+   "ok": false,
+   "count": 15
+  },
+  "altikon": {
+   "name": "Altikon",
+   "bezirk": "Winterthur",
+   "domain": "www.altikon.ch",
+   "ok": false,
+   "count": 1
+  },
+  "dinhard": {
+   "name": "Dinhard",
+   "bezirk": "Winterthur",
+   "domain": "www.dinhard.ch",
+   "ok": false,
+   "count": 14
+  },
+  "elgg": {
+   "name": "Elgg",
+   "bezirk": "Winterthur",
+   "domain": "www.elgg.ch",
+   "ok": false,
+   "count": 7
+  },
+  "ellikonanderthur": {
+   "name": "Ellikon an der Thur",
+   "bezirk": "Winterthur",
+   "domain": "www.ellikonanderthur.ch",
+   "ok": false,
+   "count": 1
+  },
+  "hagenbuch": {
+   "name": "Hagenbuch",
+   "bezirk": "Winterthur",
+   "domain": "www.hagenbuch-zh.ch",
+   "ok": false,
+   "count": 2
+  },
+  "turbenthal": {
+   "name": "Turbenthal",
+   "bezirk": "Winterthur",
+   "domain": "www.turbenthal.ch",
+   "ok": false,
+   "count": 4
+  },
+  "nuerensdorf": {
+   "name": "Nürensdorf",
+   "bezirk": "Bülach",
+   "domain": "www.nuerensdorf.ch",
+   "ok": false,
+   "count": 0
+  },
+  "oberglatt": {
+   "name": "Oberglatt",
+   "bezirk": "Dielsdorf",
+   "domain": "www.oberglatt.ch",
+   "ok": false,
+   "count": 7
+  },
+  "wettswilamalbis": {
+   "name": "Wettswil am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.wettswil.ch",
+   "ok": false,
+   "count": 20
+  },
+  "schlatt": {
+   "name": "Schlatt",
+   "bezirk": "Winterthur",
+   "domain": "www.schlatt.ch",
+   "ok": false,
+   "count": 0
   }
  },
  "quellen": {
@@ -1051,7 +1051,7 @@
    "bezirk": "Quellen",
    "domain": "www.forum-magazin.ch",
    "ok": true,
-   "count": 411
+   "count": 412
   },
   "q-zauberlaterne": {
    "name": "Zauberlaterne",
@@ -1065,7 +1065,7 @@
    "bezirk": "Quellen",
    "domain": "theater-purpur.ch",
    "ok": true,
-   "count": 33
+   "count": 32
   },
   "q-schauspielhaus": {
    "name": "Schauspielhaus Zürich",
@@ -1461,9 +1461,7 @@
   },
   {
    "gemeinden": [
-    "e",
-    "o",
-    "r"
+    "e"
    ],
    "id": "e-7760953",
    "name": "Kerzenziehen (KerZi 2026)",
@@ -1790,21 +1788,6 @@
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-/theater2026-11-22Alice tanz",
-   "q": "q-purpur",
-   "name": "Alice tanzt",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Theater PurPur",
-   "veranstalter": "Theater PurPur",
-   "time": "11.00",
-   "age": null,
-   "url": "https://theater-purpur.ch/theater"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
    "id": "zuerich-auf-kaktus-safari--im-rahmen-des-fereinplauschprogramm-21-13",
    "name": "Auf Kaktus-Safari mit Sara Dorn",
    "von": "2026-11-22",
@@ -1933,44 +1916,6 @@
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-fa400190",
-   "q": "q-kath",
-   "name": "Familiengottesdienst zu Christkönig mit Taufe",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Guthirtstrasse 3-7",
-   "veranstalter": "Kath. Pfarrei Guthirt",
-   "time": "10.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.forum-magazin.ch/zuerich-wipkingen/agenda/20261122-familiengottesdienst-zu-christkonig-mit-taufe-400190/"
-  },
-  {
-   "gemeinden": [
-    "eglisau"
-   ],
-   "id": "eglisau-fa399714",
-   "q": "q-kath",
-   "name": "Familiengottesdienst zur HGU-Eröffnung",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Salomon Landolt-Weg 1",
-   "veranstalter": "Kath. Pfarrei St. Josef / Judas Thaddäus / Maria Magdalena",
-   "time": "10.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.forum-magazin.ch/eglisau/agenda/20261122-familiengottesdienst-zur-hgu-eroffnung-399714/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
    "id": "zuerich-zm27311",
    "q": "q-museen",
    "name": "Familientag im Löwenbräukunst",
@@ -1999,21 +1944,6 @@
    "time": "",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/futsal-schueli.html?calentry=2"
-  },
-  {
-   "gemeinden": [
-    "bonstetten"
-   ],
-   "id": "bonstetten-fa398537",
-   "q": "q-kath",
-   "name": "Kafi & Begegnung",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Stallikerstrasse 2",
-   "veranstalter": "Kath. Pfarrei St. Mauritius",
-   "time": "09.30",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/bonstetten/agenda/20261122-kafi-begegnung-398537/"
   },
   {
    "gemeinden": [
@@ -2221,21 +2151,6 @@
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-fa334011",
-   "q": "q-kath",
-   "name": "Krunica",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Horgen",
-   "veranstalter": "Kath. Pfarrei Hrvatska Katolička Misija",
-   "time": "14.10",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/hrvatska-misija/agenda/20261122-krunica-334011/"
-  },
-  {
-   "gemeinden": [
     "niederweningen"
    ],
    "id": "niederweningen-915-642",
@@ -2309,21 +2224,6 @@
    "age": null,
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7811959",
    "w": "https://eventfrog.ch/en/p/events-for-children/family-events/multisport-basektball-fencing-affoltern-am-albis-7525907960570084704.html"
-  },
-  {
-   "gemeinden": [
-    "waedenswil"
-   ],
-   "id": "waedenswil-fa400609",
-   "q": "q-kath",
-   "name": "Neue Minis – herzlich willkommen!",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Katholisches Pfarramt St. Marien",
-   "veranstalter": "Kath. Pfarrei St. Marien",
-   "time": "10.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/waedenswil/agenda/20261122-neue-minis-herzlich-willkommen-400609/"
   },
   {
    "gemeinden": [
@@ -2444,21 +2344,6 @@
     "label": "ab 5 Jahren"
    },
    "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7683/eventdate/8263"
-  },
-  {
-   "gemeinden": [
-    "il"
-   ],
-   "id": "il-fa399022",
-   "q": "q-kath",
-   "name": "Tauffeier Alessandro Müller",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Birchstrasse 20",
-   "veranstalter": "Kath. Pfarrei St. Martin",
-   "time": "12.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/effretikon/agenda/20261122-tauffeier-alessandro-muller-399022/"
   },
   {
    "gemeinden": [
@@ -8912,6 +8797,21 @@
   },
   {
    "gemeinden": [
+    "il"
+   ],
+   "id": "il-7839544",
+   "name": "Weihnachtsmärt 2026",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Märtplatz Effretikon",
+   "veranstalter": "Weihnachtsmärt Effretikon",
+   "time": "12.00 - 19.00",
+   "age": null,
+   "url": "https://www.ilef.ch/_rte/anlass/7839544",
+   "w": "https://www.schule-ilef.ch/ferienplan"
+  },
+  {
+   "gemeinden": [
     "ru"
    ],
    "id": "ru-6293-25502",
@@ -14743,7 +14643,6 @@
     "f",
     "g",
     "m",
-    "r",
     "u"
    ],
    "id": "f-7612543",
@@ -27600,21 +27499,6 @@
   },
   {
    "gemeinden": [
-    "embrach"
-   ],
-   "id": "embrach-fa383314",
-   "q": "q-kath",
-   "name": "Sternsinger-Probe",
-   "von": "2027-01-06",
-   "bis": "2027-01-06",
-   "ort": "Kirchenzentrum St. Petrus",
-   "veranstalter": "Kath. Pfarrei St. Petrus",
-   "time": "13.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/embrach/agenda/20270106-sternsinger-probe-383314/"
-  },
-  {
-   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-/clubs/zurich-filmpodium/2027-01-06Zauberlate",
@@ -38354,6 +38238,21 @@
   },
   {
    "gemeinden": [
+    "bassersdorf"
+   ],
+   "id": "bassersdorf-fa395020",
+   "q": "q-kath",
+   "name": "Gruppenstunde Jubla",
+   "von": "2027-03-06",
+   "bis": "2027-03-06",
+   "ort": "Pfarreizentrum St. Franziskus",
+   "veranstalter": "Kath. Pfarrei St. Franziskus",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/bassersdorf/agenda/20270306-gruppenstunde-jubla-395020/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-oeffentliche-fuehrung-zs-museum-10",
@@ -38528,6 +38427,21 @@
   },
   {
    "gemeinden": [
+    "pfungen"
+   ],
+   "id": "pfungen-fa393700",
+   "q": "q-kath",
+   "name": "Hl. Messe mit Vorstellung Fastenaktionsprojekt",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Pfarrhaus Dorfstrasse 4",
+   "veranstalter": "Kath. Pfarrei St. Pirminius",
+   "time": "10.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/pfungen/agenda/20270307-hl-messe-mit-vorstellung-fastenaktionsprojekt-393700/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-/konzerte/kalender/kammermusik-matinee-2055765/2027-03-07Kammermusi",
@@ -38540,6 +38454,36 @@
    "time": "11.15",
    "age": null,
    "url": "https://www.tonhalle-orchester.ch/konzerte/kalender/kammermusik-matinee-2055765/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-fa393669",
+   "q": "q-kath",
+   "name": "Kids Church",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Schwamendingenstrasse 55",
+   "veranstalter": "Kath. Pfarrei Herz Jesu",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/zuerich-oerlikon/agenda/20270307-kids-church-393669/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-fa344710",
+   "q": "q-kath",
+   "name": "Kinderkatechese",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Raum A oder Raum B im Pfarreizentrum Liebfrauen",
+   "veranstalter": "Kath. Pfarrei Ukrainische Griechisch-Katholische Mission",
+   "time": "15.30",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/ukrainische-mission/agenda/20270307-kinderkatechese-344710/"
   },
   {
    "gemeinden": [
@@ -38573,6 +38517,36 @@
     "label": "0 bis 6 Jahre"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7680163"
+  },
+  {
+   "gemeinden": [
+    "i"
+   ],
+   "id": "i-fa393678",
+   "q": "q-kath",
+   "name": "Ökum. Chinderfiir",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Ref. Kirche Meilen",
+   "veranstalter": "Kath. Pfarrei St. Martin",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/meilen/agenda/20270307-okum-chinderfiir-393678/"
+  },
+  {
+   "gemeinden": [
+    "niederhasli"
+   ],
+   "id": "niederhasli-fa412528",
+   "q": "q-kath",
+   "name": "Ökumenischer Suppensonntag",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Pfarreizentrum Niederhasli",
+   "veranstalter": "Kath. Pfarrei St. Christophorus",
+   "time": "12.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/niederhasli/agenda/20270307-okumenischer-suppensonntag-412528/"
   },
   {
    "gemeinden": [
@@ -38611,6 +38585,25 @@
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7830820",
    "w": "https://www.turbinetheater.ch/event/sophia/"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-fa403458",
+   "q": "q-kath",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-08",
+   "bis": "2027-03-08",
+   "ort": "St. Martin",
+   "veranstalter": "Kath. Pfarrei St. Martin / St. Michael",
+   "time": "09.15",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.forum-magazin.ch/birmensdorf/agenda/20270308-eltern-kind-singen-403458/"
   },
   {
    "gemeinden": [
@@ -38665,6 +38658,25 @@
     "label": "Familien, alle Alter"
    },
    "url": "https://www.meilen.ch/_rte/anlass/7778107"
+  },
+  {
+   "gemeinden": [
+    "bassersdorf"
+   ],
+   "id": "bassersdorf-fa393910",
+   "q": "q-kath",
+   "name": "Krabbelgruppe Rägäboge",
+   "von": "2027-03-08",
+   "bis": "2027-03-08",
+   "ort": "Pfarreizentrum St. Franziskus",
+   "veranstalter": "Kath. Pfarrei St. Franziskus",
+   "time": "14.30",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.forum-magazin.ch/bassersdorf/agenda/20270308-krabbelgruppe-ragaboge-393910/"
   },
   {
    "gemeinden": [
@@ -47393,6 +47405,24 @@
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621348",
    "w": "http://www.buchstart.ch"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1749-2027-06-11",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-06-11",
+   "bis": "2027-06-11",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1749"
   },
   {
    "gemeinden": [
