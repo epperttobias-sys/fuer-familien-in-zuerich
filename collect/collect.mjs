@@ -13,7 +13,7 @@ async function fetchText(url) {
   let last;
   for (let i = 0; i < 3; i++) {
     try {
-      const res = await fetch(url, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, sammelt einmal pro Nacht)" }, signal: AbortSignal.timeout(30000) });
+      const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; FamilienZuerichBot/1.0; +https://epperttobias-sys.github.io/fuer-familien-in-zuerich/; sammelt einmal pro Nacht)", "Accept-Language": "de-CH,de;q=0.9" }, signal: AbortSignal.timeout(30000) });
       if (res.ok) return res.text();
       last = new Error(`${res.status} bei ${url}`); if (res.status === 404) break;
     } catch (e) { last = e; }
@@ -29,7 +29,8 @@ const all = await readJson("collect/gemeinden.json", {});
 setGemeindeIndex(JSON.parse((await readFile(path("site/gemeinden.js"), "utf8")).replace(/^[^=]*=\s*/, "").replace(/;\s*$/, "")));
 // system «keine»: Gemeinde ohne lesbare Agenda (nur PDF, externe App), bleibt für Wetter und Karte drin
 // «eventitem» läuft als eigener, langsamer Durchgang, weil alle diese Gemeinden beim gleichen Anbieter liegen
-const sites = Object.fromEntries(Object.entries(all).filter(([, s]) => s.system !== "keine").filter(([, s]) => !ONLY || (ONLY === "eventitem" ? s.system === "eventitem" : s.bezirk === ONLY && s.system !== "eventitem")));
+const CODES = (process.env.CODES || "").split(",").map(s => s.trim()).filter(Boolean);
+const sites = Object.fromEntries(Object.entries(all).filter(([c, s]) => s.system !== "keine" && (!CODES.length || CODES.includes(c))).filter(([, s]) => !ONLY || (ONLY === "eventitem" ? s.system === "eventitem" : s.bezirk === ONLY && s.system !== "eventitem")));
 const cacheFile = ONLY ? `data/cache-${slug(ONLY)}.json` : "data/cache.json";
 const cache = await readJson("data/cache.json", {});
 try { const { readdir } = await import("node:fs/promises"); for (const f of await readdir(path("data/"))) if (/^cache-.*\.json$/.test(f)) Object.assign(cache, await readJson("data/" + f, {})); } catch {}
