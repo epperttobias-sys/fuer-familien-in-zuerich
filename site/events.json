@@ -1094,6 +1094,13 @@
    "domain": "kinderregion.ch",
    "ok": true,
    "count": 32
+  },
+  "q-hofnarr": {
+   "name": "Hof Narr (Lebenshof)",
+   "bezirk": "Quellen",
+   "domain": "www.hof-narr.ch",
+   "ok": true,
+   "count": 5
   }
  },
  "events": [
@@ -2256,6 +2263,22 @@
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/6897718",
    "w": "https://eventfrog.ch/seuzachmaerli"
+  },
+  {
+   "gemeinden": [
+    "e"
+   ],
+   "id": "e-sqmimis-weihnachtsmarkt-2026",
+   "q": "q-hofnarr",
+   "tip": 1,
+   "name": "Mimis Weihnachtsmarkt 2026",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Hof Narr, Güetlistrasse 45, Hinteregg",
+   "veranstalter": "Hof Narr (Lebenshof)",
+   "time": "11.00 - 17.00",
+   "age": null,
+   "url": "https://www.hof-narr.ch/kalender/2026/11/21/mimis-weihnachtsmarkt-2026"
   },
   {
    "gemeinden": [
@@ -7666,6 +7689,22 @@
    },
    "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17262/eventdate/106192",
    "w": "https://kerzenziehenvolketswil.jimdofree.com/"
+  },
+  {
+   "gemeinden": [
+    "e"
+   ],
+   "id": "e-sqvondue-with-pigs-28112026",
+   "q": "q-hofnarr",
+   "tip": 1,
+   "name": "Vondue with Pigs 28.11.2026",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Hof Narr, Güetlistrasse 45, Hinteregg",
+   "veranstalter": "Hof Narr (Lebenshof)",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.hof-narr.ch/kalender/2026/10/31/vondue-with-pigs-28112026"
   },
   {
    "gemeinden": [
@@ -24342,6 +24381,22 @@
   },
   {
    "gemeinden": [
+    "e"
+   ],
+   "id": "e-sqvondue-with-pigs-28112026-yg9bt",
+   "q": "q-hofnarr",
+   "tip": 1,
+   "name": "Vondue with Pigs 19.12.2026",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Hof Narr, Güetlistrasse 45, Hinteregg",
+   "veranstalter": "Hof Narr (Lebenshof)",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.hof-narr.ch/kalender/2026/10/31/vondue-with-pigs-28112026-yg9bt"
+  },
+  {
+   "gemeinden": [
     "pfungen"
    ],
    "id": "pfungen-fa380676",
@@ -28343,6 +28398,22 @@
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7781167",
    "w": "https://www.primaflautina.ch"
+  },
+  {
+   "gemeinden": [
+    "e"
+   ],
+   "id": "e-sqvondue-with-pigs-28112026-yg9bt-cz5tg",
+   "q": "q-hofnarr",
+   "tip": 1,
+   "name": "Vondue with Pigs 9.1.2027",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "Hof Narr, Güetlistrasse 45, Hinteregg",
+   "veranstalter": "Hof Narr (Lebenshof)",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.hof-narr.ch/kalender/2026/10/31/vondue-with-pigs-28112026-yg9bt-cz5tg"
   },
   {
    "gemeinden": [
@@ -36030,6 +36101,22 @@
    "time": "8.00 - 12.00",
    "age": null,
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8746/eventdate/8226"
+  },
+  {
+   "gemeinden": [
+    "e"
+   ],
+   "id": "e-sqdue-with-pigs-28112026-yg9bt-cz5tg-3pc27",
+   "q": "q-hofnarr",
+   "tip": 1,
+   "name": "Vondue with Pigs 14.2.2027",
+   "von": "2027-02-14",
+   "bis": "2027-02-14",
+   "ort": "Hof Narr, Güetlistrasse 45, Hinteregg",
+   "veranstalter": "Hof Narr (Lebenshof)",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.hof-narr.ch/kalender/2026/10/31/vondue-with-pigs-28112026-yg9bt-cz5tg-3pc27"
   },
   {
    "gemeinden": [
