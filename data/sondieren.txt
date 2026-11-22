@@ -1,2 +1,13 @@
-https://www.hof-narr.ch/robots.txt
-https://www.hof-narr.ch/kalender | html
+https://www.myswitzerland.com/robots.txt
+https://www.myswitzerland.com/de-ch/erlebnisse/veranstaltungen/veranstaltungen-suche/festivalorfeast/zurich-region/ | html
+https://www.localcities.ch/robots.txt
+https://www.localcities.ch/de/veranstaltungen/zuerich/609 | html
+https://www.freizeit.ch/robots.txt
+https://www.freizeit.ch/kalender/ | html
+https://www.guidle.com/robots.txt
+https://www.juckerfarm.ch/events | html
+https://kinderzirkus.ch/ | html
+https://www.circus-conelli.ch/ | html
+https://www.knie.ch/de/tournee | html
+https://www.erlebnishof-tuefi.ch/ | html
+https://www.wagerenhof.ch/ | html
