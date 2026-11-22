@@ -391,7 +391,7 @@
    "bezirk": "Affoltern",
    "domain": "www.mettmenstetten.ch",
    "ok": true,
-   "count": 30
+   "count": 29
   },
   "obfelden": {
    "name": "Obfelden",
@@ -405,7 +405,7 @@
    "bezirk": "Affoltern",
    "domain": "www.stallikon.ch",
    "ok": true,
-   "count": 35
+   "count": 34
   },
   "feuerthalen": {
    "name": "Feuerthalen",
@@ -545,7 +545,7 @@
    "bezirk": "Horgen",
    "domain": "www.horgen.ch",
    "ok": true,
-   "count": 45
+   "count": 44
   },
   "l": {
    "name": "Herrliberg",
@@ -1036,307 +1036,6 @@
    "domain": "www.stadt-zuerich.ch",
    "ok": true,
    "count": 252
-  },
-  "aeugst": {
-   "name": "Aeugst am Albis",
-   "bezirk": "Affoltern",
-   "domain": "www.aeugst-albis.ch",
-   "ok": false,
-   "count": 11
-  },
-  "hedingen": {
-   "name": "Hedingen",
-   "bezirk": "Affoltern",
-   "domain": "www.hedingen.ch",
-   "ok": false,
-   "count": 5
-  },
-  "knonau": {
-   "name": "Knonau",
-   "bezirk": "Affoltern",
-   "domain": "www.knonau.ch",
-   "ok": false,
-   "count": 38
-  },
-  "mettmenstetten": {
-   "name": "Mettmenstetten",
-   "bezirk": "Affoltern",
-   "domain": "www.mettmenstetten.ch",
-   "ok": false,
-   "count": 29
-  },
-  "obfelden": {
-   "name": "Obfelden",
-   "bezirk": "Affoltern",
-   "domain": "www.obfelden.ch",
-   "ok": false,
-   "count": 0
-  },
-  "stallikon": {
-   "name": "Stallikon",
-   "bezirk": "Affoltern",
-   "domain": "www.stallikon.ch",
-   "ok": false,
-   "count": 35
-  },
-  "feuerthalen": {
-   "name": "Feuerthalen",
-   "bezirk": "Andelfingen",
-   "domain": "www.feuerthalen.ch",
-   "ok": false,
-   "count": 3
-  },
-  "kleinandelfingen": {
-   "name": "Kleinandelfingen",
-   "bezirk": "Andelfingen",
-   "domain": "www.kleinandelfingen.ch",
-   "ok": false,
-   "count": 5
-  },
-  "laufenuhwiesen": {
-   "name": "Laufen-Uhwiesen",
-   "bezirk": "Andelfingen",
-   "domain": "www.uhwiesen.ch",
-   "ok": false,
-   "count": 2
-  },
-  "bachenbuelach": {
-   "name": "Bachenbülach",
-   "bezirk": "Bülach",
-   "domain": "www.bachenbuelach.ch",
-   "ok": false,
-   "count": 2
-  },
-  "bassersdorf": {
-   "name": "Bassersdorf",
-   "bezirk": "Bülach",
-   "domain": "www.bassersdorf.ch",
-   "ok": false,
-   "count": 4
-  },
-  "dietlikon": {
-   "name": "Dietlikon",
-   "bezirk": "Bülach",
-   "domain": "www.dietlikon.ch",
-   "ok": false,
-   "count": 7
-  },
-  "freiensteinteufen": {
-   "name": "Freienstein-Teufen",
-   "bezirk": "Bülach",
-   "domain": "www.freienstein-teufen.ch",
-   "ok": false,
-   "count": 0
-  },
-  "hoeri": {
-   "name": "Höri",
-   "bezirk": "Bülach",
-   "domain": "www.hoeri.ch",
-   "ok": false,
-   "count": 0
-  },
-  "wasterkingen": {
-   "name": "Wasterkingen",
-   "bezirk": "Bülach",
-   "domain": "www.wasterkingen.ch",
-   "ok": false,
-   "count": 0
-  },
-  "daenikon": {
-   "name": "Dänikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.daenikon.ch",
-   "ok": false,
-   "count": 0
-  },
-  "huettikon": {
-   "name": "Hüttikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.huettikon.ch",
-   "ok": false,
-   "count": 0
-  },
-  "neerach": {
-   "name": "Neerach",
-   "bezirk": "Dielsdorf",
-   "domain": "www.neerach.ch",
-   "ok": false,
-   "count": 5
-  },
-  "niederweningen": {
-   "name": "Niederweningen",
-   "bezirk": "Dielsdorf",
-   "domain": "www.niederweningen.ch",
-   "ok": false,
-   "count": 4
-  },
-  "otelfingen": {
-   "name": "Otelfingen",
-   "bezirk": "Dielsdorf",
-   "domain": "www.otelfingen.ch",
-   "ok": false,
-   "count": 7
-  },
-  "regensberg": {
-   "name": "Regensberg",
-   "bezirk": "Dielsdorf",
-   "domain": "www.regensberg.ch",
-   "ok": false,
-   "count": 0
-  },
-  "weiach": {
-   "name": "Weiach",
-   "bezirk": "Dielsdorf",
-   "domain": "www.weiach.ch",
-   "ok": false,
-   "count": 0
-  },
-  "geroldswil": {
-   "name": "Geroldswil",
-   "bezirk": "Dietikon",
-   "domain": "www.geroldswil.ch",
-   "ok": false,
-   "count": 0
-  },
-  "gr": {
-   "name": "Grüningen",
-   "bezirk": "Hinwil",
-   "domain": "www.grueningen.ch",
-   "ok": false,
-   "count": 1
-  },
-  "ru": {
-   "name": "Rüti",
-   "bezirk": "Hinwil",
-   "domain": "www.rueti.ch",
-   "ok": false,
-   "count": 11
-  },
-  "horgen": {
-   "name": "Horgen",
-   "bezirk": "Horgen",
-   "domain": "www.horgen.ch",
-   "ok": false,
-   "count": 30
-  },
-  "l": {
-   "name": "Herrliberg",
-   "bezirk": "Meilen",
-   "domain": "www.herrliberg.ch",
-   "ok": false,
-   "count": 26
-  },
-  "hb": {
-   "name": "Hombrechtikon",
-   "bezirk": "Meilen",
-   "domain": "www.hombrechtikon.ch",
-   "ok": false,
-   "count": 11
-  },
-  "n": {
-   "name": "Küsnacht",
-   "bezirk": "Meilen",
-   "domain": "www.kuesnacht.ch",
-   "ok": false,
-   "count": 21
-  },
-  "o": {
-   "name": "Oetwil am See",
-   "bezirk": "Meilen",
-   "domain": "www.oetwil.ch",
-   "ok": false,
-   "count": 21
-  },
-  "wi": {
-   "name": "Wila",
-   "bezirk": "Pfäffikon",
-   "domain": "www.wila.ch",
-   "ok": false,
-   "count": 4
-  },
-  "r": {
-   "name": "Maur",
-   "bezirk": "Uster",
-   "domain": "www.maur.ch",
-   "ok": false,
-   "count": 14
-  },
-  "v": {
-   "name": "Volketswil",
-   "bezirk": "Uster",
-   "domain": "www.volketswil.ch",
-   "ok": false,
-   "count": 15
-  },
-  "altikon": {
-   "name": "Altikon",
-   "bezirk": "Winterthur",
-   "domain": "www.altikon.ch",
-   "ok": false,
-   "count": 1
-  },
-  "dinhard": {
-   "name": "Dinhard",
-   "bezirk": "Winterthur",
-   "domain": "www.dinhard.ch",
-   "ok": false,
-   "count": 14
-  },
-  "elgg": {
-   "name": "Elgg",
-   "bezirk": "Winterthur",
-   "domain": "www.elgg.ch",
-   "ok": false,
-   "count": 7
-  },
-  "ellikonanderthur": {
-   "name": "Ellikon an der Thur",
-   "bezirk": "Winterthur",
-   "domain": "www.ellikonanderthur.ch",
-   "ok": false,
-   "count": 1
-  },
-  "hagenbuch": {
-   "name": "Hagenbuch",
-   "bezirk": "Winterthur",
-   "domain": "www.hagenbuch-zh.ch",
-   "ok": false,
-   "count": 2
-  },
-  "turbenthal": {
-   "name": "Turbenthal",
-   "bezirk": "Winterthur",
-   "domain": "www.turbenthal.ch",
-   "ok": false,
-   "count": 4
-  },
-  "nuerensdorf": {
-   "name": "Nürensdorf",
-   "bezirk": "Bülach",
-   "domain": "www.nuerensdorf.ch",
-   "ok": false,
-   "count": 0
-  },
-  "oberglatt": {
-   "name": "Oberglatt",
-   "bezirk": "Dielsdorf",
-   "domain": "www.oberglatt.ch",
-   "ok": false,
-   "count": 7
-  },
-  "wettswilamalbis": {
-   "name": "Wettswil am Albis",
-   "bezirk": "Affoltern",
-   "domain": "www.wettswil.ch",
-   "ok": false,
-   "count": 20
-  },
-  "schlatt": {
-   "name": "Schlatt",
-   "bezirk": "Winterthur",
-   "domain": "www.schlatt.ch",
-   "ok": false,
-   "count": 0
   }
  },
  "quellen": {
@@ -1402,6 +1101,13 @@
    "domain": "www.hof-narr.ch",
    "ok": true,
    "count": 5
+  },
+  "q-localcities": {
+   "name": "localcities.ch (Vereine, Höfe, Märkte)",
+   "bezirk": "Quellen",
+   "domain": "www.localcities.ch",
+   "ok": true,
+   "count": 216
   }
  },
  "events": [
@@ -1887,30 +1593,15 @@
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3985-58029",
+   "id": "horgen-3985-58030",
    "name": "Kerzenziehen im Baumgärtlihof",
    "von": "2026-11-19",
-   "bis": "2026-11-22",
+   "bis": "2026-11-23",
    "ort": "Senioren Begegnungszentrum Baumgärtlihof",
    "veranstalter": "",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3985/eventdate/58029"
-  },
-  {
-   "gemeinden": [
-    "stallikon"
-   ],
-   "id": "stallikon-8653-8171",
-   "name": "Der wunderbare Weihnachtsmarkt",
-   "von": "2026-11-21",
-   "bis": "2026-11-22",
-   "ort": "Wohnheim Loomatt Stiftung RgZ",
-   "veranstalter": "Der wunderbare Weihnachtsmarkt Seite vorlesen",
-   "time": "10.00",
-   "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8653/eventdate/8171",
-   "w": "https://www.der-wunderbare-weihnachtsmarkt.ch"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3985/eventdate/58030"
   },
   {
    "gemeinden": [
@@ -1941,21 +1632,6 @@
    "time": "14.00 - 18.00",
    "age": null,
    "url": "https://www.dielsdorf.ch/_rte/anlass/7651417"
-  },
-  {
-   "gemeinden": [
-    "mettmenstetten"
-   ],
-   "id": "mettmenstetten-1827-1366",
-   "name": "Kerzenziehen",
-   "von": "2026-11-21",
-   "bis": "2026-11-22",
-   "ort": "Hawa Sliding Solutions AG Untere",
-   "veranstalter": "",
-   "time": "10.00",
-   "age": null,
-   "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1827/eventdate/1366",
-   "w": "https://www.jungschi-mettmi.ch/"
   },
   {
    "gemeinden": [
@@ -2128,6 +1804,38 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4764069",
+   "q": "q-localcities",
+   "name": "Circus Conelli 2026 - Das Original",
+   "von": "2026-11-22",
+   "bis": "2026-12-06",
+   "ort": "Restaurant Bauschänzli, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4764069",
+   "w": "https://www.ticketcorner.ch/artist/circus-conelli/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4817047",
+   "q": "q-localcities",
+   "name": "Circus Monti - Poussière d'étoiles",
+   "von": "2026-11-22",
+   "bis": "2026-11-29",
+   "ort": "Kasernenareal, 8004 Zürich",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4817047",
+   "w": "https://circus-monti.ch/tickets"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7787359",
@@ -2245,6 +1953,22 @@
    "time": "",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/futsal-schueli.html?calentry=2"
+  },
+  {
+   "gemeinden": [
+    "n"
+   ],
+   "id": "n-lc4904637",
+   "q": "q-localcities",
+   "name": "Hotel Sonne Küsnacht - Winterzaubergarten",
+   "von": "2026-11-22",
+   "bis": "2027-01-17",
+   "ort": "Sonne Boutiquehotel und Seerestaurants, 8700 Küsnacht ZH",
+   "veranstalter": "",
+   "time": "14.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4904637",
+   "w": "https://sonne.ch/restaurants-und-bar/winterzaubergarten/"
   },
   {
    "gemeinden": [
@@ -2416,6 +2140,22 @@
     "label": "ab 5 Jahren"
    },
    "url": "https://www.kinderthur.ch/events/kindermusical-schellenursli-6/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4904281",
+   "q": "q-localcities",
+   "name": "Küss den Frosch ein Märchen auf Rollschuhen",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Sportzentrum Fronwald, 8046 Zürich",
+   "veranstalter": "",
+   "time": "11.30 - 11.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4904281",
+   "w": "https://www.zrsc.ch"
   },
   {
    "gemeinden": [
@@ -5139,7 +4879,40 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4878721",
+   "q": "q-localcities",
+   "name": "Zauberpark am Flughafen Zürich",
+   "von": "2026-11-25",
+   "bis": "2026-12-02",
+   "ort": "The Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4878721",
+   "w": "https://zauberpark.ch/tickets/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812965",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Joris",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812965",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725738/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578052",
    "name": "Zauberpark mit Tante Carmen",
@@ -8511,6 +8284,26 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4893671",
+   "q": "q-localcities",
+   "name": "Weihnachten & Krippen - Winterlicht im Glas",
+   "von": "2026-11-28",
+   "bis": "2026-12-21",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "10.30 - 12.30",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893671",
+   "w": "https://www.landesmuseum.ch"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7801111",
@@ -8569,7 +8362,24 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-lc4364035",
+   "q": "q-localcities",
+   "name": "Wochenmarkt Pfäffikon ZH",
+   "von": "2026-11-28",
+   "bis": "2026-12-19",
+   "ort": "Wochenmarkt Pfäffikon, 8330 Pfäffikon ZH",
+   "veranstalter": "",
+   "time": "08.00 - 13.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/pfaeffikon/489/4364035",
+   "w": "https://wochenmarktpfaeffikon.ch"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578076",
    "name": "Zauberpark mit Kids Disco by Papagallo (ZKB Night)",
@@ -9792,7 +9602,24 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812977",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Fabio Landert & Sven Ivanic",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812977",
+   "w": "https://www.ticketcorner.ch/artist/zauberpark-am-flughafen-zuerich/zauberpark-am-flughafen-zuerich-music-act-4149401/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7668238",
    "name": "Zauberpark mit THE BLACKOUTS",
@@ -10948,7 +10775,24 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812981",
+   "q": "q-localcities",
+   "name": "Zauberpark mit 77 Bombay Street",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812981",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725739/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578046",
    "name": "Zauberpark mit Dan White",
@@ -12289,7 +12133,24 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812983",
+   "q": "q-localcities",
+   "name": "Zauberpark mit John Newman",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812983",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725727/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7676407",
    "name": "Zauberpark mit Schwiizergoofe (Workshop)",
@@ -13135,7 +12996,72 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4730661",
+   "q": "q-localcities",
+   "name": "Weihnachten & Krippen",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "18.00 - 19.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4730661",
+   "w": "https://www.landesmuseum.ch/de/veranstaltung/weihnachten-krippen-46196"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4896307",
+   "q": "q-localcities",
+   "name": "Weihnachtsgeschichten",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Landesmuseum Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00 - 15.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4896307",
+   "w": "https://www.landesmuseum.ch/de/veranstaltung/weihnachtsgeschichten-52488"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-lc4821367",
+   "q": "q-localcities",
+   "name": "Weihnachtsmarkt im Luberzenareal",
+   "von": "2026-12-03",
+   "bis": "2026-12-13",
+   "ort": "Luberzen-Areal, 8902 Urdorf",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4821367",
+   "w": "https://www.wildeluft.ch/weihnachtszauber"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4813055",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Loco Escrito",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4813055",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725742/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578097",
    "name": "Zauberpark mit Znüniband",
@@ -15851,7 +15777,24 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4850921",
+   "q": "q-localcities",
+   "name": "Zauberpark mit 01099",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4850921",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725740/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578106",
    "name": "Zauberpark mit Kids Disco by Papagallo",
@@ -16090,6 +16033,7 @@
     "f",
     "g",
     "m",
+    "r",
     "u"
    ],
    "id": "f-7612543",
@@ -17356,7 +17300,24 @@
   },
   {
    "gemeinden": [
-    "kloten"
+    "zuerich"
+   ],
+   "id": "zuerich-lc4812995",
+   "q": "q-localcities",
+   "name": "Zauberpark mit Eileen Alister",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Flughafenpark im Circle, 8058 Zürich",
+   "veranstalter": "",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812995",
+   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21844308/?affiliate=ZPF"
+  },
+  {
+   "gemeinden": [
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578118",
    "name": "Zauberpark mit Singvögel",
@@ -26415,6 +26376,22 @@
    "time": "17.00 - 20.00",
    "age": null,
    "url": "https://www.hof-narr.ch/kalender/2026/10/31/vondue-with-pigs-28112026-yg9bt"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4920457",
+   "q": "q-localcities",
+   "name": "Weihnachtsoratorium für Kinder",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Grossmünster, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.00 - 14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4920457",
+   "w": "https://reformiert-zuerich.ch/kirchenkreise/eins/angebote/kinder-und-familien/weihnachtsoratorium-kinder/"
   },
   {
    "gemeinden": [
