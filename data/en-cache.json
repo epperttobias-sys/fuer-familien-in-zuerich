@@ -1191,9 +1191,17 @@
 "e": "Chäferburg",
 "p": "Chäferburg"
 },
+"Circus Conelli 2026 - Das Original": {
+"e": "Circus Conelli 2026 - The original",
+"p": "Circus Conelli 2026 - Das Original"
+},
 "Circus Conelli 2026 - Gala Abend": {
 "e": "Circus Conelli 2026 - Gala Evening",
 "p": "Circus Conelli 2026 - Gala Abend"
+},
+"Circus Monti - Poussière d'étoiles": {
+"e": "Circus Monti - Poussière d'étoiles",
+"p": "Circus Monti - Poussière d'étoiles"
 },
 "DER KLEINE PRINZ": {
 "e": "The little prince",
@@ -2879,6 +2887,10 @@
 "e": "Wooden tower 40 m Year of construction 1978",
 "p": "Holzturm 40 m Baujahr 1978"
 },
+"Hotel Sonne Küsnacht - Winterzaubergarten": {
+"e": "Hotel Sonne Küsnacht - Winter Magic Garden",
+"p": "Hotel Sonne Küsnacht - Winterzaubergarten"
+},
 "Häsli Turne": {
 "e": "Häsli Turne",
 "p": "Häsli Turne"
@@ -3930,6 +3942,10 @@
 "Kuscheltier-Übernachtung": {
 "e": "Cuddly toy overnight stay",
 "p": "Kuscheltier-Übernachtung"
+},
+"Küss den Frosch ein Märchen auf Rollschuhen": {
+"e": "Kiss the frog a fairy tale on roller skates",
+"p": "Küss den Frosch ein Märchen auf Rollschuhen"
 },
 "Lancierung der Kampagne \"go offline\"": {
 "e": "Launch of the campaign \"go offline\"",
@@ -5831,6 +5847,14 @@
 "e": "Way Service - 2nd Class",
 "p": "Weggottesdienst - 2. Klasse"
 },
+"Weihnachten & Krippen": {
+"e": "Christmas & Cribs",
+"p": "Weihnachten & Krippen"
+},
+"Weihnachten & Krippen - Winterlicht im Glas": {
+"e": "Christmas & Cribs - Winter light in glass",
+"p": "Weihnachten & Krippen - Winterlicht im Glas"
+},
 "Weihnachten für alle": {
 "e": "Christmas for all",
 "p": "Weihnachten für alle"
@@ -5991,6 +6015,10 @@
 "e": "Christmas Market at Münsterhof",
 "p": "Weihnachtsmarkt am Münsterhof"
 },
+"Weihnachtsmarkt im Luberzenareal": {
+"e": "Christmas Market in Luberzenareal",
+"p": "Weihnachtsmarkt im Luberzenareal"
+},
 "Weihnachtsmarkt im Wolfswinkel": {
 "e": "Christmas market in Wolfswinkel",
 "p": "Weihnachtsmarkt im Wolfswinkel"
@@ -6014,6 +6042,10 @@
 "Weihnachtsmärt und Sonntagsverkauf": {
 "e": "Christmas and Sunday sales",
 "p": "Weihnachtsmärt und Sonntagsverkauf"
+},
+"Weihnachtsoratorium für Kinder": {
+"e": "Christmas Oratorio for children",
+"p": "Weihnachtsoratorium für Kinder"
 },
 "Weihnachtssingen": {
 "e": "Christmas singing",
@@ -6179,6 +6211,10 @@
 "e": "Weekly market Dübendorf",
 "p": "Wochenmarkt Dübendorf"
 },
+"Wochenmarkt Pfäffikon ZH": {
+"e": "Weekly market Pfäffikon ZH",
+"p": "Wochenmarkt Pfäffikon ZH"
+},
 "Wohn- & Porzellanmuseum": {
 "e": "Residential & Porcelain Museum",
 "p": "Wohn- & Porzellanmuseum"
@@ -6247,6 +6283,14 @@
 "e": "Magic Park at Zurich Airport",
 "p": "Zauberpark am Flughafen Zürich"
 },
+"Zauberpark mit 01099": {
+"e": "Magic Park with 01099",
+"p": "Zauberpark mit 01099"
+},
+"Zauberpark mit 77 Bombay Street": {
+"e": "Magic Park with 77 Bombay Street",
+"p": "Zauberpark mit 77 Bombay Street"
+},
 "Zauberpark mit Andrew Bond": {
 "e": "Magic Park with Andrew Bond",
 "p": "Zauberpark mit Andrew Bond"
@@ -6263,9 +6307,25 @@
 "e": "Magic Park with Dodo x Glattastic",
 "p": "Zauberpark mit Dodo x Glattastic"
 },
+"Zauberpark mit Eileen Alister": {
+"e": "Magic Park with Eileen Alister",
+"p": "Zauberpark mit Eileen Alister"
+},
+"Zauberpark mit Fabio Landert & Sven Ivanic": {
+"e": "Magic Park with Fabio Landert & Sven Ivanic",
+"p": "Zauberpark mit Fabio Landert & Sven Ivanic"
+},
 "Zauberpark mit GReeeN": {
 "e": "Magic Park with GReeN",
 "p": "Zauberpark mit GReeeN"
+},
+"Zauberpark mit John Newman": {
+"e": "Magic Park with John Newman",
+"p": "Zauberpark mit John Newman"
+},
+"Zauberpark mit Joris": {
+"e": "Magic Park with Joris",
+"p": "Zauberpark mit Joris"
 },
 "Zauberpark mit Kids Disco by Papagallo": {
 "e": "Magic Park with Kids Disco by Papagallo",
@@ -6278,6 +6338,10 @@
 "Zauberpark mit Kunz": {
 "e": "Magic Park with Kunz",
 "p": "Zauberpark mit Kunz"
+},
+"Zauberpark mit Loco Escrito": {
+"e": "Magic Park with Loco Escrito",
+"p": "Zauberpark mit Loco Escrito"
 },
 "Zauberpark mit Lunik (ZKB Night)": {
 "e": "Magic Park with Lunik (ZKB Night)",
