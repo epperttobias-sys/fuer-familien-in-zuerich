@@ -1,21 +1,54 @@
 {
- "q-kindaling": {
-  "name": "kindaling (Familienanlässe privater Anbieter)",
+ "q-localcities": {
+  "name": "localcities.ch (Vereine, Höfe, Märkte)",
   "bezirk": "Quellen",
-  "domain": "www.kindaling.de",
-  "system": "kindaling",
+  "domain": "www.localcities.ch",
+  "system": "localcities",
   "quelle": true,
-  "delay": 1200,
-  "paths": [
-   "/veranstaltungen/zuerich",
-   "/tiere-natur/zuerich",
-   "/feste/zuerich",
-   "/weihnachtsmaerkte/zuerich",
-   "/kindertheater-shows/zuerich"
-  ],
+  "delay": 1000,
+  "path": "/de/veranstaltungen/zuerich/609",
+  "radius": "radius_25",
   "days": 60,
-  "maxPages": 12,
-  "skipTags": "#Online-Events",
-  "no": "online|webinar|zoom"
+  "maxPages": 25,
+  "no": "wein|degustation|party|apéro|apero|afterwork|single|ü\\s?\\d0|business|whisky|bier|cocktail|\\bgin\\b|tasting|dinner|senior|firmen|networking|vernissage|lesung für erwachsene|krimi-?dinner|speed.?dating|techno|club\\b|dj\\b|konferenz|60\\s?\\+|konzert|krimi|lesung|swissmas|singers|opus|orchester|\\bchor\\b|gottesdienst|familiengärten|weindegu|kunstmarkt|verkauf\\b|sunntigsverchauf|sonntagsverkauf|familiengärten",
+  "cats": [
+   {
+    "id": 3,
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend|chilbi|fest\\b|fäscht|märt\\b|markt|flohmi|flohmarkt|weihnacht|wienacht|advent|umzug|fasnacht|jahrmarkt|lichter|dorffest|erntedank|kürbis|hof\\b|bazar|basar",
+    "pages": 90
+   },
+   {
+    "id": 47,
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend|chilbi|fest\\b|fäscht|märt\\b|markt|flohmi|flohmarkt|weihnacht|wienacht|advent|umzug|fasnacht|jahrmarkt|lichter|dorffest|erntedank|kürbis|hof\\b|bazar|basar",
+    "pages": 30
+   },
+   {
+    "id": 7,
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend",
+    "pages": 40
+   },
+   {
+    "id": 987,
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend",
+    "pages": 25
+   },
+   {
+    "id": 1147,
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend",
+    "pages": 25
+   }
+  ],
+  "local": [
+   {
+    "path": "/de/veranstaltungen/langnau-am-albis/377",
+    "venue": "Wildnispark|Tierpark Langenberg|Sihlwald",
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend"
+   },
+   {
+    "path": "/de/veranstaltungen/horgen/625",
+    "venue": "Wildnispark|Sihlwald",
+    "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend"
+   }
+  ]
  }
 }
