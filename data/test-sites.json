@@ -1,1 +1,21 @@
-{}
+{
+ "q-kindaling": {
+  "name": "kindaling (Familienanlässe privater Anbieter)",
+  "bezirk": "Quellen",
+  "domain": "www.kindaling.de",
+  "system": "kindaling",
+  "quelle": true,
+  "delay": 1200,
+  "paths": [
+   "/veranstaltungen/zuerich",
+   "/tiere-natur/zuerich",
+   "/feste/zuerich",
+   "/weihnachtsmaerkte/zuerich",
+   "/kindertheater-shows/zuerich"
+  ],
+  "days": 60,
+  "maxPages": 12,
+  "skipTags": "#Online-Events",
+  "no": "online|webinar|zoom"
+ }
+}

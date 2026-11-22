@@ -571,6 +571,56 @@ export const SYSTEMS = {
     return items;
   },
 
+  // kindaling.de/…/zuerich: Kinder- und Familienanlässe, die private Anbieter selbst eintragen. Liste nach Tagen gruppiert
+  // («Mittwoch, 25. November»), jede Karte mit Titel, Anbieter, Ort, Zeit und Alter. Detailseite liefert den Link zum Anbieter.
+  async kindaling(site, get, cache, code) {
+    const base = "https://www.kindaling.de", items = [], seen = new Set(), now = new Date();
+    const MON = { januar: 1, februar: 2, märz: 3, maerz: 3, april: 4, mai: 5, juni: 6, juli: 7, august: 8, september: 9, oktober: 10, november: 11, dezember: 12 };
+    const until = new Date(Date.now() + (site.days ?? 60) * 864e5).toISOString().slice(0, 10);
+    const NO = new RegExp(site.no || "$^", "i"), places = new Map();
+    for (const path of site.paths) {
+      let last = "";
+      for (let p = 1; p <= (site.maxPages ?? 15); p++) {
+        const html = await get(`${base}${path}${p > 1 ? `?page=${p}` : ""}`);
+        const parts = html.split(/<div class="activity-list__activities__container-title">/).slice(1);
+        if (!parts.length) break;
+        for (const part of parts) {
+          const h = part.match(/^\s*\w+,\s*(\d{1,2})\.\s*([A-Za-zäÄ]+)/); if (!h) continue;
+          const mo = MON[h[2].toLowerCase()]; if (!mo) continue;
+          let y = now.getFullYear(); if (mo < now.getMonth() + 1 - 1) y++;
+          const d = `${y}-${String(mo).padStart(2, "0")}-${String(h[1]).padStart(2, "0")}`; last = d;
+          for (const c of part.matchAll(/<a id="search-result-cta-(\d+)" href="([^"]+)"[\s\S]*?<\/a>/g)) {
+            const [card, id, href] = c, txt = s => decode(strip(s || "")).replace(/\s+/g, " ").trim();
+            const name = txt((card.match(/activiti__title">([\s\S]*?)<\/span>/) || [])[1]);
+            if (!name || NO.test(name) || seen.has(id + d)) continue;
+            seen.add(id + d);
+            const prov = txt((card.match(/text_provider">([\s\S]*?)<\/div>/) || [])[1]);
+            const place = txt((card.match(/activiti__address">[\s\S]*?<span>([\s\S]*?)<\/span>/) || [])[1]);
+            const clock = txt((card.match(/icon_clock[\s\S]*?<span>([\s\S]*?)<\/span>/) || [])[1]);
+            const ag = txt((card.match(/activiti__age">[\s\S]*?<span>([\s\S]*?)<\/span>/) || [])[1]).match(/(\d{1,2})\s*-\s*(\d{1,2})/);
+            const tags = [...card.matchAll(/category-tag">([^<]*)</g)].map(m => decode(m[1]).trim()).join(" ");
+            if (site.skipTags && new RegExp(site.skipTags, "i").test(tags)) continue;
+            const t = clock.match(/(\d{1,2}):(\d{2})(?:\s*-\s*(\d{1,2}):(\d{2}))?/);
+            items.push({ id: `kd${id}-${d}`, name, von: d, bis: d, place, prov, url: base + href, detailKey: `kd${id}`,
+              time: t ? `${t[1].padStart(2, "0")}.${t[2]}${t[3] ? ` - ${t[3].padStart(2, "0")}.${t[4]}` : ""}` : "",
+              hint: ag && +ag[1] <= 12 ? `${ag[1]} bis ${ag[2]} Jahre` : "" });
+          }
+        }
+        if (last > until) break;
+      }
+    }
+    const out = [];
+    for (const ev of items) {
+      // «Zürich Oerlikon / Seebach» → Zürich; sonst Ort über die Gemeindesuche (fällt weg, wenn ausserhalb des Kantons)
+      const key = ev.place.split(/\s*\/\s*/)[0];
+      if (!places.has(key)) places.set(key, gemeindeByName(key.split(" ")[0]) || gemeindeByName(key) || await gemeindeForAddress(key, get, cache, `${code}:`));
+      const g = places.get(key); if (!g) continue;
+      out.push({ id: ev.id, g, name: ev.name, von: ev.von, bis: ev.bis, ort: ev.place, veranstalter: ev.prov, kategorie: "14", hint: ev.hint,
+        url: ev.url, detailKey: ev.detailKey, time: ev.time });
+    }
+    return out;
+  },
+
   // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda aller Pfarreien, Rubrik «Kinder und Familien», Seite für Seite
   // («Mehr Veranstaltungen laden»). Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
   async forum(site, get, cache, code) {
