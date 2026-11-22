@@ -548,7 +548,7 @@ export const SYSTEMS = {
       for (let p = 1; p <= (site.maxPages ?? 25); p++) {
         const html = await get(`${base}${site.path}?category_id%5B%5D=${cat.id}&radius=${site.radius || "radius_25"}${p > 1 ? `&page=${p}` : ""}`);
         const cards = [...html.matchAll(/<div class="row teaser[^"]*"[\s\S]*?href="(\/de\/veranstaltungen\/[^"?]+\/(\d+))\?[^"]*?eventDateTime=(\d\d)\.(\d\d)\.(\d{4})(?:%20%20(\d\d:\d\d)(?:%20-%20(\d\d:\d\d))?)?[^"]*"[\s\S]*?<h2 class="h3">([\s\S]*?)<\/h2>[\s\S]*?<p>[^<]*<\/p>\s*<p>([^<]*)<\/p>/g)];
-        if (process.env.DEBUG_LC) console.log("lc", cat.id, p, html.length, cards.length, byId.size);
+        if (process.env.DEBUG_LC) { console.log("lc", cat.id, p, html.length, cards.length, byId.size); if (!cards.length) { const i = html.indexOf("teaser"); console.log(JSON.stringify(html.slice(i - 200, i + 2500))); } }
         if (!cards.length) break;
         let last = "";
         for (const m of cards) {
