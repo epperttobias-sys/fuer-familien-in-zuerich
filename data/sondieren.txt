@@ -1,1 +1,14 @@
-https://www.localcities.ch/de/veranstaltungen/zuerich/609 | html
+https://www.kindaling.de/robots.txt
+https://www.kindaling.de/veranstaltungen/zuerich | html
+https://www.kindaling.de/tiere-natur/zuerich | html
+https://www.wildnispark.ch/robots.txt
+https://www.wildnispark.ch/veranstaltungen | html
+https://kinderzirkus.ch/robots.txt
+https://kinderzirkus.ch/vorstellungen | html
+https://www.juckerfarm.ch/robots.txt
+https://www.juckerfarm.ch/hoferlebnis/ | html
+https://www.zoo.ch/robots.txt
+https://www.zoo.ch/de/veranstaltungen | html
+https://www.erlebnishof-tuefi.ch/ | html
+https://www.stockengut.ch/ | html
+https://www.wildpark-bruderhaus.ch/ | html
