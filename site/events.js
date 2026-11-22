@@ -1,5 +1,5 @@
 window.FAMILIENAGENDA = {
- "stand": "2026-11-22",
+ "stand": "2026-11-23",
  "gemeinden": {
   "affolternamalbis": {
    "name": "Affoltern am Albis",
@@ -636,7 +636,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "www.turbenthal.ch",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   "nuerensdorf": {
    "name": "Nürensdorf",
@@ -796,35 +796,35 @@ window.FAMILIENAGENDA = {
    "name": "Meilen",
    "bezirk": "Meilen",
    "domain": "www.meilen.ch",
-   "ok": true,
-   "count": 17
+   "ok": false,
+   "count": 16
   },
   "a": {
    "name": "Männedorf",
    "bezirk": "Meilen",
    "domain": "www.maennedorf.ch",
-   "ok": true,
+   "ok": false,
    "count": 21
   },
   "t": {
    "name": "Uetikon am See",
    "bezirk": "Meilen",
    "domain": "www.uetikonamsee.ch",
-   "ok": true,
-   "count": 7
+   "ok": false,
+   "count": 6
   },
   "z": {
    "name": "Zollikon",
    "bezirk": "Meilen",
    "domain": "www.zollikon.ch",
-   "ok": true,
+   "ok": false,
    "count": 1
   },
   "k": {
    "name": "Zumikon",
    "bezirk": "Meilen",
    "domain": "www.zumikon.ch",
-   "ok": true,
+   "ok": false,
    "count": 3
   },
   "ba": {
@@ -1102,12 +1102,19 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 5
   },
+  "q-kindaling": {
+   "name": "kindaling (Familienanlässe privater Anbieter)",
+   "bezirk": "Quellen",
+   "domain": "www.kindaling.de",
+   "ok": true,
+   "count": 48
+  },
   "q-localcities": {
    "name": "localcities.ch (Vereine, Höfe, Märkte)",
    "bezirk": "Quellen",
    "domain": "www.localcities.ch",
-   "ok": true,
-   "count": 217
+   "ok": false,
+   "count": 150
   }
  },
  "events": [
@@ -2499,24 +2506,6 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.seegraeben.ch/_rte/anlass/7739575",
    "w": "https://www.samichlaus-bus.ch/besuchen"
-  },
-  {
-   "gemeinden": [
-    "turbenthal"
-   ],
-   "id": "turbenthal-7683-8263",
-   "name": "Stärnebitzgi - Figurentheater Winterthur",
-   "von": "2026-11-22",
-   "bis": "2026-11-22",
-   "ort": "Sekundarschulhaus Breiti, Singsaal",
-   "veranstalter": "Gemeinde- und Schulbibliothek Turbenthal",
-   "time": "",
-   "age": {
-    "min": 5,
-    "max": 12,
-    "label": "ab 5 Jahren"
-   },
-   "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7683/eventdate/8263"
   },
   {
    "gemeinden": [
@@ -9815,7 +9804,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-29",
    "ort": "Bauma",
    "veranstalter": "",
-   "time": "10.30 - 12.00",
+   "time": "",
    "age": null,
    "url": "https://dvzo.ch/samichlaus-express/"
   },
