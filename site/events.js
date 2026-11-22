@@ -1107,7 +1107,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Quellen",
    "domain": "www.localcities.ch",
    "ok": true,
-   "count": 216
+   "count": 240
+  },
+  "q-kindaling": {
+   "name": "kindaling (Familienanlässe privater Anbieter)",
+   "bezirk": "Quellen",
+   "domain": "www.kindaling.de",
+   "ok": true,
+   "count": 48
   }
  },
  "events": [
@@ -1905,6 +1912,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "kilchberg"
+   ],
+   "id": "kilchberg-lc4618663",
+   "q": "q-localcities",
+   "name": "Familie Mann-Zimmer",
+   "von": "2026-11-22",
+   "bis": "2026-12-02",
+   "ort": "Conrad Ferdinand Meyer-Haus, 8802 Kilchberg ZH",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/kilchberg-zh/393/4618663"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7753735",
@@ -1925,20 +1951,21 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-zm27311",
-   "q": "q-museen",
+   "id": "zuerich-lc4890767",
+   "q": "q-localcities",
    "name": "Familientag im Löwenbräukunst",
    "von": "2026-11-22",
    "bis": "2026-11-22",
-   "ort": "Kunsthalle Zürich",
-   "veranstalter": "Kunsthalle Zürich",
+   "ort": "Kunsthalle Zürich, 8005 Zürich",
+   "veranstalter": "",
    "time": "11.00 - 18.00",
    "age": {
     "min": 0,
     "max": 12,
     "label": "Familien, alle Alter"
    },
-   "url": "https://zuercher-museen.ch/museen/kunsthalle-zuerich/familientag-im-loewenbraeukunst"
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4890767",
+   "w": "https://www.lowenbraukunst.ch/de/events/familientag-im-loewenbraeukunst-ein-tag-fuer-alle"
   },
   {
    "gemeinden": [
@@ -1969,6 +1996,46 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4904637",
    "w": "https://sonne.ch/restaurants-und-bar/winterzaubergarten/"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4807793",
+   "q": "q-localcities",
+   "name": "Kerzenziehen",
+   "von": "2026-11-22",
+   "bis": "2026-11-27",
+   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "13.30 - 17.30",
+   "age": {
+    "min": 3,
+    "max": 7,
+    "label": "3 bis 7 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807793",
+   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
+  },
+  {
+   "gemeinden": [
+    "k"
+   ],
+   "id": "k-lc4902525",
+   "q": "q-localcities",
+   "name": "Kerzenziehen",
+   "von": "2026-11-22",
+   "bis": "2026-11-27",
+   "ort": "8126 Zumikon",
+   "veranstalter": "",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zumikon/441/4902525",
+   "w": "https://www.zumikon.ch/_rte/anlass/7774324"
   },
   {
    "gemeinden": [
@@ -2050,6 +2117,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "kloten"
+   ],
+   "id": "kloten-lc4906753",
+   "q": "q-localcities",
+   "name": "Kerzenziehen 2026",
+   "von": "2026-11-22",
+   "bis": "2026-11-26",
+   "ort": "VFK Räumlichkeiten, 8302 Kloten",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4906753",
+   "w": "http://www.vfk-kloten.ch"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7784782",
@@ -2078,6 +2161,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4869465",
    "w": "https://www.kerzenziehen-glaubten.ch"
+  },
+  {
+   "gemeinden": [
+    "hi"
+   ],
+   "id": "hi-lc4909593",
+   "q": "q-localcities",
+   "name": "Kerzenziehen Hittnau",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Schule Hermetsbüel , 8335 Hittnau",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/hittnau/437/4909593",
+   "w": "https://www.frauenverein-hittnau.ch/"
   },
   {
    "gemeinden": [
@@ -2125,6 +2224,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4912705",
+   "q": "q-localcities",
+   "name": "Kinderkunstkurs: Picasso – Gesichter von vorne und von der Seite",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Studio Arta, 8044 Zürich",
+   "veranstalter": "",
+   "time": "14.45 - 17.00",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4912705",
+   "w": "https://www.studioarta.ch/service-page/pablo-picasso-formzerlegung-und-perspektivwechsel"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33240-0",
@@ -2140,6 +2259,25 @@ window.FAMILIENAGENDA = {
     "label": "ab 5 Jahren"
    },
    "url": "https://www.kinderthur.ch/events/kindermusical-schellenursli-6/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd31970-2026-11-22",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
   },
   {
    "gemeinden": [
@@ -2176,6 +2314,26 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-lc4917943",
+   "q": "q-localcities",
+   "name": "Löwenbräukunst Familientag",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Löwenbräukunst, 8005 Zürich",
+   "veranstalter": "",
+   "time": "11.00 - 18.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4917943",
+   "w": "https://lowenbraukunst.ch/de/events/familientag-im-loewenbraeukunst-ein-tag-fuer-alle"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-lc4697731",
    "q": "q-localcities",
    "name": "MÄDELSFLOHMARKT - Flohmi von und für FRAUEN - in ZÜRICH",
@@ -2187,6 +2345,22 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4697731",
    "w": "https://www.maedelsflohmarkt.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4830965",
+   "q": "q-localcities",
+   "name": "Mario und der Zauberer",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Theater Rigiblick, 8044 Zürich",
+   "veranstalter": "",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4830965",
+   "w": "https://www.theater-rigiblick.ch/spielplan"
   },
   {
    "gemeinden": [
@@ -2435,6 +2609,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2026-11-22",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
+  },
+  {
+   "gemeinden": [
     "sg"
    ],
    "id": "sg-lc4904259",
@@ -2466,6 +2660,26 @@ window.FAMILIENAGENDA = {
     "label": "ab 12 Jahren"
    },
    "url": "https://www.kinderthur.ch/events/wir-kreieren-zusammen-einen-weihnachtszug/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4817747",
+   "q": "q-localcities",
+   "name": "Workshop für Familien «Romeo und Julia»",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Opernhaus Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.30 - 17.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4817747",
+   "w": "https://www.opernhaus.ch/spielplan/kalendarium/familien-workshop-romeo-und-julia/"
   },
   {
    "gemeinden": [
@@ -2769,7 +2983,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-28",
    "ort": "Perle",
    "veranstalter": "Ref. Kirche Hinwil",
-   "time": "",
+   "time": "15.00 - 19.00",
    "age": null,
    "url": "https://www.hinwil.ch/_rte/anlass/7695136",
    "w": "https://www.ref-hinwil.ch"
@@ -3351,6 +3565,26 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen-5/"
+  },
+  {
+   "gemeinden": [
+    "langnauamalbis"
+   ],
+   "id": "langnauamalbis-lc4659137",
+   "q": "q-localcities",
+   "name": "Mit dem Tierpfleger zum Steinbock",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "Wildnispark Zürich, 8135 Langnau am Albis",
+   "veranstalter": "",
+   "time": "17.00 - 18.30",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/langnau-am-albis/377/4659137",
+   "w": "https://angebote.paerke.ch/de/subscription/subscriber/51869"
   },
   {
    "gemeinden": [
@@ -4546,6 +4780,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2026-11-25",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "rheinau"
    ],
    "id": "rheinau-7200890",
@@ -4558,6 +4812,26 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.rheinau.ch/_rte/anlass/7200890",
    "w": "http://bibliothek-rheinau.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4856803",
+   "q": "q-localcities",
+   "name": "Kreativer Nachmittag mit Robotik und Coding für Kinder",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "PBZ Pestalozzi-Bibliothek Affoltern, 8046 Zürich",
+   "veranstalter": "",
+   "time": "14.30",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "ab 7 Jahren"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4856803",
+   "w": "https://www.pbz.ch/event/kreativer-nachmittag-mit-robotik-und-coding-fuer-kinder-13/"
   },
   {
    "gemeinden": [
@@ -4778,6 +5052,46 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.rafz.ch/_rte/anlass/6949474",
    "w": "https://www.bibliotheken-zh.ch/rafz/"
+  },
+  {
+   "gemeinden": [
+    "kloten"
+   ],
+   "id": "kloten-lc4794769",
+   "q": "q-localcities",
+   "name": "Salto Kaleido - Familientag",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Parkplatz Holberg, 8302 Kloten",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4794769",
+   "w": "https://www.ticketcorner.ch/artist/salto/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
+    "kloten"
+   ],
+   "id": "kloten-lc4911485",
+   "q": "q-localcities",
+   "name": "SHOWTICKET – Familientag",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Parkplatz Holberg, 8302 Kloten",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4911485",
+   "w": "https://www.ticketcorner.ch/artist/salto/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
   },
   {
    "gemeinden": [
@@ -5051,6 +5365,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4807795",
+   "q": "q-localcities",
+   "name": "Eltern-Kind-Kerzenziehen",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "15.15 - 17.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807795",
+   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006411",
@@ -5066,6 +5400,22 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-11-26/"
+  },
+  {
+   "gemeinden": [
+    "wz"
+   ],
+   "id": "wz-lc4921937",
+   "q": "q-localcities",
+   "name": "Erkältung? Selbst behandeln. – Vortrag mit Mitmachen",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Primarschule Feld, 8623 Wetzikon ZH",
+   "veranstalter": "",
+   "time": "19.00 - 20.15",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/wetzikon-zh/373/4921937",
+   "w": "https://www.hermiz.ch/event-details/erkaltung-selbst-behandeln-wetzikon"
   },
   {
    "gemeinden": [
@@ -5102,6 +5452,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604797"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2026-11-26",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -6335,6 +6705,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "langnauamalbis"
+   ],
+   "id": "langnauamalbis-lc4908883",
+   "q": "q-localcities",
+   "name": "Nächtliche Wildnis mit der Wärmebildkamera",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Wildnispark Zürich, 8135 Langnau am Albis",
+   "veranstalter": "",
+   "time": "18.45 - 22.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "12 bis 16 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/langnau-am-albis/377/4908883",
+   "w": "https://wanderidee.ch/de/wanderung/naechtliche-wildnis-mit-der-waermebildkamera"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7748305",
@@ -7401,6 +7791,22 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.pfaeffikon.ch/event/familienverein-am-weihnachtsmarkt/"
+  },
+  {
+   "gemeinden": [
+    "adliswil"
+   ],
+   "id": "adliswil-lc4916977",
+   "q": "q-localcities",
+   "name": "Festliche Klänge mit dem Kinder- und Jugendchor der Musikschule Horgen",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Ref. Kirche Adliswil, 8134 Adliswil",
+   "veranstalter": "",
+   "time": "17.00 - 18.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/adliswil/361/4916977",
+   "w": "https://eventfrog.ch/en/p/classical-music-operas/classical-music/adventskonzert-festliche-klaenge-adliswil-7515000493652882618.html"
   },
   {
    "gemeinden": [
@@ -8951,6 +9357,22 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "horgen"
+   ],
+   "id": "horgen-lc4916985",
+   "q": "q-localcities",
+   "name": "Festliche Klänge mit dem Kinder- und Jugendchor der Musikschule Horgen",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Evang.-ref. Kirche Horgen, 8810 Horgen",
+   "veranstalter": "",
+   "time": "17.00 - 18.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/horgen/625/4916985",
+   "w": "https://eventfrog.ch/en/p/classical-music-operas/classical-music/adventskonzert-festliche-klaenge-horgen-7515003901151571413.html"
+  },
+  {
+   "gemeinden": [
     "zell"
    ],
    "id": "zell-7615879",
@@ -9156,6 +9578,25 @@ window.FAMILIENAGENDA = {
    "time": "14.10",
    "age": null,
    "url": "https://www.forum-magazin.ch/hrvatska-misija/agenda/20261129-krunica-334012/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd31970-2026-11-29",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
   },
   {
    "gemeinden": [
@@ -9584,6 +10025,26 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7839544",
    "w": "https://www.schule-ilef.ch/ferienplan"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2026-11-29",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -11562,6 +12023,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2026-12-02",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "wettswilamalbis"
    ],
    "id": "wettswilamalbis-4087-9926",
@@ -12445,6 +12926,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604800"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2026-12-03",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -16710,6 +17211,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd31970-2026-12-06",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
+  },
+  {
+   "gemeinden": [
     "ellikonanderthur"
    ],
    "id": "ellikonanderthur-596-884",
@@ -17267,6 +17787,26 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4875647",
    "w": "https://classicpoint.net/weihnachtssingen/147999"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2026-12-06",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -18738,6 +19278,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kd46654-2026-12-09",
+   "q": "q-kindaling",
+   "name": "Der Nussknacker: Weihnachten im Ballett, Kinderballett",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Winterthur",
+   "veranstalter": "Munich Young Ballet",
+   "time": "18.30",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "4 bis 18 Jahre"
+   },
+   "url": "https://www.kindaling.de/kinderkonzerte/der-nussknacker-weihnachten-im-ballett-kinderballett-gate-27/winterthur",
+   "w": "https://www.ticketino.com/de/Event/Kinderballett-Nussknacker/214421"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7718992",
@@ -19243,6 +19803,26 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4749703",
    "w": "https://www.ticketino.com/de/Event/Kinderballett-Nussknacker/214421"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2026-12-09",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
   },
   {
    "gemeinden": [
@@ -19974,6 +20554,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604803"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2026-12-10",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -21978,6 +22578,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd10330-2026-12-12",
+   "q": "q-kindaling",
+   "name": "Wissenschaftszauber zu Weihnachten",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "X Labs",
+   "time": "",
+   "age": {
+    "min": 8,
+    "max": 12,
+    "label": "8 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/kreatives/wissenschaftszauber-zu-weihnachten/zuerich-albisrieden",
+   "w": "https://xlabs.ch/en/zurich/workshops/christmas"
+  },
+  {
+   "gemeinden": [
     "b"
    ],
    "id": "b-yoga-fuer-mama-kind-11",
@@ -22735,6 +23355,25 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-kd31970-2026-12-13",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-fa409218",
    "q": "q-kath",
    "name": "Licht und Adventslieder",
@@ -22983,6 +23622,26 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://wemadi.ch/attraktionen"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2026-12-13",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -24343,6 +25002,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2026-12-16",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7766005",
@@ -25003,6 +25682,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604806"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2026-12-17",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -26425,6 +27124,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd10330-2026-12-19",
+   "q": "q-kindaling",
+   "name": "Wissenschaftszauber zu Weihnachten",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "X Labs",
+   "time": "",
+   "age": {
+    "min": 8,
+    "max": 12,
+    "label": "8 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/kreatives/wissenschaftszauber-zu-weihnachten/zuerich-albisrieden",
+   "w": "https://xlabs.ch/en/zurich/workshops/christmas"
+  },
+  {
+   "gemeinden": [
     "benken"
    ],
    "id": "benken-7638769",
@@ -26772,7 +27491,11 @@ window.FAMILIENAGENDA = {
    "ort": "Obere Mühle",
    "veranstalter": "Reisetheater GmbH",
    "time": "15.00 - 16.45",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
    "url": "https://www.duebendorf.ch/_rte/anlass/7714132",
    "w": "https://www.reisetheater.ch/"
   },
@@ -26837,6 +27560,26 @@ window.FAMILIENAGENDA = {
    "time": "16.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/waedenswil/agenda/20261220-weihnachtsweg-400397/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2026-12-20",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -27109,6 +27852,26 @@ window.FAMILIENAGENDA = {
    "time": "09.00 - 17.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=294"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2026-12-23",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2026-12-23",
+   "bis": "2026-12-23",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
   },
   {
    "gemeinden": [
@@ -27690,6 +28453,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.forum-magazin.ch/hombrechtikon/agenda/20261224-familiengottesdienst-mit-krippenspiel-weihnachten-gemeinsam-erleben-402929/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2026-12-24",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -28723,6 +29506,26 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-kd32126-2026-12-27",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2026-12-27",
+   "bis": "2026-12-27",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-299",
    "name": "Ausstellung: Vernetzte Natur – Lebenswerte Stadt",
    "von": "2026-12-28",
@@ -28883,6 +29686,26 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-kd9718-2026-12-30",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2026-12-30",
+   "bis": "2026-12-30",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-302",
    "name": "Ausstellung: Vernetzte Natur – Lebenswerte Stadt",
    "von": "2026-12-31",
@@ -28912,6 +29735,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.saltoshow.ch/familientage"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2026-12-31",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2026-12-31",
+   "bis": "2026-12-31",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -29258,6 +30101,26 @@ window.FAMILIENAGENDA = {
    "time": "11.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/bassersdorf/agenda/20270103-sternsinger-gottesdienst-404681/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2027-01-03",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2027-01-03",
+   "bis": "2027-01-03",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -29721,6 +30584,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2027-01-06",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "stallikon",
     "wettswilamalbis"
    ],
@@ -29920,6 +30803,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604809"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2027-01-07",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -30892,6 +31795,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd31970-2027-01-10",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33350-0",
@@ -31084,6 +32006,26 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 11.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/von-mexico-ins-weihnachtsgebaeck.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2027-01-10",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -31592,6 +32534,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2027-01-13",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-5478352",
@@ -31813,6 +32775,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604812"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2027-01-14",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2027-01-14",
+   "bis": "2027-01-14",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -32441,6 +33423,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd49782-2027-01-17",
+   "q": "q-kindaling",
+   "name": "Familien-Tanzworkshop: Breaking",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "Zürich Wipkingen",
+   "veranstalter": "Tanzhaus Zürich",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/tanzen/familien-tanzworkshop-breaking/zuerich-wipkingen"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7738774",
@@ -32501,6 +33502,25 @@ window.FAMILIENAGENDA = {
    "time": "15.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/ukrainische-mission/agenda/20270117-kinderkatechese-334462/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd31970-2027-01-17",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
   },
   {
    "gemeinden": [
@@ -32664,6 +33684,46 @@ window.FAMILIENAGENDA = {
    "time": "11.00",
    "age": null,
    "url": "https://theater-purpur.ch/theater"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2027-01-17",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd50488-2027-01-17",
+   "q": "q-kindaling",
+   "name": "WOW! Profesora und Professor Bummbastic",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "Zürich Kreis 4/5",
+   "veranstalter": "Profesora & Professor Bummbastic",
+   "time": "",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.kindaling.de/kindertheater-shows/wow-profesora-und-professor-bummbastic/zuerich-kreis-4-5",
+   "w": "http://www.bummbastic.ch/daten"
   },
   {
    "gemeinden": [
@@ -33149,6 +34209,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2027-01-20",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7692571",
@@ -33413,6 +34493,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604815"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2027-01-21",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -34250,6 +35350,25 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-kd31970-2027-01-24",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2027-01-24",
+   "bis": "2027-01-24",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-rte/kalender/kunterwunderbunt-rot-rot-rot-2061301/2027-01-24Kunterwund",
    "q": "q-tonhalle",
    "name": "Kunterwunderbunt: Rot, Rot, Rot",
@@ -34342,6 +35461,26 @@ window.FAMILIENAGENDA = {
    "time": "09.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/dielsdorf/agenda/20270124-vorstellungsgottesdienst-der-erstkommunikanten-mit-tauferneuerung-386247/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2027-01-24",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2027-01-24",
+   "bis": "2027-01-24",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -34721,6 +35860,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2027-01-27",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2027-01-27",
+   "bis": "2027-01-27",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "laufenuhwiesen"
    ],
    "id": "laufenuhwiesen-1098-1514",
@@ -34859,6 +36018,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604818"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2027-01-28",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -35684,6 +36863,25 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-kd31970-2027-01-31",
+   "q": "q-kindaling",
+   "name": "Kunstkurse für Kinder in Zürich – Malen, Gestalten & Kunstgeschichte",
+   "von": "2027-01-31",
+   "bis": "2027-01-31",
+   "ort": "Zürich Fluntern/Hottingen/Hirslanden",
+   "veranstalter": "STUDIO ARTA",
+   "time": "",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "7 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/malen-basteln/kunstkurse-fuer-kinder-in-zuerich-malen-gestalten-kunstgeschichte/zuerich-fluntern-hottingen-hirslanden"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-zm27541",
    "q": "q-museen",
    "name": "Offenes Atelier für Alle",
@@ -35732,6 +36930,26 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.uster.ch/_rte/anlass/7818865",
    "w": "https://www.kg-greifensee.ch/verso-il-sole-30-01-27"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2027-01-31",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2027-01-31",
+   "bis": "2027-01-31",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
@@ -36262,6 +37480,26 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd9718-2027-02-03",
+   "q": "q-kindaling",
+   "name": "Kindertreff",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Zürich Oerlikon / Seebach / Affoltern",
+   "veranstalter": "GZ Hirzenbach",
+   "time": "14.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "3 bis 12 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
+   "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7722808",
@@ -36423,6 +37661,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604821"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2027-02-04",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -37416,6 +38674,26 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7830814",
    "w": "https://www.turbinetheater.ch/event/sophia/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd32126-2027-02-07",
+   "q": "q-kindaling",
+   "name": "Wenn die Trommel ruft...",
+   "von": "2027-02-07",
+   "bis": "2027-02-07",
+   "ort": "Zürich Seefeld",
+   "veranstalter": "NONAM",
+   "time": "14.00",
+   "age": {
+    "min": 6,
+    "max": 10,
+    "label": "6 bis 10 Jahre"
+   },
+   "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
+   "w": "http://www.nonam.ch"
   },
   {
    "gemeinden": [
