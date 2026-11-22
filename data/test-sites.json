@@ -7,9 +7,9 @@
   "quelle": true,
   "delay": 1100,
   "path": "/de/veranstaltungen/zuerich/609",
-  "radius": "radius_50",
+  "radius": "radius_25",
   "days": 60,
-  "maxPages": 3,
+  "maxPages": 25,
   "no": "wein|degustation|party|apéro|apero|afterwork|single|ü\\s?\\d0|business|whisky|bier|cocktail|\\bgin\\b|tasting|dinner|senior|firmen|networking|vernissage|lesung für erwachsene|krimi-?dinner|speed.?dating|techno|club\\b|dj\\b|konferenz",
   "cats": [
    {
