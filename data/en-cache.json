@@ -2631,6 +2631,10 @@
 "e": "Holy Mass with nativity play, huts",
 "p": "Hl. Messe mit Krippenspiel, Hütten"
 },
+"Hl. Messe mit Vorstellung Fastenaktionsprojekt": {
+"e": "Holy Mass with Presentation Fasting Project",
+"p": "Hl. Messe mit Vorstellung Fastenaktionsprojekt"
+},
 "Hl. Messe, Chinderchile, St. Marien (Gr. Saal)": {
 "e": "Holy Mass, Chinderchile, St. Mary (Gr. Hall)",
 "p": "Hl. Messe, Chinderchile, St. Marien (Gr. Saal)"
@@ -3838,6 +3842,10 @@
 "Midnight Sports Töss am Samstag": {
 "e": "Midnight Sports Töss on Saturday",
 "p": "Midnight Sports Töss am Samstag"
+},
+"Mimis Weihnachtsmarkt 2026": {
+"e": "Mimis Christmas Market 2026",
+"p": "Mimis Weihnachtsmarkt 2026"
 },
 "Mini Treff Kinonachmittag": {
 "e": "Mini meeting cinema afternoon",
@@ -5363,6 +5371,22 @@
 "e": "From Mexico to Christmas cookies",
 "p": "Von Mexico ins Weihnachtsgebäck"
 },
+"Vondue with Pigs 14.2.2027": {
+"e": "Vondue with Pigs 14.2.2027",
+"p": "Vondue with Pigs 14.2.2027"
+},
+"Vondue with Pigs 19.12.2026": {
+"e": "Vondue with Pigs 19.12.2026",
+"p": "Vondue with Pigs 19.12.2026"
+},
+"Vondue with Pigs 28.11.2026": {
+"e": "Vondue with Pigs 28.11.2026",
+"p": "Vondue with Pigs 28.11.2026"
+},
+"Vondue with Pigs 9.1.2027": {
+"e": "Vondue with Pigs 9.1.2027",
+"p": "Vondue with Pigs 9.1.2027"
+},
 "Vorlesenachmittag im Purzelhuus": {
 "e": "Reading afternoon in Purzelhuus",
 "p": "Vorlesenachmittag im Purzelhuus"
@@ -6063,6 +6087,10 @@
 "e": "Ecum. Advent celebration, Teufenbachweiher",
 "p": "Ökum. Adventsfeier, Teufenbachweiher"
 },
+"Ökum. Chinderfiir": {
+"e": "Ecum. Children's party",
+"p": "Ökum. Kinderfeier"
+},
 "Ökum. Fasnachtsgottesdienst in Oberstammheim": {
 "e": "Ecum. Carnival service in Oberstammheim",
 "p": "Ökum. Fasnachtsgottesdienst in Oberstammheim"
@@ -6090,6 +6118,10 @@
 "Ökumenischer Kindergottesdienst": {
 "e": "Ecumenical Children's Service",
 "p": "Ökumenischer Kindergottesdienst"
+},
+"Ökumenischer Suppensonntag": {
+"e": "Ecumenical Soup Sunday",
+"p": "Ökumenischer Suppensonntag"
 },
 "Ökumenisches Gritibänze": {
 "e": "Ecumenical grit dances",
