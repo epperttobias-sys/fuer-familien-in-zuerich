@@ -513,6 +513,29 @@ export const SYSTEMS = {
     return items;
   },
 
+  // Squarespace-Kalender (viele private Höfe, Ateliers, kleine Bühnen): Listenansicht der Seite lesen. Zu jedem Anlass steht ein
+  // «Google Kalender»-Link mit Titel und genauer Zeit (UTC). ?format=json/ical sind per robots.txt gesperrt und werden nicht benutzt.
+  async squarespace(site, get) {
+    const base = `https://${site.domain}`, html = await get(base + site.page), items = [], seen = new Set();
+    const zh = d => new Date(d).toLocaleString("sv-SE", { timeZone: "Europe/Zurich" });
+    const utc = s => `${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}T${s.slice(9, 11) || "00"}:${s.slice(11, 13) || "00"}:00Z`;
+    let detail = "";
+    const re = new RegExp(`href="(${site.page}/\\d{4}/\\d{1,2}/\\d{1,2}/[^"?#]+)"|href="https?://www\\.google\\.com/calendar/event\\?action=TEMPLATE&(?:amp;)?text=([^&"]*)&(?:amp;)?dates=(\\d{8}(?:T\\d{6}Z)?)/(\\d{8}(?:T\\d{6}Z)?)`, "g");
+    for (const m of html.matchAll(re)) {
+      if (m[1]) { detail = m[1]; continue; }
+      if (!detail || seen.has(detail)) continue;
+      seen.add(detail);
+      const name = decodeURIComponent(m[2].replace(/\+/g, " ")).replace(/\s+/g, " ").trim();
+      if (site.skip && new RegExp(site.skip, "i").test(name)) continue;
+      const allDay = !m[3].includes("T"), s = allDay ? m[3].replace(/(\d{4})(\d\d)(\d\d)/, "$1-$2-$3") : zh(utc(m[3])), e = allDay ? s : zh(utc(m[4]));
+      const von = s.slice(0, 10), bis = e.slice(0, 10) < von ? von : e.slice(0, 10);
+      const hm = t => t.slice(11, 16).replace(":", ".");
+      items.push({ id: "sq" + detail.split("/").pop().slice(-40), g: site.g, name, von, bis, ort: site.ort || "", veranstalter: site.name, kategorie: site.kids ? "14" : "",
+        hint: "", url: base + detail, detailKey: null, time: allDay ? "" : `${hm(s)} - ${hm(e)}`, ...(site.tip ? { tip: true } : {}) });
+    }
+    return items;
+  },
+
   // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda aller Pfarreien, Rubrik «Kinder und Familien», Seite für Seite
   // («Mehr Veranstaltungen laden»). Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
   async forum(site, get, cache, code) {
