@@ -1,2 +1,2 @@
-https://kinderregion.ch/de/veranstaltungen/ | html
-https://kinderregion.ch/de/liste/kindertheater/
+https://www.hof-narr.ch/robots.txt
+https://www.hof-narr.ch/kalender | html
