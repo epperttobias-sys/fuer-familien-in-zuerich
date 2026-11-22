@@ -536,6 +536,40 @@ export const SYSTEMS = {
     return items;
   },
 
+  // localcities.ch: Veranstaltungen, die Vereine, Höfe, Märkte und private Veranstalter selbst erfassen (Daten von guidle).
+  // Liste je Kategorie im Umkreis von Zürich, Seite für Seite; Wiederholungen eines Anlasses werden zu einem Eintrag zusammengefasst.
+  // Gemeinde aus «PLZ Ort» der Karte; Orte ausserhalb des Kantons fallen weg. Vorauswahl über den Titel, damit nur
+  // Familien-Anlässe (und keine Weindegustation) eine Detailseite brauchen.
+  async localcities(site, get, cache, code) {
+    const base = "https://www.localcities.ch", until = new Date(Date.now() + (site.days ?? 60) * 864e5).toISOString().slice(0, 10);
+    const NO = new RegExp(site.no || "$^", "i"), byId = new Map();
+    for (const cat of site.cats) {
+      const want = new RegExp(cat.re, "i");
+      for (let p = 1; p <= (site.maxPages ?? 25); p++) {
+        const html = await get(`${base}${site.path}?category_id%5B%5D=${cat.id}&radius=${site.radius || "radius_25"}${p > 1 ? `&page=${p}` : ""}`);
+        const cards = [...html.matchAll(/<div class="row teaser[^"]*"[\s\S]*?href="(\/de\/veranstaltungen\/[^"?]+\/(\d+))\?[^"]*?eventDateTime=(\d\d)\.(\d\d)\.(\d{4})(?:%20%20(\d\d:\d\d)(?:%20-%20(\d\d:\d\d))?)?[^"]*"[\s\S]*?<h2 class="h3">([\s\S]*?)<\/h2>[\s\S]*?<p>[^<]*<\/p>\s*<p>([^<]*)<\/p>/g)];
+        if (!cards.length) break;
+        let last = "";
+        for (const m of cards) {
+          const [, path, id, dd, mm, yy, t1, t2, rawName, place] = m, d = `${yy}-${mm}-${dd}`; last = d;
+          const name = decode(strip(rawName)).replace(/\s+/g, " ").trim();
+          if (!want.test(name) || NO.test(name)) continue;
+          const ev = byId.get(id);
+          if (ev) { if (d < ev.von) ev.von = d; if (d > ev.bis) ev.bis = d; continue; }
+          byId.set(id, { id: "lc" + id, name, von: d, bis: d, place: decode(place).trim(), url: base + path, time: t1 ? (t2 ? `${t1.replace(":", ".")} - ${t2.replace(":", ".")}` : t1.replace(":", ".")) : "" });
+        }
+        if (last > until) break;
+      }
+    }
+    const items = [];
+    for (const ev of byId.values()) {
+      const g = await gemeindeForAddress(ev.place, get, cache, `${code}:`); if (!g) continue;
+      items.push({ id: ev.id, g, name: ev.name, von: ev.von, bis: ev.bis, ort: ev.place.slice(0, 80), veranstalter: "", kategorie: "14", hint: "",
+        url: ev.url, detailKey: ev.id, time: ev.time, long: true });
+    }
+    return items;
+  },
+
   // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda aller Pfarreien, Rubrik «Kinder und Familien», Seite für Seite
   // («Mehr Veranstaltungen laden»). Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
   async forum(site, get, cache, code) {
