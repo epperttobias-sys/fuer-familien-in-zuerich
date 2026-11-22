@@ -229,84 +229,84 @@ window.FAMILIENAGENDA = {
    "name": "Buchs",
    "bezirk": "Dielsdorf",
    "domain": "www.buchs-zh.ch",
-   "ok": false,
+   "ok": true,
    "count": 3
   },
   "dielsdorf": {
    "name": "Dielsdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.dielsdorf.ch",
-   "ok": false,
+   "ok": true,
    "count": 1
   },
   "daellikon": {
    "name": "Dällikon",
    "bezirk": "Dielsdorf",
    "domain": "www.daellikon.ch",
-   "ok": false,
+   "ok": true,
    "count": 2
   },
   "niederglatt": {
    "name": "Niederglatt",
    "bezirk": "Dielsdorf",
    "domain": "www.niederglatt-zh.ch",
-   "ok": false,
+   "ok": true,
    "count": 2
   },
   "niederhasli": {
    "name": "Niederhasli",
    "bezirk": "Dielsdorf",
    "domain": "www.niederhasli.ch",
-   "ok": false,
-   "count": 4
+   "ok": true,
+   "count": 5
   },
   "oberweningen": {
    "name": "Oberweningen",
    "bezirk": "Dielsdorf",
    "domain": "www.oberweningen.ch",
-   "ok": false,
-   "count": 1
+   "ok": true,
+   "count": 2
   },
   "regensdorf": {
    "name": "Regensdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.regensdorf.ch",
-   "ok": false,
+   "ok": true,
    "count": 5
   },
   "ruemlang": {
    "name": "Rümlang",
    "bezirk": "Dielsdorf",
    "domain": "www.ruemlang.ch",
-   "ok": false,
-   "count": 40
+   "ok": true,
+   "count": 58
   },
   "schleinikon": {
    "name": "Schleinikon",
    "bezirk": "Dielsdorf",
    "domain": "www.schleinikon.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 2
   },
   "schoefflisdorf": {
    "name": "Schöfflisdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.schoefflisdorf.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 2
   },
   "stadel": {
    "name": "Stadel",
    "bezirk": "Dielsdorf",
    "domain": "www.stadel.ch",
-   "ok": false,
+   "ok": true,
    "count": 3
   },
   "steinmaur": {
    "name": "Steinmaur",
    "bezirk": "Dielsdorf",
    "domain": "www.steinmaur.ch",
-   "ok": false,
+   "ok": true,
    "count": 1
   },
   "aesch": {
@@ -1107,14 +1107,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Quellen",
    "domain": "www.localcities.ch",
    "ok": true,
-   "count": 240
-  },
-  "q-kindaling": {
-   "name": "kindaling (Familienanlässe privater Anbieter)",
-   "bezirk": "Quellen",
-   "domain": "www.kindaling.de",
-   "ok": true,
-   "count": 48
+   "count": 217
   }
  },
  "events": [
@@ -1583,7 +1576,8 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7703767",
    "name": "Zauberpark am Flughafen Zürich",
@@ -3669,7 +3663,8 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578043",
    "name": "Zauberpark mit Dan White",
@@ -5891,7 +5886,8 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578058",
    "name": "Zauberpark mit Professor & Profesora Bummbastic",
@@ -6843,7 +6839,8 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578064",
    "name": "Zauberpark mit Andrew Bond",
@@ -14687,7 +14684,8 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
+    "kloten",
+    "ruemlang"
    ],
    "id": "kloten-7578067",
    "name": "Zauberpark mit Andrew Bond",
@@ -23278,7 +23276,10 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "niederweningen"
+    "niederweningen",
+    "oberweningen",
+    "schleinikon",
+    "schoefflisdorf"
    ],
    "id": "niederweningen-1030-724",
    "name": "Kinderweihnacht - In diesem Jahr feiern wir Weihnachten einmal anders.",
