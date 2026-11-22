@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { SYSTEMS, collectSite, setGemeindeIndex } from "./lib.mjs";
 setGemeindeIndex(JSON.parse(readFileSync("site/gemeinden.js", "utf8").replace(/^[^=]*=\s*/, "").replace(/;\s*$/, "")));
 const sites = JSON.parse(readFileSync("data/test-sites.json", "utf8"));
-const fetchText = async u => { const r = await fetch(u, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, Test)" }, signal: AbortSignal.timeout(30000) }); if (!r.ok) throw new Error(r.status + " " + u); return r.text(); };
+const fetchText = async u => { const r = await fetch(u, { headers: { "User-Agent": "Mozilla/5.0 (compatible; FamilienZuerichBot/1.0; +https://epperttobias-sys.github.io/fuer-familien-in-zuerich/)", "Accept-Language": "de-CH,de;q=0.9" }, signal: AbortSignal.timeout(30000) }); if (!r.ok) throw new Error(r.status + " " + u); return r.text(); };
 const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
 for (const [code, site] of Object.entries(sites)) {
   console.log("\n######", site.name);
