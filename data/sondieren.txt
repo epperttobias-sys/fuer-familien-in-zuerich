@@ -1,4 +1,1 @@
-https://www.localcities.ch/de/veranstaltungen/zuerich/609?category_id[]=47
-https://www.localcities.ch/de/veranstaltungen/zuerich/609?category_id%5B%5D=47&page=2
-https://www.localcities.ch/de/veranstaltungen/zuerich/609?page=2
-https://www.localcities.ch/de/veranstaltungen/zuerich/609?radius=25&category_id%5B%5D=47
+https://www.localcities.ch/de/veranstaltungen/zuerich/609 | html
