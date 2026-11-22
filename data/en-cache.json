@@ -691,6 +691,26 @@
 "e": "Book start – Narrating, listening and discovering",
 "p": "Buchstart – Erzählen, Hören und Entdecken"
 },
+"Buchstart+ Bookstart - bilingual storytime in English/German": {
+"e": "Bookstart+ Bookstart - bilingual storytime in English/German",
+"p": "Buchstart+ Bookstart - bilingual storytime in English/German"
+},
+"Buchstart+ Bylo nebylo - zweisprachiger Reim- und Spielspass in Tschechisch/Deutsch": {
+"e": "Bookstart+ Bylo nebylo - bilingual rhyme and game pass in Czech/German",
+"p": "Buchstart+ Bylo nebylo - zweisprachiger Reim- und Spielspass in Tschechisch/Deutsch"
+},
+"Buchstart+ c'era una volta - zweisprachiger Reim- und Spielspass in Italienisch/Deutsch": {
+"e": "Buchstart+ c'era una volta - bilingual rhyme and game pass in Italian/German",
+"p": "Buchstart+ c'era una volta - zweisprachiger Reim- und Spielspass in Italienisch/Deutsch"
+},
+"Buchstart+ il était une fois - zweisprachiger Reim- und Spielspass in Französisch/Deutsch": {
+"e": "Bookstart+ il était une fois - bilingual rhyme and game pass in French/German",
+"p": "Buchstart+ il était une fois - zweisprachiger Reim- und Spielspass in Französisch/Deutsch"
+},
+"Buchstart+ Жили-были - zweisprachiger Reim- und Spielspass in Russisch/Deutsch": {
+"e": "Bookstart+",
+"p": "Buchstart+ Жили-были - zweisprachiger Reim- und Spielspass in Russisch/Deutsch"
+},
 "Buchstart-Treff": {
 "e": "Book Start Treff",
 "p": "Buchstart-Treff"
@@ -894,6 +914,10 @@
 "Chindermusicalwuche 2027": {
 "e": "Chindermusicalwuche 2027",
 "p": "Chindermusicalwuche 2027"
+},
+"Chlaus Einzug": {
+"e": "Saint Nicholas' arrival",
+"p": "Sankt Nikolaus Einzug"
 },
 "Chlaus Markt": {
 "e": "Saint Nicholas Market",
@@ -4270,6 +4294,10 @@
 "Pfaffhauser Sommerfest": {
 "e": "Pfaffhauser Summer Festival",
 "p": "Pfaffhauser Sommerfest"
+},
+"Pfäffiker Dorfete 2027": {
+"e": "Pfäffiker Dorfete 2027",
+"p": "Pfäffiker Dorfete 2027"
 },
 "Pinewood-Car-Rennen 2027": {
 "e": "Pinewood Car Race 2027",
