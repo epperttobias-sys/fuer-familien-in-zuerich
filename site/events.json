@@ -1143,6 +1143,13 @@
    "domain": "calendar.google.com",
    "ok": true,
    "count": 0
+  },
+  "q-gz": {
+   "name": "Zürcher Gemeinschaftszentren",
+   "bezirk": "Quellen",
+   "domain": "gz-zh.ch",
+   "ok": true,
+   "count": 156
   }
  },
  "events": [
@@ -2004,6 +2011,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-23Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-23",
+   "bis": "2026-11-23",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "l"
    ],
    "id": "l-7003-12673",
@@ -2058,6 +2080,21 @@
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3451/eventdate/2033",
    "w": "https://verein-andurina.ch/wp-content/uploads/2026/10/Aquarellkarten-gestalten_20261020_213853_0000.png"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/adventskranzbinden/2026-11-24Adventskra",
+   "q": "q-gz",
+   "name": "Adventskranzbinden - GZ Heuried",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/adventskranzbinden/"
   },
   {
    "gemeinden": [
@@ -2401,6 +2438,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen-exklusiv/2026-11-24KERZENZEIH",
+   "q": "q-gz",
+   "name": "KERZENZEIHEN EXKLUSIV IM GZ AFFOLTERN",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen-exklusiv/"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7736401",
@@ -2432,6 +2484,21 @@
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7638151",
    "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-gruenau/angebote/kerzenziehen/2026-11-24KERZENZIEH",
+   "q": "q-gz",
+   "name": "KERZENZIEHEN - GZ Grünau",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-gruenau/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -2534,6 +2601,21 @@
    },
    "url": "https://www.localcities.ch/de/veranstaltungen/langnau-am-albis/377/4659137",
    "w": "https://angebote.paerke.ch/de/subscription/subscriber/51869"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-24Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -2743,6 +2825,36 @@
    "time": "15.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/winterthur-toess/agenda/20261125-adventskranz-gemeinsam-gestalten-398141/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/adventskranzbinden/2026-11-25Adventskra",
+   "q": "q-gz",
+   "name": "Adventskranzbinden - GZ Heuried",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/adventskranzbinden/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/adventskraenze-binden/2026-11-25Adventskrä",
+   "q": "q-gz",
+   "name": "Adventskränze binden im GZ Affoltern",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/adventskraenze-binden/"
   },
   {
    "gemeinden": [
@@ -3622,6 +3734,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-gruenau/angebote/kerzenziehen/2026-11-25KERZENZIEH",
+   "q": "q-gz",
+   "name": "KERZENZIEHEN - GZ Grünau",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-gruenau/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7774792",
@@ -3648,20 +3775,6 @@
    "age": null,
    "url": "https://www.wallisellen.ch/_rte/anlass/7784791",
    "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-kerzenziehen-in-der-baeckeranlage-1",
-   "name": "Kerzenziehen in der Bäckeranlage",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Quartierzentrum Bäckeranlage",
-   "veranstalter": "",
-   "time": "14.00 - 19.00",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/kerzenziehen-in-der-baeckeranlage.html?calentry=1"
   },
   {
    "gemeinden": [
@@ -3784,6 +3897,44 @@
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-/gz-hoengg/angebote/kinderkino-on-tour/2026-11-25Kinderkino",
+   "q": "q-gz",
+   "name": "Kinderkino on Tour! - GZ Höngg",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kinderkino-on-tour/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-achwiesen/angebote/kinderkonzert-kunterwunderbunt/2026-11-25Kinderkonz",
+   "q": "q-gz",
+   "name": "Kinderkonzert Kunterwunderbunt",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-bachwiesen/angebote/kinderkonzert-kunterwunderbunt/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-kd9718-2026-11-25",
    "q": "q-kindaling",
    "name": "Kindertreff",
@@ -3814,6 +3965,21 @@
    "age": null,
    "url": "https://www.rheinau.ch/_rte/anlass/7200890",
    "w": "http://bibliothek-rheinau.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-riesbach/angebote/adventskranz-binden/2026-11-25Kranzen - ",
+   "q": "q-gz",
+   "name": "Kranzen - GZ Riesbach",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-riesbach/angebote/adventskranz-binden/"
   },
   {
    "gemeinden": [
@@ -3908,6 +4074,21 @@
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-/gz-hoengg/angebote/lebkuchenhaeuser-verzieren/2026-11-25Lebkuchenh",
+   "q": "q-gz",
+   "name": "Lebkuchenhäuser verzieren - GZ Höngg",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/lebkuchenhaeuser-verzieren/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-2026-12-marroni-gluehwein-2",
    "name": "Marroni und Glühwein",
    "von": "2026-11-25",
@@ -3965,6 +4146,21 @@
    "age": null,
    "url": "https://www.ruemlang.ch/_rte/anlass/7232162",
    "w": "https://outlook.office365.com/owa/calendar/Ruemlang@AJBKTZH.onmicrosoft.com/bookings/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-25Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -4116,6 +4312,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-bach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/2026-11-25Sprach-Caf",
+   "q": "q-gz",
+   "name": "Sprach-Café Deutsch mit/ohne Kinder - GZ Hirzenbach",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "10.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/"
+  },
+  {
+   "gemeinden": [
     "v"
    ],
    "id": "v-17259-106196",
@@ -4254,6 +4465,36 @@
    "time": "19.00 - 21.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/bildung/volksschule/verschiedene-sprachen/schulsystem-bengalisch.html?calentry=2"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/adventskranzbinden/2026-11-26Adventskra",
+   "q": "q-gz",
+   "name": "Adventskranzbinden - GZ Heuried",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/adventskranzbinden/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/adventskraenze-binden/2026-11-26Adventskrä",
+   "q": "q-gz",
+   "name": "Adventskränze binden im GZ Affoltern",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/adventskraenze-binden/"
   },
   {
    "gemeinden": [
@@ -4646,6 +4887,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-gruenau/angebote/kerzenziehen/2026-11-26KERZENZIEH",
+   "q": "q-gz",
+   "name": "KERZENZIEHEN - GZ Grünau",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-gruenau/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7638157",
@@ -4682,15 +4938,20 @@
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-kerzenziehen-in-der-baeckeranlage-2",
-   "name": "Kerzenziehen in der Bäckeranlage",
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2026-11-26KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
    "von": "2026-11-26",
    "bis": "2026-11-26",
-   "ort": "Quartierzentrum Bäckeranlage",
-   "veranstalter": "",
-   "time": "16.00 - 19.00",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/kerzenziehen-in-der-baeckeranlage.html?calentry=2"
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
   },
   {
    "gemeinden": [
@@ -4710,6 +4971,21 @@
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7292918",
    "w": "https://www.kirche-thalwil.ch/krabbelgruppen"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-riesbach/angebote/adventskranz-binden/2026-11-26Kranzen - ",
+   "q": "q-gz",
+   "name": "Kranzen - GZ Riesbach",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-riesbach/angebote/adventskranz-binden/"
   },
   {
    "gemeinden": [
@@ -4792,6 +5068,21 @@
    },
    "url": "https://www.uster.ch/_rte/anlass/7466314",
    "w": "http://www.greifensee-stiftung.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-26Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -4969,6 +5260,36 @@
    "time": "",
    "age": null,
    "url": "https://www.forum-magazin.ch/kloten/agenda/20261127-advents-und-weihnachtsweg-396936/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/adventskraenze-binden/2026-11-27Adventskrä",
+   "q": "q-gz",
+   "name": "Adventskränze binden im GZ Affoltern",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/adventskraenze-binden/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hirzenbach/angebote/adventskranzen/2026-11-27Adventskra",
+   "q": "q-gz",
+   "name": "Adventskranzen - GZ Hirzenbach",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "17.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/adventskranzen/"
   },
   {
    "gemeinden": [
@@ -5517,15 +5838,16 @@
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-kerzenziehen-in-der-baeckeranlage-3",
-   "name": "Kerzenziehen in der Bäckeranlage",
+   "id": "zuerich-/gz-gruenau/angebote/kerzenziehen/2026-11-27KERZENZIEH",
+   "q": "q-gz",
+   "name": "KERZENZIEHEN - GZ Grünau",
    "von": "2026-11-27",
    "bis": "2026-11-27",
-   "ort": "Quartierzentrum Bäckeranlage",
-   "veranstalter": "",
-   "time": "16.00 - 19.00",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.30",
    "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/kerzenziehen-in-der-baeckeranlage.html?calentry=3"
+   "url": "https://gz-zh.ch/gz-gruenau/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -5574,6 +5896,40 @@
     "label": "4. bis 6. Klasse"
    },
    "url": "https://www.forum-magazin.ch/zuerich-leimbach/agenda/20261127-kids-room-nachmittagstreff-fur-4-6-klasse-im-jugendkeller-383940/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-11-27Kinderball",
+   "q": "q-gz",
+   "name": "Kinderballett - GZ Leimbach",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-achwiesen/angebote/kinderkonzert-kunterwunderbunt/2026-11-27Kinderkonz",
+   "q": "q-gz",
+   "name": "Kinderkonzert Kunterwunderbunt",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-bachwiesen/angebote/kinderkonzert-kunterwunderbunt/"
   },
   {
    "gemeinden": [
@@ -5765,6 +6121,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-27Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7748305",
@@ -5830,6 +6201,21 @@
    "age": null,
    "url": "https://www.wallisellen.ch/_rte/anlass/7735714",
    "w": "https://www.chlaus.org"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-hwiesen/angebote/schmueck-die-weihnachtstanne-mit/2026-11-27Schmück‘ d",
+   "q": "q-gz",
+   "name": "Schmück‘ die Weihnachtstanne mit!",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "17.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-bachwiesen/angebote/schmueck-die-weihnachtstanne-mit/"
   },
   {
    "gemeinden": [
@@ -6056,6 +6442,36 @@
    },
    "url": "https://www.kilchberg.ch/veranstaltungen/termin/adventskraenze-binden-fuer-gross-und-klein-frauennetzwerk-kilchberg",
    "w": "https://eventfrog.ch/de/p/diverses/adventskraenzebinden-fuer-gross-und-klein-kilchberg7507335232229528848.html"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/adventskraenze-binden/2026-11-28Adventskrä",
+   "q": "q-gz",
+   "name": "Adventskränze binden im GZ Affoltern",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/adventskraenze-binden/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-buchegg/angebote/kranzen/2026-11-28Adventskra",
+   "q": "q-gz",
+   "name": "Adventskranzen - GZ Buchegg",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "11.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-buchegg/angebote/kranzen/"
   },
   {
    "gemeinden": [
@@ -7116,6 +7532,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-gruenau/angebote/kerzenziehen/2026-11-28KERZENZIEH",
+   "q": "q-gz",
+   "name": "KERZENZIEHEN - GZ Grünau",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-gruenau/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "oberrieden"
    ],
    "id": "oberrieden-7309-2026-11-28",
@@ -7128,20 +7559,6 @@
    "age": null,
    "url": "https://www.oberrieden.ch/events/7309",
    "w": "https://www.jugendarbeitoberrieden.ch/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-kerzenziehen-in-der-baeckeranlage-4",
-   "name": "Kerzenziehen in der Bäckeranlage",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "Quartierzentrum Bäckeranlage",
-   "veranstalter": "",
-   "time": "12.00 - 16.00",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/kerzenziehen-in-der-baeckeranlage.html?calentry=4"
   },
   {
    "gemeinden": [
@@ -7202,6 +7619,21 @@
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4715371",
    "w": "https://www.ticketino.com/de/Event/213326"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hirzenbach/angebote/gz-flohmarkt/2026-11-28Kinder - F",
+   "q": "q-gz",
+   "name": "Kinder - Flohmarkt - GZ Hirzenbach",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "10.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/gz-flohmarkt/"
   },
   {
    "gemeinden": [
@@ -7292,6 +7724,36 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-gruenau/angebote/kranzen/2026-11-28Kranzen - ",
+   "q": "q-gz",
+   "name": "Kranzen - GZ Grünau",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-gruenau/angebote/kranzen/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-riesbach/angebote/adventskranz-binden/2026-11-28Kranzen - ",
+   "q": "q-gz",
+   "name": "Kranzen - GZ Riesbach",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "09.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-riesbach/angebote/adventskranz-binden/"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33442-0",
@@ -7362,6 +7824,21 @@
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4872217",
    "w": "https://www.opernhaus.ch/spielplan/kalendarium/ohrwurm-squillo/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-28Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "12.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -8083,6 +8560,36 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/adventskraenze-binden/2026-11-29Adventskrä",
+   "q": "q-gz",
+   "name": "Adventskränze binden im GZ Affoltern",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/adventskraenze-binden/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-buchegg/angebote/kranzen/2026-11-29Adventskra",
+   "q": "q-gz",
+   "name": "Adventskranzen - GZ Buchegg",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "11.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-buchegg/angebote/kranzen/"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7736563",
@@ -8648,15 +9155,16 @@
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-kerzenziehen-in-der-baeckeranlage-5",
-   "name": "Kerzenziehen in der Bäckeranlage",
+   "id": "zuerich-/gz-hoengg/angebote/kerzenziehen/2026-11-29Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Höngg",
    "von": "2026-11-29",
    "bis": "2026-11-29",
-   "ort": "Quartierzentrum Bäckeranlage",
-   "veranstalter": "",
-   "time": "12.00 - 16.00",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "10.00",
    "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/kerzenziehen-in-der-baeckeranlage.html?calentry=5"
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -8720,6 +9228,25 @@
    "time": "15.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/ukrainische-mission/agenda/20261129-kinderkatechese-324484/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/kindertheater-fata-morgana/2026-11-29Kinderthea",
+   "q": "q-gz",
+   "name": "Kindertheater Dampf: Fata Morgana - GZ Oerlikon",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/kindertheater-fata-morgana/"
   },
   {
    "gemeinden": [
@@ -8929,6 +9456,21 @@
    "time": "15.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/zuerich-schwamendingen/agenda/20261129-nikolausbesuch-im-waldhusli-402751/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-29Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "12.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -9177,15 +9719,16 @@
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-2026-11-weihnachtsmarkt-1",
-   "name": "Weihnachtsmarkt im Wolfswinkel",
+   "id": "zuerich-/gz-affoltern/angebote/weihnachtsmarkt-2/2026-11-29Weihnachts",
+   "q": "q-gz",
+   "name": "Weihnachtsmarkt - GZ Affoltern",
    "von": "2026-11-29",
    "bis": "2026-11-29",
-   "ort": "Gesundheitszentrum für das Alter Wolfswinkel",
-   "veranstalter": "",
-   "time": "11.00 - 16.00",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "11.00",
    "age": null,
-   "url": "https://www.stadt-zuerich.ch/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/wolfswinkel/2026-11-weihnachtsmarkt.html?calentry=1"
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/weihnachtsmarkt-2/"
   },
   {
    "gemeinden": [
@@ -9640,6 +10183,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kerzenziehen/2026-11-30Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Höngg",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7816576",
@@ -9694,6 +10252,21 @@
    },
    "url": "https://www.bubikon.ch/_rte/anlass/7769083",
    "w": "https://www.gabrielaglaus.com/agenda"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-30Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -10138,6 +10711,36 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hottingen/angebote/1990-2/2026-12-01GUETZLI BA",
+   "q": "q-gz",
+   "name": "GUETZLI BACKEN - GZ Hottingen",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hottingen/angebote/1990-2/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/kerzenziehen/2026-12-01Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Heuried",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7694989",
@@ -10283,6 +10886,21 @@
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4923979",
    "w": "https://www.opernhaus.ch/spielplan/kalendarium/musikalischer_adventskalender/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-12-01Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -11164,6 +11782,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hirzenbach/angebote/gueztli-backen/2026-12-02Guetzli ba",
+   "q": "q-gz",
+   "name": "Guetzli backen - GZ Hirzenbach",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/gueztli-backen/"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-fa399081",
@@ -11205,6 +11838,21 @@
    "age": null,
    "url": "https://www.baeretswil.ch/_rte/anlass/7362142",
    "w": "http://dorfverein-baeretswil.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-02Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -11392,6 +12040,21 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.uetikonamsee.ch/_rte/anlass/7440532"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-12-02Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -11713,6 +12376,21 @@
    "time": "12.15",
    "age": null,
    "url": "https://www.forum-magazin.ch/horgen/agenda/20261202-spaghetti-traff-398137/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-bach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/2026-12-02Sprach-Caf",
+   "q": "q-gz",
+   "name": "Sprach-Café Deutsch mit/ohne Kinder - GZ Hirzenbach",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "10.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/"
   },
   {
    "gemeinden": [
@@ -12297,6 +12975,36 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen-exklusiv/2026-12-03KERZENZEIH",
+   "q": "q-gz",
+   "name": "KERZENZEIHEN EXKLUSIV IM GZ AFFOLTERN",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen-exklusiv/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-03Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7694995",
@@ -12322,6 +13030,25 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7660522"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2026-12-03KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
   },
   {
    "gemeinden": [
@@ -12507,6 +13234,21 @@
    "age": null,
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7597816",
    "w": "http://www.zh.ch/kjz-horgen"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-12-03Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -13064,6 +13806,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/de-samichlaus-chunnt/2026-12-04De Samichl",
+   "q": "q-gz",
+   "name": "De Samichlaus chunnt - GZ Leimbach",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.30",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/de-samichlaus-chunnt/"
+  },
+  {
+   "gemeinden": [
     "truellikon"
    ],
    "id": "truellikon-7405228",
@@ -13385,6 +14142,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-buchegg/angebote/kerzenziehen/2026-12-04Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Buchegg",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-buchegg/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695001",
@@ -13396,6 +14168,21 @@
    "time": "14.00 - 22.00",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7695001"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-12-04Kinderball",
+   "q": "q-gz",
+   "name": "Kinderballett - GZ Leimbach",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
   },
   {
    "gemeinden": [
@@ -13586,6 +14373,21 @@
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-3/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-12-04Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "16.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -14621,6 +15423,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen-exklusiv/2026-12-05KERZENZEIH",
+   "q": "q-gz",
+   "name": "KERZENZEIHEN EXKLUSIV IM GZ AFFOLTERN",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen-exklusiv/"
+  },
+  {
+   "gemeinden": [
     "rafz"
    ],
    "id": "rafz-7828609",
@@ -14632,6 +15449,21 @@
    "time": "9.00 - 19.00",
    "age": null,
    "url": "https://www.rafz.ch/_rte/anlass/7828609"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-05Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -14850,6 +15682,21 @@
     "label": "ab 12 Jahren"
    },
    "url": "https://www.waedenswil.ch/_rte/anlass/7744768"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-12-05Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "12.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -16348,6 +17195,36 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen-exklusiv/2026-12-06KERZENZEIH",
+   "q": "q-gz",
+   "name": "KERZENZEIHEN EXKLUSIV IM GZ AFFOLTERN",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen-exklusiv/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-06Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695007",
@@ -16547,6 +17424,21 @@
    "time": "",
    "age": null,
    "url": "https://www.lindt-home-of-chocolate.com/de/tickets-und-preise/weihnachtsangebot/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-12-06Oerliker K",
+   "q": "q-gz",
+   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "12.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -17553,6 +18445,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/kerzenziehen/2026-12-07Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Heuried",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695010",
@@ -18088,6 +18995,21 @@
    "time": "16.00 - 16.45",
    "age": null,
    "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-hegi/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/kerzenziehen/2026-12-08Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Heuried",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -19085,6 +20007,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-09Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695016",
@@ -19550,6 +20487,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-bach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/2026-12-09Sprach-Caf",
+   "q": "q-gz",
+   "name": "Sprach-Café Deutsch mit/ohne Kinder - GZ Hirzenbach",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "10.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7774267",
@@ -20005,6 +20957,36 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen-exklusiv/2026-12-10KERZENZEIH",
+   "q": "q-gz",
+   "name": "KERZENZEIHEN EXKLUSIV IM GZ AFFOLTERN",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen-exklusiv/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-10Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695019",
@@ -20068,6 +21050,25 @@
    },
    "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10143/eventdate/14248",
    "w": "https://www.kirchemaur.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2026-12-10KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
   },
   {
    "gemeinden": [
@@ -20801,6 +21802,36 @@
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7648702",
    "w": "https://www.winmedio.net/langnau-am-albis/api/images/imageopac/911"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-buchegg/angebote/kerzenziehen/2026-12-11Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Buchegg",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-buchegg/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-12-11Kinderball",
+   "q": "q-gz",
+   "name": "Kinderballett - GZ Leimbach",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
   },
   {
    "gemeinden": [
@@ -21572,6 +22603,21 @@
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7648705",
    "w": "https://www.winmedio.net/langnau-am-albis/api/images/imageopac/911"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-12Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -22706,6 +23752,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-13Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7826842",
@@ -23399,6 +24460,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/kerzenziehen/2026-12-14Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Heuried",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7826848",
@@ -23768,6 +24844,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/kerzenziehen/2026-12-15Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Heuried",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7826851",
@@ -23923,6 +25014,21 @@
    "time": "13.00 - 22.00",
    "age": null,
    "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612151300/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kon/angebote/aufbau-starke-eltern-starke-kinder-2/2026-12-15Starke Elt",
+   "q": "q-gz",
+   "name": "Starke Eltern-Starke Kinder - GZ Oerlikon",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/aufbau-starke-eltern-starke-kinder-2/"
   },
   {
    "gemeinden": [
@@ -24501,6 +25607,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-affoltern/angebote/kerzenziehen/2026-12-16Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-affoltern/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7826854",
@@ -24930,6 +26051,21 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.buelach.ch/_rte/anlass/7755040"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-bach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/2026-12-16Sprach-Caf",
+   "q": "q-gz",
+   "name": "Sprach-Café Deutsch mit/ohne Kinder - GZ Hirzenbach",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "10.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/"
   },
   {
    "gemeinden": [
@@ -25395,6 +26531,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-heuried/angebote/kerzenziehen/2026-12-17Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Heuried",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-heuried/angebote/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7826863",
@@ -25420,6 +26571,25 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7660516"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2026-12-17KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
   },
   {
    "gemeinden": [
@@ -25958,6 +27128,21 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-riesbach/angebote/kerzenziehen-6/2026-12-18Kerzenzieh",
+   "q": "q-gz",
+   "name": "Kerzenziehen - GZ Riesbach",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-riesbach/angebote/kerzenziehen-6/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7826866",
@@ -25984,6 +27169,21 @@
    "age": null,
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3367/eventdate/1988",
    "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-12-18Kinderball",
+   "q": "q-gz",
+   "name": "Kinderballett - GZ Leimbach",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "13.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
   },
   {
    "gemeinden": [
@@ -31172,6 +32372,25 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2027-01-07KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7715329",
@@ -31235,6 +32454,21 @@
    "age": null,
    "url": "https://www.wald-zh.ch/_rte/anlass/7779013",
    "w": "https://www.freestyle-wald.ch/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kon/angebote/aufbau-starke-eltern-starke-kinder-2/2027-01-07Starke Elt",
+   "q": "q-gz",
+   "name": "Starke Eltern-Starke Kinder - GZ Oerlikon",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/aufbau-starke-eltern-starke-kinder-2/"
   },
   {
    "gemeinden": [
@@ -33052,6 +34286,25 @@
    "gemeinden": [
     "zuerich"
    ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2027-01-14KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2027-01-14",
+   "bis": "2027-01-14",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
    "id": "zuerich-pekip-nachmittag-8",
    "name": "PEKiP Prager-Eltern-Kind Programm (Gruppe 2)",
    "von": "2027-01-14",
@@ -33098,6 +34351,21 @@
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/quartier-insel-baeckeranlage.html?calentry=10"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kon/angebote/aufbau-starke-eltern-starke-kinder-2/2027-01-14Starke Elt",
+   "q": "q-gz",
+   "name": "Starke Eltern-Starke Kinder - GZ Oerlikon",
+   "von": "2027-01-14",
+   "bis": "2027-01-14",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/aufbau-starke-eltern-starke-kinder-2/"
   },
   {
    "gemeinden": [
@@ -33740,6 +35008,25 @@
    "time": "15.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/ukrainische-mission/agenda/20270117-kinderkatechese-334462/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-achwiesen/angebote/kinderkonzert-kunterwunderbunt/2027-01-17Kinderkonz",
+   "q": "q-gz",
+   "name": "Kinderkonzert Kunterwunderbunt",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-bachwiesen/angebote/kinderkonzert-kunterwunderbunt/"
   },
   {
    "gemeinden": [
@@ -34429,6 +35716,25 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kinderkino-on-tour/2027-01-20Kinderkino",
+   "q": "q-gz",
+   "name": "Kinderkino on Tour! - GZ Höngg",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kinderkino-on-tour/"
+  },
+  {
+   "gemeinden": [
     "wz"
    ],
    "id": "wz-17122-2027-01-20",
@@ -34862,6 +36168,25 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2027-01-21KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7715332",
@@ -34892,6 +36217,21 @@
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/quartier-insel-baeckeranlage.html?calentry=11"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kon/angebote/aufbau-starke-eltern-starke-kinder-2/2027-01-21Starke Elt",
+   "q": "q-gz",
+   "name": "Starke Eltern-Starke Kinder - GZ Oerlikon",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/aufbau-starke-eltern-starke-kinder-2/"
   },
   {
    "gemeinden": [
@@ -36321,6 +37661,25 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2027-01-28KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
+  },
+  {
+   "gemeinden": [
     "langnauamalbis"
    ],
    "id": "langnauamalbis-7815247",
@@ -36347,6 +37706,21 @@
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/quartier-insel-baeckeranlage.html?calentry=12"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kon/angebote/aufbau-starke-eltern-starke-kinder-2/2027-01-28Starke Elt",
+   "q": "q-gz",
+   "name": "Starke Eltern-Starke Kinder - GZ Oerlikon",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "19.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-oerlikon/angebote/aufbau-starke-eltern-starke-kinder-2/"
   },
   {
    "gemeinden": [
@@ -38001,6 +39375,25 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2027-02-04KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7715335",
@@ -39372,6 +40765,25 @@
    "time": "09.30 - 12.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/indoor-spielplatz-baeckeranlage.html?calentry=14"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kleinkinder-werken/2027-02-11KleinKinde",
+   "q": "q-gz",
+   "name": "KleinKinder-Werken - GZ Höngg",
+   "von": "2027-02-11",
+   "bis": "2027-02-11",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "14.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kleinkinder-werken/"
   },
   {
    "gemeinden": [
@@ -41787,6 +43199,25 @@
     "label": "3 bis 6 Jahre"
    },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-4/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-hoengg/angebote/kinderkino-on-tour/2027-03-03Kinderkino",
+   "q": "q-gz",
+   "name": "Kinderkino on Tour! - GZ Höngg",
+   "von": "2027-03-03",
+   "bis": "2027-03-03",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
+   "url": "https://gz-zh.ch/gz-hoengg/angebote/kinderkino-on-tour/"
   },
   {
    "gemeinden": [
