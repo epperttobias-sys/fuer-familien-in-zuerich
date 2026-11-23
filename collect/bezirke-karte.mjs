@@ -26,7 +26,7 @@ const out = [];
 for (const f of feats) {
   let d = "", best = 0, lab = null;
   for (const poly of f.polys) for (const ring of poly) {
-    const sm = dp(ring, TOL); if (sm.length < 4) continue;
+    const h = Math.floor(ring.length / 2), sm = [...dp(ring.slice(0, h + 1), TOL).slice(0, -1), ...dp(ring.slice(h), TOL)]; if (sm.length < 4) continue;
     d += "M" + sm.map(p => P(p).join(",")).join("L") + "Z";
     if (ring.length > best) { best = ring.length; let ax = 0, ay = 0; for (const p of ring) { ax += p[0]; ay += p[1]; } lab = P([ax / ring.length, ay / ring.length]); }
   }
