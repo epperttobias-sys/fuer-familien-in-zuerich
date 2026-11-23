@@ -1,8 +1,1 @@
-https://www.kinderthur.ch/robots.txt
 https://www.kinderthur.ch/veranstaltungskalender-was-lauft/ | html
-https://www.kinderthur.ch/?post_type=tribe_events&ical=1&eventDisplay=list
-https://www.kinderthur.ch/events/feed/
-https://calendar.google.com/calendar/ical/c_9a11dc6c02c2fdb1eefdd7aa9b8049b0086108300c59e27051006e3e6bc190ea%40group.calendar.google.com/public/basic.ics
-https://calendar.google.com/calendar/ical/0ko1r6r49i22820jki4tcusfd2j63a1o%40import.calendar.google.com/public/basic.ics
-https://gz-zh.ch/robots.txt
-https://gz-zh.ch/ | html
