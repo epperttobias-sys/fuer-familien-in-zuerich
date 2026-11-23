@@ -1,1 +1,14 @@
-https://epperttobias-sys.github.io/fuer-familien-in-zuerich/ausflug-plus.js
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Rankstrasse%2090%208302%20Kloten
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Dorfstrasse%2022%208464%20Ellikon%20am%20Rhein
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Rudolfingen
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=N%C3%A4ppbrunnenhof%20Otelfingen
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Im%20Sporrer%201%2C%208408%20Winterthur
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=H%C3%B6henstrasse%2015%2C%208635%20D%C3%BCrnten
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Pooalp%20506%208636%20Wald
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Langfurrenstrasse%202%2C%208623%20Wetzikon
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=B%C3%A4retswilerstrasse%2055%2C%208344%20B%C3%A4retswil
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Edikerstrasse%2016%2C%208635%20D%C3%BCrnten
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Birrwaldstrasse%201%2C%208135%20Langnau%20am%20Albis
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Alte%20Jonentalstrasse%201%2C%208910%20Affoltern%20am%20Albis
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Tobelhofstrasse%20236%2C%208044%20Z%C3%BCrich
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Waidbadstrasse%2045%2C%208037%20Z%C3%BCrich
