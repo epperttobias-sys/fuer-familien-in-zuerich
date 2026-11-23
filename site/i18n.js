@@ -74,7 +74,7 @@ const D={
 // Ausflug
 "Ausflugsziele in der Region":"Day trips in the region","Tierparks, Museen, Burgen, Aussichtstürme, Erlebnisse und Feuerstellen im Kanton Zürich.":"Zoos, museums, castles, lookout towers, activities and fire pits in the canton of Zurich.",
 "Filter Ausflugsziele":"Filter day trips","Bei jedem Wetter":"Any weather","Auch bei Regen (drinnen)":"Also when it rains (indoors)","Auch bei Regen":"Also when it rains",
-"Für diese Auswahl gibt es keine Ausflugsziele.":"There are no day trips for this selection.","Tiere und Tierparks":"Animals and zoos","Museen":"Museums","Erlebnis, Klettern, Minigolf":"Activities, climbing, mini golf",
+"Für diese Auswahl gibt es keine Ausflugsziele.":"There are no day trips for this selection.","Bauernhöfe und Hoftiere":"Farms and farm animals","Ausflugsbeizen mit Spielplatz":"Country inns with playground","Bauernhöfe, Ausflugsbeizen, Tierparks, Museen, Burgen und mehr":"farms, country inns, zoos, museums, castles and more","Tiere und Tierparks":"Animals and zoos","Museen":"Museums","Erlebnis, Klettern, Minigolf":"Activities, climbing, mini golf",
 "Burgen, Schlösser, Ruinen":"Castles, palaces, ruins","Aussichtspunkte und Türme":"Viewpoints and towers","Sehenswürdigkeiten":"Sights","Feuerstellen und Grillplätze":"Fire pits and barbecue spots","Feuerwehr":"Fire brigade",
 "Quelle: OpenStreetMap, jede Woche aktualisiert. Öffnungszeiten und Preise bitte vor dem Besuch auf der Website prüfen. «Auch bei Regen» gilt für Museen und Hallen.":"Source: OpenStreetMap, updated weekly. Please check opening hours and prices on the website before visiting. «Also when it rains» applies to museums and indoor venues.",
 // Essen

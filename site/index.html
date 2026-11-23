@@ -693,6 +693,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="paedagogik.js"></script>
 <script src="ausflug.js"></script>
 <script src="ausflug-web.js"></script>
+<script src="ausflug-plus.js"></script>
 <script src="spielplaetze.js"></script>
 <script src="ferien.js"></script>
 <script src="gesundheit.js"></script>
@@ -1195,13 +1196,16 @@ famView("f",FAK.filter(([k])=>k!=="kita"),true,"familie","familie","facount","fa
   (V[c]||[]).filter(v=>v.k==="familie").forEach(v=>L.push({k:/ludothek/i.test(v.n)?"ludo":"spiel",n:v.n,w:v.w||"",u:v.u,a:v.o&&v.o!==(GM[c]||{}).name?v.o:""}));return L});
 famView("bt",[["kita","🧸 Kitas und Krippen"],["hort","🍽️ Horte, Mittagstische und Tagesstrukturen"],["kiga","🎒 Kindergärten"]],false,"betreuung","betreuung","bacount","bastand",
   (c,F)=>(F.gemeinden[c]||[]).filter(x=>x.k==="kita").map(x=>Object.assign({},x,{k:BKIND(x.n)})));
-const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["erlebnis","🎢 Erlebnis, Klettern, Minigolf"],["burg","🏰 Burgen, Schlösser, Ruinen"],["aussicht","🌄 Aussichtspunkte und Türme"],["sehens","⭐ Sehenswürdigkeiten"],["feuer","🔥 Feuerstellen und Grillplätze"]];
+const AKS=[["hof","🐄 Bauernhöfe und Hoftiere"],["beiz","🥨 Ausflugsbeizen mit Spielplatz"],["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["erlebnis","🎢 Erlebnis, Klettern, Minigolf"],["burg","🏰 Burgen, Schlösser, Ruinen"],["aussicht","🌄 Aussichtspunkte und Türme"],["sehens","⭐ Sehenswürdigkeiten"],["feuer","🔥 Feuerstellen und Grillplätze"]];
 (function setupAusflug(){
   const A=window.AUSFLUG,box=document.getElementById("ausflug"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   if(!A){box.append(node("p","empty","Die Ausflugsziele werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("austand").textContent="Stand: "+A.stand.split("-").reverse().join(".")+".";
+  // Von Hand geprüfte Ziele: gleicher Name in der gleichen Gemeinde ergänzt den Eintrag, sonst kommt er neu dazu
+  (window.AUSFLUG_PLUS||[]).forEach(p=>{const m=A.ziele.find(z=>z.g===p.g&&z.n===p.n);if(m)Object.assign(m,{k:p.k,t:p.t,q:p.q,w:p.w||m.w,ok:1});else A.ziele.push(Object.assign({d:"",wp:"",oh:"",in:0,fee:null,ok:1},p))});
+  A.ziele.sort((a,b)=>(b.ok||0)-(a.ok||0));
   const AW=window.AUSFLUG_WEB||{};A.ziele.forEach(z=>{if(!z.w){const u=AW[z.n+"|"+((GM[z.g]||{}).name||"")];if(u)z.w=u}});
-  document.getElementById("tile-ausflug").textContent=A.ziele.length+" Ziele: Tierparks, Museen, Burgen, Aussichtstürme und mehr";
+  document.getElementById("tile-ausflug").textContent=A.ziele.length+" Ziele: Bauernhöfe, Ausflugsbeizen, Tierparks, Museen, Burgen und mehr";
   const codes=Object.keys(GM).filter(c=>A.ziele.some(z=>z.g===c));let selG=null,selK=null,rain=false,me=null;
   const KL=Object.fromEntries(AKS);const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
   const gp=document.getElementById("ag-panel"),groups={};codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
@@ -1237,8 +1241,8 @@ const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["er
     const ks=selK?AKS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ak-sum").textContent=!selK?"Alle Themen":ks.length===1?ks[0]:ks.length+" Themen";
     document.getElementById("aw-all").checked=!rain;document.getElementById("aw-rain").checked=rain;document.getElementById("aw-sum").textContent=rain?"Auch bei Regen":"Bei jedem Wetter";syncS()}
   function li(z){const tags=[];if(z.fee===0)tags.push("gratis");if(z.oh)tags.push("🕒 "+ohDe(z.oh));if(z.in)tags.push("🏠 Auch bei Regen");
-    const links=[];if(z.w)links.push(["Website",z.w]);else if(!["feuer","aussicht"].includes(z.k))links.push(wsearch(z.n,(GM[z.g]||{}).name));if(z.wp)links.push(["Wikipedia",z.wp]);links.push(["Karte",gmaps(z.lat,z.lon)],["Route",groute(z.lat,z.lon)]);
-    return mkCard({em:(KL[z.k]||"📍").split(" ")[0],title:z.n,meta:[(GM[z.g]||{}).name,z.d||(KL[z.k]||"").replace(/^\S+\s/,"")].filter(Boolean).join(" · "),tags,links,km:z._d})}
+    const links=[];if(z.w)links.push(["Website",z.w]);else if(!["feuer","aussicht"].includes(z.k))links.push(wsearch(z.n,(GM[z.g]||{}).name));if(z.wp)links.push(["Wikipedia",z.wp]);if(z.q&&z.q!==z.w)links.push(["Quelle",z.q]);links.push(["Karte",gmaps(z.lat,z.lon)],["Route",groute(z.lat,z.lon)]);
+    return mkCard({em:(KL[z.k]||"📍").split(" ")[0],title:z.n,meta:[(GM[z.g]||{}).name,z.d||(KL[z.k]||"").replace(/^\S+\s/,"")].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d})}
   function render(){sync();box.replaceChildren();
     let L=A.ziele.filter(z=>(!selG||selG.has(z.g))&&(!selK||selK.has(z.k))&&(!rain||z.in)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
     document.getElementById("aucount").textContent=(L.length===1?"1 Ziel":L.length+" Ziele")+" gefunden";
