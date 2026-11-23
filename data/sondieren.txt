@@ -1,1 +1,11 @@
-https://epperttobias-sys.github.io/fuer-familien-in-zuerich/ausflug-plus.js
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Theiligerstrasse%2069%2C%208484%20Weisslingen
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Tumigerweg%201%2C%208606%20Greifensee
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Bergwerkstrasse%2027%2C%208810%20Horgen
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Alsenstrasse%2040%2C%208803%20R%C3%BCschlikon
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=In%20der%20Unterhueb%2010%2C%208125%20Zollikerberg
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Bodenstrasse%2013%2C%208136%20Gattikon
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Graswinkelstrasse%2054%2C%208302%20Kloten
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Erlebnisweg%20%C2%ABLea%20und%20Ben%20bei%20den%20Mutterk%C3%BChen%C2%BB%20Start%20bei%20der%20Bushaltestelle%20Freienstein%2C%20Wohnschule%2C%208427%20Freienstein
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Wiesendangerstrasse%2015%2C%208543%20Bertschikon
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Schaffhauserstrasse%20201%2C%208400%20Winterthur
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Greifvogelstation%20Berg%20am%20Irchel%20Chloster%2C%208415%20Berg%20am%20Irchel
