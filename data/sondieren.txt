@@ -1,1 +1,2 @@
-https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry=8.656882,47.31184&geometryType=esriGeometryPoint&sr=4326&layers=all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill&tolerance=0&returnGeometry=false
+https://kinderregion.ch/de/
+https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/
