@@ -1,1 +1,1 @@
-https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill/112?geometryFormat=geojson&sr=4326
+https://epperttobias-sys.github.io/fuer-familien-in-zuerich/bezirke-karte.js
