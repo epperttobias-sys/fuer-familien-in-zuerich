@@ -1,1 +1,5 @@
-https://epperttobias-sys.github.io/fuer-familien-in-zuerich/ausflug-plus.js
+https://gz-zh.ch/wp-json/
+https://gz-zh.ch/agenda/ | html
+https://www.selberpfluecken.ch/robots.txt
+https://www.selberpfluecken.ch/regionen/kanton-zuerich/ | html
+https://www.selberpfluecken.ch/wp-json/
