@@ -411,6 +411,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .ha-mapbtn svg{width:18px;height:18px}.ha-mapbtn[aria-expanded=true]{background:var(--accent);color:var(--accent-ink)}
 .ha-map{margin-top:10px;background:var(--surface);border-radius:20px;padding:12px 10px 6px;border:0;box-shadow:0 2px 10px rgba(13,35,64,.08)}
 .ha-map svg{max-width:300px}
+.ha-mapdone{display:block;margin:6px auto 6px;border:0;border-radius:999px;padding:10px 22px;background:var(--accent);color:var(--accent-ink);font:800 .95rem var(--body);cursor:pointer;min-height:44px}
 .ha-duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .ha-duo .today{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:2px;padding:16px;border-radius:20px;min-height:118px}
 .ha-duo .today>div:first-child{display:contents}
@@ -1867,7 +1868,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");r.ferien=ferienText(c);const GH=window.GESUNDHEIT||{aerzte:[],apo:[]};const na=GH.aerzte.filter(x=>x.g===c).length,np=GH.apo.filter(x=>x.g===c).length;r.notfall=(na+np)+" Praxen und Apotheken";r.kurse=kurseText(c);r.geburtstag=gebText(c);return r}
   function todayBand(c){const B=homeB,cs=B?new Set(B.codes):null;const ev=D.events.filter(e=>e.von<=today&&e.bis>=today&&(cs?e.gemeinden.some(x=>cs.has(x)):(!c||e.gemeinden.includes(c)))).length;
     document.getElementById("today-n").textContent=P(ev,"Anlass","Anlässe")+" für Kinder";
-    document.querySelector("#home-today small").textContent=B?"Heute im Bezirk "+B.name:c?"Heute in "+GM[c].name:"Heute in deiner Region";
+    document.querySelector("#home-today small").textContent=B?"Heute "+B.where:c?"Heute in "+GM[c].name:"Heute in deiner Region";
     const W=window.WETTER;const wc=B?B.codes.find(x=>W&&W.g[x]):c;const g=W&&((wc&&W.g[wc])||W.g.d||W.g.u);if(g){const i=g.d.indexOf(today);if(i>=0){const[ic]=WX(g.c[i]);document.getElementById("today-w").replaceChildren(document.createTextNode(ic),node("small","",g.tn[i]+"°–"+g.tx[i]+"°"))}}}
   function saisonCard(c){const t=document.getElementById("go-saison");if(!t)return;const m=n.getMonth()+1;
     const to=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate()+56));
@@ -1877,14 +1878,21 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
       t.querySelector(".tile-text").textContent=cur[1]+(cur[1]===1?" Anlass":" Anlässe")+(c?" in "+GM[c].name:"")+" in den nächsten 8 Wochen"}
     else{t.querySelector(".tile-title").textContent="Saisonale Highlights";t.querySelector(".tile-text").textContent="Was gerade Saison hat"}}
   const BL={events:["Anlass","Anlässe"],saison:["Highlight","Highlights"],ausflug:["Ausflugsziel","Ausflugsziele"],spielplaetze:["Spielplatz","Spielplätze"],essen:["Restaurant","Restaurants"],vereine:["Verein","Vereine"],betreuung:["Angebot","Angebote"],familie:["Angebot","Angebote"],raeume:["Raum","Räume"]};
-  function setBez(name){const codes=Object.keys(GM).filter(c=>GM[c].bezirk===name);if(!codes.length)return;homeG=null;homeB={name,codes};
-    try{localStorage.setItem("fa-home-b",name);localStorage.removeItem("fa-home-g")}catch(e){}
+  function setBez(names){names=[...new Set([].concat(names||[]))].filter(n=>Object.values(GM).some(g=>g.bezirk===n)).sort((a,b)=>a.localeCompare(b,"de"));
+    if(!names.length){setHome(null);return}
+    const codes=Object.keys(GM).filter(c=>names.includes(GM[c].bezirk));homeG=null;
+    const where=names.length===1?"im Bezirk "+names[0]:"in "+names.length+" Bezirken";
+    homeB={names,codes,where};
+    try{localStorage.setItem("fa-home-b",JSON.stringify(names));localStorage.removeItem("fa-home-g")}catch(e){}
     const sum={};codes.forEach(c=>{const r=counts(c);for(const k in BL)sum[k]=(sum[k]||0)+(+((r[k]||"").match(/^\d+/)||[0])[0])});
     for(const k in TILE){const t=document.getElementById(TILE[k]);if(!t)continue;const tx=t.querySelector(".tile-text");if(!(k in orig))orig[k]=tx.textContent;
-      const has=k in BL;tx.textContent=has?P(sum[k],BL[k][0],BL[k][1])+" im Bezirk "+name:orig[k];t.classList.toggle("zero",has&&!sum[k]);
+      const has=k in BL;tx.textContent=has?P(sum[k],BL[k][0],BL[k][1])+" "+where:orig[k];t.classList.toggle("zero",has&&!sum[k]);
       let bd=t.querySelector(".badge");if(has){if(!bd){bd=node("span","badge");t.append(bd)}bd.textContent=String(sum[k])}else if(bd)bd.remove()}
-    saisonCard(null);chip.hidden=false;document.getElementById("home-chip-t").textContent="🗺 Bezirk "+name;todayBand(null);if(window.paintHomeMap)paintHomeMap()}
-  window.setHomeBez=setBez;
+    saisonCard(null);chip.hidden=false;
+    document.getElementById("home-chip-t").textContent="🗺 "+(names.length===1?"Bezirk "+names[0]:names.length<=3?"Bezirke "+names.join(", "):names.length+" Bezirke");
+    todayBand(null);if(window.paintHomeMap)paintHomeMap()}
+  const togBez=n=>{const cur=homeB?homeB.names.slice():[];const i=cur.indexOf(n);i>=0?cur.splice(i,1):cur.push(n);setBez(cur)};
+  window.setHomeBez=setBez;window.togHomeBez=togBez;window.getHomeBez=()=>homeB?homeB.names:[];
   function setHome(c){homeG=c;homeB=null;try{c?localStorage.setItem("fa-home-g",c):localStorage.removeItem("fa-home-g");localStorage.removeItem("fa-home-b")}catch(e){}if(window.paintHomeMap)setTimeout(paintHomeMap,0);
     const r=c?counts(c):null;
     for(const k in TILE){const t=document.getElementById(TILE[k]);if(!t)continue;const tx=t.querySelector(".tile-text");if(!(k in orig))orig[k]=tx.textContent;
@@ -1901,7 +1909,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     const cats=CATS.filter(c=>c[1].toLowerCase().includes(v)||c[3].split(" ").some(w=>w.startsWith(v)||v.startsWith(w)));
     const gs=Object.keys(GM).filter(c=>GM[c].name.toLowerCase().startsWith(v)).concat(Object.keys(GM).filter(c=>!GM[c].name.toLowerCase().startsWith(v)&&GM[c].name.toLowerCase().includes(v))).slice(0,6);
     const bzs=[...new Set(Object.values(GM).map(g=>g.bezirk).filter(Boolean))].filter(b=>b.toLowerCase().startsWith(v)||("bezirk "+b).toLowerCase().startsWith(v)).slice(0,3);
-    if(bzs.length){box.append(node("div","h","Bezirk wählen"));bzs.forEach(b=>{const x=document.createElement("button");x.type="button";x.textContent="🗺 Bezirk "+b;x.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();setBez(b)});box.append(x)})}
+    if(bzs.length){box.append(node("div","h","Bezirk wählen"));bzs.forEach(b=>{const x=document.createElement("button");x.type="button";x.textContent="🗺 Bezirk "+b;x.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();if(!(homeB&&homeB.names.includes(b)))togBez(b)});box.append(x)})}
     if(gs.length){box.append(node("div","h","Gemeinde wählen"));gs.forEach(c=>{const b=document.createElement("button");b.type="button";b.textContent="📍 "+GM[c].name+" · Bezirk "+(GM[c].bezirk||"");
       b.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();setHome(c)});box.append(b)})}
     const nz=x=>x.toLowerCase().replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/[^a-z0-9]/g,""),nv=nz(v);
@@ -1919,7 +1927,8 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
   saisonCard(null);
   let saved=null;try{saved=localStorage.getItem("fa-home-g")}catch(e){}
   let savedB=null;try{savedB=localStorage.getItem("fa-home-b")}catch(e){}
-  setTimeout(()=>{if(savedB)setBez(savedB);else if(saved&&GM[saved])setHome(saved)},50);
+  let sb=null;if(savedB){try{sb=JSON.parse(savedB)}catch(e){sb=[savedB]}}
+  setTimeout(()=>{if(sb&&[].concat(sb).length)setBez(sb);else if(saved&&GM[saved])setHome(saved)},50);
 })();
 /* Merkliste: alles Gemerkte an einem Ort, teilbar per Link (ohne Konto) */
 const LIVE="https://epperttobias-sys.github.io/fuer-familien-in-zuerich/";
@@ -2036,11 +2045,12 @@ start();
     const shapes=[];
     BK.bezirke.forEach(b=>{const pa=document.createElementNS(NS,"path");pa.setAttribute("d",b.d);const ti=document.createElementNS(NS,"title");ti.textContent="Bezirk "+b.name;pa.append(ti);
       pa.setAttribute("tabindex","0");pa.setAttribute("role","button");pa.setAttribute("aria-label","Bezirk "+b.name);
-      const act=ev=>{ev.preventDefault();window.setHomeBez&&setHomeBez(b.name);mp.hidden=true;mb.setAttribute("aria-expanded","false")};
+      const act=ev=>{ev.preventDefault();window.togHomeBez&&togHomeBez(b.name)};
       pa.addEventListener("click",act);pa.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" ")act(ev)});svg.append(pa);shapes.push([pa,b.name])});
     BK.bezirke.forEach(b=>{const t=document.createElementNS(NS,"text");t.setAttribute("x",b.lx);t.setAttribute("y",b.ly);t.textContent=b.name;svg.append(t)});
-    window.paintHomeMap=()=>{let cur="";try{cur=localStorage.getItem("fa-home-b")||""}catch(e){}shapes.forEach(([pa,nm])=>{pa.classList.toggle("on",nm===cur);pa.setAttribute("aria-pressed",String(nm===cur))})};
-    mp.append(svg,node("p","dd-note","Tippe auf einen Bezirk. Die Startseite zeigt dann alles für diesen Bezirk."));
+    window.paintHomeMap=()=>{const cur=window.getHomeBez?getHomeBez():[];shapes.forEach(([pa,nm])=>{const on=cur.includes(nm);pa.classList.toggle("on",on);pa.setAttribute("aria-pressed",String(on))});done.hidden=!cur.length};
+    const done=node("button","ha-mapdone","Fertig");done.type="button";done.hidden=true;done.addEventListener("click",()=>{mp.hidden=true;mb.setAttribute("aria-expanded","false")});
+    mp.append(svg,node("p","dd-note","Tippe auf einen oder mehrere Bezirke. Nochmals tippen wählt ihn wieder ab."),done);
     mb.addEventListener("click",()=>{mp.hidden=!mp.hidden;mb.setAttribute("aria-expanded",String(!mp.hidden));if(!mp.hidden)paintHomeMap()});
     top.append(mb,mp)}
   if(chip)top.append(chip);
