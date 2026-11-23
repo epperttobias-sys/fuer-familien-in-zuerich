@@ -1159,6 +1159,10 @@
 "e": "Chlausinzug Brüttisellen",
 "p": "Chlauseinzug Brüttisellen"
 },
+"Chlauseinzug Richterswil": {
+"e": "Court of Justice of the European Communities",
+"p": "Chlauseinzug Richterswil"
+},
 "Chlauseinzug in 8106 Adlikon bei Regensdorf": {
 "e": "Chlauseinzug in 8106 Adlikon near Regensdorf",
 "p": "Chlauseinzug in 8106 Adlikon bei Regensdorf"
@@ -6378,6 +6382,10 @@
 "Weihnachtsmarkt um’s Chratzhöfli": {
 "e": "Christmas Market at the Chratzhöfli",
 "p": "Weihnachtsmarkt um’s Chratzhöfli"
+},
+"Weihnachtsmarkt, Auftritt des Chindsgichors": {
+"e": "Christmas market, performance of the chindsgichor",
+"p": "Weihnachtsmarkt, Auftritt des Chindsgichors"
 },
 "Weihnachtsmusical der Memory-Kinder": {
 "e": "Christmas musical of memory children",
