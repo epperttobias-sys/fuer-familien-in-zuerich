@@ -64,6 +64,15 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dd-group button:hover{text-decoration:underline}
 .dd-actions{display:flex;gap:6px;padding:4px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
 .dd-actions button{min-height:30px;padding:4px 10px;font-size:.85rem}
+.dd-map-btn{margin-left:auto}
+.dd-map{padding:6px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
+.dd-map svg{display:block;width:100%;max-width:260px;margin:0 auto;height:auto}
+.dd-map path{fill:var(--soft,#eef2f7);stroke:var(--card,#fff);stroke-width:1.5;cursor:pointer;transition:fill .15s}
+.dd-map path:hover,.dd-map path:focus{fill:color-mix(in srgb,var(--accent) 25%,var(--soft,#eef2f7));outline:none}
+.dd-map path.part{fill:color-mix(in srgb,var(--accent) 35%,var(--soft,#eef2f7))}
+.dd-map path.on{fill:var(--accent)}
+.dd-map path.off{fill:var(--line,#e2e8f0);cursor:default;opacity:.5}
+.dd-map text{font-size:11px;font-weight:600;fill:var(--ink,#1e293b);text-anchor:middle;dominant-baseline:middle;pointer-events:none;paint-order:stroke;stroke:var(--card,#fff);stroke-width:3px;stroke-linejoin:round}
 button{font:500 .92rem var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
 button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
@@ -683,6 +692,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 
 <script src="events.js"></script>
 <script src="gemeinden.js"></script>
+<script src="bezirke-karte.js"></script>
 <script src="raeume.js"></script>
 <script src="essen.js"></script>
 <script src="essen-plus.js"></script>
@@ -1822,6 +1832,31 @@ const dist=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)
         b.addEventListener("click",ev=>{ev.preventDefault();run(km)});seg.append(b)});
       nb.addEventListener("click",ev=>{ev.preventDefault();run(NEAR.km)});
       row.append(nb,seg);acts.after(row,msg);
+    }
+    // «Bezirke»: kleine Karte, auf der man Bezirke antippt (wählt den ganzen Bezirk bzw. wählt ihn wieder ab)
+    const BK=window.BEZIRKE_KARTE;
+    if(BK&&acts&&none&&heads.length>1){
+      const gb=document.createElement("button");gb.type="button";gb.className="dd-map-btn";gb.textContent="🗺 Bezirke";gb.setAttribute("aria-expanded","false");
+      const box=document.createElement("div");box.className="dd-map";box.hidden=true;
+      const NS="http://www.w3.org/2000/svg",svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox",`0 0 ${BK.w} ${BK.h}`);svg.setAttribute("role","group");svg.setAttribute("aria-label","Karte der Bezirke");
+      const byB=new Map(heads.map(hd=>[hd.querySelector(".dd-tog")?.dataset.group,hd]));
+      const shapes=[];
+      BK.bezirke.forEach(b=>{const hd=byB.get(b.name),pa=document.createElementNS(NS,"path");pa.setAttribute("d",b.d);pa.dataset.b=b.name;
+        const ti=document.createElementNS(NS,"title");ti.textContent="Bezirk "+b.name;pa.append(ti);
+        if(!hd){pa.classList.add("off");svg.append(pa);return}
+        pa.setAttribute("tabindex","0");pa.setAttribute("role","button");pa.setAttribute("aria-label","Bezirk "+b.name);
+        const act=ev=>{ev.preventDefault();const allOn=boxes.every(i=>i.checked);if(allOn)none.click();
+          setTimeout(()=>{hd.querySelector(".dd-all")?.click();setTimeout(()=>{if(!hd.classList.contains("open")&&(items.get(hd)||[]).some(l=>l.querySelector("input")?.checked))setOpen(hd,true);paint()},0)},0)};
+        pa.addEventListener("click",act);pa.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" ")act(ev)});
+        svg.append(pa);shapes.push([pa,hd])});
+      BK.bezirke.forEach(b=>{const t=document.createElementNS(NS,"text");t.setAttribute("x",b.lx);t.setAttribute("y",b.ly);t.textContent=b.name;t.dataset.de=b.name;svg.append(t)});
+      const paint=()=>{const allOn=boxes.every(i=>i.checked);shapes.forEach(([pa,hd])=>{const L=items.get(hd)||[],n=L.filter(l=>l.querySelector("input")?.checked).length;
+        pa.classList.toggle("on",!allOn&&n===L.length&&n>0);pa.classList.toggle("part",!allOn&&n>0&&n<L.length);pa.setAttribute("aria-pressed",String(!allOn&&n===L.length&&n>0))})};
+      const hint=document.createElement("p");hint.className="dd-note";hint.textContent="Bezirk auf der Karte antippen, um ihn zu wählen oder wieder abzuwählen.";
+      box.append(svg,hint);
+      gb.addEventListener("click",ev=>{ev.preventDefault();box.hidden=!box.hidden;gb.setAttribute("aria-expanded",String(!box.hidden));if(!box.hidden)paint()});
+      acts.append(gb);acts.after(box);
+      panel.addEventListener("change",()=>setTimeout(paint,0));panel.addEventListener("click",()=>setTimeout(paint,0));
     }
   });
 })();
