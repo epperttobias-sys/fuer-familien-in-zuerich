@@ -1888,8 +1888,15 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     const gs=Object.keys(GM).filter(c=>GM[c].name.toLowerCase().startsWith(v)).concat(Object.keys(GM).filter(c=>!GM[c].name.toLowerCase().startsWith(v)&&GM[c].name.toLowerCase().includes(v))).slice(0,6);
     if(gs.length){box.append(node("div","h","Gemeinde wählen"));gs.forEach(c=>{const b=document.createElement("button");b.type="button";b.textContent="📍 "+GM[c].name+" · Bezirk "+(GM[c].bezirk||"");
       b.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();setHome(c)});box.append(b)})}
+    const nz=x=>x.toLowerCase().replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/[^a-z0-9]/g,""),nv=nz(v);
+    const lim=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate()+90));
+    const evs=nv.length>=3?D.events.filter(e=>e.bis>=today&&e.von<=lim&&(!homeG||e.gemeinden.includes(homeG))&&nz(e.name+" "+((GM[e.gemeinden[0]]||{}).name||"")).includes(nv)).sort((a,b)=>(a.von>today?a.von:today).localeCompare(b.von>today?b.von:today)).slice(0,6):[];
+    if(evs.length){box.append(node("div","h","Anlässe"));const WD=["So","Mo","Di","Mi","Do","Fr","Sa"];
+      evs.forEach(e=>{const a=document.createElement("a"),d=new Date((e.von>today?e.von:today)+"T12:00:00");a.href=e.w||e.url;a.target="_blank";a.rel="noopener";
+        a.textContent="📅 "+e.name+" · "+WD[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]+" · "+((GM[e.gemeinden[0]]||{}).name||"");box.append(a)})}
     if(cats.length){box.append(node("div","h","Bereiche"));cats.forEach(([k,t,ic])=>{const b=document.createElement("button");b.type="button";b.textContent=ic+" "+t;b.addEventListener("click",()=>go(k));box.append(b)})}
     if(!box.childNodes.length)box.append(node("div","h","Nichts gefunden"));box.hidden=false}
+  q.placeholder="🔍 Gemeinde, Thema oder Anlass suchen …";
   q.addEventListener("input",show);q.addEventListener("focus",show);
   q.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=box.querySelector("button");if(b)b.click()}if(e.key==="Escape")box.hidden=true});
   document.addEventListener("click",e=>{if(!e.target.closest(".hsearch"))box.hidden=true});
@@ -1968,6 +1975,8 @@ window.renderTipps=function(){
     node("p","tp-sub","Eine Auswahl aus "+T.total+" Anlässen für Kinder im ganzen Kanton. Mit dem Herz ♡ merkst du dir, was euch gefällt."));
   box.append(hero);
   const sec=(t,sub)=>{const h=node("h2","mk-sec",t);box.append(h);if(sub)box.append(node("p","tp-secsub",sub))};
+  const bg=(T.big||[]).map(([k,d])=>[byKey.get(k),d]).filter(x=>x[0]);
+  if(bg.length){sec("🎉 Die grossen Anlässe","Umzüge, Märkte und Feste, die man nicht verpassen sollte");bg.forEach(([e,d])=>box.append(card(e,d)))}
   const top=(T.top||[]).map(([k,d])=>[byKey.get(k),d]).filter(x=>x[0]);
   if(top.length){sec("Unsere Highlights","Die schönsten Anlässe aus verschiedenen Bezirken");let last="";
     top.forEach(([e,d])=>{if(d!==last){last=d;const x=dd(d);box.append(node("h3","tp-day",(d===ti?"Heute, ":WL[x.getDay()]+", ")+x.getDate()+". "+ML[x.getMonth()]))}box.append(card(e,d))})}

@@ -45,17 +45,30 @@ const cand = (data.events || [])
 
 // Doppelte Titel (gleicher Name, gleicher Tag) nur einmal
 const seen = new Set();
-const uniq = cand.sort((a, b) => b.s - a.s).filter(x => { const k = x.e.name.toLowerCase().replace(/\W+/g, "") + x.day; if (seen.has(k)) return false; seen.add(k); return true; });
+const uniq = cand.sort((a, b) => b.s - a.s).filter(x => { const k = x.e.name.toLowerCase().replace(/\W+/g, "") + x.day + x.gem; if (seen.has(k)) return false; seen.add(k); return true; });
 
 const single = uniq.filter(x => span(x.e) <= 3);
 const longRun = uniq.filter(x => span(x.e) > 3 && HI.test(x.e.name)).slice(0, 6);
 
+// Die grossen, bekannten Anlässe (Umzüge, Märkte, Chilbi, Zirkus …), grosse Gemeinden zuerst
+const BIG = /umzug|einzug|weihnachtsmarkt|christkindli|wienachtsm[äa]rt|adventsmarkt|m[äa]rt\b|chilbi|zirkus|circus|fasnacht|kinderfest|r[äa]ebeliecht|räbeliechtli|lichterschwimmen|zürifäscht|knabenschiessen|sechseläuten|jahrmarkt|festival|eisbahn|zauberwald|lichterzauber/i;
+const CITY = { zuerich: 6, winterthur: 5 };
+const cityW = x => CITY[x.e.gemeinden[0]] ?? (gOf(x.e).count >= 120 ? 2 : gOf(x.e).count >= 60 ? 1 : 0);
+const bigSeen = new Set(), bigG = {};
+const SMALL = /\bgz\b|gemeinschaftszentrum|quartiertreff|\bam\b.*m[äa]rk?t|\bam chilbi|verzier|bastel|\bstand\b|brocken|innenhof|verein am/i;
+const big = uniq.filter(x => span(x.e) <= 3 && BIG.test(x.e.name) && !SMALL.test(x.e.name + " " + (x.e.ort || "") + " " + (x.e.url || "")))
+  .map(x => ({ ...x, bs: cityW(x) * 2 + x.s + (/umzug|einzug/i.test(x.e.name) ? 5 : /chilbi|zirkus|circus|fasnacht|kinderfest|lichterschwimmen|zürifäscht|knabenschiessen|sechseläuten/i.test(x.e.name) ? 4 : /weihnachtsmarkt|christkindli|m[äa]rt\b/i.test(x.e.name) ? 2 : 0) - (/\bgz\b|gemeinschaftszentrum|quartiertreff/i.test(x.e.name + " " + (x.e.ort || "") + " " + (x.e.url || "")) ? 3 : 0) - (/\bam\b.*m[äa]rk?t|\bam chilbi|verzier|bastel|\bstand\b|brocken|innenhof|verein am/i.test(x.e.name) ? 6 : 0) }))
+  .sort((a, b) => b.bs - a.bs)
+  .filter(x => { const k = x.gem, max = CITY[x.e.gemeinden[0]] ? 2 : 1, um = /umzug|einzug/i.test(x.e.name); if ((bigG[k] || 0) >= max || bigSeen.size >= 6 || (um && (bigG.$um || 0) >= 4)) return false; if (um) bigG.$um = (bigG.$um || 0) + 1; bigG[k] = (bigG[k] || 0) + 1; bigSeen.add(x); return true; })
+  .sort((a, b) => (a.day + (a.e.time || "99")).localeCompare(b.day + (b.e.time || "99"), "de", { numeric: true }));
+const bigSet = new Set(big);
+
 // Highlights: die besten, höchstens 2 pro Bezirk
 const top = [], perB = {};
-for (const x of single) { if (top.length >= 8) break; if ((perB[x.bez] = (perB[x.bez] || 0) + 1) <= 2) top.push(x); }
+for (const x of single) { if (bigSet.has(x)) continue; if (top.length >= 8) break; if ((perB[x.bez] = (perB[x.bez] || 0) + 1) <= 2) top.push(x); }
 const topSet = new Set(top);
 const byBez = {};
-for (const x of single) if (!topSet.has(x)) (byBez[x.bez] = byBez[x.bez] || []).push(x);
+for (const x of single) if (!topSet.has(x) && !bigSet.has(x)) (byBez[x.bez] = byBez[x.bez] || []).push(x);
 const sortT = (a, b) => (a.day + (a.e.time || "99")).localeCompare(b.day + (b.e.time || "99"), "de", { numeric: true });
 Object.values(byBez).forEach(l => { l.sort((a, b) => b.s - a.s); l.splice(6); l.sort(sortT); });
 top.sort(sortT);
@@ -114,6 +127,7 @@ ${byBez[b].map(x => `<div style="padding:8px 0;border-top:1px solid #eef3fa"><a 
 
 const body = `<div style="max-width:620px;margin:0 auto;font-family:${FONT};color:${C.ink};line-height:1.45;font-size:16px">
 ${header}
+${big.length ? secHead("🎉 Die grossen Anlässe", "Umzüge, Märkte und Feste, die man nicht verpassen sollte") + big.map(x => card(x, { showDay: true })).join("") : ""}
 ${hiByDay.length ? secHead("⭐ Unsere Highlights", "Die schönsten Anlässe aus verschiedenen Bezirken") + hiByDay.map(([d, l]) => dayHead(d) + l.map(x => card(x)).join("")).join("") : ""}
 ${longRun.length ? secHead("📆 Das ganze Wochenende", "Mehrmals geöffnet oder über mehrere Tage") + longRun.map(x => card(x, { showDay: true })).join("") : ""}
 ${tips.length ? secHead("🧺 Ausflugstipps der Woche", "Höfe, Ausflugsbeizen und Orte zum Entdecken") + tips.map(tipCard).join("") : ""}
@@ -166,7 +180,7 @@ ${items.join("\n")}
 
 // Auswahl für die App-Seite «Wochenend-Tipps» (mit Herz zum Merken)
 const key = e => (e.gemeinden[0] || "") + ":" + (e.id || e.name + e.von);
-const TIPPS = { fr: FR, so: SO, total, top: top.map(x => [key(x.e), x.day]), long: longRun.map(x => key(x.e)),
+const TIPPS = { fr: FR, so: SO, total, big: big.map(x => [key(x.e), x.day]), top: top.map(x => [key(x.e), x.day]), long: longRun.map(x => key(x.e)),
   tips: tips.map(p => [p.n, p.g]), bez: Object.fromEntries(BEZ.map(b => [b, byBez[b].map(x => key(x.e))])) };
 await writeFile("site/tipps.js", "window.TIPPS=" + JSON.stringify(TIPPS) + ";\n");
 console.log(`Newsletter ${FR}: ${top.length} Highlights, ${longRun.length} lang, ${BEZ.length} Bezirke, ${tips.length} Ausflugstipps, ${total} Kandidaten`);
