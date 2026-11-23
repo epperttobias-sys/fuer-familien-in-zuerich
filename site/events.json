@@ -1,13 +1,6 @@
 {
  "stand": "2026-11-23",
  "gemeinden": {
-  "affolternamalbis": {
-   "name": "Affoltern am Albis",
-   "bezirk": "Affoltern",
-   "domain": "www.stadtaffoltern.ch",
-   "ok": true,
-   "count": 31
-  },
   "bonstetten": {
    "name": "Bonstetten",
    "bezirk": "Affoltern",
@@ -49,6 +42,13 @@
    "domain": "www.ottenbach.ch",
    "ok": true,
    "count": 5
+  },
+  "affolternamalbis": {
+   "name": "Affoltern am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.stadtaffoltern.ch",
+   "ok": true,
+   "count": 31
   },
   "andelfingen": {
    "name": "Andelfingen",
@@ -804,7 +804,7 @@
    "bezirk": "Meilen",
    "domain": "www.maennedorf.ch",
    "ok": true,
-   "count": 20
+   "count": 21
   },
   "t": {
    "name": "Uetikon am See",
@@ -895,7 +895,7 @@
    "bezirk": "Uster",
    "domain": "www.duebendorf.ch",
    "ok": true,
-   "count": 87
+   "count": 90
   },
   "e": {
    "name": "Egg",
@@ -1102,6 +1102,13 @@
    "ok": true,
    "count": 4
   },
+  "q-localcities": {
+   "name": "localcities.ch (Vereine, Höfe, Märkte)",
+   "bezirk": "Quellen",
+   "domain": "www.localcities.ch",
+   "ok": true,
+   "count": 228
+  },
   "q-kindaling": {
    "name": "kindaling (Familienanlässe privater Anbieter)",
    "bezirk": "Quellen",
@@ -1109,12 +1116,12 @@
    "ok": true,
    "count": 48
   },
-  "q-localcities": {
-   "name": "localcities.ch (Vereine, Höfe, Märkte)",
+  "q-guldenen": {
+   "name": "Waldhof Guldenen",
    "bezirk": "Quellen",
-   "domain": "www.localcities.ch",
-   "ok": false,
-   "count": 159
+   "domain": "www.waldhofguldenen.ch",
+   "ok": true,
+   "count": 0
   }
  },
  "events": [
@@ -1589,129 +1596,6 @@
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4764069",
-   "q": "q-localcities",
-   "name": "Circus Conelli 2026 - Das Original",
-   "von": "2026-11-22",
-   "bis": "2026-12-06",
-   "ort": "Restaurant Bauschänzli, 8001 Zürich",
-   "veranstalter": "",
-   "time": "14.00",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4764069",
-   "w": "https://www.ticketcorner.ch/artist/circus-conelli/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4817047",
-   "q": "q-localcities",
-   "name": "Circus Monti - Poussière d'étoiles",
-   "von": "2026-11-22",
-   "bis": "2026-11-29",
-   "ort": "Kasernenareal, 8004 Zürich",
-   "veranstalter": "",
-   "time": "14.00",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4817047",
-   "w": "https://circus-monti.ch/tickets"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4788551",
-   "q": "q-localcities",
-   "name": "Die Zauberorgel",
-   "von": "2026-11-22",
-   "bis": "2026-12-06",
-   "ort": "Theater am Hechtplatz, 8001 Zürich",
-   "veranstalter": "",
-   "time": "11.00",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4788551",
-   "w": "https://theaterhechtplatz.ch/produktionen/zauberorgel/"
-  },
-  {
-   "gemeinden": [
-    "kilchberg"
-   ],
-   "id": "kilchberg-lc4618663",
-   "q": "q-localcities",
-   "name": "Familie Mann-Zimmer",
-   "von": "2026-11-22",
-   "bis": "2026-12-02",
-   "ort": "Conrad Ferdinand Meyer-Haus, 8802 Kilchberg ZH",
-   "veranstalter": "",
-   "time": "14.00 - 17.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.localcities.ch/de/veranstaltungen/kilchberg-zh/393/4618663"
-  },
-  {
-   "gemeinden": [
-    "n"
-   ],
-   "id": "n-lc4904637",
-   "q": "q-localcities",
-   "name": "Hotel Sonne Küsnacht - Winterzaubergarten",
-   "von": "2026-11-22",
-   "bis": "2027-01-17",
-   "ort": "Sonne Boutiquehotel und Seerestaurants, 8700 Küsnacht ZH",
-   "veranstalter": "",
-   "time": "14.00 - 20.00",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4904637",
-   "w": "https://sonne.ch/restaurants-und-bar/winterzaubergarten/"
-  },
-  {
-   "gemeinden": [
-    "dietikon"
-   ],
-   "id": "dietikon-lc4807793",
-   "q": "q-localcities",
-   "name": "Kerzenziehen",
-   "von": "2026-11-22",
-   "bis": "2026-11-27",
-   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
-   "veranstalter": "",
-   "time": "13.30 - 17.30",
-   "age": {
-    "min": 3,
-    "max": 7,
-    "label": "3 bis 7 Jahre"
-   },
-   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807793",
-   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
-  },
-  {
-   "gemeinden": [
-    "k"
-   ],
-   "id": "k-lc4902525",
-   "q": "q-localcities",
-   "name": "Kerzenziehen",
-   "von": "2026-11-22",
-   "bis": "2026-11-27",
-   "ort": "8126 Zumikon",
-   "veranstalter": "",
-   "time": "",
-   "age": {
-    "min": 4,
-    "max": 6,
-    "label": "Kindergarten"
-   },
-   "url": "https://www.localcities.ch/de/veranstaltungen/zumikon/441/4902525",
-   "w": "https://www.zumikon.ch/_rte/anlass/7774324"
-  },
-  {
-   "gemeinden": [
     "oberglatt"
    ],
    "id": "oberglatt-2081-4296",
@@ -1724,54 +1608,6 @@
    "age": null,
    "url": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2081/eventdate/4296",
    "w": "https://elternvereinigung.ch"
-  },
-  {
-   "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-lc4906753",
-   "q": "q-localcities",
-   "name": "Kerzenziehen 2026",
-   "von": "2026-11-22",
-   "bis": "2026-11-26",
-   "ort": "VFK Räumlichkeiten, 8302 Kloten",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4906753",
-   "w": "http://www.vfk-kloten.ch"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4869465",
-   "q": "q-localcities",
-   "name": "Kerzenziehen Glaubten",
-   "von": "2026-11-22",
-   "bis": "2026-11-29",
-   "ort": "Kirchliches Zentrum Glaubten, 8046 Zürich",
-   "veranstalter": "",
-   "time": "12.00 - 18.00",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4869465",
-   "w": "https://www.kerzenziehen-glaubten.ch"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4909947",
-   "q": "q-localcities",
-   "name": "Weihnachtsworkshop von 1st Blossom in der Zürcher Weihnachtsallee!",
-   "von": "2026-11-22",
-   "bis": "2026-11-28",
-   "ort": "8004 Zürich",
-   "veranstalter": "",
-   "time": "11.20 - 13.20",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4909947",
-   "w": "https://1stblossom.ch/workshops/"
   },
   {
    "gemeinden": [
@@ -2021,6 +1857,26 @@
   },
   {
    "gemeinden": [
+    "k"
+   ],
+   "id": "k-lc4902525",
+   "q": "q-localcities",
+   "name": "Kerzenziehen",
+   "von": "2026-11-23",
+   "bis": "2026-11-27",
+   "ort": "8126 Zumikon",
+   "veranstalter": "",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/zumikon/441/4902525",
+   "w": "https://www.zumikon.ch/_rte/anlass/7774324"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7736398",
@@ -2051,6 +1907,22 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4869465",
+   "q": "q-localcities",
+   "name": "Kerzenziehen Glaubten",
+   "von": "2026-11-23",
+   "bis": "2026-11-29",
+   "ort": "Kirchliches Zentrum Glaubten, 8046 Zürich",
+   "veranstalter": "",
+   "time": "16.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4869465",
+   "w": "https://www.kerzenziehen-glaubten.ch"
+  },
+  {
+   "gemeinden": [
     "hw"
    ],
    "id": "hw-7695136",
@@ -2059,7 +1931,7 @@
    "bis": "2026-11-28",
    "ort": "Perle",
    "veranstalter": "Ref. Kirche Hinwil",
-   "time": "",
+   "time": "15.00 - 19.00",
    "age": null,
    "url": "https://www.hinwil.ch/_rte/anlass/7695136",
    "w": "https://www.ref-hinwil.ch"
@@ -2464,6 +2336,25 @@
   },
   {
    "gemeinden": [
+    "kilchberg"
+   ],
+   "id": "kilchberg-lc4618663",
+   "q": "q-localcities",
+   "name": "Familie Mann-Zimmer",
+   "von": "2026-11-24",
+   "bis": "2026-12-02",
+   "ort": "Conrad Ferdinand Meyer-Haus, 8802 Kilchberg ZH",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/kilchberg-zh/393/4618663"
+  },
+  {
+   "gemeinden": [
     "hettlingen"
    ],
    "id": "hettlingen-7777525",
@@ -2575,6 +2466,22 @@
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7638151",
    "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
+  },
+  {
+   "gemeinden": [
+    "kloten"
+   ],
+   "id": "kloten-lc4906753",
+   "q": "q-localcities",
+   "name": "Kerzenziehen 2026",
+   "von": "2026-11-24",
+   "bis": "2026-11-27",
+   "ort": "VFK Räumlichkeiten, 8302 Kloten",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4906753",
+   "w": "http://www.vfk-kloten.ch"
   },
   {
    "gemeinden": [
@@ -3180,6 +3087,38 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4764069",
+   "q": "q-localcities",
+   "name": "Circus Conelli 2026 - Das Original",
+   "von": "2026-11-25",
+   "bis": "2026-12-09",
+   "ort": "Restaurant Bauschänzli, 8001 Zürich",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4764069",
+   "w": "https://www.ticketcorner.ch/artist/circus-conelli/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4817047",
+   "q": "q-localcities",
+   "name": "Circus Monti - Poussière d'étoiles",
+   "von": "2026-11-25",
+   "bis": "2026-11-29",
+   "ort": "Kasernenareal, 8004 Zürich",
+   "veranstalter": "",
+   "time": "15.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4817047",
+   "w": "https://circus-monti.ch/tickets"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7731919",
@@ -3201,7 +3140,7 @@
    "q": "q-localcities",
    "name": "Der Zauberer von Oz",
    "von": "2026-11-25",
-   "bis": "2026-12-05",
+   "bis": "2026-12-08",
    "ort": "Schauspielhaus Pfauen, 8001 Zürich",
    "veranstalter": "",
    "time": "20.00",
@@ -3316,9 +3255,14 @@
    "bis": "2026-11-25",
    "ort": "Bibliothek",
    "veranstalter": "Bibliothek",
-   "time": "",
-   "age": null,
-   "url": "https://www.richterswil.ch/_rte/anlass/7740979"
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7740979",
+   "w": "http://bibliothek-richterswil.ch"
   },
   {
    "gemeinden": [
@@ -3655,6 +3599,26 @@
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7823497",
    "w": "https://www.abenteuerspielplatz.ch/"
+  },
+  {
+   "gemeinden": [
+    "dietikon"
+   ],
+   "id": "dietikon-lc4807793",
+   "q": "q-localcities",
+   "name": "Kerzenziehen",
+   "von": "2026-11-25",
+   "bis": "2026-11-28",
+   "ort": "Freizeitanlage Chrüzacher, 8953 Dietikon",
+   "veranstalter": "",
+   "time": "13.30 - 17.30",
+   "age": {
+    "min": 3,
+    "max": 7,
+    "label": "3 bis 7 Jahre"
+   },
+   "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807793",
+   "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
   },
   {
    "gemeinden": [
@@ -5185,7 +5149,7 @@
    "q": "q-localcities",
    "name": "Circus Conelli 2026 - Gala Abend",
    "von": "2026-11-27",
-   "bis": "2026-12-04",
+   "bis": "2026-12-09",
    "ort": "Restaurant Bauschänzli, 8001 Zürich",
    "veranstalter": "",
    "time": "18.15",
@@ -6722,6 +6686,22 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4788551",
+   "q": "q-localcities",
+   "name": "Die Zauberorgel",
+   "von": "2026-11-28",
+   "bis": "2026-12-06",
+   "ort": "Theater am Hechtplatz, 8001 Zürich",
+   "veranstalter": "",
+   "time": "13.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4788551",
+   "w": "https://theaterhechtplatz.ch/produktionen/zauberorgel/"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565227",
@@ -7017,6 +6997,22 @@
   },
   {
    "gemeinden": [
+    "n"
+   ],
+   "id": "n-lc4904637",
+   "q": "q-localcities",
+   "name": "Hotel Sonne Küsnacht - Winterzaubergarten",
+   "von": "2026-11-28",
+   "bis": "2027-01-23",
+   "ort": "Sonne Boutiquehotel und Seerestaurants, 8700 Küsnacht ZH",
+   "veranstalter": "",
+   "time": "14.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4904637",
+   "w": "https://sonne.ch/restaurants-und-bar/winterzaubergarten/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4761231",
@@ -7195,6 +7191,22 @@
    "time": "08.00 - 12.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/kerzenziehen-wildbachstrasse-langgasse-2/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-lc4715371",
+   "q": "q-localcities",
+   "name": "Kids With Buns",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Albani Music Club, 8400 Winterthur",
+   "veranstalter": "",
+   "time": "20.00 - 22.30",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/winterthur/585/4715371",
+   "w": "https://www.ticketino.com/de/Event/213326"
   },
   {
    "gemeinden": [
@@ -7830,6 +7842,22 @@
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4894441",
    "w": "https://www.landesmuseum.ch"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4909947",
+   "q": "q-localcities",
+   "name": "Weihnachtsworkshop von 1st Blossom in der Zürcher Weihnachtsallee!",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "8004 Zürich",
+   "veranstalter": "",
+   "time": "11.20 - 13.20",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4909947",
+   "w": "https://1stblossom.ch/workshops/"
   },
   {
    "gemeinden": [
@@ -8911,7 +8939,7 @@
    "bis": "2026-11-29",
    "ort": "Bauma",
    "veranstalter": "",
-   "time": "",
+   "time": "10.30 - 12.00",
    "age": null,
    "url": "https://dvzo.ch/samichlaus-express/"
   },
@@ -14135,6 +14163,25 @@
    },
    "url": "https://www.adliswil.ch/_rte/anlass/7826188",
    "w": "http://www.ceskyklub.ch/"
+  },
+  {
+   "gemeinden": [
+    "d"
+   ],
+   "id": "d-7840180",
+   "name": "Familienfilm \"Auf der Suche nach der Weihnachtswerkstatt\"",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Kino Orion",
+   "veranstalter": "Verein Kino Orion",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.duebendorf.ch/_rte/anlass/7840180",
+   "w": "https://www.kino-orion.ch/"
   },
   {
    "gemeinden": [
@@ -21019,6 +21066,22 @@
   },
   {
    "gemeinden": [
+    "turbenthal"
+   ],
+   "id": "turbenthal-lc4924861",
+   "q": "q-localcities",
+   "name": "Christkindlimärt Turbenthal",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Sticki-Areal, 8488 Turbenthal",
+   "veranstalter": "",
+   "time": "14.00 - 20.00",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/turbenthal/569/4924861",
+   "w": "https://www.hc-turbenthal.ch/markt"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565233",
@@ -22011,13 +22074,32 @@
   },
   {
    "gemeinden": [
+    "d"
+   ],
+   "id": "d-7840183",
+   "name": "Familienfilm \"Auf der Suche nach der Weihnachtswerkstatt\"",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Kino Orion",
+   "veranstalter": "Verein Kino Orion",
+   "time": "13.30",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.duebendorf.ch/_rte/anlass/7840183",
+   "w": "https://www.kino-orion.ch/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4749369",
    "q": "q-localcities",
    "name": "Familienführung",
    "von": "2026-12-13",
-   "bis": "2027-01-03",
+   "bis": "2027-01-17",
    "ort": "Museum Rietberg, 8002 Zürich",
    "veranstalter": "",
    "time": "10.15 - 11.15",
@@ -23795,6 +23877,25 @@
   },
   {
    "gemeinden": [
+    "d"
+   ],
+   "id": "d-7840186",
+   "name": "Familienfilm \"Auf der Suche nach der Weihnachtswerkstatt\"",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Kino Orion",
+   "veranstalter": "Verein Kino Orion",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.duebendorf.ch/_rte/anlass/7840186",
+   "w": "https://www.kino-orion.ch/"
+  },
+  {
+   "gemeinden": [
     "r"
    ],
    "id": "r-10543-14519",
@@ -25384,6 +25485,24 @@
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.opfikon.ch/_rte/anlass/7597051"
+  },
+  {
+   "gemeinden": [
+    "a"
+   ],
+   "id": "a-7840519",
+   "name": "Forscherwerkstatt - Experimente für Kinder",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Familienzentrum Männedorf",
+   "veranstalter": "Familienzentrum Männedorf",
+   "time": "14.30 - 16.00",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.maennedorf.ch/_rte/anlass/7840519"
   },
   {
    "gemeinden": [
