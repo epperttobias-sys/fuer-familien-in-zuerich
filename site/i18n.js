@@ -304,10 +304,14 @@ css.textContent=".lang-sw{position:relative;margin:10px 0 -6px auto;width:max-co
 ".lang-sw button{border:0;background:transparent;color:inherit;font:600 13px/1 system-ui,sans-serif;padding:7px 11px;border-radius:999px;cursor:pointer;min-width:40px}"+
 ".lang-sw button[aria-pressed=true]{background:var(--zh,#0f05a0);color:#fff}";
 document.head.appendChild(css);
-const sw=document.createElement("div");sw.className="lang-sw";sw.setAttribute("role","group");sw.setAttribute("aria-label","Sprache / Language");
+function mkSw(){const sw=document.createElement("div");sw.className="lang-sw";sw.setAttribute("role","group");sw.setAttribute("aria-label","Sprache / Language");
 for(const [l,t,ti] of [["de","DE","Deutsch"],["en","EN","English"]]){const b=document.createElement("button");b.type="button";b.dataset.l=l;b.textContent=t;b.title=ti;b.lang=l;
   b.addEventListener("click",()=>{if(l===LANG)return;try{localStorage.setItem("fa-lang",l)}catch(e){}apply(l)});sw.appendChild(b)}
-const home=document.getElementById("view-home");if(home)home.prepend(sw);
+return sw}
+const home=document.getElementById("view-home");if(home)home.prepend(mkSw());
+// Auch in jedem Unterthema, oben rechts im Kopfbereich
+css.textContent+=".subscene .lang-sw{position:absolute;top:12px;right:max(14px,env(safe-area-inset-right,0px));margin:0}.subscene.has-sw .sun{top:62px}.wrap .subscene.has-sw .subbar{right:112px}.wrap>.lang-sw.sub{margin:6px 0 0 auto}";
+document.querySelectorAll(".wrap:not(.home)").forEach(w=>{const sc=w.querySelector(":scope>.subscene");if(sc){sc.classList.add("has-sw");sc.append(mkSw())}else{const x=mkSw();x.classList.add("sub");w.prepend(x)}});
 let init="de";
 try{const q=new URLSearchParams(location.search).get("lang");const s=localStorage.getItem("fa-lang");
   if(q==="en"||q==="de")init=q;else if(s)init=s;else if(!/^de/i.test(navigator.language||"de")&&/^en/i.test(navigator.language||""))init="en"}catch(e){}
