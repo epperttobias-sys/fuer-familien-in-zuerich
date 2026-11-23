@@ -1122,6 +1122,13 @@ window.FAMILIENAGENDA = {
    "domain": "www.waldhofguldenen.ch",
    "ok": true,
    "count": 0
+  },
+  "q-weinland": {
+   "name": "Zürcher Weinland (Regionalagenda)",
+   "bezirk": "Quellen",
+   "domain": "www.zuercher-weinland.ch",
+   "ok": true,
+   "count": 68
   }
  },
  "events": [
@@ -5870,17 +5877,31 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "hettlingen"
    ],
-   "id": "hettlingen-lc4903677",
-   "q": "q-localcities",
+   "id": "hettlingen-gtMMxnBD--202611271600",
+   "q": "q-weinland",
    "name": "Weihnachtsmarkt Hettlingen 2026",
    "von": "2026-11-27",
-   "bis": "2026-11-28",
-   "ort": "Café Fortuna, 8442 Hettlingen",
+   "bis": "2026-11-27",
+   "ort": "Hettlingen, Café Fortuna",
    "veranstalter": "",
    "time": "16.00 - 21.00",
    "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/hettlingen/561/4903677",
-   "w": "https://www.weihnachtsmarkt-hettlingen.ch"
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/MMxnBD--202611271600/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202611271730",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202611271730/"
   },
   {
    "gemeinden": [
@@ -7845,6 +7866,36 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "hettlingen"
+   ],
+   "id": "hettlingen-gtMMxnBD--202611281500",
+   "q": "q-weinland",
+   "name": "Weihnachtsmarkt Hettlingen 2026",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Hettlingen, Café Fortuna",
+   "veranstalter": "",
+   "time": "15.00 - 21.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/MMxnBD--202611281500/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtAUYDj7--202611281200",
+   "q": "q-weinland",
+   "name": "Weihnachtsmarkt um’s Chratzhöfli",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Dachsen, Hübscher Weine",
+   "veranstalter": "",
+   "time": "12.00 - 19.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/AUYDj7--202611281200/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4909947",
@@ -7886,6 +7937,21 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 21.00",
    "age": null,
    "url": "https://www.pfaeffikon.ch/event/wiehnachtsmaert-pfaeffikon-2026/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202611281200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 20.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202611281200/"
   },
   {
    "gemeinden": [
@@ -8915,6 +8981,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202611291300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202611291300/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-60004",
@@ -9181,6 +9262,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6293/eventdate/25502",
    "w": "https://www.ruetner-weihnachtsmarkt.ch/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202611291200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202611291200/"
   },
   {
    "gemeinden": [
@@ -9628,6 +9724,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7004/eventdate/12672",
    "w": "https://familienclub-herrliberg.ch/events/elki-treff-offener-spielturm-3/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202611301300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202611301300/"
   },
   {
    "gemeinden": [
@@ -10235,6 +10346,21 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.elsau.ch/_rte/anlass/7704259"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612011300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612011300/"
   },
   {
    "gemeinden": [
@@ -11394,6 +11520,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612021300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612021300/"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33164-0",
@@ -12501,6 +12642,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612031300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612031300/"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7765429",
@@ -13500,6 +13656,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612041300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612041300/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-fa399723",
@@ -13762,6 +13933,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612041730",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612041730/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7693132",
@@ -13900,6 +14086,21 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 17.00",
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/schlieren/613/4914989"
+  },
+  {
+   "gemeinden": [
+    "andelfingen"
+   ],
+   "id": "andelfingen-gt8EPHFj--202612051000",
+   "q": "q-weinland",
+   "name": "Am Samstag besucht der Samichlaus den Andelfinger Marktplatz",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Andelfingen, Andelfingen",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/8EPHFj--202612051000/"
   },
   {
    "gemeinden": [
@@ -14937,6 +15138,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612051300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612051300/"
+  },
+  {
+   "gemeinden": [
     "baeretswil"
    ],
    "id": "baeretswil-7466500",
@@ -15319,6 +15535,21 @@ window.FAMILIENAGENDA = {
    "time": "15.30",
    "age": null,
    "url": "https://www.kinderthur.ch/events/winter-circus-3/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612051200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 20.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612051200/"
   },
   {
    "gemeinden": [
@@ -16503,6 +16734,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612061300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612061300/"
+  },
+  {
+   "gemeinden": [
     "rueschlikon"
    ],
    "id": "rueschlikon-7691416",
@@ -16962,6 +17208,21 @@ window.FAMILIENAGENDA = {
    "time": "11.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/winter-circus-4/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612061200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612061200/"
   },
   {
    "gemeinden": [
@@ -17541,6 +17802,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612071300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612071300/"
+  },
+  {
+   "gemeinden": [
     "v"
    ],
    "id": "v-17404-106673",
@@ -17992,6 +18268,21 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.elsau.ch/_rte/anlass/7704262"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612081300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612081300/"
   },
   {
    "gemeinden": [
@@ -19242,6 +19533,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612091300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612091300/"
+  },
+  {
+   "gemeinden": [
     "aesch"
    ],
    "id": "aesch-fa349338",
@@ -20009,6 +20315,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612101300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612101300/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-fa409416",
@@ -20654,6 +20975,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612111300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612111300/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-fa379137",
@@ -20713,6 +21049,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.regensdorf.ch/_rte/anlass/7818022",
    "w": "https://www.zwhatt.ch/de-ch/zwhatt-winterzauber.html"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612111730",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612111730/"
   },
   {
    "gemeinden": [
@@ -21500,6 +21851,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612121300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612121300/"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-fa402919",
@@ -21732,6 +22098,21 @@ window.FAMILIENAGENDA = {
    "time": "15.30",
    "age": null,
    "url": "https://www.kinderthur.ch/events/winter-circus-7/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612121200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 20.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612121200/"
   },
   {
    "gemeinden": [
@@ -22700,6 +23081,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612131300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612131300/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-spiel-und-sport-4",
@@ -22835,6 +23231,21 @@ window.FAMILIENAGENDA = {
    "time": "11.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/winter-circus-8/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612131200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612131200/"
   },
   {
    "gemeinden": [
@@ -23155,6 +23566,21 @@ window.FAMILIENAGENDA = {
    "time": "13.30",
    "age": null,
    "url": "https://www.neerach.ch/freizeit/veranstaltungen.html/138/event/5954/eventdate/4909"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612141300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612141300/"
   },
   {
    "gemeinden": [
@@ -23552,6 +23978,21 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.elsau.ch/_rte/anlass/7704265"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612151300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612151300/"
   },
   {
    "gemeinden": [
@@ -24434,6 +24875,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612161300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612161300/"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33165-0",
@@ -25207,6 +25663,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612171300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612171300/"
+  },
+  {
+   "gemeinden": [
     "wa"
    ],
    "id": "wa-7779007",
@@ -25679,6 +26150,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612181300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612181300/"
+  },
+  {
+   "gemeinden": [
     "richterswil"
    ],
    "id": "richterswil-fa387777",
@@ -25728,6 +26214,21 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6722/eventdate/10697"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612181730",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612181730/"
   },
   {
    "gemeinden": [
@@ -26230,6 +26731,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612191300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612191300/"
+  },
+  {
+   "gemeinden": [
     "s"
    ],
    "id": "s-2220",
@@ -26337,6 +26853,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7794802",
    "w": "https://www.oberemuehle.ch/events/kinderveranstaltungen/familienveranstaltungen/winterrodeln-mit-der-speed-tubing-bahn-7458503425610772210"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612191200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 20.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612191200/"
   },
   {
    "gemeinden": [
@@ -26698,6 +27229,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612201300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612201300/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7714132",
@@ -26811,6 +27357,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7794808",
    "w": "https://www.oberemuehle.ch/events/kinderveranstaltungen/familienveranstaltungen/winterrodeln-mit-der-speed-tubing-bahn-7458503425610772210"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612201200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612201200/"
   },
   {
    "gemeinden": [
@@ -26935,6 +27496,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612211300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-21",
+   "bis": "2026-12-21",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612211300/"
+  },
+  {
+   "gemeinden": [
     "pfungen"
    ],
    "id": "pfungen-fa380876",
@@ -26947,6 +27523,21 @@ window.FAMILIENAGENDA = {
    "time": "10.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/pfungen/agenda/20261221-weihnachtsspiel-generalprobe-380876/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612211200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-21",
+   "bis": "2026-12-21",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612211200/"
   },
   {
    "gemeinden": [
@@ -27039,6 +27630,36 @@ window.FAMILIENAGENDA = {
    "time": "18.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/zuerich-wipkingen/agenda/20261222-light-up-the-night-gemeinsam-durch-den-advent-380904/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612221300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-22",
+   "bis": "2026-12-22",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612221300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612221200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-22",
+   "bis": "2026-12-22",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612221200/"
   },
   {
    "gemeinden": [
@@ -27153,6 +27774,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612231300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-23",
+   "bis": "2026-12-23",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612231300/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-www.coop-city.ch/de/maerlitram2026-12-23",
@@ -27197,6 +27833,21 @@ window.FAMILIENAGENDA = {
    "time": "18.00",
    "age": null,
    "url": "https://www.forum-magazin.ch/pfungen/agenda/20261223-weihnachtsessen-mit-bedurftigen-400205/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612231200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-23",
+   "bis": "2026-12-23",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612231200/"
   },
   {
    "gemeinden": [
@@ -28200,6 +28851,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612241300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612241300/"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7786720",
@@ -28323,6 +28989,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807805",
    "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612241200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612241200/"
   },
   {
    "gemeinden": [
@@ -28452,6 +29133,36 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612251300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-25",
+   "bis": "2026-12-25",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612251300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612251200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-25",
+   "bis": "2026-12-25",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612251200/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-297",
@@ -28559,6 +29270,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612261300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-26",
+   "bis": "2026-12-26",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612261300/"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7786768",
@@ -28571,6 +29297,21 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.uster.ch/_rte/anlass/7786768",
    "w": "http://www.qtopia.ch"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612261200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-26",
+   "bis": "2026-12-26",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612261200/"
   },
   {
    "gemeinden": [
@@ -28720,6 +29461,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612271300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-27",
+   "bis": "2026-12-27",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612271300/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-kd32126-2026-12-27",
@@ -28737,6 +29493,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
    "w": "http://www.nonam.ch"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612271200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-27",
+   "bis": "2026-12-27",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612271200/"
   },
   {
    "gemeinden": [
@@ -28807,6 +29578,36 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612281300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-28",
+   "bis": "2026-12-28",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612281300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612281200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-28",
+   "bis": "2026-12-28",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612281200/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-vernetzte-natur-lebenswerte-stadt-300",
@@ -28852,6 +29653,36 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3240/eventdate/1920",
    "w": "https://www.alpaka-erlebnisse.ch"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612291300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-29",
+   "bis": "2026-12-29",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612291300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612291200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-29",
+   "bis": "2026-12-29",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612291200/"
   },
   {
    "gemeinden": [
@@ -28917,6 +29748,36 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
    "w": "https://gz-zh.ch/gz-oerlikon/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612301300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-30",
+   "bis": "2026-12-30",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612301300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612301200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-30",
+   "bis": "2026-12-30",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612301200/"
   },
   {
    "gemeinden": [
@@ -28989,6 +29850,36 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202612311300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2026-12-31",
+   "bis": "2026-12-31",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202612311300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtDwChcd--202612311830",
+   "q": "q-weinland",
+   "name": "Silvesterzauber",
+   "von": "2026-12-31",
+   "bis": "2026-12-31",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "18.30",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/DwChcd--202612311830/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc1838541",
@@ -29017,6 +29908,21 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.forum-magazin.ch/waedenswil/agenda/20261231-sternsinger-405501/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202612311200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2026-12-31",
+   "bis": "2026-12-31",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202612311200/"
   },
   {
    "gemeinden": [
@@ -29063,6 +29969,36 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 8 Jahre"
    },
    "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1726"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202701011300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2027-01-01",
+   "bis": "2027-01-01",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202701011300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202701011200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2027-01-01",
+   "bis": "2027-01-01",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202701011200/"
   },
   {
    "gemeinden": [
@@ -29121,6 +30057,36 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.wiesendangen.ch/_rte/anlass/7406518",
    "w": "http://www.pfadiorion.ch/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202701021300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2027-01-02",
+   "bis": "2027-01-02",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202701021300/"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202701021200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2027-01-02",
+   "bis": "2027-01-02",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202701021200/"
   },
   {
    "gemeinden": [
@@ -29305,6 +30271,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gtwFicXA--202701031300",
+   "q": "q-weinland",
+   "name": "Rentier- Adventsweg",
+   "von": "2027-01-03",
+   "bis": "2027-01-03",
+   "ort": "Dachsen, Mühlenbachhof",
+   "veranstalter": "",
+   "time": "13.00 - 22.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/wFicXA--202701031300/"
+  },
+  {
+   "gemeinden": [
     "bassersdorf"
    ],
    "id": "bassersdorf-fa404681",
@@ -29337,6 +30318,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.kindaling.de/sonstige-veranstaltungen/wenn-die-trommel-ruft/zuerich-seefeld",
    "w": "http://www.nonam.ch"
+  },
+  {
+   "gemeinden": [
+    "dachsen"
+   ],
+   "id": "dachsen-gti4YED2--202701031200",
+   "q": "q-weinland",
+   "name": "Winterzauber",
+   "von": "2027-01-03",
+   "bis": "2027-01-03",
+   "ort": "Dachsen, Schloss Laufen am Rheinfall",
+   "veranstalter": "",
+   "time": "12.00 - 18.00",
+   "age": null,
+   "url": "https://www.zuercher-weinland.ch/veranstaltung/i4YED2--202701031200/"
   },
   {
    "gemeinden": [
