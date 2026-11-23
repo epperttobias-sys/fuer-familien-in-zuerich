@@ -1,1 +1,1 @@
-https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry=8.407927,47.419174&geometryType=esriGeometryPoint&sr=4326&layers=all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill&tolerance=0&returnGeometry=false
+https://epperttobias-sys.github.io/fuer-familien-in-zuerich/ausflug-plus.js
