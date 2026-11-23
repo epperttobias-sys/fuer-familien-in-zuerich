@@ -1,1 +1,14 @@
-{}
+{
+ "q-weinland": {
+  "name": "Zürcher Weinland (Regionalagenda)",
+  "bezirk": "Quellen",
+  "domain": "www.zuercher-weinland.ch",
+  "system": "guidleteaser",
+  "quelle": true,
+  "delay": 1500,
+  "page": "/erlebnisregion/veranstaltungen/",
+  "months": 3,
+  "re": "kinder|kind\\b|kids|famili|märli|maerli|märchen|puppen|kasperli|figurentheater|zirkus|circus|zauber|clown|ab \\d{1,2} jahr|samichlaus|chlaus|nikolaus|räbe|laterne|bastel|kerzenzieh|pony|streichelzoo|tiere|bauernhof|hoffest|tierpark|zoo\\b|ferienplausch|ferienspass|mitmach|schatzsuche|schnitzeljagd|eisbahn|eislauf|kinderflohmi|jugend|chilbi|fest\\b|fäscht|märt\\b|markt|flohmi|flohmarkt|weihnacht|wienacht|advent|umzug|fasnacht|jahrmarkt|lichter|dorffest|erntedank|kürbis|hof\\b|bazar|basar",
+  "no": "wein|degustation|party|apéro|apero|afterwork|single|ü\\s?\\d0|business|whisky|bier|cocktail|\\bgin\\b|tasting|dinner|senior|firmen|networking|vernissage|lesung für erwachsene|krimi-?dinner|speed.?dating|techno|club\\b|dj\\b|konferenz|60\\s?\\+|konzert|krimi|lesung|swissmas|singers|opus|orchester|\\bchor\\b|gottesdienst|familiengärten|weindegu|kunstmarkt|verkauf\\b|sunntigsverchauf|sonntagsverkauf|familiengärten"
+ }
+}

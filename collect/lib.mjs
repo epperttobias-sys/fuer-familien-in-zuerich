@@ -625,6 +625,32 @@ export const SYSTEMS = {
     return out;
   },
 
+  // Regionale Tourismus-Agenden mit guidle-Block (z. B. zuercher-weinland.ch): Liste je Monat (?monat=YYYYMM) mit
+  // Kategorie, Titel, «Ort, Veranstaltungsort» und «TT.MM.JJJJ / HH.MM – HH.MM». Kinderveranstaltungen zählen immer,
+  // sonst nur Titel, die nach Familienanlass klingen (site.re), ohne Degustationen und Ähnliches (site.no).
+  async guidleteaser(site, get, cache, code) {
+    const items = [], seen = new Set(), now = new Date(), WANT = new RegExp(site.re, "i"), NO = new RegExp(site.no || "$^", "i");
+    const places = new Map();
+    for (let i = 0; i < (site.months ?? 3); i++) {
+      const d = new Date(now.getFullYear(), now.getMonth() + i, 1), m = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}`;
+      const html = await get(`https://${site.domain}${site.page}?monat=${m}`);
+      for (const c of html.matchAll(/<div class="event-teaser-categories">([^<]*)<\/div>\s*<h3[^>]*>\s*<a href="([^"]+)">([\s\S]*?)<\/a><\/h3>\s*<p class="event-teaser-location">([^<]*)<\/p>\s*<p class="event-teaser-date">([^<]*)<\/p>/g)) {
+        const [, cats, url, rawName, loc, when] = c, name = decode(strip(rawName)).replace(/­/g, "").replace(/\s+/g, " ").trim();
+        if (seen.has(url)) continue; seen.add(url);
+        const kids = /kinderveranstaltung/i.test(cats);
+        if (!kids && (!WANT.test(name) || NO.test(name))) continue;
+        if (NO.test(name) && !/kinder|famili/i.test(name)) continue;
+        const w = decode(when).match(/(\d\d)\.(\d\d)\.(\d{4})(?:\s*\/\s*(\d\d)\.(\d\d)(?:\s*\S\s*(\d\d)\.(\d\d))?)?/); if (!w) continue;
+        const von = `${w[3]}-${w[2]}-${w[1]}`, ort = decode(loc).replace(/\s+/g, " ").trim(), key = ort.split(",")[0].trim();
+        if (!places.has(key)) places.set(key, gemeindeByName(key) || await gemeindeForAddress(key, get, cache, `${code}:`));
+        const g = places.get(key); if (!g) continue;
+        items.push({ id: "gt" + url.split("/").filter(Boolean).pop(), g, name, von, bis: von, ort, veranstalter: "", kategorie: "14", hint: "",
+          url, detailKey: null, time: w[4] ? `${w[4]}.${w[5]}${w[6] ? ` - ${w[6]}.${w[7]}` : ""}` : "" });
+      }
+    }
+    return items;
+  },
+
   // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda aller Pfarreien, Rubrik «Kinder und Familien», Seite für Seite
   // («Mehr Veranstaltungen laden»). Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
   async forum(site, get, cache, code) {
