@@ -739,7 +739,9 @@ export const SYSTEMS = {
         const von = ymd(y, mo, d); if (von < today || seen.has(von + sec.head)) continue;
         const after = text.slice(m.index + m[0].length, m.index + m[0].length + 40).match(/^[^0-9]{0,12}(\d{1,2})[:.](\d{2})(?![.\d])/);
         seen.add(von + sec.head);
-        const nm = pg.name || (sec.head && sec.head.length < 90 && !/^\W*\d|termine|daten|vorstellungen|tickets|spielplan|programm/i.test(sec.head) ? sec.head : title);
+        const nm = pg.name || (!site.titleOnly && sec.head && sec.head.length < 90 && !/^\W*\d|termine|daten|vorstellungen|tickets|spielplan|programm|hinweis|anmeldung|kosten|preis|kontakt|ort\b|wann|infos?\b/i.test(sec.head) ? sec.head : title);
+        // site.re / site.no: bei gemischten Angeboten (z. B. Gemeinschaftszentren) nur Familienanlässe
+        if (site.re && (!new RegExp(site.re, "i").test(nm) || (site.no && new RegExp(site.no, "i").test(nm) && !/kinder|famili/i.test(nm)))) continue;
         items.push({ id: pg.u.replace(/^https?:\/\/[^/]+/, "").slice(-50) + von + nm.slice(0, 10), g: pg.g || site.g, name: nm, von, bis: von, ort: site.ort || "", veranstalter: site.name, kategorie: "14", hint: "", url: pg.u, detailKey: null,
           time: after ? `${after[1]}.${after[2]}` : "" });
       } }
