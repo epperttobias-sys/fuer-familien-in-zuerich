@@ -551,6 +551,10 @@
 "e": "Baby articles exchange",
 "p": "Babyartikelbörse"
 },
+"Babycafé": {
+"e": "Baby Café",
+"p": "Babycafé"
+},
 "Babykonzert «Märchenklänge»": {
 "e": "Baby concert «Fairy Tales»",
 "p": "Babykonzert «Märchenklänge»"
@@ -4707,6 +4711,10 @@
 "e": "Open Studio for All",
 "p": "Offenes Atelier für Alle"
 },
+"Offenes Keramikwerk": {
+"e": "Open ceramic works",
+"p": "Offenes Keramikwerk"
+},
 "Offenes Singen zu Samichlaus, Advent und Weihnachten": {
 "e": "Open singing to Saint Nicholas, Advent and Christmas",
 "p": "Offenes Singen zu Sankt Nikolaus, Advent und Weihnachten"
@@ -5174,6 +5182,10 @@
 "Samichlaus am 2. Dezember Im Winterzaubergarten - Boutiquehotel Sonne Küsnacht": {
 "e": "St. Nicholas on December 2 in the Winter Magic Garden - Boutiquehotel Sonne Küsnacht",
 "p": "Sankt Nikolaus am 2. Dezember Im Winterzaubergarten - Boutiquehotel Sonne Küsnacht"
+},
+"Samichlaus am Weihnachtsmarkt": {
+"e": "Saint Nicholas at the Christmas Market",
+"p": "Sankt Nikolaus am Weihnachtsmarkt"
 },
 "Samichlaus auf Maria Bildstein": {
 "e": "Saint Nicholas on Maria Bildstein",
