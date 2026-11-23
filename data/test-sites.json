@@ -1,1 +1,24 @@
-{}
+{
+ "q-kinderthur": {
+  "name": "kinderthur.ch (Winterthur)",
+  "bezirk": "Quellen",
+  "domain": "www.kinderthur.ch",
+  "system": "termine",
+  "quelle": true,
+  "delay": 1000,
+  "g": "winterthur",
+  "pages": [
+   "https://www.kinderthur.ch/veranstaltungskalender-was-lauft/"
+  ]
+ },
+ "q-wynegg": {
+  "name": "Quartierhof Wynegg",
+  "bezirk": "Quellen",
+  "domain": "calendar.google.com",
+  "system": "ical",
+  "quelle": true,
+  "g": "zuerich",
+  "path": "/calendar/ical/0ko1r6r49i22820jki4tcusfd2j63a1o%40import.calendar.google.com/public/basic.ics",
+  "page": "https://www.quartierhof-wynegg.ch/termine"
+ }
+}
