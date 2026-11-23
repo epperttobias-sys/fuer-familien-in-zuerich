@@ -163,4 +163,10 @@ await writeFile(`${DIR}/feed.xml`, `<?xml version="1.0" encoding="UTF-8"?>
 ${items.join("\n")}
 </channel></rss>
 `);
+
+// Auswahl für die App-Seite «Wochenend-Tipps» (mit Herz zum Merken)
+const key = e => (e.gemeinden[0] || "") + ":" + (e.id || e.name + e.von);
+const TIPPS = { fr: FR, so: SO, total, top: top.map(x => [key(x.e), x.day]), long: longRun.map(x => key(x.e)),
+  tips: tips.map(p => [p.n, p.g]), bez: Object.fromEntries(BEZ.map(b => [b, byBez[b].map(x => key(x.e))])) };
+await writeFile("site/tipps.js", "window.TIPPS=" + JSON.stringify(TIPPS) + ";\n");
 console.log(`Newsletter ${FR}: ${top.length} Highlights, ${longRun.length} lang, ${BEZ.length} Bezirke, ${tips.length} Ausflugstipps, ${total} Kandidaten`);

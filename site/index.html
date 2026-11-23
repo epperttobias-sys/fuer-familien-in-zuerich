@@ -446,6 +446,16 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .home .ha-sos a.tile .badge{display:none}
 @media (min-width:700px){.home .ha-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 /* Merkliste Variante A */
+.tp-hero{border-radius:24px;padding:20px 18px;background:var(--sun);color:var(--sun-ink);margin:6px 0 4px}
+.tp-hero .mk-big{max-width:none}.tp-sub{margin:0;font-size:.92rem;font-weight:600;line-height:1.4}
+.tp-secsub{margin:-6px 2px 10px;color:var(--muted);font-size:.88rem}
+.tp-day{margin:14px 2px 8px;font:800 .8rem var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+.tp-bez{background:var(--surface);border-radius:18px;margin:0 0 10px;box-shadow:0 1px 6px rgba(13,35,64,.07);overflow:hidden}
+.tp-bez summary{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;font-weight:800;cursor:pointer;list-style:none;min-height:48px}
+.tp-bez summary::-webkit-details-marker{display:none}.tp-bez summary::after{content:"›";font-size:1.4rem;color:var(--muted);transition:transform .2s;margin-left:8px}.tp-bez[open] summary::after{transform:rotate(90deg)}
+.tp-bez summary .n{margin-left:auto;font:800 .8rem var(--body);background:var(--soft);color:var(--accent);border-radius:999px;padding:3px 9px}
+.tp-bez[open]{padding:0 10px 10px}.tp-bez .evc{box-shadow:none;border:1px solid var(--line)}
+.tp-more{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0}.tp-more a{font-weight:800;color:var(--accent);background:var(--soft);padding:10px 14px;border-radius:999px;text-decoration:none}
 .mk-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 0}
 .mk-tabs button{border:0;border-radius:999px;padding:8px 13px;font:800 .85rem var(--body);background:var(--surface);color:var(--ink);box-shadow:0 1px 4px rgba(13,35,64,.08);cursor:pointer}
 .mk-tabs button span{opacity:.65;margin-left:3px}.mk-tabs button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
@@ -642,6 +652,16 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <footer>Quellen: Mütter- und Väterberatung und Bezirksübersichten vom Kanton Zürich, Spielgruppen, Elternvereine und Familienzentren aus den Websites und Vereinslisten der Gemeinden, Bibliotheken, Ludotheken, Bäder und Treffpunkte aus OpenStreetMap. Was dort fehlt, fehlt auch hier. Angaben ohne Gewähr, bitte vor dem Besuch auf der Website prüfen. <span id="fastand"></span></footer>
 </div>
 
+<div class="wrap" id="view-tipps" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1>Wochenend-Tipps</h1>
+    <p class="lead">Unsere Auswahl für das kommende Wochenende, jeden Donnerstag neu.</p>
+  </header>
+  <main id="tipps"></main>
+  <footer>Automatisch zusammengestellt aus den Agenden der Gemeinden und weiteren öffentlichen Quellen. Angaben ohne Gewähr; Zeiten, Preise und Anmeldung bitte beim Anlass prüfen.</footer>
+</div>
+
 <div class="wrap" id="view-merkliste" hidden>
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
@@ -810,6 +830,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="spielplaetze.js"></script>
 <script src="ferien.js"></script>
 <script src="gesundheit.js"></script>
+<script src="tipps.js"></script>
 <script>
 const AGES=[[0,3],[4,6],[7,9],[10,12]];
 const TIMES=[["all","Alle Termine"],["today","Heute"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
@@ -1708,10 +1729,10 @@ function gebText(c){const n=GEB.filter(x=>x.g===c).length;const R=ROOMS.find(r=>
       ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
       const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
       const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
-      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Wo Kinder spielen können"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"],"view-betreuung":["Kita & Betreuung","Kitas, Horte und Kindergärten"],"view-merkliste":["Merkliste","Gemerkt und mit der Familie geteilt"]}[w.id];
+      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Wo Kinder spielen können"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"],"view-betreuung":["Kita & Betreuung","Kitas, Horte und Kindergärten"],"view-merkliste":["Merkliste","Gemerkt und mit der Familie geteilt"],"view-tipps":["Wochenend-Tipps","Jeden Donnerstag neu"]}[w.id];
       const tb=node("b","",KT?KT[0]:"Für Familien in Zürich");if(KT){tb.append(node("small","",KT[1]));w.classList.add("hk2")}
       bar.append(node("span","backc","←"),l2,tb);ss.append(bar);w.prepend(ss)}
-    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall","view-kurse":"go-kurse","view-geburtstag":"go-geburtstag","view-betreuung":"go-betreuung","view-merkliste":"go-merkliste"}[w.id];
+    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall","view-kurse":"go-kurse","view-geburtstag":"go-geburtstag","view-betreuung":"go-betreuung","view-merkliste":"go-merkliste","view-tipps":"go-newsletter"}[w.id];
     const hd=w.querySelector(":scope>header"),ti=tileId&&document.querySelector("#"+tileId+" .ico svg");
     if(hd&&ti){const ic=node("span","secico");ic.append(ti.cloneNode(true));hd.prepend(ic)}
     const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen","view-ferien":"ferien","view-notfall":"notfall","view-kurse":"kurse","view-geburtstag":"geburtstag","view-betreuung":"betreuung"}[w.id],fs=w.querySelector(".filters");
@@ -1926,10 +1947,38 @@ window.renderMerk=function(){
   if(m.a.length&&MERK.ac&&show("a")){sec("Ausflugsziele",m.a.length);m.a.forEach(z=>box.append(MERK.ac(z)))}
   if(m.r.length&&MERK.rc&&show("r")){sec("Restaurants",m.r.length);m.r.forEach(z=>box.append(MERK.rc(z)))}
 };
+/* Wochenend-Tipps als App-Seite, Auswahl aus collect/newsletter.mjs (tipps.js) */
+window.renderTipps=function(){
+  const box=document.getElementById("tipps");if(!box)return;box.replaceChildren();const T=window.TIPPS;
+  const n=new Date(),ti=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate())),G=(window.FAMILIENAGENDA||{}).gemeinden||{};
+  if(!T||T.so<ti){box.append(node("p","empty","Die nächsten Tipps erscheinen am Donnerstag."));return}
+  const byKey=new Map();(EVENTS||[]).forEach(e=>byKey.set(favKey(e),e));
+  const WDs=["So","Mo","Di","Mi","Do","Fr","Sa"],WL=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],ML=["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+  const dd=x=>new Date(x+"T12:00:00"),day=x=>{const d=dd(x);return WDs[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]};
+  const card=(e,on)=>{const g=(G[e.gemeinden[0]]||{}).name||"",sh=on||(e.von>T.fr?e.von:T.fr),d=dd(sh),z=e.bis<T.so?e.bis:T.so;
+    const when=(on?"":(z>sh?day(sh)+" – "+day(z):day(sh)))+(e.time?(on?"":" · ")+e.time+" Uhr":"");
+    const c=withFav(mkCard({em:" ",title:e.name,href:e.w||e.url,meta:[when,g,e.ort&&e.ort!==g?e.ort:""].filter(Boolean).join(" · "),tags:e.age&&e.age.label?[e.age.label]:[]}),favKey(e));
+    const em=c.querySelector(".em");em.className="em mk-date"+(sh===ti?" today":"");em.replaceChildren(node("small","",sh===ti?"Heute":WDs[d.getDay()]),node("b","",String(d.getDate())),node("i","",MS[d.getMonth()]));return c};
+  const a=dd(T.fr),b=dd(T.so),hero=node("div","tp-hero");
+  hero.append(node("p","mk-kicker","Wochenend-Tipps"),node("p","mk-big","Euer Wochenende "+a.getDate()+"."+(a.getMonth()===b.getMonth()?"":" "+ML[a.getMonth()])+"–"+b.getDate()+". "+ML[b.getMonth()]),
+    node("p","tp-sub","Eine Auswahl aus "+T.total+" Anlässen für Kinder im ganzen Kanton. Mit dem Herz ♡ merkst du dir, was euch gefällt."));
+  box.append(hero);
+  const sec=(t,sub)=>{const h=node("h2","mk-sec",t);box.append(h);if(sub)box.append(node("p","tp-secsub",sub))};
+  const top=(T.top||[]).map(([k,d])=>[byKey.get(k),d]).filter(x=>x[0]);
+  if(top.length){sec("Unsere Highlights","Die schönsten Anlässe aus verschiedenen Bezirken");let last="";
+    top.forEach(([e,d])=>{if(d!==last){last=d;const x=dd(d);box.append(node("h3","tp-day",(d===ti?"Heute, ":WL[x.getDay()]+", ")+x.getDate()+". "+ML[x.getMonth()]))}box.append(card(e,d))})}
+  const lg=(T.long||[]).map(k=>byKey.get(k)).filter(Boolean);
+  if(lg.length){sec("Das ganze Wochenende","Mehrmals geöffnet oder über mehrere Tage");lg.forEach(e=>box.append(card(e)))}
+  const tp=(T.tips||[]).map(([nm,g])=>MERK.a.find(z=>z.n===nm&&z.g===g)).filter(Boolean);
+  if(tp.length&&MERK.ac){sec("Ausflugstipps der Woche","Höfe, Ausflugsbeizen und Orte zum Entdecken");tp.forEach(z=>box.append(MERK.ac(z)))}
+  const bz=Object.entries(T.bez||{}).map(([b,ks])=>[b,ks.map(k=>byKey.get(k)).filter(Boolean)]).filter(x=>x[1].length);
+  if(bz.length){sec("Mehr in deiner Region","Tippe auf einen Bezirk");bz.forEach(([b,l])=>{const det=node("details","tp-bez"),su=node("summary","");su.append(node("span","","Bezirk "+b),node("span","n",String(l.length)));det.append(su);l.forEach(e=>det.append(card(e)));box.append(det)})}
+  const more=node("p","tp-more");const al=node("a","","Alle Anlässe ansehen");al.href="#events";const nl=node("a","","Als Newsletter-Seite öffnen");nl.href=LIVE+"newsletter/";nl.target="_blank";nl.rel="noopener";more.append(al,nl);box.append(more);
+};
 function route(){
-  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag","#betreuung":"betreuung"})[location.hash]||(/^#merkliste/.test(location.hash)?"merkliste":"home");
-  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall","kurse","geburtstag","betreuung","merkliste"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
-  if(v==="merkliste"&&window.renderMerk)renderMerk();
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag","#betreuung":"betreuung","#tipps":"tipps"})[location.hash]||(/^#merkliste/.test(location.hash)?"merkliste":"home");
+  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall","kurse","geburtstag","betreuung","merkliste","tipps"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  if(v==="merkliste"&&window.renderMerk)renderMerk();if(v==="tipps"&&window.renderTipps)renderTipps();
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
@@ -1959,7 +2008,7 @@ start();
   if(today)duo.append(today);duo.append(mk);
   // Wochenend-Tipps
   const wd=n.getDay(),fri=new Date(n.getFullYear(),n.getMonth(),n.getDate()+(wd===0?-2:wd===6?-1:5-wd)),sun=new Date(fri.getFullYear(),fri.getMonth(),fri.getDate()+2);
-  const nl=$("go-newsletter"),we=node("a","ha-we");we.href=nl?nl.href:"newsletter/";
+  const we=node("a","ha-we");we.href="#tipps";
   const wi=node("span","i");wi.innerHTML=SV('<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>');
   const wt=node("span","t");wt.append(node("b","","Wochenend-Tipps"),node("small","",fri.getDate()+"."+(fri.getMonth()===sun.getMonth()?"":(fri.getMonth()+1)+".")+"–"+sun.getDate()+"."+(sun.getMonth()+1)+". · Jeden Donnerstag neu"));
   const wa=node("span");wa.innerHTML=SV('<path d="M5 12h14M13 6l6 6-6 6"/>',' style="width:20px;height:20px"');we.append(wi,wt,wa);
