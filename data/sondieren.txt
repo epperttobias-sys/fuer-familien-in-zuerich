@@ -1,4 +1,2 @@
-https://www.kindaling.de/veranstaltungen/zuerich | html
-https://www.wildnispark.ch?id=49&mod_action=rss
-https://www.juckerfarm.ch/wp-json/wp/v2/events?per_page=5
-https://www.stockengut.ch/bereich/veranstaltungen/ | html
+https://www.waldhofguldenen.ch/robots.txt
+https://www.waldhofguldenen.ch/ | html
