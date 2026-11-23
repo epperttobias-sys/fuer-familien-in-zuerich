@@ -1,3 +1,1 @@
-https://www.selberpfluecken.ch/sitemap_index.xml
-https://www.selberpfluecken.ch/wp-json/wp/v2/posts?per_page=3&_fields=id,link,title,categories
-https://www.selberpfluecken.ch/wp-json/wp/v2/categories?per_page=100&_fields=id,name,count,slug
+https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill/112?geometryFormat=geojson&sr=4326
