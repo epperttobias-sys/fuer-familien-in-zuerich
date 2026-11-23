@@ -29,3 +29,11 @@ https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&
 https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Breitensteinstrasse%2019a%2C%208037%20Z%C3%BCrich
 https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Bucheggstrasse%2093%2C%208057%20Z%C3%BCrich
 https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=D%C3%B6ltschiweg%20155%2C%208055%20Z%C3%BCrich
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Poalp
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Pooalp%20Wald
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Stedtli%208627%20Gr%C3%BCningen
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=D%C3%B6ltschiweg%20130%208055%20Z%C3%BCrich
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Bahnhof%20Bauma
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=B%C3%A4retswilerstrasse%208344%20B%C3%A4retswil
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Halde%208344%20B%C3%A4retswil
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=1&searchText=Feldstrasse%208620%20Wetzikon
