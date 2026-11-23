@@ -1,1 +1,1 @@
-https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Hinter%20Guldenen%203%208127&type=locations&sr=4326
+https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry=8.656882,47.31184&geometryType=esriGeometryPoint&sr=4326&layers=all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill&tolerance=0&returnGeometry=false
