@@ -1,2 +1,1 @@
-https://www.waldhofguldenen.ch/robots.txt
-https://www.waldhofguldenen.ch/ | html
+https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Hinter%20Guldenen%203%208127&type=locations&sr=4326
