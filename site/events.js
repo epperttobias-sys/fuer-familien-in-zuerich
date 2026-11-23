@@ -173,8 +173,8 @@ window.FAMILIENAGENDA = {
    "name": "Kloten",
    "bezirk": "Bülach",
    "domain": "www.kloten.ch",
-   "ok": false,
-   "count": 57
+   "ok": true,
+   "count": 58
   },
   "lufingen": {
    "name": "Lufingen",
@@ -447,7 +447,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Bülach",
    "domain": "www.dietlikon.ch",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   "freiensteinteufen": {
    "name": "Freienstein-Teufen",
@@ -748,7 +748,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.richterswil.ch",
    "ok": true,
-   "count": 14
+   "count": 15
   },
   "rueschlikon": {
    "name": "Rüschlikon",
@@ -874,7 +874,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.russikon.ch",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   "ws": {
    "name": "Weisslingen",
@@ -903,13 +903,6 @@ window.FAMILIENAGENDA = {
    "domain": "www.egg.ch",
    "ok": true,
    "count": 9
-  },
-  "f": {
-   "name": "Fällanden",
-   "bezirk": "Uster",
-   "domain": "www.faellanden.ch",
-   "ok": true,
-   "count": 7
   },
   "g": {
    "name": "Greifensee",
@@ -945,6 +938,13 @@ window.FAMILIENAGENDA = {
    "domain": "www.wangen-bruettisellen.ch",
    "ok": true,
    "count": 23
+  },
+  "f": {
+   "name": "Fällanden",
+   "bezirk": "Uster",
+   "domain": "www.faellanden.ch",
+   "ok": true,
+   "count": 7
   },
   "bruetten": {
    "name": "Brütten",
@@ -1051,7 +1051,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Quellen",
    "domain": "www.forum-magazin.ch",
    "ok": true,
-   "count": 414
+   "count": 413
   },
   "q-zauberlaterne": {
    "name": "Zauberlaterne",
@@ -1129,27 +1129,6 @@ window.FAMILIENAGENDA = {
    "domain": "www.zuercher-weinland.ch",
    "ok": true,
    "count": 68
-  },
-  "q-kinderthur": {
-   "name": "kinderthur.ch (Winterthur)",
-   "bezirk": "Quellen",
-   "domain": "www.kinderthur.ch",
-   "ok": true,
-   "count": 10
-  },
-  "q-wynegg": {
-   "name": "Quartierhof Wynegg",
-   "bezirk": "Quellen",
-   "domain": "calendar.google.com",
-   "ok": true,
-   "count": 0
-  },
-  "q-gz": {
-   "name": "Zürcher Gemeinschaftszentren",
-   "bezirk": "Quellen",
-   "domain": "gz-zh.ch",
-   "ok": true,
-   "count": 156
   }
  },
  "events": [
@@ -1684,25 +1663,6 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7215740",
    "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
-  },
-  {
-   "gemeinden": [
-    "dietlikon"
-   ],
-   "id": "dietlikon-1356-6361",
-   "name": "Buchstart",
-   "von": "2026-11-23",
-   "bis": "2026-11-23",
-   "ort": "Bibliothek Dietlikon",
-   "veranstalter": "Bibliothek Dietlikon",
-   "time": "15.30 - 16.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1356/eventdate/6361",
-   "w": "https://www.schule-dietlikon.ch/bibliothek/aktuelles/"
   },
   {
    "gemeinden": [
@@ -5073,21 +5033,6 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-26Oerliker K",
-   "q": "q-gz",
-   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
-   "von": "2026-11-26",
-   "bis": "2026-11-26",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "16.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
    "id": "zuerich-lc4925391",
    "q": "q-localcities",
    "name": "Polarzauber",
@@ -6987,6 +6932,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7843210",
+   "name": "Chlauseinzug Richterswil",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Dorfstrasse Richterswil",
+   "veranstalter": "Chlausvereinigung Samstagern",
+   "time": "17.15 - 17.45",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7843210",
+   "w": "http://www.chlaus-samstagern.ch"
+  },
+  {
+   "gemeinden": [
     "h"
    ],
    "id": "h-7795498",
@@ -7414,7 +7374,7 @@ window.FAMILIENAGENDA = {
    "q": "q-localcities",
    "name": "Hotel Sonne Küsnacht - Winterzaubergarten",
    "von": "2026-11-28",
-   "bis": "2027-01-30",
+   "bis": "2027-01-24",
    "ort": "Sonne Boutiquehotel und Seerestaurants, 8700 Küsnacht ZH",
    "veranstalter": "",
    "time": "14.00 - 20.00",
@@ -9729,6 +9689,21 @@ window.FAMILIENAGENDA = {
    "time": "11.00",
    "age": null,
    "url": "https://gz-zh.ch/gz-affoltern/angebote/weihnachtsmarkt-2/"
+  },
+  {
+   "gemeinden": [
+    "kloten"
+   ],
+   "id": "kloten-7841350",
+   "name": "Weihnachtsmarkt, Auftritt des Chindsgichors",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Stadtplatz Kloten",
+   "veranstalter": "MRF Musikschule Region Flughafen",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.kloten.ch/_rte/anlass/7841350",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -25017,21 +24992,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-kon/angebote/aufbau-starke-eltern-starke-kinder-2/2026-12-15Starke Elt",
-   "q": "q-gz",
-   "name": "Starke Eltern-Starke Kinder - GZ Oerlikon",
-   "von": "2026-12-15",
-   "bis": "2026-12-15",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-oerlikon/angebote/aufbau-starke-eltern-starke-kinder-2/"
-  },
-  {
-   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7817773",
@@ -36339,21 +36299,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "seuzach"
-   ],
-   "id": "seuzach-fa385812",
-   "q": "q-kath",
-   "name": "Mini Treff Kinonachmittag",
-   "von": "2027-01-22",
-   "bis": "2027-01-22",
-   "ort": "Pfarreizentrum St. Stefan Wiesendangen",
-   "veranstalter": "Kath. Pfarrei St. Martin",
-   "time": "15.30",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/seuzach/agenda/20270122-mini-treff-kinonachmittag-385812/"
-  },
-  {
-   "gemeinden": [
     "wiesendangen"
    ],
    "id": "wiesendangen-fa385820",
@@ -47628,6 +47573,21 @@ window.FAMILIENAGENDA = {
    "time": "16.00 - 16.45",
    "age": null,
    "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-seen/"
+  },
+  {
+   "gemeinden": [
+    "rs"
+   ],
+   "id": "rs-7843567",
+   "name": "Kasperlitheater",
+   "von": "2027-04-07",
+   "bis": "2027-04-07",
+   "ort": "Riedhus",
+   "veranstalter": "Familienverein Russikon",
+   "time": "14.30 - 15.00",
+   "age": null,
+   "url": "https://www.russikon.ch/_rte/anlass/7843567",
+   "w": "https://familienverein-russikon.ch/events/kasperlitheater"
   },
   {
    "gemeinden": [
