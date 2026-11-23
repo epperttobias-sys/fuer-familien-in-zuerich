@@ -371,6 +371,9 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .evc .tag{border-radius:999px;padding:3px 9px;background:var(--soft)}
 .evc .fav{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;background:none;font-size:1.3rem;color:#b9c8dc;cursor:pointer;border-radius:50%}
 .evc .fav[aria-pressed=true]{color:#e0245e}
+.evc .fav.fav2{top:auto;bottom:8px}.evc:has(.fav2) .bd{padding-right:30px}
+.mk-actions{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}.mk-actions button{border:0;border-radius:999px;padding:10px 16px;font:700 .95rem/1 inherit;background:var(--accent);color:var(--accent-ink,#fff);cursor:pointer}.mk-actions button.alt{background:var(--surface);color:var(--accent);box-shadow:inset 0 0 0 1.5px var(--accent)}.mk-actions .ok{align-self:center;color:var(--sec);font-weight:700;font-size:.9rem}
+#merkliste h2{font-size:1.05rem;margin:18px 0 8px}
 </style>
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
 </head>
@@ -460,6 +463,12 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 21v-3a5 5 0 0110 0v3M14 21v-2a3.5 3.5 0 017 0v2"/></svg></span>
       <span class="tile-title">Familien&shy;angebote</span>
       <span class="tile-text">Beratung, Spielgruppen, Bibliothek, Ludothek und mehr</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="tile tile-alt" href="#merkliste" id="go-merkliste">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg></span>
+      <span class="tile-title">Merkliste</span>
+      <span class="tile-text" id="tile-merkliste">Gemerkte Anlässe und Orte, mit der Familie teilen</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="https://epperttobias-sys.github.io/fuer-familien-in-zuerich/newsletter/" id="go-newsletter">
@@ -554,6 +563,17 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <p id="facount" class="count-line"></p>
   <main id="familie"></main>
   <footer>Quellen: Mütter- und Väterberatung und Bezirksübersichten vom Kanton Zürich, Spielgruppen, Elternvereine und Familienzentren aus den Websites und Vereinslisten der Gemeinden, Bibliotheken, Ludotheken, Bäder und Treffpunkte aus OpenStreetMap. Was dort fehlt, fehlt auch hier. Angaben ohne Gewähr, bitte vor dem Besuch auf der Website prüfen. <span id="fastand"></span></footer>
+</div>
+
+<div class="wrap" id="view-merkliste" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1 id="mk-h">Meine Merkliste</h1>
+    <p class="lead" id="mk-lead">Anlässe, Ausflugsziele und Restaurants, die du mit dem Herz ♡ gemerkt hast. Teile die Liste per Link mit deiner Familie, ganz ohne Konto.</p>
+  </header>
+  <div class="mk-actions" id="mk-actions"></div>
+  <main id="merkliste"></main>
+  <footer>Die Merkliste wird nur auf diesem Gerät gespeichert. Wer deinen Link öffnet, sieht deine Auswahl und kann sie in die eigene Merkliste übernehmen. Ändert sich deine Liste, teile einfach einen neuen Link.</footer>
 </div>
 
 <div class="wrap" id="view-betreuung" hidden>
@@ -737,7 +757,11 @@ function artIcon(e){if(/samichlaus|nikolaus/i.test(e.name))return["🎅","#dc262
   return a?[ARTS.find(x=>x[0]===a)[1],{feste:"#d97706",buecher:"#0a5cb8",buehne:"#7c3aed",basteln:"#db2777",sport:"#0f8a6a",natur:"#16a34a",treff:"#0891b2",entdecken:"#4f46e5"}[a]]:["🎈","#0a5cb8"]}
 const favKey=e=>(e.gemeinden[0]||"")+":"+(e.id||e.name+e.von);
 let FAVS=new Set();try{FAVS=new Set(JSON.parse(localStorage.getItem("fa-fav")||"[]"))}catch(e){}
-const saveFav=()=>{try{localStorage.setItem("fa-fav",JSON.stringify([...FAVS]))}catch(e){}};
+const saveFav=()=>{try{localStorage.setItem("fa-fav",JSON.stringify([...FAVS]))}catch(e){};const t=document.getElementById("tile-merkliste");if(t&&window.MERK_COUNT)t.textContent=MERK_COUNT()};
+const hk=s=>{let h=5381;for(const c of s)h=(Math.imul(h,33)+c.codePointAt(0))>>>0;return h.toString(36)};
+const MERK={a:[],r:[],ac:null,rc:null};
+function withFav(card,key){const fb=node("button","fav fav2",FAVS.has(key)?"♥":"♡");fb.type="button";fb.setAttribute("aria-pressed",String(FAVS.has(key)));fb.setAttribute("aria-label","Merken");
+  fb.addEventListener("click",()=>{FAVS.has(key)?FAVS.delete(key):FAVS.add(key);saveFav();const on=FAVS.has(key);fb.textContent=on?"♥":"♡";fb.setAttribute("aria-pressed",String(on))});card.append(fb);return card}
 const WOPTS=[["all","Alle Anlässe"],["fit","Passend zum Wetter"],["in","Drinnen (auch bei Regen)"],["out","Draussen (bei schönem Wetter)"]];
 const IN_RE=/bibliothek|museum|saal|kino|turnhalle|hallenbad|kirche|chile|pfarrei|kirchgemeindehaus|familienzentrum|gemeinschaftszentrum|freizeitanlage|freizeithaus|jugendhaus|aula|ludothek|hotel|restaurant|caf[eé]|kafi|bastel|kerzenziehen|theater|gschicht|geschicht|bilderbuch|vorles|spielgruppe|krabbel|töpfer|werkstatt|atelier|indoor|halle\b|zentrum|stube|schulhaus|kurs\b|konzert|singe|fiire|gottesdienst|spielzimmer|kreativ/i;
 const OUT_RE=/wald|spielplatz|wanderung|exkursion|natur(?!hist)|märt|markt|badi|strandbad|seeufer|feuer(?!wehr)|laternen|lampion|räbe|umzug|velo|\blauf|orientierungslauf|garten|bauernhof|biohof|\bhof\b|\bstall|open.?air|im freien|draussen|\bpark|pumptrack|eisbahn|schlitt|\bzoo\b|tierpark|naturstation|rundgang|spaziergang|grill|picknick|fasnacht|chilbi|weiher|weg\b/i;
@@ -1259,7 +1283,8 @@ const AKS=[["hof","🐄 Bauernhöfe und Hoftiere"],["beiz","🥨 Ausflugsbeizen 
     document.getElementById("aw-all").checked=!rain;document.getElementById("aw-rain").checked=rain;document.getElementById("aw-sum").textContent=rain?"Auch bei Regen":"Bei jedem Wetter";syncS()}
   function li(z){const tags=[];if(z.fee===0)tags.push("gratis");if(z.oh)tags.push("🕒 "+ohDe(z.oh));if(z.in)tags.push("🏠 Auch bei Regen");
     const links=[];if(z.w)links.push(["Website",z.w]);else if(!["feuer","aussicht"].includes(z.k))links.push(wsearch(z.n,(GM[z.g]||{}).name));if(z.wp)links.push(["Wikipedia",z.wp]);if(z.q&&z.q!==z.w)links.push(["Quelle",z.q]);const aq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));links.push(["Karte",z.ap?"https://www.google.com/maps/search/?api=1&query="+aq:gmaps(z.lat,z.lon)],["Route",z.ap?"https://www.google.com/maps/dir/?api=1&destination="+aq:groute(z.lat,z.lon)]);
-    return mkCard({em:(KL[z.k]||"📍").split(" ")[0],title:z.n,meta:[(GM[z.g]||{}).name,z.d||(KL[z.k]||"").replace(/^\S+\s/,"")].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d})}
+    return withFav(mkCard({em:(KL[z.k]||"📍").split(" ")[0],title:z.n,meta:[(GM[z.g]||{}).name,z.d||(KL[z.k]||"").replace(/^\S+\s/,"")].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d}),"@a:"+hk(z.n+"|"+z.g))}
+  MERK.a=A.ziele;MERK.ac=li;
   function render(){sync();box.replaceChildren();
     let L=A.ziele.filter(z=>(!selG||selG.has(z.g))&&(!selK||selK.has(z.k))&&(!rain||z.in)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
     document.getElementById("aucount").textContent=(L.length===1?"1 Ziel":L.length+" Ziele")+" gefunden";
@@ -1606,10 +1631,10 @@ function gebText(c){const n=GEB.filter(x=>x.g===c).length;const R=ROOMS.find(r=>
       ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
       const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
       const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
-      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Wo Kinder spielen können"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"],"view-betreuung":["Kita & Betreuung","Kitas, Horte und Kindergärten"]}[w.id];
+      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Wo Kinder spielen können"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"],"view-betreuung":["Kita & Betreuung","Kitas, Horte und Kindergärten"],"view-merkliste":["Merkliste","Gemerkt und mit der Familie geteilt"]}[w.id];
       const tb=node("b","",KT?KT[0]:"Für Familien in Zürich");if(KT){tb.append(node("small","",KT[1]));w.classList.add("hk2")}
       bar.append(node("span","backc","←"),l2,tb);ss.append(bar);w.prepend(ss)}
-    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall","view-kurse":"go-kurse","view-geburtstag":"go-geburtstag","view-betreuung":"go-betreuung"}[w.id];
+    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall","view-kurse":"go-kurse","view-geburtstag":"go-geburtstag","view-betreuung":"go-betreuung","view-merkliste":"go-merkliste"}[w.id];
     const hd=w.querySelector(":scope>header"),ti=tileId&&document.querySelector("#"+tileId+" .ico svg");
     if(hd&&ti){const ic=node("span","secico");ic.append(ti.cloneNode(true));hd.prepend(ic)}
     const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen","view-ferien":"ferien","view-notfall":"notfall","view-kurse":"kurse","view-geburtstag":"geburtstag","view-betreuung":"betreuung"}[w.id],fs=w.querySelector(".filters");
@@ -1686,7 +1711,8 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
   function li(z){const tags=z.f.filter(k=>k!=="geprueft").map(k=>k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":k==="spielplatz"?"🛝 Spielplatz":FL[k]);if(z.oh)tags.push("🕒 "+ohDe(z.oh));
     const links=[];if(z.w)links.push(["Website",z.w]);else links.push(wsearch(z.n,(GM[z.g]||{}).name));if(z.q)links.push(["Quelle",z.q]);const gq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));
     links.push(["Karte",z.ap?"https://www.google.com/maps/search/?api=1&query="+gq:gmaps(z.lat,z.lon)],["Route",z.ap?"https://www.google.com/maps/dir/?api=1&destination="+gq:groute(z.lat,z.lon)]);
-    return mkCard({em:AIC[z.a]||"🍽️",title:z.n,meta:[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d,ap:z.ap})}
+    return withFav(mkCard({em:AIC[z.a]||"🍽️",title:z.n,meta:[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d,ap:z.ap}),"@r:"+hk(z.n+"|"+z.g))}
+  MERK.r=E.orte;MERK.rc=li;
   function render(){sync();box.replaceChildren();
     let L=E.orte.filter(z=>(!selG||selG.has(z.g))&&(!selF||[...selF].every(k=>z.f.includes(k)))&&(art==="all"||z.a===art)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
     document.getElementById("escount").textContent=(L.length===1?"1 Ort":L.length+" Orte")+" gefunden";
@@ -1769,15 +1795,49 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
   let saved=null;try{saved=localStorage.getItem("fa-home-g")}catch(e){}
   setTimeout(()=>{if(saved&&GM[saved])setHome(saved)},50);
 })();
+/* Merkliste: alles Gemerkte an einem Ort, teilbar per Link (ohne Konto) */
+const LIVE="https://epperttobias-sys.github.io/fuer-familien-in-zuerich/";
+function merkItems(keys){const n=new Date(),ti=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate())),G=(window.FAMILIENAGENDA||{}).gemeinden||{};
+  const ev=(EVENTS||[]).filter(e=>keys.has(favKey(e))&&e.bis>=ti).sort((a,b)=>(a.von>ti?a.von:ti).localeCompare(b.von>ti?b.von:ti));
+  const a=MERK.a.filter(z=>keys.has("@a:"+hk(z.n+"|"+z.g))),r=MERK.r.filter(z=>keys.has("@r:"+hk(z.n+"|"+z.g)));
+  return{ev,a,r,G,ti}}
+window.MERK_COUNT=()=>{const m=merkItems(FAVS),n=m.ev.length+m.a.length+m.r.length;return n?"♥ "+n+" gemerkt · mit der Familie teilen":"Gemerkte Anlässe und Orte, mit der Familie teilen"};
+window.renderMerk=function(){
+  const box=document.getElementById("merkliste"),act=document.getElementById("mk-actions");box.replaceChildren();act.replaceChildren();
+  const hm=location.hash.match(/^#merkliste=(.+)$/),shared=hm?new Set(decodeURIComponent(hm[1]).split(",").filter(Boolean)):null;
+  const keys=shared||FAVS,m=merkItems(keys),total=m.ev.length+m.a.length+m.r.length;
+  document.getElementById("mk-h").textContent=shared?"Geteilte Merkliste":"Meine Merkliste";
+  document.getElementById("mk-lead").textContent=shared?"Jemand hat diese Auswahl mit dir geteilt. Du kannst sie in deine eigene Merkliste übernehmen.":"Anlässe, Ausflugsziele und Restaurants, die du mit dem Herz ♡ gemerkt hast. Teile die Liste per Link mit deiner Familie, ganz ohne Konto.";
+  const btn=(t,cls,f)=>{const b=node("button",cls||"",t);b.type="button";b.addEventListener("click",f);act.append(b);return b};
+  const ok=t=>{let o=act.querySelector(".ok");if(!o){o=node("span","ok");act.append(o)}o.textContent=t};
+  if(shared){
+    if(total)btn("♥ Alle in meine Merkliste übernehmen","",()=>{let k=0;shared.forEach(x=>{if(!FAVS.has(x)){FAVS.add(x);k++}});saveFav();ok(k?"✓ "+k+" übernommen":"✓ Schon alles in deiner Merkliste")});
+    btn("Zu meiner Merkliste","alt",()=>{location.hash="#merkliste"});
+  }else if(total){
+    btn("🔗 Merkliste teilen","",async()=>{const url=LIVE+"#merkliste="+encodeURIComponent([...FAVS].join(","));
+      if(navigator.share){try{await navigator.share({title:"Unsere Merkliste: Für Familien in Zürich",url});return}catch(e){if(e&&e.name==="AbortError")return}}
+      try{await navigator.clipboard.writeText(url);ok("✓ Link kopiert, jetzt z. B. im Familien-Chat einfügen")}catch(e){prompt("Diesen Link kopieren:",url)}});
+  }
+  if(!total){box.append(node("p","empty",shared?"Die Einträge dieser Liste sind vorbei oder nicht mehr vorhanden.":"Du hast noch nichts gemerkt. Tippe bei Anlässen, Ausflugszielen oder Restaurants auf das Herz ♡."));return}
+  const WDs=["So","Mo","Di","Mi","Do","Fr","Sa"];
+  const day=s=>{const d=new Date(s+"T12:00:00");return WDs[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]};
+  if(m.ev.length){box.append(node("h2","","📅 Anlässe"));m.ev.forEach(e=>{const g=(m.G[e.gemeinden[0]]||{}).name||"",sh=e.von>m.ti?e.von:m.ti;
+    const when=day(sh)+(e.bis>sh?" bis "+day(e.bis):"")+(e.time?", "+e.time+" Uhr":"");
+    box.append(withFav(mkCard({em:"📅",title:e.name,href:e.w||e.url,meta:[when,g,e.ort&&e.ort!==g?e.ort:""].filter(Boolean).join(" · "),tags:e.age&&e.age.label?[e.age.label]:[]}),favKey(e)))})}
+  if(m.a.length&&MERK.ac){box.append(node("h2","","🏰 Ausflugsziele"));m.a.forEach(z=>box.append(MERK.ac(z)))}
+  if(m.r.length&&MERK.rc){box.append(node("h2","","🍽️ Restaurants"));m.r.forEach(z=>box.append(MERK.rc(z)))}
+};
 function route(){
-  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag","#betreuung":"betreuung"})[location.hash]||"home";
-  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall","kurse","geburtstag","betreuung"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag","#betreuung":"betreuung"})[location.hash]||(/^#merkliste/.test(location.hash)?"merkliste":"home");
+  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall","kurse","geburtstag","betreuung","merkliste"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  if(v==="merkliste"&&window.renderMerk)renderMerk();
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
 document.querySelectorAll("[data-back]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();location.hash="";route()}));
 route();
 start();
+{const t=document.getElementById("tile-merkliste");if(t)t.textContent=MERK_COUNT();if(/^#merkliste/.test(location.hash))renderMerk()}
 
 /* Bezirke in allen Gemeinde-Auswahlen zuklappbar */
 const NEAR={pos:null,km:(()=>{try{return +localStorage.getItem("fa-near-km")||10}catch(e){return 10}})()};
