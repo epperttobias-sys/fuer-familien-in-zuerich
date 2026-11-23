@@ -34,6 +34,11 @@ jobs:
           git diff --cached --quiet || git commit -m "Wochenend-Tipps aktualisiert"
           git pull --rebase -X theirs --autostash origin main
           git push
+      - name: Version stempeln (für automatische Aktualisierung)
+        run: |
+          v=$(date +%s)
+          echo "{\"v\":\"$v\"}" > site/version.json
+          sed -i "s/__APPV__/$v/" site/index.html
       - uses: actions/upload-pages-artifact@v3
         with: { path: site }
       - id: deploy

@@ -813,6 +813,10 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </footer>
 </div>
 
+<script>/* Automatisch neu laden, wenn eine neuere Version online ist */
+(function(){const V="__APPV__";if(V.indexOf("__")===0||!/^https?:/.test(location.protocol))return;
+function chk(){fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(!j||!j.v||j.v===V)return;let d="";try{d=sessionStorage.getItem("fa-v")}catch(e){}if(d===j.v)return;try{sessionStorage.setItem("fa-v",j.v)}catch(e){}location.reload()}).catch(()=>{})}
+chk();document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")chk()})})();</script>
 <script src="events.js"></script>
 <script src="gemeinden.js"></script>
 <script src="bezirke-karte.js"></script>
