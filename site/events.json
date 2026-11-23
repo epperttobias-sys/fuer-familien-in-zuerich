@@ -1129,6 +1129,20 @@
    "domain": "www.zuercher-weinland.ch",
    "ok": true,
    "count": 68
+  },
+  "q-kinderthur": {
+   "name": "kinderthur.ch (Winterthur)",
+   "bezirk": "Quellen",
+   "domain": "www.kinderthur.ch",
+   "ok": true,
+   "count": 10
+  },
+  "q-wynegg": {
+   "name": "Quartierhof Wynegg",
+   "bezirk": "Quellen",
+   "domain": "calendar.google.com",
+   "ok": true,
+   "count": 0
   }
  },
  "events": [
@@ -1494,12 +1508,13 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt22207-0",
+   "id": "winterthur-/events/22207/2026-11-1816:00",
+   "q": "q-kinderthur",
    "name": "Weihnachtlicher Wintermarkt",
    "von": "2026-11-18",
    "bis": "2026-12-23",
-   "ort": "Teuchelweiherplatz",
-   "veranstalter": "",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
    "time": "16.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/22207/"
@@ -2085,6 +2100,25 @@
    "time": "9.15 - 11.15",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7729564"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-/events/babycafe-5/var/ri-5.l-L12026-11-2415:30",
+   "q": "q-kinderthur",
+   "name": "Babycafé",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "15.30",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.kinderthur.ch/events/babycafe-5/var/ri-5.l-L1"
   },
   {
    "gemeinden": [
@@ -4306,13 +4340,14 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt29196-0",
+   "id": "winterthur-/events/das-roesslitram-im-advent-8/2026-11-2614:00",
+   "q": "q-kinderthur",
    "name": "Das Rösslitram im Advent",
    "von": "2026-11-26",
    "bis": "2026-11-26",
-   "ort": "Altstadt Winterthur",
-   "veranstalter": "",
-   "time": "14.00 - 16.30",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "14.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-8/"
   },
@@ -4863,12 +4898,13 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt29185-0",
+   "id": "winterthur-/events/weihnachtsmarkt-winterthur-14/2026-11-2611:00",
+   "q": "q-kinderthur",
    "name": "Weihnachtsmarkt Winterthur mit Zauberwald",
    "von": "2026-11-26",
    "bis": "2026-12-23",
-   "ort": "Neumarkt Winterthur",
-   "veranstalter": "",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
    "time": "11.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/weihnachtsmarkt-winterthur-14/"
@@ -6614,13 +6650,14 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt33484-0",
+   "id": "winterthur-/events/das-roesslitram-im-advent-4/2026-11-2813:00",
+   "q": "q-kinderthur",
    "name": "Das Rösslitram im Advent",
    "von": "2026-11-28",
    "bis": "2026-11-28",
-   "ort": "Altstadt Winterthur",
-   "veranstalter": "",
-   "time": "13.00 - 17.00",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "13.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-4/"
   },
@@ -7355,6 +7392,21 @@
    "time": "17.15",
    "age": null,
    "url": "https://www.forum-magazin.ch/richterswil/agenda/20261128-offenes-adventssingen-368996/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-/events/offenes-keramikwerk-4/var/ri-5.l-L12026-11-2813:00",
+   "q": "q-kinderthur",
+   "name": "Offenes Keramikwerk",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "13.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/offenes-keramikwerk-4/var/ri-5.l-L1"
   },
   {
    "gemeinden": [
@@ -10528,13 +10580,14 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt31174-0",
+   "id": "winterthur-/events/besuch-im-chlaushuesli-im-wald-5/2026-12-0214:00",
+   "q": "q-kinderthur",
    "name": "Besuch im Chlaushüsli im Wald",
    "von": "2026-12-02",
    "bis": "2026-12-02",
    "ort": "",
-   "veranstalter": "",
-   "time": "14.00 - 16.00",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "14.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/besuch-im-chlaushuesli-im-wald-5/"
   },
@@ -16656,6 +16709,21 @@
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7794784",
    "w": "https://www.oberemuehle.ch/events/sonstiges/samichlaus-vorweihnachtliche-geschichten-7414655181193758646"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-/events/weihnachtsmarkt-winterthur-15/2026-12-06",
+   "q": "q-kinderthur",
+   "name": "Samichlaus am Weihnachtsmarkt",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/weihnachtsmarkt-winterthur-15/"
   },
   {
    "gemeinden": [
@@ -27060,13 +27128,14 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt33506-0",
+   "id": "winterthur-/events/maerchen-im-zauberhaften-maerliwald-2/2026-12-2014:00",
+   "q": "q-kinderthur",
    "name": "Märchen im zauberhaften Märliwald",
    "von": "2026-12-20",
    "bis": "2026-12-20",
-   "ort": "Märliwald",
-   "veranstalter": "",
-   "time": "14.00 - 16.00",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "14.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/maerchen-im-zauberhaften-maerliwald-2/"
   },
@@ -31567,19 +31636,20 @@
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-kt33318-0",
-   "name": "Midnight Sports Töss am Samstag",
+   "id": "winterthur-/events/midnight-sport-gutschick-am-samstag/2027-01-0919:30",
+   "q": "q-kinderthur",
+   "name": "Midnight Sport Gutschick am Samstag",
    "von": "2027-01-09",
    "bis": "2027-01-09",
-   "ort": "Sekundarschule Rosenau",
-   "veranstalter": "",
-   "time": "20.00 - 23.15",
+   "ort": "",
+   "veranstalter": "kinderthur.ch (Winterthur)",
+   "time": "19.30",
    "age": {
     "min": 12,
     "max": 12,
     "label": "Jugendliche"
    },
-   "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-5/"
+   "url": "https://www.kinderthur.ch/events/midnight-sport-gutschick-am-samstag/"
   },
   {
    "gemeinden": [
