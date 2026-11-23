@@ -38,5 +38,7 @@ jobs:
           sed -i "s/__APPV__/$v/" site/index.html
       - uses: actions/upload-pages-artifact@v3
         with: { path: site }
+      - name: Kurz warten, bis GitHub das Paket kennt
+        run: sleep 20
       - id: deploy
         uses: actions/deploy-pages@v4
