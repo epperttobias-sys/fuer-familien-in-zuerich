@@ -407,6 +407,10 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .ha-claim{margin:0;font:800 clamp(1.7rem,7.5vw,2.2rem)/1.08 var(--display);color:var(--ink)}
 .ha-top .hsearch{margin-top:16px}.ha-top .hsearch input{border:0;box-shadow:0 2px 10px rgba(13,35,64,.09);min-height:52px;font-size:1rem}
 .ha-top .hchip{margin-top:12px}
+.ha-mapbtn{justify-self:start;display:inline-flex;align-items:center;gap:8px;margin-top:10px;border:0;border-radius:999px;padding:9px 14px;background:var(--surface);color:var(--accent);font:800 .9rem var(--body);box-shadow:0 1px 6px rgba(13,35,64,.08);cursor:pointer;min-height:40px}
+.ha-mapbtn svg{width:18px;height:18px}.ha-mapbtn[aria-expanded=true]{background:var(--accent);color:var(--accent-ink)}
+.ha-map{margin-top:10px;background:var(--surface);border-radius:20px;padding:12px 10px 6px;border:0;box-shadow:0 2px 10px rgba(13,35,64,.08)}
+.ha-map svg{max-width:300px}
 .ha-duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .ha-duo .today{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:2px;padding:16px;border-radius:20px;min-height:118px}
 .ha-duo .today>div:first-child{display:contents}
@@ -430,7 +434,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .home .ha-grid a.tile .tile-title,.home .ha-sos a.tile .tile-title{grid-column:2!important;grid-row:1!important;align-self:end!important;font:800 .95rem/1.2 var(--body)!important;color:var(--ink)!important;text-align:left!important}
 .home .ha-grid a.tile .tile-text,.home .ha-sos a.tile .tile-text{grid-column:2!important;grid-row:2!important;align-self:start!important;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.76rem!important;line-height:1.3;color:var(--muted)!important;text-align:left!important;opacity:1!important;margin:1px 0 0!important}
 .home .ha-grid a.tile .tile-arrow{display:none!important}
-.home .ha-grid a.tile .badge{top:6px!important;right:6px!important;left:auto!important;min-width:22px;height:22px;line-height:22px;font-size:.7rem}
+.home .ha-grid a.tile .badge{display:none!important}
 .home .ha-grid a.tile:hover{transform:translateY(-1px)}
 .home .ha-grid #go-saison{grid-column:auto!important;background:var(--surface)!important;padding:12px!important;border-radius:16px!important}
 .home .ha-grid #go-saison .ico{background:color-mix(in srgb,#d97706 14%,var(--surface))!important}
@@ -981,7 +985,7 @@ function sync(){
   TIMES.forEach(([v,l])=>{document.getElementById("t-"+v).checked=state.t===v;if(state.t===v)document.getElementById("t-sum").textContent=l});
 }
 const update=()=>{sync();render();save()};
-GO.events=c=>{state.g=new Set([c]);update()};
+GO.events=c=>{state.g=new Set([].concat(c));update()};
 RESET.events=()=>{state.g.clear();state.a.clear();state.k.clear();state.open=true;state.t="all";state.w="all";update()};
 const toggle=(s,v)=>{s.has(v)?s.delete(v):s.add(v);update()};
 async function start(){
@@ -1066,7 +1070,7 @@ function roomCard(r,showB){
   if(r.rooms.length){const ul=document.createElement("ul");r.rooms.forEach(t=>ul.append(roomLi(t)));c.append(ul)}
   if(r.note)c.append(node("p","note",r.note));
   const ls=node("div","links");r.links.forEach(([t,u])=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";ls.append(a)});c.append(ls);return c}
-GO.raeume=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];rstate.sel=new Set(g?[g.name]:[]);renderRooms()};
+GO.raeume=c=>{const F=x=>(window.GEMEINDEN||{})[x]||(window.FAMILIENAGENDA.gemeinden||{})[x];rstate.sel=new Set([].concat(c).map(F).filter(Boolean).map(g=>g.name));renderRooms()};
 RESET.raeume=()=>{rstate.sel=null;rstate.sort="name";rstate.k=null;rstate.p=0;renderRooms()};
 function renderRooms(){
   const box=document.getElementById("rooms");box.replaceChildren();
@@ -1179,7 +1183,7 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
     const holder=node("div");const m=node("div","spmap");m.setAttribute("aria-label","Karte der Spielplätze");holder.append(m);box.append(holder);showMap(holder,L.slice(0,200),sg.join(", ")||"deiner Nähe",me||undefined);
     L.slice(0,200).forEach(p=>box.append(card(p)));if(L.length>200)box.append(node("p","note","Es werden die ersten 200 Spielplätze gezeigt."))}
   render();
-  GO.spiel=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];selG=g&&D.gemeinden[g.name]?new Set([g.name]):null;render()};
+  GO.spiel=c=>{const F=x=>(window.GEMEINDEN||{})[x]||(window.FAMILIENAGENDA.gemeinden||{})[x];const L=[].concat(c).map(F).filter(g=>g&&D.gemeinden[g.name]).map(g=>g.name);selG=L.length?new Set(L):null;render()};
   RESET.spiel=()=>{selG=null;selF=null;age="all";me=null;msg.parentNode.classList.remove("on");render()};
 })();
 function facts(p){const f=[];
@@ -1239,7 +1243,7 @@ const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","P
   VGROUPS.forEach(([k,t,ic])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="vk-"+k;
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<VGROUPS.length?s:null;render()});l.append(i,node("span","",ic+" "+t));kp.append(l)});
   document.getElementById("vk-all").addEventListener("click",()=>{selK=null;render()});
-  GO.vereine=c=>{selG=new Set([c]);selK=null;inp.value="";render()};
+  GO.vereine=c=>{selG=new Set([].concat(c));selK=null;inp.value="";render()};
   RESET.vereine=()=>{selG=null;selK=null;inp.value="";render()};
   function sync(){codes.forEach(c=>{const i=document.getElementById("vg-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("vg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
@@ -1306,7 +1310,7 @@ function famView(P,KINDS,withBera,goKey,boxId,cntId,standId,itemsFn){
   KS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id=P+"k-"+k;
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<KS.length?s:null;render()});l.append(i,node("span","",t));kp.append(l)});
   document.getElementById(P+"k-all").addEventListener("click",()=>{selK=null;render()});
-  GO[goKey]=c=>{selG=new Set([c]);selK=null;render()};
+  GO[goKey]=c=>{selG=new Set([].concat(c));selK=null;render()};
   RESET[goKey]=()=>{selG=null;selK=null;selP=null;render()};
   function sync(){const sg=selG?[...selG]:codes;codes.forEach(c=>{const i=document.getElementById(P+"g-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=sg.map(c=>GM[c].name);document.getElementById(P+"g-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
@@ -1367,7 +1371,7 @@ const AKS=[["hof","🐄 Bauernhöfe und Hoftiere"],["beiz","🥨 Ausflugsbeizen 
   AKS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="ak-"+k;
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<AKS.length?s:null;render()});l.append(i,node("span","",t+" ("+A.ziele.filter(z=>z.k===k).length+")"));kp.append(l)});
   document.getElementById("ak-all").addEventListener("click",()=>{selK=null;render()});
-  GO.ausflug=c=>{selG=new Set([c]);selK=null;render()};
+  GO.ausflug=c=>{selG=new Set([].concat(c));selK=null;render()};
   RESET.ausflug=()=>{selG=null;selK=null;rain=false;me=null;document.querySelector("#view-ausflug .near").classList.remove("on");document.getElementById("au-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
   const wp=document.getElementById("aw-panel");
   [["all","Bei jedem Wetter"],["rain","Auch bei Regen (drinnen)"]].forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="aw";i.id="aw-"+v;
@@ -1432,7 +1436,7 @@ const SEASONS=[
   const OP=[["thema","Thema"],["gemeinde","Gemeinde (A–Z)"],["datum","Datum"]],op=document.getElementById("so-panel");
   OP.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="so";i.id="so-"+v;
     i.addEventListener("change",()=>{ord=v;render();document.getElementById("so-dd").open=false});l.append(i,node("span","",t));op.append(l)});
-  GO.saison=c=>{selG=new Set([c]);render()};
+  GO.saison=c=>{selG=new Set([].concat(c));render()};
   RESET.saison=()=>{selK=null;weeks=8;selG=null;ord="thema";render()};
   const cur=SEASONS.filter(([k,,,ms])=>ms.includes(m)&&k!=="markt"&&ALL.some(x=>x.k===k)).map(([,t])=>t.replace(/^\S+\s/,""));
   document.getElementById("tile-saison").textContent=cur.length?"Jetzt: "+cur.join(", "):"Was gerade Saison hat";
@@ -1802,7 +1806,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht …";
     navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
       e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
-  GO.essen=c=>{selG=new Set([c]);selF=null;render()};
+  GO.essen=c=>{selG=new Set([].concat(c));selF=null;render()};
   RESET.essen=()=>{selG=null;selF=null;art="all";me=null;document.querySelector("#view-essen .near").classList.remove("on");document.getElementById("es-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
   function sync(){codes.forEach(c=>{const i=document.getElementById("eg-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("eg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
@@ -1849,7 +1853,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
   const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie",raeume:"raeume",ferien:"ferien",notfall:"notfall",kurse:"kurse",geburtstag:"geburtstag",betreuung:"betreuung"};
   const TILE={events:"go-events",saison:"go-saison",ausflug:"go-ausflug",spielplaetze:"go-spiel",essen:"go-essen",vereine:"go-vereine",familie:"go-familie",raeume:"go-raeume",ferien:"go-ferien",notfall:"go-notfall",kurse:"go-kurse",geburtstag:"go-geburtstag",betreuung:"go-betreuung"};
   const q=document.getElementById("home-q"),box=document.getElementById("home-sugg"),chip=document.getElementById("home-chip");
-  const orig={};let homeG=null;
+  const orig={};let homeG=null,homeB=null;
   const P=(n,a,b)=>n+" "+(n===1?a:b);
   function counts(c){const g=GM[c],nm=g.name,r={};
     r.events=P(D.events.filter(e=>e.bis>=today&&e.gemeinden.includes(c)).length,"Anlass","Anlässe")+" in "+nm;
@@ -1861,10 +1865,10 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     r.betreuung=P((((window.FAMILIE||{}).gemeinden||{})[c]||[]).filter(x=>x.k==="kita").length,"Angebot","Angebote");
     r.familie=P((((window.FAMILIE||{}).gemeinden||{})[c]||[]).filter(x=>x.k!=="kita").length+(((window.VEREINE||{}).gemeinden||{})[c]||[]).filter(v=>v.k==="familie").length,"Angebot","Angebote")+" + Mütterberatung";
     const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");r.ferien=ferienText(c);const GH=window.GESUNDHEIT||{aerzte:[],apo:[]};const na=GH.aerzte.filter(x=>x.g===c).length,np=GH.apo.filter(x=>x.g===c).length;r.notfall=(na+np)+" Praxen und Apotheken";r.kurse=kurseText(c);r.geburtstag=gebText(c);return r}
-  function todayBand(c){const ev=D.events.filter(e=>e.von<=today&&e.bis>=today&&(!c||e.gemeinden.includes(c))).length;
+  function todayBand(c){const B=homeB,cs=B?new Set(B.codes):null;const ev=D.events.filter(e=>e.von<=today&&e.bis>=today&&(cs?e.gemeinden.some(x=>cs.has(x)):(!c||e.gemeinden.includes(c)))).length;
     document.getElementById("today-n").textContent=P(ev,"Anlass","Anlässe")+" für Kinder";
-    document.querySelector("#home-today small").textContent=c?"Heute in "+GM[c].name:"Heute in deiner Region";
-    const W=window.WETTER;const g=W&&((c&&W.g[c])||W.g.d||W.g.u);if(g){const i=g.d.indexOf(today);if(i>=0){const[ic]=WX(g.c[i]);document.getElementById("today-w").replaceChildren(document.createTextNode(ic),node("small","",g.tn[i]+"°–"+g.tx[i]+"°"))}}}
+    document.querySelector("#home-today small").textContent=B?"Heute im Bezirk "+B.name:c?"Heute in "+GM[c].name:"Heute in deiner Region";
+    const W=window.WETTER;const wc=B?B.codes.find(x=>W&&W.g[x]):c;const g=W&&((wc&&W.g[wc])||W.g.d||W.g.u);if(g){const i=g.d.indexOf(today);if(i>=0){const[ic]=WX(g.c[i]);document.getElementById("today-w").replaceChildren(document.createTextNode(ic),node("small","",g.tn[i]+"°–"+g.tx[i]+"°"))}}}
   function saisonCard(c){const t=document.getElementById("go-saison");if(!t)return;const m=n.getMonth()+1;
     const to=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate()+56));
     const L=D.events.filter(e=>e.bis>=today&&e.von<=to&&(!c||e.gemeinden.includes(c)));
@@ -1872,7 +1876,16 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     const ic=t.querySelector(".ico");if(cur){ic.textContent=cur[0][1].split(" ")[0];t.querySelector(".tile-title").textContent=cur[0][1].replace(/^\S+\s/,"");
       t.querySelector(".tile-text").textContent=cur[1]+(cur[1]===1?" Anlass":" Anlässe")+(c?" in "+GM[c].name:"")+" in den nächsten 8 Wochen"}
     else{t.querySelector(".tile-title").textContent="Saisonale Highlights";t.querySelector(".tile-text").textContent="Was gerade Saison hat"}}
-  function setHome(c){homeG=c;try{c?localStorage.setItem("fa-home-g",c):localStorage.removeItem("fa-home-g")}catch(e){}
+  const BL={events:["Anlass","Anlässe"],saison:["Highlight","Highlights"],ausflug:["Ausflugsziel","Ausflugsziele"],spielplaetze:["Spielplatz","Spielplätze"],essen:["Restaurant","Restaurants"],vereine:["Verein","Vereine"],betreuung:["Angebot","Angebote"],familie:["Angebot","Angebote"],raeume:["Raum","Räume"]};
+  function setBez(name){const codes=Object.keys(GM).filter(c=>GM[c].bezirk===name);if(!codes.length)return;homeG=null;homeB={name,codes};
+    try{localStorage.setItem("fa-home-b",name);localStorage.removeItem("fa-home-g")}catch(e){}
+    const sum={};codes.forEach(c=>{const r=counts(c);for(const k in BL)sum[k]=(sum[k]||0)+(+((r[k]||"").match(/^\d+/)||[0])[0])});
+    for(const k in TILE){const t=document.getElementById(TILE[k]);if(!t)continue;const tx=t.querySelector(".tile-text");if(!(k in orig))orig[k]=tx.textContent;
+      const has=k in BL;tx.textContent=has?P(sum[k],BL[k][0],BL[k][1])+" im Bezirk "+name:orig[k];t.classList.toggle("zero",has&&!sum[k]);
+      let bd=t.querySelector(".badge");if(has){if(!bd){bd=node("span","badge");t.append(bd)}bd.textContent=String(sum[k])}else if(bd)bd.remove()}
+    saisonCard(null);chip.hidden=false;document.getElementById("home-chip-t").textContent="🗺 Bezirk "+name;todayBand(null);if(window.paintHomeMap)paintHomeMap()}
+  window.setHomeBez=setBez;
+  function setHome(c){homeG=c;homeB=null;try{c?localStorage.setItem("fa-home-g",c):localStorage.removeItem("fa-home-g");localStorage.removeItem("fa-home-b")}catch(e){}if(window.paintHomeMap)setTimeout(paintHomeMap,0);
     const r=c?counts(c):null;
     for(const k in TILE){const t=document.getElementById(TILE[k]);if(!t)continue;const tx=t.querySelector(".tile-text");if(!(k in orig))orig[k]=tx.textContent;
       tx.textContent=r?r[k]:orig[k];t.classList.toggle("zero",!!r&&/^0 /.test(r[k]));
@@ -1880,29 +1893,33 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["bierg
     saisonCard(c);
     chip.hidden=!c;if(c)document.getElementById("home-chip-t").textContent="📍 "+GM[c].name;todayBand(c)}
   document.getElementById("home-chip-x").addEventListener("click",()=>setHome(null));
-  for(const k in TILE){const t=document.getElementById(TILE[k]);if(t)t.addEventListener("click",()=>{if(homeG&&GO[GOKEY[k]]){const c=homeG;setTimeout(()=>GO[GOKEY[k]](c),0)}})}
-  document.getElementById("home-today").addEventListener("click",()=>{if(homeG){const c=homeG;setTimeout(()=>{state.g=new Set([c]);update()},10)}});
+  const BGO=new Set(["events","saison","ausflug","spielplaetze","essen","vereine","familie","raeume","betreuung"]);
+  for(const k in TILE){const t=document.getElementById(TILE[k]);if(t)t.addEventListener("click",()=>{if(homeB&&BGO.has(k)&&GO[GOKEY[k]]){const L=homeB.codes.slice();setTimeout(()=>GO[GOKEY[k]](L),0)}else if(homeG&&GO[GOKEY[k]]){const c=homeG;setTimeout(()=>GO[GOKEY[k]](c),0)}})}
+  document.getElementById("home-today").addEventListener("click",()=>{if(homeB){const L=homeB.codes.slice();setTimeout(()=>{state.g=new Set(L);update()},10)}else if(homeG){const c=homeG;setTimeout(()=>{state.g=new Set([c]);update()},10)}});
   const go=(view)=>{box.hidden=true;q.value="";location.hash="#"+view};
   function show(){const v=q.value.trim().toLowerCase();box.replaceChildren();if(v.length<2){box.hidden=true;return}
     const cats=CATS.filter(c=>c[1].toLowerCase().includes(v)||c[3].split(" ").some(w=>w.startsWith(v)||v.startsWith(w)));
     const gs=Object.keys(GM).filter(c=>GM[c].name.toLowerCase().startsWith(v)).concat(Object.keys(GM).filter(c=>!GM[c].name.toLowerCase().startsWith(v)&&GM[c].name.toLowerCase().includes(v))).slice(0,6);
+    const bzs=[...new Set(Object.values(GM).map(g=>g.bezirk).filter(Boolean))].filter(b=>b.toLowerCase().startsWith(v)||("bezirk "+b).toLowerCase().startsWith(v)).slice(0,3);
+    if(bzs.length){box.append(node("div","h","Bezirk wählen"));bzs.forEach(b=>{const x=document.createElement("button");x.type="button";x.textContent="🗺 Bezirk "+b;x.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();setBez(b)});box.append(x)})}
     if(gs.length){box.append(node("div","h","Gemeinde wählen"));gs.forEach(c=>{const b=document.createElement("button");b.type="button";b.textContent="📍 "+GM[c].name+" · Bezirk "+(GM[c].bezirk||"");
       b.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();setHome(c)});box.append(b)})}
     const nz=x=>x.toLowerCase().replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/[^a-z0-9]/g,""),nv=nz(v);
     const lim=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate()+90));
-    const evs=nv.length>=3?D.events.filter(e=>e.bis>=today&&e.von<=lim&&(!homeG||e.gemeinden.includes(homeG))&&nz(e.name+" "+((GM[e.gemeinden[0]]||{}).name||"")).includes(nv)).sort((a,b)=>(a.von>today?a.von:today).localeCompare(b.von>today?b.von:today)).slice(0,6):[];
+    const evs=nv.length>=3?D.events.filter(e=>e.bis>=today&&e.von<=lim&&(homeB?e.gemeinden.some(x=>homeB.codes.includes(x)):(!homeG||e.gemeinden.includes(homeG)))&&nz(e.name+" "+((GM[e.gemeinden[0]]||{}).name||"")).includes(nv)).sort((a,b)=>(a.von>today?a.von:today).localeCompare(b.von>today?b.von:today)).slice(0,6):[];
     if(evs.length){box.append(node("div","h","Anlässe"));const WD=["So","Mo","Di","Mi","Do","Fr","Sa"];
       evs.forEach(e=>{const a=document.createElement("a"),d=new Date((e.von>today?e.von:today)+"T12:00:00");a.href=e.w||e.url;a.target="_blank";a.rel="noopener";
         a.textContent="📅 "+e.name+" · "+WD[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]+" · "+((GM[e.gemeinden[0]]||{}).name||"");box.append(a)})}
     if(cats.length){box.append(node("div","h","Bereiche"));cats.forEach(([k,t,ic])=>{const b=document.createElement("button");b.type="button";b.textContent=ic+" "+t;b.addEventListener("click",()=>go(k));box.append(b)})}
     if(!box.childNodes.length)box.append(node("div","h","Nichts gefunden"));box.hidden=false}
-  q.placeholder="🔍 Gemeinde, Thema oder Anlass suchen …";
+  q.placeholder="🔍 Gemeinde, Thema, Anlass …";
   q.addEventListener("input",show);q.addEventListener("focus",show);
   q.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=box.querySelector("button");if(b)b.click()}if(e.key==="Escape")box.hidden=true});
   document.addEventListener("click",e=>{if(!e.target.closest(".hsearch"))box.hidden=true});
   saisonCard(null);
   let saved=null;try{saved=localStorage.getItem("fa-home-g")}catch(e){}
-  setTimeout(()=>{if(saved&&GM[saved])setHome(saved)},50);
+  let savedB=null;try{savedB=localStorage.getItem("fa-home-b")}catch(e){}
+  setTimeout(()=>{if(savedB)setBez(savedB);else if(saved&&GM[saved])setHome(saved)},50);
 })();
 /* Merkliste: alles Gemerkte an einem Ort, teilbar per Link (ohne Konto) */
 const LIVE="https://epperttobias-sys.github.io/fuer-familien-in-zuerich/";
@@ -2010,7 +2027,23 @@ start();
   if(leu){const l=leu.cloneNode(true);l.setAttribute("aria-hidden","true");l.removeAttribute("role");br.append(l)}
   const bn=node("span");bn.append("Für Familien",document.createElement("br"),"in Zürich");br.append(bn);
   top.append(br,node("p","ha-date",WT[n.getDay()]+", "+n.getDate()+". "+ML[n.getMonth()]),node("h1","ha-claim","Was machen wir heute?"));
-  const hs=home.querySelector(".hsearch"),chip=$("home-chip");if(hs)top.append(hs);if(chip)top.append(chip);
+  const hs=home.querySelector(".hsearch"),chip=$("home-chip");if(hs)top.append(hs);
+  const BK=window.BEZIRKE_KARTE;
+  if(BK){const mb=node("button","ha-mapbtn");mb.type="button";mb.setAttribute("aria-expanded","false");
+    mb.innerHTML=SV('<path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/>');mb.append(document.createTextNode("Bezirk auf der Karte wählen"));
+    const mp=node("div","dd-map ha-map");mp.hidden=true;
+    const NS="http://www.w3.org/2000/svg",svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox",`0 0 ${BK.w} ${BK.h}`);svg.setAttribute("role","group");svg.setAttribute("aria-label","Karte der Bezirke");
+    const shapes=[];
+    BK.bezirke.forEach(b=>{const pa=document.createElementNS(NS,"path");pa.setAttribute("d",b.d);const ti=document.createElementNS(NS,"title");ti.textContent="Bezirk "+b.name;pa.append(ti);
+      pa.setAttribute("tabindex","0");pa.setAttribute("role","button");pa.setAttribute("aria-label","Bezirk "+b.name);
+      const act=ev=>{ev.preventDefault();window.setHomeBez&&setHomeBez(b.name);mp.hidden=true;mb.setAttribute("aria-expanded","false")};
+      pa.addEventListener("click",act);pa.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" ")act(ev)});svg.append(pa);shapes.push([pa,b.name])});
+    BK.bezirke.forEach(b=>{const t=document.createElementNS(NS,"text");t.setAttribute("x",b.lx);t.setAttribute("y",b.ly);t.textContent=b.name;svg.append(t)});
+    window.paintHomeMap=()=>{let cur="";try{cur=localStorage.getItem("fa-home-b")||""}catch(e){}shapes.forEach(([pa,nm])=>{pa.classList.toggle("on",nm===cur);pa.setAttribute("aria-pressed",String(nm===cur))})};
+    mp.append(svg,node("p","dd-note","Tippe auf einen Bezirk. Die Startseite zeigt dann alles für diesen Bezirk."));
+    mb.addEventListener("click",()=>{mp.hidden=!mp.hidden;mb.setAttribute("aria-expanded",String(!mp.hidden));if(!mp.hidden)paintHomeMap()});
+    top.append(mb,mp)}
+  if(chip)top.append(chip);
   home.prepend(top);
   // Heute + Merkliste
   const duo=node("div","ha-duo"),today=$("home-today");
