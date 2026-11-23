@@ -1,6 +1,13 @@
 {
  "stand": "2026-11-23",
  "gemeinden": {
+  "affolternamalbis": {
+   "name": "Affoltern am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.stadtaffoltern.ch",
+   "ok": true,
+   "count": 42
+  },
   "bonstetten": {
    "name": "Bonstetten",
    "bezirk": "Affoltern",
@@ -42,13 +49,6 @@
    "domain": "www.ottenbach.ch",
    "ok": true,
    "count": 5
-  },
-  "affolternamalbis": {
-   "name": "Affoltern am Albis",
-   "bezirk": "Affoltern",
-   "domain": "www.stadtaffoltern.ch",
-   "ok": true,
-   "count": 31
   },
   "andelfingen": {
    "name": "Andelfingen",
@@ -159,70 +159,70 @@
    "name": "Bülach",
    "bezirk": "Bülach",
    "domain": "www.buelach.ch",
-   "ok": true,
+   "ok": false,
    "count": 34
   },
   "embrach": {
    "name": "Embrach",
    "bezirk": "Bülach",
    "domain": "www.embrach.ch",
-   "ok": true,
+   "ok": false,
    "count": 0
   },
   "kloten": {
    "name": "Kloten",
    "bezirk": "Bülach",
    "domain": "www.kloten.ch",
-   "ok": true,
+   "ok": false,
    "count": 57
   },
   "lufingen": {
    "name": "Lufingen",
    "bezirk": "Bülach",
    "domain": "www.lufingen.ch",
-   "ok": true,
+   "ok": false,
    "count": 0
   },
   "oberembrach": {
    "name": "Oberembrach",
    "bezirk": "Bülach",
    "domain": "www.oberembrach.ch",
-   "ok": true,
+   "ok": false,
    "count": 1
   },
   "opfikon": {
    "name": "Opfikon",
    "bezirk": "Bülach",
    "domain": "www.opfikon.ch",
-   "ok": true,
+   "ok": false,
    "count": 53
   },
   "rafz": {
    "name": "Rafz",
    "bezirk": "Bülach",
    "domain": "www.rafz.ch",
-   "ok": true,
+   "ok": false,
    "count": 10
   },
   "wallisellen": {
    "name": "Wallisellen",
    "bezirk": "Bülach",
    "domain": "www.wallisellen.ch",
-   "ok": true,
+   "ok": false,
    "count": 19
   },
   "wil": {
    "name": "Wil",
    "bezirk": "Bülach",
    "domain": "www.wil-zh.ch",
-   "ok": true,
+   "ok": false,
    "count": 0
   },
   "winkel": {
    "name": "Winkel",
    "bezirk": "Bülach",
    "domain": "www.winkel.ch",
-   "ok": true,
+   "ok": false,
    "count": 1
   },
   "buchs": {
@@ -405,7 +405,7 @@
    "bezirk": "Affoltern",
    "domain": "www.stallikon.ch",
    "ok": true,
-   "count": 34
+   "count": 33
   },
   "feuerthalen": {
    "name": "Feuerthalen",
@@ -573,7 +573,7 @@
    "bezirk": "Meilen",
    "domain": "www.oetwil.ch",
    "ok": true,
-   "count": 21
+   "count": 15
   },
   "wi": {
    "name": "Wila",
@@ -769,7 +769,7 @@
    "bezirk": "Horgen",
    "domain": "www.waedenswil.ch",
    "ok": true,
-   "count": 45
+   "count": 47
   },
   "kilchberg": {
    "name": "Kilchberg",
@@ -797,7 +797,7 @@
    "bezirk": "Meilen",
    "domain": "www.meilen.ch",
    "ok": true,
-   "count": 17
+   "count": 16
   },
   "a": {
    "name": "Männedorf",
@@ -818,7 +818,7 @@
    "bezirk": "Meilen",
    "domain": "www.zollikon.ch",
    "ok": true,
-   "count": 1
+   "count": 2
   },
   "k": {
    "name": "Zumikon",
@@ -944,7 +944,7 @@
    "bezirk": "Uster",
    "domain": "www.wangen-bruettisellen.ch",
    "ok": true,
-   "count": 24
+   "count": 23
   },
   "bruetten": {
    "name": "Brütten",
@@ -1035,7 +1035,7 @@
    "bezirk": "Zürich",
    "domain": "www.stadt-zuerich.ch",
    "ok": true,
-   "count": 247
+   "count": 250
   }
  },
  "quellen": {
@@ -1051,7 +1051,7 @@
    "bezirk": "Quellen",
    "domain": "www.forum-magazin.ch",
    "ok": true,
-   "count": 412
+   "count": 414
   },
   "q-zauberlaterne": {
    "name": "Zauberlaterne",
@@ -1107,7 +1107,7 @@
    "bezirk": "Quellen",
    "domain": "www.localcities.ch",
    "ok": true,
-   "count": 228
+   "count": 229
   },
   "q-kindaling": {
    "name": "kindaling (Familienanlässe privater Anbieter)",
@@ -1753,63 +1753,6 @@
   },
   {
    "gemeinden": [
-    "o"
-   ],
-   "id": "o-3471-2046",
-   "name": "ElKi-Cafi Anduriña",
-   "von": "2026-11-23",
-   "bis": "2026-11-23",
-   "ort": "Schulhaus Dörfli",
-   "veranstalter": "Verein Anduriña Familienverein",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3471/eventdate/2046",
-   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
-  },
-  {
-   "gemeinden": [
-    "stallikon"
-   ],
-   "id": "stallikon-8730-8219",
-   "name": "ElKi-Singen",
-   "von": "2026-11-23",
-   "bis": "2026-11-23",
-   "ort": "Jugendhaus",
-   "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
-   "time": "9.00 - 10.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8730/eventdate/8219",
-   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/326/2026/11/9"
-  },
-  {
-   "gemeinden": [
-    "aesch"
-   ],
-   "id": "aesch-fa383833",
-   "q": "q-kath",
-   "name": "Eltern-Kind-Singen",
-   "von": "2026-11-23",
-   "bis": "2026-11-23",
-   "ort": "St. Martin",
-   "veranstalter": "Kath. Pfarrei St. Martin / St. Michael",
-   "time": "09.15",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.forum-magazin.ch/birmensdorf/agenda/20261123-eltern-kind-singen-383833/"
-  },
-  {
-   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006410",
@@ -1843,24 +1786,6 @@
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604398"
-  },
-  {
-   "gemeinden": [
-    "i"
-   ],
-   "id": "i-7778098",
-   "name": "Generationennachmittag",
-   "von": "2026-11-23",
-   "bis": "2026-11-23",
-   "ort": "Treffpunkt Meilen",
-   "veranstalter": "Fachstelle Kinder, Koordination Alter und Gesundheit und Treffpunkt",
-   "time": "14.30 - 17.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.meilen.ch/_rte/anlass/7778098"
   },
   {
    "gemeinden": [
@@ -4835,6 +4760,22 @@
   },
   {
    "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-lc4925391",
+   "q": "q-localcities",
+   "name": "Polarzauber",
+   "von": "2026-11-26",
+   "bis": "2026-12-24",
+   "ort": "Hauptbahnhof Zürich, 8001 Zürich",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4925391",
+   "w": "https://polarzauber.ch/de/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7748311",
@@ -6259,17 +6200,13 @@
     "bruetten"
    ],
    "id": "bruetten-7374430",
-   "name": "Alex Porter - Familienprogramm Nepp",
+   "name": "Alex Porter - verschoben!",
    "von": "2026-11-28",
    "bis": "2026-11-28",
    "ort": "Gemeindesaal Brütten",
    "veranstalter": "Kulturkommission Brütten",
    "time": "16.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
+   "age": null,
    "url": "https://www.bruetten.ch/_rte/anlass/7374430"
   },
   {
@@ -7024,7 +6961,7 @@
    "q": "q-localcities",
    "name": "Hotel Sonne Küsnacht - Winterzaubergarten",
    "von": "2026-11-28",
-   "bis": "2027-01-23",
+   "bis": "2027-01-30",
    "ort": "Sonne Boutiquehotel und Seerestaurants, 8700 Küsnacht ZH",
    "veranstalter": "",
    "time": "14.00 - 20.00",
@@ -10025,25 +9962,6 @@
   },
   {
    "gemeinden": [
-    "o"
-   ],
-   "id": "o-3475-2042",
-   "name": "ElKi-Cafi Anduriña",
-   "von": "2026-12-01",
-   "bis": "2026-12-01",
-   "ort": "Schulhaus Dörfli",
-   "veranstalter": "Verein Anduriña Familienverein",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3475/eventdate/2042",
-   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
-  },
-  {
-   "gemeinden": [
     "marthalen"
    ],
    "id": "marthalen-7587316",
@@ -10865,25 +10783,6 @@
    "time": "14.30",
    "age": null,
    "url": "https://theater-purpur.ch/theater"
-  },
-  {
-   "gemeinden": [
-    "o"
-   ],
-   "id": "o-3476-2041",
-   "name": "ElKi-Cafi Anduriña",
-   "von": "2026-12-02",
-   "bis": "2026-12-02",
-   "ort": "Schulhaus Dörfli",
-   "veranstalter": "Verein Anduriña Familienverein",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3476/eventdate/2041",
-   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -14478,25 +14377,6 @@
   },
   {
    "gemeinden": [
-    "o"
-   ],
-   "id": "o-3227-1914",
-   "name": "Fondue inmitten Alpakas",
-   "von": "2026-12-05",
-   "bis": "2026-12-05",
-   "ort": "Schlösslihof",
-   "veranstalter": "alpaka-erlebnisse.ch",
-   "time": "17.30",
-   "age": {
-    "min": 10,
-    "max": 12,
-    "label": "ab 10 Jahren"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3227/eventdate/1914",
-   "w": "https://www.alpaka-erlebnisse.ch"
-  },
-  {
-   "gemeinden": [
     "dachsen"
    ],
    "id": "dachsen-7253105",
@@ -14860,14 +14740,13 @@
    "bis": "2026-12-05",
    "ort": "Music & Audiation Institut",
    "veranstalter": "miam-ensemble",
-   "time": "14.30 - 15.00",
+   "time": "16.00 - 16.30",
    "age": {
     "min": 0,
     "max": 6,
     "label": "0 bis 6 Jahre"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7200122",
-   "w": "http://www.miam-konzerte.ch"
+   "url": "https://www.uster.ch/_rte/anlass/7200122"
   },
   {
    "gemeinden": [
@@ -15241,20 +15120,6 @@
    "age": null,
    "url": "https://www.hettlingen.ch/_rte/anlass/7237274",
    "w": "https://www.familienverein-hettlingen.ch/willkommen/ressort/samichlaus/"
-  },
-  {
-   "gemeinden": [
-    "o"
-   ],
-   "id": "o-3370-1989",
-   "name": "Samichlaus und Eseli",
-   "von": "2026-12-05",
-   "bis": "2026-12-05",
-   "ort": "Eselstall, Etzikon 23 Etzikon 21",
-   "veranstalter": "Familie Daeppen",
-   "time": "17.30 - 18.30",
-   "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3370/eventdate/1989"
   },
   {
    "gemeinden": [
@@ -16990,6 +16855,21 @@
   },
   {
    "gemeinden": [
+    "waedenswil"
+   ],
+   "id": "waedenswil-7841212",
+   "name": "Samichlaus-Special Drei Haselnüsse für Aschenbrödel mit Punsch, Glühwein & Waffeln",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Kino SchlossCinema",
+   "veranstalter": "Verein SchlossCinema",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.waedenswil.ch/_rte/anlass/7841212",
+   "w": "https://schlosscinema.ch/event/samichlausspecialdreihaselnuessefueraschenbroedel"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-lc4807801",
@@ -17503,24 +17383,6 @@
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-07/"
-  },
-  {
-   "gemeinden": [
-    "o"
-   ],
-   "id": "o-3457-2050",
-   "name": "Erziehungsberatung im ElKi",
-   "von": "2026-12-07",
-   "bis": "2026-12-07",
-   "ort": "Schulhaus Dörfli",
-   "veranstalter": "Verein Anduriña Familienverein",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3457/eventdate/2050"
   },
   {
    "gemeinden": [
@@ -26810,6 +26672,21 @@
   },
   {
    "gemeinden": [
+    "affolternamalbis"
+   ],
+   "id": "affolternamalbis-7840441",
+   "name": "Weihnachtsaufführungen; Kasperlibühne Zipfelmütze",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Alte Obfelderstrasse 68",
+   "veranstalter": "Kasperlibühne Zipfelmütze",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7840441",
+   "w": "http://www.kasperli-zipfelmuetze.ch"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4920457",
@@ -27291,6 +27168,21 @@
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/dietikon/629/4807803",
    "w": "https://www.dietikon.ch/freizeitanlage-chruezacher"
+  },
+  {
+   "gemeinden": [
+    "affolternamalbis"
+   ],
+   "id": "affolternamalbis-7840456",
+   "name": "Weihnachtsaufführungen; Kasperlibühne Zipfelmütze",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Alte Obfelderstrasse 68",
+   "veranstalter": "Kasperlibühne Zipfelmütze",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7840456",
+   "w": "http://www.kasperli-zipfelmuetze.ch"
   },
   {
    "gemeinden": [
@@ -27818,6 +27710,21 @@
    "time": "",
    "age": null,
    "url": "https://www.singingchristmastree.ch/"
+  },
+  {
+   "gemeinden": [
+    "affolternamalbis"
+   ],
+   "id": "affolternamalbis-7840468",
+   "name": "Weihnachtsaufführungen; Kasperlibühne Zipfelmütze",
+   "von": "2026-12-23",
+   "bis": "2026-12-23",
+   "ort": "Alte Obfelderstrasse 68",
+   "veranstalter": "Kasperlibühne Zipfelmütze",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7840468",
+   "w": "http://www.kasperli-zipfelmuetze.ch"
   },
   {
    "gemeinden": [
@@ -29835,6 +29742,25 @@
   },
   {
    "gemeinden": [
+    "z"
+   ],
+   "id": "z-7835659",
+   "name": "Gioachino Rossini: «La Gazzetta» - Zürcher Kammeroper",
+   "von": "2026-12-31",
+   "bis": "2027-01-17",
+   "ort": "Gemeindesaal Zollikon",
+   "veranstalter": "Zürcher Kammeroper",
+   "time": "",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.zollikon.ch/_rte/anlass/7835659",
+   "w": "https://zuercher-kammeroper.ch"
+  },
+  {
+   "gemeinden": [
     "pfungen"
    ],
    "id": "pfungen-fa382511",
@@ -30226,6 +30152,21 @@
   },
   {
    "gemeinden": [
+    "langnauamalbis"
+   ],
+   "id": "langnauamalbis-fa411974",
+   "q": "q-kath",
+   "name": "Heilige Drei Könige:",
+   "von": "2027-01-03",
+   "bis": "2027-01-03",
+   "ort": "Berghaldenweg 1",
+   "veranstalter": "Kath. Pfarrei St. Marien",
+   "time": "10.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/langnau-am-albis/agenda/20270103-heilige-drei-konige-411974/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-fa384612",
@@ -30441,6 +30382,21 @@
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7108217",
    "w": "https://www.fasnachtbenken.ch"
+  },
+  {
+   "gemeinden": [
+    "hausenamalbis"
+   ],
+   "id": "hausenamalbis-fa413271",
+   "q": "q-kath",
+   "name": "Indoorspielplatz Treff",
+   "von": "2027-01-04",
+   "bis": "2027-01-04",
+   "ort": "Bifangstrasse 4",
+   "veranstalter": "Kath. Pfarrei Herz Jesu",
+   "time": "09.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/hausen-am-albis/agenda/20270104-indoorspielplatz-treff-413271/"
   },
   {
    "gemeinden": [
@@ -37276,6 +37232,21 @@
   },
   {
    "gemeinden": [
+    "hausenamalbis"
+   ],
+   "id": "hausenamalbis-fa413272",
+   "q": "q-kath",
+   "name": "Indoorspielplatz Treff",
+   "von": "2027-02-01",
+   "bis": "2027-02-01",
+   "ort": "Bifangstrasse 4",
+   "veranstalter": "Kath. Pfarrei Herz Jesu",
+   "time": "09.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/hausen-am-albis/agenda/20270201-indoorspielplatz-treff-413272/"
+  },
+  {
+   "gemeinden": [
     "bassersdorf"
    ],
    "id": "bassersdorf-fa387407",
@@ -38604,6 +38575,20 @@
    "time": "",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/art-on-ice.html?calentry=4"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-betoerend-und-begehrenswert-1",
+   "name": "Betörend und begehrenswert",
+   "von": "2027-02-07",
+   "bis": "2027-02-07",
+   "ort": "Sukkulenten-Sammlung Zürich",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": null,
+   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/betoerend-und-begehrenswert.html?calentry=1"
   },
   {
    "gemeinden": [
@@ -41458,6 +41443,21 @@
   },
   {
    "gemeinden": [
+    "hausenamalbis"
+   ],
+   "id": "hausenamalbis-fa413273",
+   "q": "q-kath",
+   "name": "Indoorspielplatz Treff",
+   "von": "2027-03-01",
+   "bis": "2027-03-01",
+   "ort": "Bifangstrasse 4",
+   "veranstalter": "Kath. Pfarrei Herz Jesu",
+   "time": "09.00",
+   "age": null,
+   "url": "https://www.forum-magazin.ch/hausen-am-albis/agenda/20270301-indoorspielplatz-treff-413273/"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7809409",
@@ -42509,25 +42509,6 @@
     "label": "Familien, alle Alter"
    },
    "url": "https://www.meilen.ch/_rte/anlass/7778107"
-  },
-  {
-   "gemeinden": [
-    "bassersdorf"
-   ],
-   "id": "bassersdorf-fa393910",
-   "q": "q-kath",
-   "name": "Krabbelgruppe Rägäboge",
-   "von": "2027-03-08",
-   "bis": "2027-03-08",
-   "ort": "Pfarreizentrum St. Franziskus",
-   "veranstalter": "Kath. Pfarrei St. Franziskus",
-   "time": "14.30",
-   "age": {
-    "min": 0,
-    "max": 2,
-    "label": "Babys"
-   },
-   "url": "https://www.forum-magazin.ch/bassersdorf/agenda/20270308-krabbelgruppe-ragaboge-393910/"
   },
   {
    "gemeinden": [
@@ -48743,7 +48724,7 @@
    "bis": "2027-05-11",
    "ort": "Bibliothek",
    "veranstalter": "Bibliothek",
-   "time": "10.00 - 10.30",
+   "time": "",
    "age": {
     "min": 0,
     "max": 4,
@@ -50916,7 +50897,7 @@
    "bis": "2027-06-08",
    "ort": "Bibliothek",
    "veranstalter": "Bibliothek",
-   "time": "10.00 - 10.30",
+   "time": "",
    "age": {
     "min": 0,
     "max": 4,
@@ -55562,7 +55543,7 @@
    "gemeinden": [
     "ru"
    ],
-   "id": "ru-6831-30227",
+   "id": "ru-6831-30242",
    "name": "FEEL GOOD EXPO 2027",
    "von": "2027-10-02",
    "bis": "2027-10-02",
@@ -55570,7 +55551,7 @@
    "veranstalter": "Sonia Di Santo weitere Termine 2. Oktober 2027, 10:00 – 18:00 3. Oktob",
    "time": "10.00 - 18.00",
    "age": null,
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6831/eventdate/30227",
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6831/eventdate/30242",
    "w": "https://www.feelgood-expo.ch/"
   },
   {
