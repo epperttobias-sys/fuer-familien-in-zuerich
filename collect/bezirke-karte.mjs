@@ -13,21 +13,25 @@ const feats = [];
 for (const nr of Object.keys(NAMES)) {
   const r = await fetch(`https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill/${nr}?geometryFormat=geojson&sr=4326`, { headers: { "User-Agent": "Mozilla/5.0 (compatible; FamilienZuerichBot/1.0)" } });
   const j = await r.json(); const g = j.feature.geometry;
-  feats.push({ nr: +nr, name: NAMES[nr], polys: g.type === "MultiPolygon" ? g.coordinates : [g.coordinates] });
+  const polys = g.type === "MultiPolygon" ? g.coordinates : g.type === "Polygon" ? [g.coordinates] : (g.geometries || []).flatMap(x => x.type === "MultiPolygon" ? x.coordinates : [x.coordinates]);
+  console.log(nr, g.type, polys.length);
+  feats.push({ nr: +nr, name: NAMES[nr], polys });
   await new Promise(r => setTimeout(r, 400));
 }
 let minx = 99, miny = 99, maxx = -99, maxy = -99;
 for (const f of feats) for (const p of f.polys) for (const ring of p) for (const [x, y] of ring) { minx = Math.min(minx, x); maxx = Math.max(maxx, x); miny = Math.min(miny, y); maxy = Math.max(maxy, y); }
 const k = Math.cos(((miny + maxy) / 2) * Math.PI / 180), sx = W / ((maxx - minx) * k), H = Math.round((maxy - miny) * sx);
 const P = ([x, y]) => [((x - minx) * k * sx).toFixed(1), ((maxy - y) * sx).toFixed(1)];
-const out = feats.map(f => {
-  let d = "", cx = 0, cy = 0, n = 0, best = 0, lab = null;
-  for (const poly of f.polys) for (const [ri, ring] of poly.entries()) {
-    const s = dp(ring, TOL); if (s.length < 4) continue;
-    d += "M" + s.map(p => P(p).join(",")).join("L") + "Z";
-    if (ri === 0 && ring.length > best) { best = ring.length; let ax = 0, ay = 0; for (const p of ring) { ax += p[0]; ay += p[1]; } lab = P([ax / ring.length, ay / ring.length]); }
+const out = [];
+for (const f of feats) {
+  let d = "", best = 0, lab = null;
+  for (const poly of f.polys) for (const ring of poly) {
+    const sm = dp(ring, TOL); if (sm.length < 4) continue;
+    d += "M" + sm.map(p => P(p).join(",")).join("L") + "Z";
+    if (ring.length > best) { best = ring.length; let ax = 0, ay = 0; for (const p of ring) { ax += p[0]; ay += p[1]; } lab = P([ax / ring.length, ay / ring.length]); }
   }
-  return { nr: f.nr, name: f.name, d, lx: +lab[0], ly: +lab[1] };
-});
+  if (!lab) { console.log("leer", f.name); continue; }
+  out.push({ nr: f.nr, name: f.name, d, lx: +lab[0], ly: +lab[1] });
+}
 await writeFile(new URL("../site/bezirke-karte.js", import.meta.url), `// Bezirksgrenzen Kanton Zürich (Quelle: swisstopo, swissBOUNDARIES3D via geo.admin.ch), vereinfacht\nwindow.BEZIRKE_KARTE=${JSON.stringify({ w: W, h: H, bezirke: out })};\n`);
 console.log("ok", W, H, out.map(b => b.name + ":" + b.d.length).join(" "));
