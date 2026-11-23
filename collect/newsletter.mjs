@@ -67,37 +67,71 @@ const SUMMER = /(märz|april|mai)\s*bis\s*(ende\s*)?(sept|okt)|nur im sommer|som
 const pick = k => { const l = PLUS.filter(p => p.k === k && G[p.g] && !(winter && SUMMER.test(p.t))); return l.length ? l[((week % l.length) + l.length) % l.length] : null; };
 const tips = [pick("hof"), pick("beiz"), winter ? pick("erlebnis") : pick("pflueck")].filter(Boolean);
 
-// HTML (mit Inline-Styles, damit es auch im E-Mail-Programm gut aussieht)
-const C = { ink: "#1f2a37", muted: "#5b6573", line: "#e5e7eb", accent: "#0f6db3", soft: "#eef5fb" };
+// HTML im Stil der App; Tabellen und Inline-Styles, damit es auch im E-Mail-Programm gut aussieht
+const C = { ink: "#0d2340", muted: "#4f6684", line: "#cfdcee", accent: "#0a5cb8", soft: "#dfeafa", bg: "#f1f6fc", sun: "#ffc93c", sunInk: "#4a3500", warm: "#fff4d6" };
+const FONT = "Figtree,'Segoe UI',-apple-system,Roboto,Helvetica,Arial,sans-serif", DISP = "'Bricolage Grotesque','Trebuchet MS',Figtree,Arial,sans-serif";
 const link = e => e.w || e.url;
-const item = (x, showBez) => {
-  const e = x.e, a = e.von > FR ? e.von : FR, z = e.bis < SO ? e.bis : SO, when = (a < z ? fmtDay(a) + " – " + fmtDay(z) : fmtDay(a)) + (e.time ? ", " + e.time.replace(/\s*-\s*/, "–") + " Uhr" : "");
-  const meta = [when, x.gem + (showBez ? " (Bezirk " + x.bez + ")" : ""), e.ort && e.ort !== x.gem ? e.ort : "", e.age?.label || ""].filter(Boolean).map(esc).join(" · ");
-  return `<li style="margin:0 0 12px;padding:0;list-style:none"><a href="${esc(link(e))}" style="color:${C.accent};font-weight:600;text-decoration:none">${esc(e.name)}</a><br><span style="color:${C.muted};font-size:14px">${meta}</span></li>`;
+const ICONS = [[/samichlaus|chlaus|nikolaus/i, "🎅"], [/kerzen/i, "🕯️"], [/advent|weihnacht|krippe|lichter|illumination|stern/i, "🎄"], [/m[äa]rt|markt/i, "🎪"], [/zirkus|circus/i, "🎪"], [/theater|kasperli|figuren|puppen|märchen|zauber/i, "🎭"], [/kino|film/i, "🎬"], [/konzert|musik|sing/i, "🎵"], [/tier|hof|alpaka|pony|ziege/i, "🐄"], [/bastel|workshop|werkstatt|kranz|guetzli|lebkuchen/i, "✂️"], [/eis|schlitt|schnee/i, "⛸️"], [/fest|chilbi|fasnacht/i, "🎉"], [/führung|museum|ausstellung/i, "🏛️"], [/geschichte|buch|bibliothek|lesen/i, "📚"]];
+const icon = n => (ICONS.find(([re]) => re.test(n)) || [, "✨"])[1];
+const KI = { hof: "🐄", beiz: "🥨", pflueck: "🍓", erlebnis: "🌲" };
+const WTL = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"], MONL = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+const longDay = s => { const d = dOf(s); return WTL[d.getDay()] + ", " + d.getDate() + ". " + MONL[d.getMonth()]; };
+const timeOf = e => e.time ? e.time.replace(/\s*-\s*/, "–") + " Uhr" : "";
+const whenOf = e => { const a = e.von > FR ? e.von : FR, z = e.bis < SO ? e.bis : SO; return a < z ? fmtDay(a) + " – " + fmtDay(z) : fmtDay(a); };
+const pill = (t, bg = C.soft, fg = C.accent) => `<span style="display:inline-block;background:${bg};color:${fg};font-size:12px;font-weight:700;border-radius:999px;padding:3px 9px;margin:6px 4px 0 0">${esc(t)}</span>`;
+const badge = (txt, bg = C.soft) => `<td width="52" valign="top" style="width:52px;padding:0 14px 0 0"><div style="width:48px;height:48px;line-height:48px;border-radius:14px;background:${bg};text-align:center;font-size:24px">${txt}</div></td>`;
+const card = (x, { showDay = false } = {}) => {
+  const e = x.e, place = [x.gem, e.ort && e.ort !== x.gem ? e.ort : ""].filter(Boolean).join(" · ");
+  const top = [showDay ? whenOf(e) : "", timeOf(e)].filter(Boolean).join(", ");
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:18px;margin:0 0 10px;box-shadow:0 2px 10px rgba(13,35,64,.06)"><tr><td style="padding:14px 16px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>${badge(icon(e.name))}
+<td valign="top">${top ? `<div style="font-size:13px;font-weight:700;color:${C.accent};margin:0 0 2px">${esc(top)}</div>` : ""}<a href="${esc(link(e))}" style="font-family:${DISP};font-size:17px;line-height:1.25;font-weight:800;color:${C.ink};text-decoration:none">${esc(e.name)}</a>
+<div style="font-size:14px;color:${C.muted};margin-top:3px">📍 ${esc(place)}</div>${e.age?.label ? pill("🧒 " + e.age.label) : ""}</td></tr></table></td></tr></table>`;
 };
-const h2 = t => `<h2 style="font-size:18px;margin:28px 0 10px;color:${C.ink}">${t}</h2>`;
-const ul = l => `<ul style="margin:0;padding:0">${l.join("")}</ul>`;
+const secHead = (t, sub = "") => `<h2 style="font-family:${DISP};font-size:21px;line-height:1.2;margin:30px 0 ${sub ? 2 : 12}px;color:${C.ink}">${t}</h2>${sub ? `<p style="margin:0 0 12px;color:${C.muted};font-size:14px">${sub}</p>` : ""}`;
+const dayHead = s => `<div style="margin:16px 0 8px"><span style="display:inline-block;background:${C.accent};color:#fff;font-weight:800;font-size:13px;border-radius:999px;padding:5px 12px">${esc(longDay(s))}</span></div>`;
 const BEZ = Object.keys(byBez).filter(b => byBez[b].length).sort((a, b) => a.localeCompare(b, "de"));
 const title = `Wochenend-Tipps für Familien: ${fmtDay(FR).replace(/^\S+ /, "")} bis ${fmtDay(SO).replace(/^\S+ /, "")}`;
 const total = single.length + longRun.length;
+const sameMonth = dOf(FR).getMonth() === dOf(SO).getMonth();
+const range = sameMonth ? `${dOf(FR).getDate()}.–${dOf(SO).getDate()}. ${MONL[dOf(SO).getMonth()]}` : `${dOf(FR).getDate()}. ${MONL[dOf(FR).getMonth()]} – ${dOf(SO).getDate()}. ${MONL[dOf(SO).getMonth()]}`;
 
-const body = `<div style="max-width:640px;margin:0 auto;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:${C.ink};line-height:1.45;font-size:16px">
-<p style="margin:0 0 4px;color:${C.muted};font-size:14px">Für Familien in Zürich · Wochenend-Tipps</p>
-<h1 style="font-size:24px;margin:0 0 12px">${esc(title)}</h1>
-<p style="margin:0 0 8px">Hallo! Hier ist eine Auswahl aus ${total} Anlässen für Kinder an diesem Wochenende im Kanton Zürich, von Gemeinden, Höfen, Vereinen und kleinen Anbietern.</p>
-${top.length ? h2("⭐ Unsere Highlights") + ul(top.map(x => item(x, true))) : ""}
-${longRun.length ? h2("📆 Läuft das ganze Wochenende") + ul(longRun.map(x => item(x, true))) : ""}
-${tips.length ? h2("🐄 Ausflugstipps") + ul(tips.map(p => `<li style="margin:0 0 12px;list-style:none"><a href="${esc(p.w || p.q)}" style="color:${C.accent};font-weight:600;text-decoration:none">${esc(p.n)}</a> <span style="color:${C.muted};font-size:14px">· ${esc(G[p.g].name)}</span><br><span style="font-size:15px">${esc(p.t)}</span></li>`)) : ""}
-${BEZ.length ? h2("📍 Weitere Anlässe nach Bezirk") + BEZ.map(b => `<h3 style="font-size:15px;margin:18px 0 8px;color:${C.muted};text-transform:uppercase;letter-spacing:.04em">Bezirk ${esc(b)}</h3>` + ul(byBez[b].map(x => item(x, false)))).join("") : ""}
-<p style="margin:28px 0 0;padding:14px 16px;background:${C.soft};border-radius:10px">Alle Anlässe, gefiltert nach deiner Gemeinde und dem Alter deiner Kinder, findest du in der App: <a href="${BASE}#events" style="color:${C.accent};font-weight:600">Für Familien in Zürich</a></p>
-<p style="margin:16px 0 0;color:${C.muted};font-size:13px">Automatisch zusammengestellt aus den Agenden der Gemeinden und weiteren öffentlichen Quellen. Angaben ohne Gewähr; Zeiten, Preise und Anmeldung bitte beim Anlass prüfen.</p>
+const header = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-radius:24px;background:${C.accent};background-image:linear-gradient(135deg,#0a5cb8 0%,#2f7fd8 60%,#5aa2ec 100%)"><tr><td style="padding:24px 22px 22px;color:#fff">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td valign="top" style="color:#fff"><div style="font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;opacity:.85">Für Familien in Zürich · Wochenend-Tipps</div>
+<div style="font-family:${DISP};font-size:30px;line-height:1.1;font-weight:800;margin:8px 0 8px">Euer Wochenende<br>${esc(range)}</div></td>
+<td width="56" valign="top" align="right"><div style="width:48px;height:48px;border-radius:50%;background:${C.sun};box-shadow:0 0 0 8px rgba(255,201,60,.28)"></div></td></tr></table>
+<div style="font-size:15px;line-height:1.45;opacity:.95;margin:0 0 14px">Hallo! Wir haben ${total} Anlässe für Kinder im ganzen Kanton gefunden, von Gemeinden, Höfen, Vereinen und kleinen Anbietern. Hier sind unsere Tipps.</div>
+${DAYS.map(d => `<span style="display:inline-block;background:rgba(255,255,255,.18);color:#fff;font-weight:700;font-size:13px;border-radius:999px;padding:5px 11px;margin:0 6px 6px 0">${esc(fmtDay(d))}</span>`).join("")}
+</td></tr></table>`;
+
+const hiByDay = DAYS.map(d => [d, top.filter(x => x.day === d)]).filter(([, l]) => l.length);
+const tipCard = p => `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${C.warm};border-radius:18px;margin:0 0 10px"><tr><td style="padding:14px 16px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>${badge(KI[p.k] || "🌳", "#ffe7a3")}
+<td valign="top"><a href="${esc(p.w || p.q)}" style="font-family:${DISP};font-size:17px;font-weight:800;color:${C.ink};text-decoration:none">${esc(p.n)}</a><div style="font-size:13px;font-weight:700;color:#8a6200;margin:2px 0 4px">📍 ${esc(G[p.g].name)}</div>
+<div style="font-size:14px;line-height:1.45;color:${C.ink}">${esc(p.t)}</div></td></tr></table></td></tr></table>`;
+const bezCard = b => `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:18px;margin:0 0 10px;box-shadow:0 2px 10px rgba(13,35,64,.06)"><tr><td style="padding:14px 16px 6px">
+<div style="font-family:${DISP};font-size:16px;font-weight:800;color:${C.accent};margin:0 0 6px">Bezirk ${esc(b)}</div>
+${byBez[b].map(x => `<div style="padding:8px 0;border-top:1px solid #eef3fa"><a href="${esc(link(x.e))}" style="font-weight:700;color:${C.ink};text-decoration:none;font-size:15px">${icon(x.e.name)} ${esc(x.e.name)}</a><div style="font-size:13px;color:${C.muted};margin-top:2px">${esc([whenOf(x.e), timeOf(x.e), x.gem].filter(Boolean).join(" · "))}</div></div>`).join("")}
+</td></tr></table>`;
+
+const body = `<div style="max-width:620px;margin:0 auto;font-family:${FONT};color:${C.ink};line-height:1.45;font-size:16px">
+${header}
+${hiByDay.length ? secHead("⭐ Unsere Highlights", "Die schönsten Anlässe aus verschiedenen Bezirken") + hiByDay.map(([d, l]) => dayHead(d) + l.map(x => card(x)).join("")).join("") : ""}
+${longRun.length ? secHead("📆 Das ganze Wochenende", "Mehrmals geöffnet oder über mehrere Tage") + longRun.map(x => card(x, { showDay: true })).join("") : ""}
+${tips.length ? secHead("🧺 Ausflugstipps der Woche", "Höfe, Ausflugsbeizen und Orte zum Entdecken") + tips.map(tipCard).join("") : ""}
+${BEZ.length ? secHead("📍 Mehr in deiner Region") + BEZ.map(bezCard).join("") : ""}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:26px 0 0;background:${C.soft};border-radius:20px"><tr><td style="padding:20px;text-align:center">
+<div style="font-family:${DISP};font-size:18px;font-weight:800;margin:0 0 6px">Noch mehr entdecken</div>
+<div style="font-size:14px;color:${C.muted};margin:0 0 14px">Alle Anlässe, gefiltert nach deiner Gemeinde und dem Alter deiner Kinder. Mit dem Herz merken und mit der Familie teilen.</div>
+<a href="${BASE}#events" style="display:inline-block;background:${C.sun};color:${C.sunInk};font-weight:800;text-decoration:none;border-radius:14px;padding:13px 22px">Zur App «Für Familien in Zürich»</a>
+</td></tr></table>
+<p style="margin:18px 6px 0;color:${C.muted};font-size:12px;line-height:1.5;text-align:center">Automatisch zusammengestellt aus den Agenden der Gemeinden und weiteren öffentlichen Quellen. Angaben ohne Gewähr; Zeiten, Preise und Anmeldung bitte beim Anlass prüfen.</p>
 </div>`;
 
 const page = (t, inner, extra = "") => `<!DOCTYPE html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(t)}</title><link rel="alternate" type="application/rss+xml" title="Wochenend-Tipps" href="feed.xml">
 <meta name="description" content="Wochenend-Tipps für Familien im Kanton Zürich: Anlässe für Kinder, Höfe und Ausflugsziele.">
-</head><body style="margin:0;padding:20px 14px;background:#fff">${inner}${extra}</body></html>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;700;800&display=swap" rel="stylesheet">
+</head><body style="margin:0;padding:18px 12px 30px;background:${C.bg}">${inner}${extra}</body></html>
 `;
 
 await mkdir(DIR, { recursive: true });
@@ -105,12 +139,14 @@ await writeFile(`${DIR}/${FR}.html`, page(title, body));
 
 // Archiv und Feed
 const issues = (await readdir(DIR)).filter(f => /^\d{4}-\d\d-\d\d\.html$/.test(f)).sort().reverse();
-const nav = `<div style="max-width:640px;margin:36px auto 0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:${C.ink};border-top:1px solid ${C.line};padding-top:16px">
-<h2 style="font-size:17px;margin:0 0 8px">📬 Jede Woche per E-Mail</h2>
-<p style="margin:0 0 16px;font-size:15px" id="nl-signup">Die Anmeldung für den Newsletter folgt bald. Bis dahin erscheinen die Tipps jeden Donnerstag hier. Du kannst diese Seite als Lesezeichen speichern oder den <a href="feed.xml" style="color:${C.accent}">RSS-Feed</a> abonnieren.</p>
-<h2 style="font-size:17px;margin:0 0 8px">Frühere Ausgaben</h2>
-<ul style="margin:0;padding-left:18px;font-size:15px">${issues.slice(0, 20).map(f => `<li><a href="${f}" style="color:${C.accent}">Wochenende ab ${esc(fmtDay(f.slice(0, 10)))} ${f.slice(0, 4)}</a></li>`).join("")}</ul>
-<p style="margin:16px 0 0;font-size:14px"><a href="../" style="color:${C.accent}">← Zur App «Für Familien in Zürich»</a></p></div>`;
+const nav = `<div style="max-width:620px;margin:24px auto 0;font-family:${FONT};color:${C.ink}">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:20px;box-shadow:0 2px 10px rgba(13,35,64,.06)"><tr><td style="padding:20px">
+<div style="font-family:${DISP};font-size:18px;font-weight:800;margin:0 0 6px">📬 Jeden Donnerstag per E-Mail</div>
+<p style="margin:0;font-size:14px;color:${C.muted}" id="nl-signup">Die Anmeldung folgt bald. Bis dahin erscheinen die Tipps jeden Donnerstag hier. Speichere die Seite als Lesezeichen oder abonniere den <a href="feed.xml" style="color:${C.accent};font-weight:700">RSS-Feed</a>.</p>
+</td></tr></table>
+<div style="font-family:${DISP};font-size:17px;font-weight:800;margin:22px 4px 8px">Frühere Ausgaben</div>
+${issues.slice(0, 20).map(f => `<a href="${f}" style="display:inline-block;background:#fff;color:${C.accent};font-weight:700;font-size:14px;text-decoration:none;border-radius:999px;padding:7px 13px;margin:0 6px 8px 0;box-shadow:0 1px 4px rgba(13,35,64,.08)">Ab ${esc(fmtDay(f.slice(0, 10)))}</a>`).join("")}
+<p style="margin:14px 4px 0;font-size:14px"><a href="../" style="color:${C.accent};font-weight:700;text-decoration:none">← Zur App «Für Familien in Zürich»</a></p></div>`;
 await writeFile(`${DIR}/index.html`, page(title, body, nav));
 
 const rfc = s => new Date(s + "T07:00:00+01:00").toUTCString();

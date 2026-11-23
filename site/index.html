@@ -372,8 +372,27 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .evc .fav{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;background:none;font-size:1.3rem;color:#b9c8dc;cursor:pointer;border-radius:50%}
 .evc .fav[aria-pressed=true]{color:#e0245e}
 .evc .fav.fav2{top:auto;bottom:8px}.evc:has(.fav2) .bd{padding-right:30px}
-.mk-actions{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}.mk-actions button{border:0;border-radius:999px;padding:10px 16px;font:700 .95rem/1 inherit;background:var(--accent);color:var(--accent-ink,#fff);cursor:pointer}.mk-actions button.alt{background:var(--surface);color:var(--accent);box-shadow:inset 0 0 0 1.5px var(--accent)}.mk-actions .ok{align-self:center;color:var(--sec);font-weight:700;font-size:.9rem}
-#merkliste h2{font-size:1.05rem;margin:18px 0 8px}
+.mk-actions{margin:6px 0 4px}
+.mk-hero{position:relative;overflow:hidden;border-radius:22px;padding:20px 18px 18px;color:#fff;background:linear-gradient(135deg,#0a5cb8 0%,#2f7fd8 60%,#5aa2ec 100%);box-shadow:0 10px 28px rgba(10,92,184,.28)}
+.mk-hero.shared{background:linear-gradient(135deg,#7a3db8 0%,#b0479a 55%,#e06b7a 100%);box-shadow:0 10px 28px rgba(122,61,184,.25)}
+.mk-deco{position:absolute;right:-14px;top:-30px;font-size:9rem;line-height:1;color:rgba(255,255,255,.13);pointer-events:none;transform:rotate(12deg)}
+.mk-kicker{margin:0;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+.mk-big{margin:4px 0 12px;font:800 1.45rem/1.15 var(--display);max-width:85%}
+.mk-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}.mk-chips span{background:rgba(255,255,255,.18);border-radius:999px;padding:5px 11px;font-weight:700;font-size:.85rem;backdrop-filter:blur(2px)}
+.mk-btns{display:flex;flex-wrap:wrap;gap:8px}.mk-btns button{border:0;border-radius:14px;padding:13px 16px;font:800 1rem/1 var(--body);cursor:pointer}
+.mk-main{flex:1 1 220px;background:var(--sun);color:var(--sun-ink);box-shadow:0 4px 0 rgba(0,0,0,.12)}.mk-main:active{transform:translateY(2px);box-shadow:0 2px 0 rgba(0,0,0,.12)}
+.mk-alt{background:rgba(255,255,255,.2);color:#fff}
+.mk-note{margin:10px 0 0;font-size:.85rem;opacity:.85}.mk-hero .ok{margin:10px 0 0;font-weight:800;background:rgba(255,255,255,.2);display:inline-block;padding:6px 12px;border-radius:999px}
+.mk-sec{display:flex;align-items:center;gap:8px;font:800 1.1rem var(--display);margin:22px 2px 10px}.mk-sec .n{font:800 .8rem var(--body);background:var(--soft);color:var(--accent);border-radius:999px;padding:3px 9px}
+.evc .em.mk-date{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;background:var(--soft);color:var(--accent);font-size:1rem;line-height:1}
+.mk-date small{font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em}.mk-date b{font:800 1.35rem/1.05 var(--display)}.mk-date i{font-style:normal;font-size:.66rem;font-weight:700;opacity:.8}
+.evc .em.mk-date.today{background:var(--accent);color:var(--accent-ink)}
+.mk-empty{text-align:center;background:var(--surface);border-radius:22px;padding:28px 20px 22px;box-shadow:0 2px 10px rgba(13,35,64,.06);margin-top:8px}
+.mk-eheart{width:72px;height:72px;margin:0 auto 10px;border-radius:50%;display:grid;place-items:center;font-size:2.3rem;color:#e0245e;background:color-mix(in srgb,#e0245e 10%,var(--surface))}
+.mk-empty h2{font:800 1.3rem var(--display);margin:0 0 6px}.mk-empty>p{color:var(--muted);margin:0 auto 18px;max-width:30em}
+.mk-steps{list-style:none;margin:0 0 18px;padding:0;text-align:left;display:grid;gap:10px}.mk-steps li{display:flex;gap:12px;align-items:center;background:var(--bg);border-radius:14px;padding:10px 12px}
+.mk-steps .i{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--soft);color:var(--accent);font-weight:800}
+.mk-go{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.mk-go a{text-decoration:none;font-weight:800;color:var(--accent);background:var(--soft);padding:9px 14px;border-radius:999px}
 </style>
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
 </head>
@@ -1807,25 +1826,41 @@ window.renderMerk=function(){
   const hm=location.hash.match(/^#merkliste=(.+)$/),shared=hm?new Set(decodeURIComponent(hm[1]).split(",").filter(Boolean)):null;
   const keys=shared||FAVS,m=merkItems(keys),total=m.ev.length+m.a.length+m.r.length;
   document.getElementById("mk-h").textContent=shared?"Geteilte Merkliste":"Meine Merkliste";
-  document.getElementById("mk-lead").textContent=shared?"Jemand hat diese Auswahl mit dir geteilt. Du kannst sie in deine eigene Merkliste übernehmen.":"Anlässe, Ausflugsziele und Restaurants, die du mit dem Herz ♡ gemerkt hast. Teile die Liste per Link mit deiner Familie, ganz ohne Konto.";
-  const btn=(t,cls,f)=>{const b=node("button",cls||"",t);b.type="button";b.addEventListener("click",f);act.append(b);return b};
-  const ok=t=>{let o=act.querySelector(".ok");if(!o){o=node("span","ok");act.append(o)}o.textContent=t};
+  const hero=node("div","mk-hero"+(shared?" shared":""));hero.append(node("span","mk-deco","♥"));
+  const pl=(n,a,b)=>n+" "+(n===1?a:b);
+  const chips=node("div","mk-chips");[[m.ev.length,"📅",pl(m.ev.length,"Anlass","Anlässe")],[m.a.length,"🏰",pl(m.a.length,"Ausflugsziel","Ausflugsziele")],[m.r.length,"🍽️",pl(m.r.length,"Restaurant","Restaurants")]].forEach(([n,i,t])=>{if(n){const sp=node("span","",i+" ");sp.append(document.createTextNode(t));chips.append(sp)}});
+  const ok=t=>{let o=hero.querySelector(".ok");if(!o){o=node("p","ok");hero.append(o)}o.textContent=t};
+  const btn=(t,cls,f)=>{const x=node("button",cls,t);x.type="button";x.addEventListener("click",f);return x};
   if(shared){
-    if(total)btn("♥ Alle in meine Merkliste übernehmen","",()=>{let k=0;shared.forEach(x=>{if(!FAVS.has(x)){FAVS.add(x);k++}});saveFav();ok(k?"✓ "+k+" übernommen":"✓ Schon alles in deiner Merkliste")});
-    btn("Zu meiner Merkliste","alt",()=>{location.hash="#merkliste"});
+    hero.append(node("p","mk-kicker","💌 Für dich geteilt"),node("p","mk-big",total?pl(total,"Tipp","Tipps")+" aus «Für Familien in Zürich»":"Diese Liste ist leer"));
+    if(total)hero.append(chips);
+    const row=node("div","mk-btns");
+    if(total)row.append(btn("♥ Alle in meine Merkliste übernehmen","mk-main",()=>{let k=0;shared.forEach(x=>{if(!FAVS.has(x)){FAVS.add(x);k++}});saveFav();ok(k?"✓ "+k+" übernommen":"✓ Schon alles in deiner Merkliste")}));
+    row.append(btn("Zu meiner Merkliste","mk-alt",()=>{location.hash="#merkliste"}));hero.append(row);
   }else if(total){
-    btn("🔗 Merkliste teilen","",async()=>{const url=LIVE+"#merkliste="+encodeURIComponent([...FAVS].join(","));
+    hero.append(node("p","mk-kicker","Deine Merkliste"),node("p","mk-big",pl(total,"Eintrag","Einträge")+" gemerkt"),chips);
+    const row=node("div","mk-btns");
+    row.append(btn("🔗 Mit der Familie teilen","mk-main",async()=>{const url=LIVE+"#merkliste="+encodeURIComponent([...FAVS].join(","));
       if(navigator.share){try{await navigator.share({title:"Unsere Merkliste: Für Familien in Zürich",url});return}catch(e){if(e&&e.name==="AbortError")return}}
-      try{await navigator.clipboard.writeText(url);ok("✓ Link kopiert, jetzt z. B. im Familien-Chat einfügen")}catch(e){prompt("Diesen Link kopieren:",url)}});
+      try{await navigator.clipboard.writeText(url);ok("✓ Link kopiert, jetzt z. B. im Familien-Chat einfügen")}catch(e){prompt("Diesen Link kopieren:",url)}}));
+    hero.append(row,node("p","mk-note","Per WhatsApp, Mail oder Chat, ganz ohne Konto."));
   }
-  if(!total){box.append(node("p","empty",shared?"Die Einträge dieser Liste sind vorbei oder nicht mehr vorhanden.":"Du hast noch nichts gemerkt. Tippe bei Anlässen, Ausflugszielen oder Restaurants auf das Herz ♡."));return}
+  if(shared||total)act.append(hero);
+  if(!total){
+    if(shared){box.append(node("p","empty","Die Einträge dieser Liste sind vorbei oder nicht mehr vorhanden."));return}
+    const es=node("div","mk-empty");es.append(node("div","mk-eheart","♡"),node("h2","","Noch nichts gemerkt"),node("p","","Sammle hier, was ihr unternehmen möchtet, und teile die Liste mit der Familie."));
+    const ol=node("ol","mk-steps");[["♡","Tippe bei Anlässen, Ausflugszielen oder Restaurants auf das Herz."],["♥","Alles Gemerkte erscheint hier, geordnet und mit Datum."],["🔗","Teile die Liste per Link, zum Beispiel im Familien-Chat."]].forEach(([i,t])=>{const li=node("li");li.append(node("span","i",i),node("span","",t));ol.append(li)});
+    const go=node("div","mk-go");[["#events","📅 Anlässe"],["#ausflug","🏰 Ausflugsziele"],["#essen","🍽️ Restaurants"]].forEach(([h,t])=>{const x=node("a","",t);x.href=h;go.append(x)});
+    es.append(ol,go);box.append(es);return}
   const WDs=["So","Mo","Di","Mi","Do","Fr","Sa"];
   const day=s=>{const d=new Date(s+"T12:00:00");return WDs[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]};
-  if(m.ev.length){box.append(node("h2","","📅 Anlässe"));m.ev.forEach(e=>{const g=(m.G[e.gemeinden[0]]||{}).name||"",sh=e.von>m.ti?e.von:m.ti;
-    const when=day(sh)+(e.bis>sh?" bis "+day(e.bis):"")+(e.time?", "+e.time+" Uhr":"");
-    box.append(withFav(mkCard({em:"📅",title:e.name,href:e.w||e.url,meta:[when,g,e.ort&&e.ort!==g?e.ort:""].filter(Boolean).join(" · "),tags:e.age&&e.age.label?[e.age.label]:[]}),favKey(e)))})}
-  if(m.a.length&&MERK.ac){box.append(node("h2","","🏰 Ausflugsziele"));m.a.forEach(z=>box.append(MERK.ac(z)))}
-  if(m.r.length&&MERK.rc){box.append(node("h2","","🍽️ Restaurants"));m.r.forEach(z=>box.append(MERK.rc(z)))}
+  const sec=(t,n)=>{const h=node("h2","mk-sec",t);h.append(node("span","n",String(n)));box.append(h)};
+  if(m.ev.length){sec("📅 Anlässe",m.ev.length);m.ev.forEach(e=>{const g=(m.G[e.gemeinden[0]]||{}).name||"",sh=e.von>m.ti?e.von:m.ti,d=new Date(sh+"T12:00:00");
+    const when=(e.bis>sh?"bis "+day(e.bis):day(sh))+(e.time?" · "+e.time+" Uhr":"");
+    const c=withFav(mkCard({em:" ",title:e.name,href:e.w||e.url,meta:[when,g,e.ort&&e.ort!==g?e.ort:""].filter(Boolean).join(" · "),tags:e.age&&e.age.label?[e.age.label]:[]}),favKey(e));
+    const em=c.querySelector(".em");em.className="em mk-date"+(sh===m.ti?" today":"");em.replaceChildren(node("small","",sh===m.ti?"Heute":WDs[d.getDay()]),node("b","",String(d.getDate())),node("i","",MS[d.getMonth()]));box.append(c)})}
+  if(m.a.length&&MERK.ac){sec("🏰 Ausflugsziele",m.a.length);m.a.forEach(z=>box.append(MERK.ac(z)))}
+  if(m.r.length&&MERK.rc){sec("🍽️ Restaurants",m.r.length);m.r.forEach(z=>box.append(MERK.rc(z)))}
 };
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag","#betreuung":"betreuung"})[location.hash]||(/^#merkliste/.test(location.hash)?"merkliste":"home");
