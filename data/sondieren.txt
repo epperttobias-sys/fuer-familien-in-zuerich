@@ -1,2 +1,1 @@
-https://gz-zh.ch/wp-json/gz/v1/angebote
 https://www.selberpfluecken.ch/regionen/kanton-zuerich/ | html
