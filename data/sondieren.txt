@@ -1,2 +1,8 @@
-https://kinderregion.ch/de/
-https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=T%C3%BCfistrasse%2018%208134%20Adliswil
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=Stockenstrasse%2088%208802%20Kilchberg
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=Dorfstrasse%2023%208607%20Seegr%C3%A4ben
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=G%C3%BCetlistrasse%2045%208132%20Hinteregg
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=Zur%20Weinrebe%201%208953%20Dietikon
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=Dachsegg%208636%20Wald
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=Poo-Alp%20Wald
+https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=2&searchText=Pooalp
