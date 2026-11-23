@@ -1,1 +1,31 @@
-{}
+{
+ "q-gz": {
+  "name": "Zürcher Gemeinschaftszentren",
+  "bezirk": "Quellen",
+  "domain": "gz-zh.ch",
+  "system": "termine",
+  "quelle": true,
+  "delay": 900,
+  "g": "zuerich",
+  "index": [
+   "https://gz-zh.ch/gz-affoltern/",
+   "https://gz-zh.ch/gz-bachwiesen/",
+   "https://gz-zh.ch/gz-buchegg/",
+   "https://gz-zh.ch/gz-gruenau/",
+   "https://gz-zh.ch/gz-heuried/",
+   "https://gz-zh.ch/gz-hirzenbach/",
+   "https://gz-zh.ch/gz-hoengg/",
+   "https://gz-zh.ch/gz-hottingen/",
+   "https://gz-zh.ch/gz-leimbach/",
+   "https://gz-zh.ch/gz-loogarten/",
+   "https://gz-zh.ch/gz-oerlikon/",
+   "https://gz-zh.ch/gz-riesbach/",
+   "https://gz-zh.ch/gz-schindlergut/",
+   "https://gz-zh.ch/gz-seebach/",
+   "https://gz-zh.ch/gz-witikon/",
+   "https://gz-zh.ch/gz-wipkingen/",
+   "https://gz-zh.ch/gz-wollishofen/"
+  ],
+  "link": "https://gz-zh\\.ch/gz-[a-z]+/angebote/[a-z0-9-]+/"
+ }
+}
