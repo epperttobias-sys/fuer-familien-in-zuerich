@@ -394,6 +394,64 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .mk-steps .i{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--soft);color:var(--accent);font-weight:800}
 .mk-go{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.mk-go a{text-decoration:none;font-weight:800;color:var(--accent);background:var(--soft);padding:9px 14px;border-radius:999px}
 </style>
+<style>
+/* Startseite Variante A: ruhig und aufgeräumt */
+.home.ha{position:relative}
+.home.ha>.scene,.home.ha>.brand,.home.ha>nav.tiles{display:none!important}
+.home.ha>.lang-sw{position:absolute;top:14px;right:0;margin:0;z-index:6}
+.ha-top{margin:0 calc(-1*max(16px,env(safe-area-inset-left,0px)));padding:16px max(16px,env(safe-area-inset-left,0px)) 22px;border-radius:0 0 28px 28px;background:linear-gradient(180deg,var(--sky) 0%,color-mix(in srgb,var(--sky) 45%,var(--bg)) 100%);display:grid;gap:0}
+.ha-brand{display:flex;align-items:center;gap:10px;min-height:44px;padding-right:110px}
+.ha-brand .leu{width:44px;height:44px;flex:none;background:#fff;border-radius:50%;padding:2px;filter:drop-shadow(0 2px 6px rgba(10,92,184,.2))}
+.ha-brand span{font:800 1rem/1.1 var(--display);color:var(--ink)}
+.ha-date{margin:20px 0 2px;font-size:.88rem;font-weight:700;color:var(--muted)}
+.ha-claim{margin:0;font:800 clamp(1.7rem,7.5vw,2.2rem)/1.08 var(--display);color:var(--ink)}
+.ha-top .hsearch{margin-top:16px}.ha-top .hsearch input{border:0;box-shadow:0 2px 10px rgba(13,35,64,.09);min-height:52px;font-size:1rem}
+.ha-top .hchip{margin-top:12px}
+.ha-duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.ha-duo .today{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:2px;padding:16px;border-radius:20px;min-height:118px}
+.ha-duo .today>div:first-child{display:contents}
+.ha-duo .today small:first-child{font-size:.78rem;font-weight:700;opacity:.9;padding-right:58px;min-height:2.2em}
+.ha-duo .today b{font:800 1.15rem/1.12 var(--display);margin:auto 0 0}
+.ha-duo .today #today-s{font-size:.75rem;opacity:.9;margin-top:4px}
+.ha-duo .today .tw{position:absolute;top:12px;right:12px;font-size:1.5rem;display:flex;flex-direction:column;align-items:center}.ha-duo .today .tw small{font-size:.7rem;font-weight:700;margin-top:2px}
+.ha-mk{display:flex;flex-direction:column;gap:2px;padding:16px;border-radius:20px;min-height:118px;background:var(--surface);color:var(--ink);text-decoration:none;box-shadow:0 2px 10px rgba(13,35,64,.07)}
+.ha-mk .l{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;font-weight:700;color:var(--muted)}
+.ha-mk .l svg{width:20px;height:20px;fill:#e0245e;stroke:#e0245e}
+.ha-mk b{font:800 2rem/1 var(--display);margin-top:auto}.ha-mk .s{font-size:.8rem;font-weight:700;color:var(--muted)}
+.ha-mk:hover,.ha-we:hover{transform:translateY(-1px)}.ha-mk,.ha-we{transition:transform .15s}
+.ha-we{display:flex;align-items:center;gap:14px;background:var(--sun);color:var(--sun-ink);border-radius:20px;padding:14px 16px;text-decoration:none}
+.ha-we .i{flex:none;width:44px;height:44px;border-radius:14px;background:rgba(255,255,255,.55);display:grid;place-items:center}
+.ha-we svg{width:22px;height:22px}.ha-we .t{flex:1;display:flex;flex-direction:column}.ha-we .t b{font-size:1rem;font-weight:800}.ha-we .t small{font-size:.82rem;font-weight:600}
+.ha-sec{margin:10px 2px -4px;font:800 1.2rem var(--display);color:var(--ink)}
+.home .ha-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.home .ha-grid a.tile,.home .ha-sos a.tile{order:0!important;display:grid!important;grid-template-columns:40px minmax(0,1fr)!important;grid-template-rows:auto auto;column-gap:12px!important;row-gap:0!important;align-items:center!important;text-align:left!important;min-height:0!important;padding:12px!important;border-radius:16px!important;border:0!important;background:var(--surface)!important;box-shadow:0 1px 6px rgba(13,35,64,.07)!important;color:var(--ink)!important}
+.home .ha-grid a.tile .ico,.home .ha-sos a.tile .ico{grid-column:1!important;grid-row:1/3!important;width:40px!important;height:40px!important;border-radius:12px!important;margin:0!important;background:color-mix(in srgb,var(--tc) 14%,var(--surface))!important;color:var(--tc)!important;font-size:1.3rem}
+.home .ha-grid a.tile .ico svg,.home .ha-sos a.tile .ico svg{width:21px;height:21px}
+.home .ha-grid a.tile .tile-title,.home .ha-sos a.tile .tile-title{grid-column:2!important;grid-row:1!important;align-self:end!important;font:800 .95rem/1.2 var(--body)!important;color:var(--ink)!important;text-align:left!important}
+.home .ha-grid a.tile .tile-text,.home .ha-sos a.tile .tile-text{grid-column:2!important;grid-row:2!important;align-self:start!important;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.76rem!important;line-height:1.3;color:var(--muted)!important;text-align:left!important;opacity:1!important;margin:1px 0 0!important}
+.home .ha-grid a.tile .tile-arrow{display:none!important}
+.home .ha-grid a.tile .badge{top:6px!important;right:6px!important;left:auto!important;min-width:22px;height:22px;line-height:22px;font-size:.7rem}
+.home .ha-grid a.tile:hover{transform:translateY(-1px)}
+.home .ha-grid #go-saison{grid-column:auto!important;background:var(--surface)!important;padding:12px!important;border-radius:16px!important}
+.home .ha-grid #go-saison .ico{background:color-mix(in srgb,#d97706 14%,var(--surface))!important}
+.home .ha-grid #go-saison .tile-title{font-size:.95rem!important;color:var(--ink)!important}
+.home .ha-grid #go-saison .tile-text{color:var(--muted)!important;font-size:.76rem!important}
+.home .ha-grid #go-saison{grid-template-columns:40px minmax(0,1fr)!important;column-gap:12px!important;row-gap:0!important;gap:0 12px!important}
+.home .ha-grid #go-saison .ico{grid-column:1!important;grid-row:1/3!important;width:40px!important;height:40px!important;font-size:1.25rem!important;color:#d97706!important}
+.home .ha-grid #go-saison .tile-title{grid-column:2!important;grid-row:1!important;align-self:end!important;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.home .ha-grid #go-saison .tile-text{grid-column:2!important;grid-row:2!important;display:-webkit-box!important;-webkit-line-clamp:2!important}
+.home .ha-grid #go-saison .tile-arrow{display:none!important}
+.home .ha-sos a.tile{grid-template-columns:40px minmax(0,1fr) auto!important;border:2px solid color-mix(in srgb,#dc2626 30%,var(--surface))!important;padding:12px 14px!important;border-radius:18px!important}
+.home .ha-sos a.tile .tile-arrow{grid-column:3!important;grid-row:1/3!important;display:block!important;color:var(--ink);font-size:1.2rem}
+.home .ha-sos a.tile .badge{display:none}
+@media (min-width:700px){.home .ha-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Merkliste Variante A */
+.mk-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 0}
+.mk-tabs button{border:0;border-radius:999px;padding:8px 13px;font:800 .85rem var(--body);background:var(--surface);color:var(--ink);box-shadow:0 1px 4px rgba(13,35,64,.08);cursor:pointer}
+.mk-tabs button span{opacity:.65;margin-left:3px}.mk-tabs button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.mk-main{display:flex;align-items:center;justify-content:center;gap:8px;width:100%}.mk-main svg{width:20px;height:20px}
+.mk-hero .mk-note{text-align:center}
+</style>
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
 </head>
 <body>
@@ -776,7 +834,7 @@ function artIcon(e){if(/samichlaus|nikolaus/i.test(e.name))return["🎅","#dc262
   return a?[ARTS.find(x=>x[0]===a)[1],{feste:"#d97706",buecher:"#0a5cb8",buehne:"#7c3aed",basteln:"#db2777",sport:"#0f8a6a",natur:"#16a34a",treff:"#0891b2",entdecken:"#4f46e5"}[a]]:["🎈","#0a5cb8"]}
 const favKey=e=>(e.gemeinden[0]||"")+":"+(e.id||e.name+e.von);
 let FAVS=new Set();try{FAVS=new Set(JSON.parse(localStorage.getItem("fa-fav")||"[]"))}catch(e){}
-const saveFav=()=>{try{localStorage.setItem("fa-fav",JSON.stringify([...FAVS]))}catch(e){};const t=document.getElementById("tile-merkliste");if(t&&window.MERK_COUNT)t.textContent=MERK_COUNT()};
+const saveFav=()=>{try{localStorage.setItem("fa-fav",JSON.stringify([...FAVS]))}catch(e){};const t=document.getElementById("tile-merkliste");if(t&&window.MERK_COUNT)t.textContent=MERK_COUNT();if(window.updMerkCard)updMerkCard()};
 const hk=s=>{let h=5381;for(const c of s)h=(Math.imul(h,33)+c.codePointAt(0))>>>0;return h.toString(36)};
 const MERK={a:[],r:[],ac:null,rc:null};
 function withFav(card,key){const fb=node("button","fav fav2",FAVS.has(key)?"♥":"♡");fb.type="button";fb.setAttribute("aria-pressed",String(FAVS.has(key)));fb.setAttribute("aria-label","Merken");
@@ -1838,14 +1896,18 @@ window.renderMerk=function(){
     if(total)row.append(btn("♥ Alle in meine Merkliste übernehmen","mk-main",()=>{let k=0;shared.forEach(x=>{if(!FAVS.has(x)){FAVS.add(x);k++}});saveFav();ok(k?"✓ "+k+" übernommen":"✓ Schon alles in deiner Merkliste")}));
     row.append(btn("Zu meiner Merkliste","mk-alt",()=>{location.hash="#merkliste"}));hero.append(row);
   }else if(total){
-    hero.append(node("p","mk-kicker","Deine Merkliste"),node("p","mk-big",pl(total,"Eintrag","Einträge")+" gemerkt"),chips);
+    hero.append(node("p","mk-kicker","Unsere Pläne"),node("p","mk-big",pl(total,"Eintrag","Einträge")+" gemerkt"));
     const row=node("div","mk-btns");
-    row.append(btn("🔗 Mit der Familie teilen","mk-main",async()=>{const url=LIVE+"#merkliste="+encodeURIComponent([...FAVS].join(","));
+    const sb=btn("Mit der Familie teilen","mk-main",async()=>{const url=LIVE+"#merkliste="+encodeURIComponent([...FAVS].join(","));
       if(navigator.share){try{await navigator.share({title:"Unsere Merkliste: Für Familien in Zürich",url});return}catch(e){if(e&&e.name==="AbortError")return}}
-      try{await navigator.clipboard.writeText(url);ok("✓ Link kopiert, jetzt z. B. im Familien-Chat einfügen")}catch(e){prompt("Diesen Link kopieren:",url)}}));
-    hero.append(row,node("p","mk-note","Per WhatsApp, Mail oder Chat, ganz ohne Konto."));
+      try{await navigator.clipboard.writeText(url);ok("✓ Link kopiert, jetzt z. B. im Familien-Chat einfügen")}catch(e){prompt("Diesen Link kopieren:",url)}});
+    sb.insertAdjacentHTML("afterbegin",'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg>');
+    row.append(sb);hero.append(row,node("p","mk-note","Per WhatsApp, Mail oder Chat, ganz ohne Konto"));
   }
   if(shared||total)act.append(hero);
+  const F=window.MKF||"all",show=k=>F==="all"||F===k;
+  if(total){const tb=node("div","mk-tabs");[["all","Alle",total],["ev","Anlässe",m.ev.length],["a","Ausflüge",m.a.length],["r","Restaurants",m.r.length]].forEach(([k,t,c])=>{if(k!=="all"&&!c)return;
+    const b=node("button","",t);b.type="button";b.append(node("span","",String(c)));b.setAttribute("aria-pressed",String(F===k));b.addEventListener("click",()=>{window.MKF=k;renderMerk()});tb.append(b)});act.append(tb)}
   if(!total){
     if(shared){box.append(node("p","empty","Die Einträge dieser Liste sind vorbei oder nicht mehr vorhanden."));return}
     const es=node("div","mk-empty");es.append(node("div","mk-eheart","♡"),node("h2","","Noch nichts gemerkt"),node("p","","Sammle hier, was ihr unternehmen möchtet, und teile die Liste mit der Familie."));
@@ -1855,12 +1917,14 @@ window.renderMerk=function(){
   const WDs=["So","Mo","Di","Mi","Do","Fr","Sa"];
   const day=s=>{const d=new Date(s+"T12:00:00");return WDs[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]};
   const sec=(t,n)=>{const h=node("h2","mk-sec",t);h.append(node("span","n",String(n)));box.append(h)};
-  if(m.ev.length){sec("📅 Anlässe",m.ev.length);m.ev.forEach(e=>{const g=(m.G[e.gemeinden[0]]||{}).name||"",sh=e.von>m.ti?e.von:m.ti,d=new Date(sh+"T12:00:00");
+  const WL=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],ML=["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];let lastD="";
+  if(m.ev.length&&show("ev")){m.ev.forEach(e=>{const g=(m.G[e.gemeinden[0]]||{}).name||"",sh=e.von>m.ti?e.von:m.ti,d=new Date(sh+"T12:00:00");
+    if(sh!==lastD){lastD=sh;box.append(node("h2","mk-sec",(sh===m.ti?"Heute, ":WL[d.getDay()]+", ")+d.getDate()+". "+ML[d.getMonth()]))}
     const when=(e.bis>sh?"bis "+day(e.bis):day(sh))+(e.time?" · "+e.time+" Uhr":"");
     const c=withFav(mkCard({em:" ",title:e.name,href:e.w||e.url,meta:[when,g,e.ort&&e.ort!==g?e.ort:""].filter(Boolean).join(" · "),tags:e.age&&e.age.label?[e.age.label]:[]}),favKey(e));
     const em=c.querySelector(".em");em.className="em mk-date"+(sh===m.ti?" today":"");em.replaceChildren(node("small","",sh===m.ti?"Heute":WDs[d.getDay()]),node("b","",String(d.getDate())),node("i","",MS[d.getMonth()]));box.append(c)})}
-  if(m.a.length&&MERK.ac){sec("🏰 Ausflugsziele",m.a.length);m.a.forEach(z=>box.append(MERK.ac(z)))}
-  if(m.r.length&&MERK.rc){sec("🍽️ Restaurants",m.r.length);m.r.forEach(z=>box.append(MERK.rc(z)))}
+  if(m.a.length&&MERK.ac&&show("a")){sec("Ausflugsziele",m.a.length);m.a.forEach(z=>box.append(MERK.ac(z)))}
+  if(m.r.length&&MERK.rc&&show("r")){sec("Restaurants",m.r.length);m.r.forEach(z=>box.append(MERK.rc(z)))}
 };
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag","#betreuung":"betreuung"})[location.hash]||(/^#merkliste/.test(location.hash)?"merkliste":"home");
@@ -1873,6 +1937,43 @@ document.querySelectorAll("[data-back]").forEach(a=>a.addEventListener("click",e
 route();
 start();
 {const t=document.getElementById("tile-merkliste");if(t)t.textContent=MERK_COUNT();if(/^#merkliste/.test(location.hash))renderMerk()}
+/* Startseite Variante A: aufbauen aus den bestehenden Kacheln (Funktionen bleiben erhalten) */
+(function homeA(){
+  const home=document.getElementById("view-home");if(!home)return;home.classList.add("ha");
+  const $=id=>document.getElementById(id),SV=(d,extra)=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"'+(extra||"")+'>'+d+'</svg>';
+  const WT=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],ML=["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+  const n=new Date();
+  // Kopfbereich
+  const top=node("div","ha-top"),br=node("div","ha-brand"),leu=home.querySelector(".brand .leu");
+  if(leu){const l=leu.cloneNode(true);l.setAttribute("aria-hidden","true");l.removeAttribute("role");br.append(l)}
+  const bn=node("span");bn.append("Für Familien",document.createElement("br"),"in Zürich");br.append(bn);
+  top.append(br,node("p","ha-date",WT[n.getDay()]+", "+n.getDate()+". "+ML[n.getMonth()]),node("h1","ha-claim","Was machen wir heute?"));
+  const hs=home.querySelector(".hsearch"),chip=$("home-chip");if(hs)top.append(hs);if(chip)top.append(chip);
+  home.prepend(top);
+  // Heute + Merkliste
+  const duo=node("div","ha-duo"),today=$("home-today");
+  const mk=node("a","ha-mk");mk.href="#merkliste";
+  const ml=node("span","l","Merkliste ");ml.insertAdjacentHTML("beforeend",SV('<path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/>'));
+  const mn=node("b","","0"),ms=node("span","s","gemerkt · teilen");mk.append(ml,mn,ms);
+  window.updMerkCard=()=>{try{const m=merkItems(FAVS),k=m.ev.length+m.a.length+m.r.length;mn.textContent=String(k);ms.textContent=k?"gemerkt · teilen":"Noch leer"}catch(e){}};updMerkCard();
+  if(today)duo.append(today);duo.append(mk);
+  // Wochenend-Tipps
+  const wd=n.getDay(),fri=new Date(n.getFullYear(),n.getMonth(),n.getDate()+(wd===0?-2:wd===6?-1:5-wd)),sun=new Date(fri.getFullYear(),fri.getMonth(),fri.getDate()+2);
+  const nl=$("go-newsletter"),we=node("a","ha-we");we.href=nl?nl.href:"newsletter/";
+  const wi=node("span","i");wi.innerHTML=SV('<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>');
+  const wt=node("span","t");wt.append(node("b","","Wochenend-Tipps"),node("small","",fri.getDate()+"."+(fri.getMonth()===sun.getMonth()?"":(fri.getMonth()+1)+".")+"–"+sun.getDate()+"."+(sun.getMonth()+1)+". · Jeden Donnerstag neu"));
+  const wa=node("span");wa.innerHTML=SV('<path d="M5 12h14M13 6l6 6-6 6"/>',' style="width:20px;height:20px"');we.append(wi,wt,wa);
+  // Bereiche
+  const SHORT={"go-ausflug":"Höfe, Zoos, Burgen und mehr","go-essen":"Mit Spielplatz oder Spielecke","go-spiel":"Mit Karte in deiner Gemeinde","go-kurse":"Was läuft in den Ferien?","go-betreuung":"Kitas, Horte, Kindergärten","go-familie":"Beratung, Spielgruppen, Ludothek","go-vereine":"Sport, Musik, Pfadi","go-ferien":"Wann ist schulfrei?","go-geburtstag":"Orte und Ideen zum Feiern","go-raeume":"Säle und Waldhütten mieten","go-notfall":"Notruf 144 · Tox Info 145"};
+  for(const id in SHORT){const t=$(id);const x=t&&t.querySelector(".tile-text");if(x)x.textContent=SHORT[id]}
+  const ev=$("go-events");if(ev){const x=ev.querySelector(".tile-text");if(x&&/Anlässe für Kinder in der Region/.test(x.textContent))x.textContent="Anlässe für Kinder"}
+  const grid=(ids)=>{const g=node("div","ha-grid");ids.forEach(id=>{const t=$(id);if(t)g.append(t)});return g};
+  const g1=grid(["go-events","go-ausflug","go-essen","go-spiel","go-saison","go-kurse"]),g2=grid(["go-betreuung","go-familie","go-vereine","go-ferien","go-geburtstag","go-raeume"]);
+  const sos=node("div","ha-sos"),nf=$("go-notfall");if(nf)sos.append(nf);
+  const nav=home.querySelector("nav.tiles");
+  (nav||top).after(duo);duo.after(we);we.after(node("h2","ha-sec","Unternehmen"));home.querySelector(".ha-sec").after(g1);
+  const h2=node("h2","ha-sec","Organisieren");g1.after(h2);h2.after(g2);g2.after(sos);
+})();
 
 /* Bezirke in allen Gemeinde-Auswahlen zuklappbar */
 const NEAR={pos:null,km:(()=>{try{return +localStorage.getItem("fa-near-km")||10}catch(e){return 10}})()};
