@@ -9,7 +9,8 @@
   "g": "winterthur",
   "pages": [
    "https://www.kinderthur.ch/veranstaltungskalender-was-lauft/"
-  ]
+  ],
+  "skipName": "anmeldeschluss|anzeige"
  },
  "q-wynegg": {
   "name": "Quartierhof Wynegg",
@@ -19,6 +20,12 @@
   "quelle": true,
   "g": "zuerich",
   "path": "/calendar/ical/0ko1r6r49i22820jki4tcusfd2j63a1o%40import.calendar.google.com/public/basic.ics",
-  "page": "https://www.quartierhof-wynegg.ch/termine"
+  "page": "https://www.quartierhof-wynegg.ch/termine",
+  "paths": [
+   "/calendar/ical/0ko1r6r49i22820jki4tcusfd2j63a1o%40import.calendar.google.com/public/basic.ics",
+   "/calendar/ical/slq62n2fjfkclgu5f5jskni8pu8q58an%40import.calendar.google.com/public/basic.ics",
+   "/calendar/ical/tlfld2jg9ki1ei8gbpu3r85e351hkgmf%40import.calendar.google.com/public/basic.ics",
+   "/calendar/ical/trms6bm4if5e796cmhilpu49vgjjqnp0%40import.calendar.google.com/public/basic.ics"
+  ]
  }
 }

@@ -266,7 +266,9 @@ export const SYSTEMS = {
   // iCalendar-Feed (OneGov Ottenbach, WordPress Gossau/Fischenthal, Joomla Thalheim): Titel, Zeit, Ort und Beschreibung stehen im Feed.
   // Link zum Anlass: URL im Feed, sonst die Agenda-Seite (site.page), sonst OneGov-Muster.
   async ical(site, get) {
-    const txt = (await get(`https://${site.domain}${site.path}`)).replace(/\r?\n[ \t]/g, "");
+    // site.paths: mehrere Kalender zusammen (z. B. mehrere Google-Kalender eines Hofs)
+    let txt = ""; for (const p of site.paths || [site.path]) { try { txt += await get(`https://${site.domain}${p}`); } catch (e) { if (!site.paths) throw e; } }
+    txt = txt.replace(/\r?\n[ \t]/g, "");
     const loc = (iso) => { const d = new Date(iso); const z = d.toLocaleString("sv-SE", { timeZone: "Europe/Zurich" }); return { d: z.slice(0, 10), t: z.slice(11, 16).replace(":", ".") }; };
     const val = (b, k) => { const m = b.match(new RegExp(`^${k}(?:;[^:\n]*)?:(.*)$`, "m")); return m ? m[1].replace(/\\n/g, " ").replace(/\\([,;\\])/g, "$1").trim() : ""; };
     const when = v => /^\d{8}T\d{6}Z$/.test(v) ? loc(v.replace(/^(\d{4})(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)Z$/, "$1-$2-$3T$4:$5:$6Z")) : /^\d{8}/.test(v) ? { d: `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`, t: /T(\d\d)(\d\d)/.test(v) ? v.replace(/^.*T(\d\d)(\d\d).*$/, "$1.$2") : "" } : null;
@@ -711,7 +713,10 @@ export const SYSTEMS = {
       const dup = new Set();
       for (const e of lds) {
         const k = (e.name || "") + e.startDate; if (dup.has(k)) continue; dup.add(k);
-        const von = String(e.startDate).slice(0, 10), bis = String(e.endDate || e.startDate).slice(0, 10), t = String(e.startDate).slice(11, 16);
+        // Datum robust lesen: auch «2026-12-2T14:00+1:00» (EventON) ohne führende Nullen
+        const iso = v => { const m = String(v || "").match(/(\d{4})-(\d{1,2})-(\d{1,2})(?:T(\d{1,2}):(\d{2}))?/); return m ? { d: `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`, t: m[4] ? `${m[4].padStart(2, "0")}:${m[5]}` : "" } : null; };
+        const s0 = iso(e.startDate); if (!s0) continue; const e0 = iso(e.endDate) || s0;
+        const von = s0.d, bis = e0.d, t = s0.t;
         const loc = e.location || {}, addr = typeof loc.address === "string" ? loc.address : [loc.address?.streetAddress, [loc.address?.postalCode, loc.address?.addressLocality].filter(Boolean).join(" ")].filter(Boolean).join(", ");
         const g = pg.g || site.g || (addr ? await gemeindeForAddress(addr, get, cache, code + ":") : "");
         if (!g) continue;
@@ -820,6 +825,8 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     if (!system) throw new Error(`Unbekanntes System: ${name}`);
     items.push(...await system(site, get, cache, code));
   }
+  // site.skipName: Titel, die bei einer Quelle nie passen (z. B. Anzeigen, Anmeldeschluss)
+  if (site.skipName) { const re = new RegExp(site.skipName, "i"); for (let i = items.length - 1; i >= 0; i--) if (re.test(items[i].name)) items.splice(i, 1); }
   const result = [];
   for (const ev of items) {
     if (!isCandidate(ev, today)) continue;
