@@ -183,6 +183,10 @@
 "e": "Advent Day I Tandem in the Museum",
 "p": "Adventsanlass I Tandem im Museum"
 },
+"Adventsbasteln": {
+"e": "Advent craft",
+"p": "Adventsbasteln"
+},
 "Adventsbasteln - AUSGEBUCHT!": {
 "e": "Advent Bastels - Booked out!",
 "p": "Adventsbasteln - Ausgebucht!"
@@ -446,6 +450,10 @@
 "An der ruhigen Ecke Chammerholz-/Leubergstrasse findet man ein aus Holz gebautes Kletter- sowie Balanciergerüst mit Kiesboden. Nebenan befindet sich ein kleiner Fussballplatz. Es hat keine Sitzbank in der Nähe. Ansonsten ein sehr schöner Spielplatz.": {
 "e": "On the quiet corner of Chammerholz/Leubergstrasse you will find a wooden climbing and balancing frame with gravel floor. Next door there is a small football pitch. There is no bench nearby. Otherwise a very nice playground.",
 "p": "An der ruhigen Ecke Chammerholz-/Leubergstrasse findet man ein aus Holz gebautes Kletter- sowie Balanciergerüst mit Kiesboden. Nebenan befindet sich ein kleiner Fussballplatz. Es hat keine Sitzbank in der Nähe. Ansonsten ein sehr schöner Spielplatz."
+},
+"Andelfinger Adventsfenster": {
+"e": "Andelfinger Advent window",
+"p": "Andelfinger Adventsfenster"
 },
 "Anschliessend zum Stadtpark, im Schatten eines schönen Magnolienbaums befindet sich eine kleine Drehbank und ein grosser Sandplatz mit Brunnen zum Spielen. Rundherum hat es eine Wiese zum Entspannen und einige Steine sowie eine Sitzbank zum Ausruhen.": {
 "e": "Next to the city park, in the shade of a beautiful magnolia tree, there is a small lathe and a large sand court with fountains for playing. All around it has a meadow to relax and some stones as well as a bench to rest.",
@@ -1619,6 +1627,10 @@
 "e": "Tune in the Advent",
 "p": "Einstimmen in den Advent"
 },
+"EinzigArt - Für Jugendliche zwischen 14-17 Jahren": {
+"e": "Unique species - for young people between 14-17 years",
+"p": "EinzigArt - Für Jugendliche zwischen 14-17 Jahren"
+},
 "Einzug der Samichläuse - Adventsfenster Öffnung": {
 "e": "Entrance of the Samichläuse - Advent window opening",
 "p": "Einzug der Samichläuse - Adventsfenster Öffnung"
@@ -2279,6 +2291,10 @@
 "e": "Family Christmas service with nativity play",
 "p": "Familienweihnachtsgottesdienst mit Krippenspiel"
 },
+"Familienworkshop: Die heilige Familie": {
+"e": "Family Workshop: The Holy Family",
+"p": "Familienworkshop: Die heilige Familie"
+},
 "Familienwortgottesdienst mit Weihnachtsmusical, Kirche St. Anton": {
 "e": "Family Word Service with Christmas Musical, Church of St. Anton",
 "p": "Familienwortgottesdienst mit Weihnachtsmusical, Kirche St. Anton"
@@ -2742,6 +2758,10 @@
 "Geschichtenstunde aus der Mongolei": {
 "e": "Story lesson from Mongolia",
 "p": "Geschichtenstunde aus der Mongolei"
+},
+"Geschichtenstunde für die Kleinen": {
+"e": "Story lesson for the little ones",
+"p": "Geschichtenstunde für die Kleinen"
 },
 "Geschichtenzeit": {
 "e": "Storytime",
@@ -3447,6 +3467,10 @@
 "e": "Candle-drawing in the pearl",
 "p": "Kerzenziehen in der Perle"
 },
+"Kerzenziehen mit Bienenwachs": {
+"e": "Candle pulling with beeswax",
+"p": "Kerzenziehen mit Bienenwachs"
+},
 "Kerzenziehen und Giessen": {
 "e": "Candle-drawing and casting",
 "p": "Kerzenziehen und Giessen"
@@ -3646,6 +3670,10 @@
 "Kinderfasnacht Sa. 13. Februar 2027": {
 "e": "Children's Night Sat. 13 February 2027",
 "p": "Kinderfasnacht Sa. 13. Februar 2027"
+},
+"Kinderfasnachts-Umzug & Hudi Party": {
+"e": "Kinderfasnachts-Movement & Hudi Party",
+"p": "Kinderfasnachts-Umzug & Hudi Party"
 },
 "Kinderfasnachtsdisco": {
 "e": "Children's night disco",
@@ -3958,6 +3986,10 @@
 "Kleines Spielzimmer": {
 "e": "Small playroom",
 "p": "Kleines Spielzimmer"
+},
+"Kleinkinder-Werken - GZ Leimbach": {
+"e": "Toddler-Werke - GZ Leimbach",
+"p": "Kleinkinder-Werken - GZ Leimbach"
 },
 "Kleinkinderfeier": {
 "e": "Young children's party",
@@ -5323,6 +5355,10 @@
 "e": "Saint Nicholas and Eseli",
 "p": "Sankt Nikolaus und Eseli"
 },
+"Samichlaus und Schmutzli auf dem Spielplatz": {
+"e": "Saint Nicholas and Schmutzli on the playground",
+"p": "Sankt Nikolaus und Schmutzli auf dem Spielplatz"
+},
 "Samichlaus und Schmutzli kommen uns besuchen": {
 "e": "Saint Nicholas and Schmutzli come to visit us",
 "p": "Sankt Nikolaus und Schmutzli kommen uns besuchen"
@@ -5970,6 +6006,10 @@
 "Tiger im Tank": {
 "e": "Tiger in the tank",
 "p": "Tiger im Tank"
+},
+"Treffpunktnachmittag": {
+"e": "Meeting point afternoon",
+"p": "Treffpunktnachmittag"
 },
 "Turner Chränzli": {
 "e": "Turner Chränzli",
