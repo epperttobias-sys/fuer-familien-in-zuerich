@@ -131,6 +131,10 @@
 "e": "Adventure playground, pond, mini golf",
 "p": "Abenteuerspielplatz, Weiher, Minigolf"
 },
+"Abgesagt: Eltern-Coaching": {
+"e": "Canceled: Parent coaching",
+"p": "Abgesagt: Eltern-Coaching"
+},
 "Action Turnhalle": {
 "e": "Action gym",
 "p": "Action Turnhalle"
@@ -454,6 +458,18 @@
 "Andelfinger Adventsfenster": {
 "e": "Andelfinger Advent window",
 "p": "Andelfinger Adventsfenster"
+},
+"Andelfinger Adventsfenster 2026": {
+"e": "Andelfinger Advent window 2026",
+"p": "Andelfinger Adventsfenster 2026"
+},
+"Animittwoch - Ghost Cat Anzu (Anzu, der Katzengeist)": {
+"e": "Animittwoch - Ghost Cat Anzu (Anzu, the cat spirit)",
+"p": "Animittwoch - Ghost Cat Anzu (Anzu, der Katzengeist)"
+},
+"Animittwoch - Wolf Children (Ame & Yuki - Die Wolfskinder)": {
+"e": "Animittwoch - Wolf Children (Ame & Yuki - The Wolf Children)",
+"p": "Animittwoch - Wolf Children (Ame & Yuki - Die Wolfskinder)"
 },
 "Anschliessend zum Stadtpark, im Schatten eines schönen Magnolienbaums befindet sich eine kleine Drehbank und ein grosser Sandplatz mit Brunnen zum Spielen. Rundherum hat es eine Wiese zum Entspannen und einige Steine sowie eine Sitzbank zum Ausruhen.": {
 "e": "Next to the city park, in the shade of a beautiful magnolia tree, there is a small lathe and a large sand court with fountains for playing. All around it has a meadow to relax and some stones as well as a bench to rest.",
@@ -1263,6 +1279,10 @@
 "e": "Chuchi International - Children's Chuchi - sold out!",
 "p": "Chuchi International - Kinder-Chuchi - ausverkauft!"
 },
+"ChÃ¤ferburg": {
+"e": "Chäferburg",
+"p": "ChÃ¤ferburg"
+},
 "Chäferburg": {
 "e": "Chäferburg",
 "p": "Chäferburg"
@@ -1546,6 +1566,10 @@
 "Dä Chlaus im WIsliger Wald": {
 "e": "St. Nicholas in the WIslig forest",
 "p": "Dä Sankt Nikolaus im WIsliger Wald"
+},
+"Dä Samichlaus chunt": {
+"e": "St. Nicholas Chunt",
+"p": "Dä Sankt Nikolaus chunt"
 },
 "Dä Samichlaus zündet d'Liechter aa": {
 "e": "Dä Saint Nicholas ignites d'Liechter aa",
@@ -2755,6 +2779,10 @@
 "e": "Story lesson",
 "p": "Geschichtenstunde"
 },
+"Geschichtenstunde aus China": {
+"e": "Story lesson from China",
+"p": "Geschichtenstunde aus China"
+},
 "Geschichtenstunde aus der Mongolei": {
 "e": "Story lesson from Mongolia",
 "p": "Geschichtenstunde aus der Mongolei"
@@ -2798,6 +2826,10 @@
 "Glühweinhaus & Kerzenziehen": {
 "e": "Glühweinhaus & candle-drawing",
 "p": "Glühweinhaus & Kerzenziehen"
+},
+"Gospelkonzert - FEEL THE SPIRIT": {
+"e": "Gospel Concert - FEEL THE Spirit",
+"p": "Gospelkonzert - FEEL THE Spirit"
 },
 "Gottesdienst mit 4. Klasse Kindern": {
 "e": "Divine service with 4th grade children",
@@ -3190,6 +3222,10 @@
 "Jugendcoaching": {
 "e": "Youth coaching",
 "p": "Jugendcoaching"
+},
+"Jugendgruppe: Ranger-Familienführung Lützelsee": {
+"e": "Youth group: Ranger family tour Lützelsee",
+"p": "Jugendgruppe: Ranger-Familienführung Lützelsee"
 },
 "Jugendlounge in Uetikon": {
 "e": "Youth lounge in Uetikon",
@@ -3779,6 +3815,10 @@
 "e": "Children's concert «Tschüss Parrot»",
 "p": "Kinderkonzert «Tschüss Papagei»"
 },
+"Kinderkunstkurs: Korean Minhwa – der freundliche Tiger": {
+"e": "Children's Art Course: Korean Minhwa – the friendly tiger",
+"p": "Kinderkunstkurs: Korean Minhwa – der freundliche Tiger"
+},
 "Kinderkunstkurs: Picasso – Gesichter von vorne und von der Seite": {
 "e": "Children's Art Course: Picasso – Faces from the front and from the side",
 "p": "Kinderkunstkurs: Picasso – Gesichter von vorne und von der Seite"
@@ -4054,6 +4094,10 @@
 "Krabbel-Kafi in der Bibliothek": {
 "e": "Krabbel-Café in the library",
 "p": "Krabbel-Café in der Bibliothek"
+},
+"Krabbelgruppe": {
+"e": "Crab group",
+"p": "Krabbelgruppe"
 },
 "Krabbelgruppe Rägäboge": {
 "e": "Krabbelgruppe Rägäboge",
@@ -5239,6 +5283,10 @@
 "e": "Sabina's delicacy at the Christmas market in Dietikon",
 "p": "Sabina's Köstlichkeite am Weihnachtsmarkt in Dietikon"
 },
+"Sabine Abt & Murat Cevik: Mischwaldkind": {
+"e": "Sabine Abt & Murat Cevik: Mischwaldkind",
+"p": "Sabine Abt & Murat Cevik: Mischwaldkind"
+},
 "Saisonstart Spielraum ara Glatt 6.3.2027": {
 "e": "Season start Margin ara Smooth 6.3.2027",
 "p": "Saisonstart Spielraum ara Glatt 6.3.2027"
@@ -5334,6 +5382,10 @@
 "Samichlaus in Ottenbach": {
 "e": "Saint Nicholas in Ottenbach",
 "p": "Sankt Nikolaus in Ottenbach"
+},
+"Samichlaus in der Villa YoYo": {
+"e": "Saint Nicholas in the Villa YoYo",
+"p": "Sankt Nikolaus in der Villa YoYo"
 },
 "Samichlaus kommt nach Neerach (mit Anmeldung)": {
 "e": "Saint Nicholas comes to Neerach (with registration)",
@@ -5650,6 +5702,10 @@
 "Spielnachmittag für Familien": {
 "e": "Family Games Afternoon",
 "p": "Spielnachmittag für Familien"
+},
+"Spielnachmittag mit Kaffee und Kuchen": {
+"e": "Playing afternoon with coffee and cake",
+"p": "Spielnachmittag mit Kaffee und Kuchen"
 },
 "Spieloase": {
 "e": "Game oasis",
@@ -6383,6 +6439,10 @@
 "e": "Christmas concert with Attila Vural & Silvia-G. & Rhythm 25",
 "p": "Weihnachtskonzert mit Attila Vural & Silvia-G. & Rhythm 25"
 },
+"Weihnachtsmann als Box basteln": {
+"e": "Make Santa Claus as a Box",
+"p": "Weihnachtsmann als Box basteln"
+},
 "Weihnachtsmarkt": {
 "e": "Christmas market",
 "p": "Weihnachtsmarkt"
@@ -6562,6 +6622,10 @@
 "Winterkino im Zwhatt- Winterzauber Zwhatt": {
 "e": "Winter cinema in the Zwhatt- Winter magic Zwhatt",
 "p": "Winterkino im Zwhatt- Winterzauber Zwhatt"
+},
+"Wintermarkt": {
+"e": "Winter market",
+"p": "Wintermarkt"
 },
 "Winterrodeln mit der Speed Tubing Bahn": {
 "e": "Winter tobogganing with the Speed Tubing track",
