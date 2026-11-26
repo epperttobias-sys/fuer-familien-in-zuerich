@@ -87,6 +87,10 @@
 "e": "5th Advent Window 2026",
 "p": "5. Adventsfenster 2026"
 },
+"5. Adventsingen": {
+"e": "5. Advent singing",
+"p": "5. Adventsingen"
+},
 "53. Fällander Weihnachtsmärt": {
 "e": "53. Fällder Christmas months",
 "p": "53. Fällander Weihnachtsmärt"
@@ -1543,6 +1547,10 @@
 "e": "Rotation organ at the Christmas market Winterthur",
 "p": "Drehorgel am Weihnachtsmarkt Winterthur"
 },
+"Dreikönigstag": {
+"e": "Three King's Day",
+"p": "Dreikönigstag"
+},
 "Duftende Weihnachtsgeschenke selber machen": {
 "e": "Make yourself fragrant Christmas gifts",
 "p": "Duftende Weihnachtsgeschenke selber machen"
@@ -1586,6 +1594,10 @@
 "EKW 2027: Themenblock 5": {
 "e": "EKW 2027: Theme block 5",
 "p": "EKW 2027: Themenblock 5"
+},
+"ELKI Treffen/Cheminéeraum": {
+"e": "ELKI meeting/chemical room",
+"p": "ELKI Treffen/Cheminéeraum"
 },
 "ELKI-TREFF": {
 "e": "Elki-treff",
@@ -1678,6 +1690,10 @@
 "Eisdisco 2026/2027": {
 "e": "Eisdisco 2026/2027",
 "p": "Eisdisco 2026/2027"
+},
+"Eisdisco 2027": {
+"e": "Eisdisco 2027",
+"p": "Eisdisco 2027"
 },
 "ElKi-Cafi Anduriña": {
 "e": "ElKi-Cafi Anduriña",
@@ -2111,6 +2127,10 @@
 "e": "Family service - Christmas in the cinema",
 "p": "Familiengottesdienst - Weihnachten im Kino"
 },
+"Familiengottesdienst Weihnachten": {
+"e": "Family service Christmas",
+"p": "Familiengottesdienst Weihnachten"
+},
 "Familiengottesdienst am 1. Adventssonntag": {
 "e": "Family service on the 1st Sunday of Advent",
 "p": "Familiengottesdienst am 1. Adventssonntag"
@@ -2326,6 +2346,10 @@
 "Familienzmittag": {
 "e": "Family day",
 "p": "Familienzmittag"
+},
+"Familiewiehnacht": {
+"e": "Family Christmas",
+"p": "Familiewiehnacht"
 },
 "Farsi/Dari: Informationen zum Zürcher Schulsystem": {
 "e": "Farsi/Dari: Information on the Zurich school system",
@@ -3975,6 +3999,10 @@
 "e": "Cinema in the Church of Bonstetten: The Descendants – Family and other matters",
 "p": "Kino in der Kirche Bonstetten: The Descendants – Familie und andere Angelegenheiten"
 },
+"Kinofilm «Röntgenbild einer Familie»": {
+"e": "Movie «X-ray image of a family»",
+"p": "Kinofilm «Röntgenbild einer Familie»"
+},
 "Kirche Kunterbunt": {
 "e": "Church of Kunterbunt",
 "p": "Kirche Kunterbunt"
@@ -4082,6 +4110,10 @@
 "Konzert mit Peter Schindler & Peter Lehel": {
 "e": "Concert with Peter Schindler & Peter Lehel",
 "p": "Konzert mit Peter Schindler & Peter Lehel"
+},
+"Konzert – Blooming Rhythms": {
+"e": "Concert – Blooming Rhythms",
+"p": "Konzert – Blooming Rhythms"
 },
 "Kostenlose Zahnberatung für Gross und Klein": {
 "e": "Free dental advice for young and old",
@@ -4318,6 +4350,10 @@
 "Lebkuchenhäuser verzieren - GZ Höngg": {
 "e": "Decorate Gingerbread Houses - GZ Höngg",
 "p": "Lebkuchenhäuser verzieren - GZ Höngg"
+},
+"Lego-Nachmittag": {
+"e": "Lego afternoon",
+"p": "Lego-Nachmittag"
 },
 "LeseZeit Kids: Mitmach-Lesung mit Andrea Külling": {
 "e": "LeseZeit Kids: Joining Reading with Andrea Külling",
@@ -4655,6 +4691,10 @@
 "e": "Musical stories «Heidi, Gian & Giachen: On to the summit of the Schwarzhorn»",
 "p": "Musikgeschichten «Heidi, Gian & Giachen: Auf zum Gipfel des Schwarzhorns»"
 },
+"Muttertagsbasteln": {
+"e": "Mother's Day Bases",
+"p": "Muttertagsbasteln"
+},
 "MÄDELSFLOHMARKT - Flohmi von und für FRAUEN - in ZÜRICH": {
 "e": "Girls' flea market - flea from and for women - in Zurich",
 "p": "Mädelsflohmarkt - Flohmi von und für Frauen - in Zürich"
@@ -4906,6 +4946,10 @@
 "Open Days - Schule Zürisee": {
 "e": "Open Days - School Zürisee",
 "p": "Open Days - Schule Zürisee"
+},
+"Open Friday - Kerzenziehen - GZ Leimbach": {
+"e": "Open Friday - Candle drawing - GZ Leimbach",
+"p": "Open Friday - Kerzenziehen - GZ Leimbach"
 },
 "Open Sunday": {
 "e": "Open Sunday",
@@ -5186,6 +5230,10 @@
 "Rorate (Blockunti)": {
 "e": "Rorate (Blockunti)",
 "p": "Rorate (Blockunti)"
+},
+"Rorate - Feier": {
+"e": "Rorate - celebration",
+"p": "Rorate - Feier"
 },
 "Rorate für Jung und Alt": {
 "e": "Rorate for young and old",
@@ -5658,6 +5706,10 @@
 "Spielbereich im Untergeschoss, Kinderhüeti": {
 "e": "Playground in the basement, children's playground",
 "p": "Spielbereich im Untergeschoss, Kinderhüeti"
+},
+"Spiele-Nami": {
+"e": "Games-Nami",
+"p": "Spiele-Nami"
 },
 "Spieleabend": {
 "e": "Game night",
