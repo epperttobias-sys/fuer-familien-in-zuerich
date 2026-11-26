@@ -1,19 +1,19 @@
 window.FAMILIENAGENDA = {
- "stand": "2026-11-25",
+ "stand": "2026-11-26",
  "gemeinden": {
   "affolternamalbis": {
    "name": "Affoltern am Albis",
    "bezirk": "Affoltern",
    "domain": "www.stadtaffoltern.ch",
    "ok": true,
-   "count": 42
+   "count": 41
   },
   "bonstetten": {
    "name": "Bonstetten",
    "bezirk": "Affoltern",
    "domain": "www.bonstetten.ch",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   "kappelamalbis": {
    "name": "Kappel am Albis",
@@ -50,97 +50,6 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 5
   },
-  "andelfingen": {
-   "name": "Andelfingen",
-   "bezirk": "Andelfingen",
-   "domain": "www.andelfingen.ch",
-   "ok": true,
-   "count": 1
-  },
-  "benken": {
-   "name": "Benken",
-   "bezirk": "Andelfingen",
-   "domain": "www.benken.ch",
-   "ok": true,
-   "count": 25
-  },
-  "buchamirchel": {
-   "name": "Buch am Irchel",
-   "bezirk": "Andelfingen",
-   "domain": "www.buchamirchel.ch",
-   "ok": true,
-   "count": 34
-  },
-  "dachsen": {
-   "name": "Dachsen",
-   "bezirk": "Andelfingen",
-   "domain": "www.dachsen.ch",
-   "ok": true,
-   "count": 1
-  },
-  "flaach": {
-   "name": "Flaach",
-   "bezirk": "Andelfingen",
-   "domain": "www.flaach.ch",
-   "ok": true,
-   "count": 4
-  },
-  "flurlingen": {
-   "name": "Flurlingen",
-   "bezirk": "Andelfingen",
-   "domain": "www.flurlingen.ch",
-   "ok": true,
-   "count": 1
-  },
-  "henggart": {
-   "name": "Henggart",
-   "bezirk": "Andelfingen",
-   "domain": "www.henggart.ch",
-   "ok": true,
-   "count": 1
-  },
-  "marthalen": {
-   "name": "Marthalen",
-   "bezirk": "Andelfingen",
-   "domain": "www.marthalen.ch",
-   "ok": true,
-   "count": 6
-  },
-  "rheinau": {
-   "name": "Rheinau",
-   "bezirk": "Andelfingen",
-   "domain": "www.rheinau.ch",
-   "ok": true,
-   "count": 6
-  },
-  "stammheim": {
-   "name": "Stammheim",
-   "bezirk": "Andelfingen",
-   "domain": "www.stammheim.ch",
-   "ok": true,
-   "count": 0
-  },
-  "truttikon": {
-   "name": "Truttikon",
-   "bezirk": "Andelfingen",
-   "domain": "www.truttikon.ch",
-   "ok": true,
-   "count": 0
-  },
-  "truellikon": {
-   "name": "Trüllikon",
-   "bezirk": "Andelfingen",
-   "domain": "www.truellikon.ch",
-   "ok": true,
-   "count": 2
-  },
-  "volken": {
-   "name": "Volken",
-   "bezirk": "Andelfingen",
-   "domain": "www.volken.ch",
-   "ok": true,
-   "count": 0
-  },
   "ossingen": {
    "name": "Ossingen",
    "bezirk": "Andelfingen",
@@ -155,12 +64,103 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 0
   },
+  "andelfingen": {
+   "name": "Andelfingen",
+   "bezirk": "Andelfingen",
+   "domain": "www.andelfingen.ch",
+   "ok": false,
+   "count": 1
+  },
+  "benken": {
+   "name": "Benken",
+   "bezirk": "Andelfingen",
+   "domain": "www.benken.ch",
+   "ok": false,
+   "count": 25
+  },
+  "buchamirchel": {
+   "name": "Buch am Irchel",
+   "bezirk": "Andelfingen",
+   "domain": "www.buchamirchel.ch",
+   "ok": false,
+   "count": 34
+  },
+  "dachsen": {
+   "name": "Dachsen",
+   "bezirk": "Andelfingen",
+   "domain": "www.dachsen.ch",
+   "ok": false,
+   "count": 1
+  },
+  "flaach": {
+   "name": "Flaach",
+   "bezirk": "Andelfingen",
+   "domain": "www.flaach.ch",
+   "ok": false,
+   "count": 4
+  },
+  "flurlingen": {
+   "name": "Flurlingen",
+   "bezirk": "Andelfingen",
+   "domain": "www.flurlingen.ch",
+   "ok": false,
+   "count": 1
+  },
+  "henggart": {
+   "name": "Henggart",
+   "bezirk": "Andelfingen",
+   "domain": "www.henggart.ch",
+   "ok": false,
+   "count": 1
+  },
+  "marthalen": {
+   "name": "Marthalen",
+   "bezirk": "Andelfingen",
+   "domain": "www.marthalen.ch",
+   "ok": false,
+   "count": 5
+  },
+  "rheinau": {
+   "name": "Rheinau",
+   "bezirk": "Andelfingen",
+   "domain": "www.rheinau.ch",
+   "ok": false,
+   "count": 5
+  },
+  "stammheim": {
+   "name": "Stammheim",
+   "bezirk": "Andelfingen",
+   "domain": "www.stammheim.ch",
+   "ok": false,
+   "count": 0
+  },
+  "truttikon": {
+   "name": "Truttikon",
+   "bezirk": "Andelfingen",
+   "domain": "www.truttikon.ch",
+   "ok": false,
+   "count": 0
+  },
+  "truellikon": {
+   "name": "Trüllikon",
+   "bezirk": "Andelfingen",
+   "domain": "www.truellikon.ch",
+   "ok": false,
+   "count": 2
+  },
+  "volken": {
+   "name": "Volken",
+   "bezirk": "Andelfingen",
+   "domain": "www.volken.ch",
+   "ok": false,
+   "count": 0
+  },
   "buelach": {
    "name": "Bülach",
    "bezirk": "Bülach",
    "domain": "www.buelach.ch",
    "ok": true,
-   "count": 34
+   "count": 33
   },
   "embrach": {
    "name": "Embrach",
@@ -174,7 +174,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Bülach",
    "domain": "www.kloten.ch",
    "ok": true,
-   "count": 58
+   "count": 53
   },
   "lufingen": {
    "name": "Lufingen",
@@ -202,14 +202,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Bülach",
    "domain": "www.rafz.ch",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   "wallisellen": {
    "name": "Wallisellen",
    "bezirk": "Bülach",
    "domain": "www.wallisellen.ch",
    "ok": true,
-   "count": 16
+   "count": 14
   },
   "wil": {
    "name": "Wil",
@@ -279,7 +279,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dielsdorf",
    "domain": "www.ruemlang.ch",
    "ok": true,
-   "count": 54
+   "count": 49
   },
   "schleinikon": {
    "name": "Schleinikon",
@@ -314,14 +314,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dietikon",
    "domain": "www.aesch-zh.ch",
    "ok": true,
-   "count": 6
+   "count": 18
   },
   "birmensdorf": {
    "name": "Birmensdorf",
    "bezirk": "Dietikon",
    "domain": "www.birmensdorf.ch",
    "ok": true,
-   "count": 36
+   "count": 46
   },
   "dietikon": {
    "name": "Dietikon",
@@ -335,7 +335,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dietikon",
    "domain": "www.oberengstringen.ch",
    "ok": true,
-   "count": 6
+   "count": 7
   },
   "uitikon": {
    "name": "Uitikon",
@@ -356,7 +356,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dietikon",
    "domain": "www.urdorf.ch",
    "ok": true,
-   "count": 57
+   "count": 55
   },
   "weiningen": {
    "name": "Weiningen",
@@ -370,7 +370,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Affoltern",
    "domain": "www.aeugst-albis.ch",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   "hedingen": {
    "name": "Hedingen",
@@ -503,7 +503,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dielsdorf",
    "domain": "www.otelfingen.ch",
    "ok": true,
-   "count": 6
+   "count": 5
   },
   "regensberg": {
    "name": "Regensberg",
@@ -538,63 +538,63 @@ window.FAMILIENAGENDA = {
    "bezirk": "Hinwil",
    "domain": "www.rueti.ch",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   "horgen": {
    "name": "Horgen",
    "bezirk": "Horgen",
    "domain": "www.horgen.ch",
    "ok": true,
-   "count": 42
+   "count": 39
   },
   "l": {
    "name": "Herrliberg",
    "bezirk": "Meilen",
    "domain": "www.herrliberg.ch",
    "ok": true,
-   "count": 25
+   "count": 23
   },
   "hb": {
    "name": "Hombrechtikon",
    "bezirk": "Meilen",
    "domain": "www.hombrechtikon.ch",
    "ok": true,
-   "count": 11
+   "count": 9
   },
   "n": {
    "name": "Küsnacht",
    "bezirk": "Meilen",
    "domain": "www.kuesnacht.ch",
    "ok": true,
-   "count": 25
+   "count": 23
   },
   "o": {
    "name": "Oetwil am See",
    "bezirk": "Meilen",
    "domain": "www.oetwil.ch",
    "ok": true,
-   "count": 18
+   "count": 15
   },
   "wi": {
    "name": "Wila",
    "bezirk": "Pfäffikon",
    "domain": "www.wila.ch",
    "ok": true,
-   "count": 6
+   "count": 4
   },
   "r": {
    "name": "Maur",
    "bezirk": "Uster",
    "domain": "www.maur.ch",
    "ok": true,
-   "count": 13
+   "count": 12
   },
   "v": {
    "name": "Volketswil",
    "bezirk": "Uster",
    "domain": "www.volketswil.ch",
    "ok": true,
-   "count": 13
+   "count": 12
   },
   "altikon": {
    "name": "Altikon",
@@ -636,7 +636,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "www.turbenthal.ch",
    "ok": true,
-   "count": 4
+   "count": 2
   },
   "nuerensdorf": {
    "name": "Nürensdorf",
@@ -650,7 +650,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dielsdorf",
    "domain": "www.oberglatt.ch",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   "wettswilamalbis": {
    "name": "Wettswil am Albis",
@@ -671,7 +671,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Hinwil",
    "domain": "www.bubikon.ch",
    "ok": true,
-   "count": 33
+   "count": 31
   },
   "baeretswil": {
    "name": "Bäretswil",
@@ -685,7 +685,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Hinwil",
    "domain": "www.duernten.ch",
    "ok": true,
-   "count": 23
+   "count": 21
   },
   "hw": {
    "name": "Hinwil",
@@ -706,14 +706,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Hinwil",
    "domain": "www.wald-zh.ch",
    "ok": true,
-   "count": 15
+   "count": 16
   },
   "wz": {
    "name": "Wetzikon",
    "bezirk": "Hinwil",
    "domain": "www.wetzikon.ch",
    "ok": true,
-   "count": 28
+   "count": 27
   },
   "gossau": {
    "name": "Gossau",
@@ -734,7 +734,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.adliswil.ch",
    "ok": true,
-   "count": 13
+   "count": 12
   },
   "langnauamalbis": {
    "name": "Langnau am Albis",
@@ -748,28 +748,28 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.richterswil.ch",
    "ok": true,
-   "count": 15
+   "count": 14
   },
   "rueschlikon": {
    "name": "Rüschlikon",
    "bezirk": "Horgen",
    "domain": "www.rueschlikon.ch",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   "thalwil": {
    "name": "Thalwil",
    "bezirk": "Horgen",
    "domain": "www.thalwil.ch",
    "ok": true,
-   "count": 171
+   "count": 170
   },
   "waedenswil": {
    "name": "Wädenswil",
    "bezirk": "Horgen",
    "domain": "www.waedenswil.ch",
    "ok": true,
-   "count": 47
+   "count": 46
   },
   "kilchberg": {
    "name": "Kilchberg",
@@ -797,21 +797,21 @@ window.FAMILIENAGENDA = {
    "bezirk": "Meilen",
    "domain": "www.meilen.ch",
    "ok": true,
-   "count": 23
+   "count": 22
   },
   "a": {
    "name": "Männedorf",
    "bezirk": "Meilen",
    "domain": "www.maennedorf.ch",
    "ok": true,
-   "count": 21
+   "count": 20
   },
   "t": {
    "name": "Uetikon am See",
    "bezirk": "Meilen",
    "domain": "www.uetikonamsee.ch",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   "z": {
    "name": "Zollikon",
@@ -832,14 +832,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.bauma.ch",
    "ok": true,
-   "count": 4
+   "count": 3
   },
   "h": {
    "name": "Fehraltorf",
    "bezirk": "Pfäffikon",
    "domain": "www.fehraltorf.ch",
    "ok": true,
-   "count": 16
+   "count": 15
   },
   "hi": {
    "name": "Hittnau",
@@ -853,7 +853,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.ilef.ch",
    "ok": true,
-   "count": 103
+   "count": 101
   },
   "li": {
    "name": "Lindau",
@@ -867,14 +867,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.pfaeffikon.ch",
    "ok": true,
-   "count": 100
+   "count": 99
   },
   "rs": {
    "name": "Russikon",
    "bezirk": "Pfäffikon",
    "domain": "www.russikon.ch",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   "ws": {
    "name": "Weisslingen",
@@ -888,7 +888,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.wildberg.ch",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   "d": {
    "name": "Dübendorf",
@@ -902,7 +902,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Uster",
    "domain": "www.egg.ch",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   "f": {
    "name": "Fällanden",
@@ -930,7 +930,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Uster",
    "domain": "www.schwerzenbach.ch",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   "u": {
    "name": "Uster",
@@ -972,21 +972,21 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "www.elsau.ch",
    "ok": true,
-   "count": 34
+   "count": 33
   },
   "hettlingen": {
    "name": "Hettlingen",
    "bezirk": "Winterthur",
    "domain": "www.hettlingen.ch",
    "ok": true,
-   "count": 3
+   "count": 5
   },
   "neftenbach": {
    "name": "Neftenbach",
    "bezirk": "Winterthur",
    "domain": "www.neftenbach.ch",
    "ok": true,
-   "count": 43
+   "count": 42
   },
   "pfungen": {
    "name": "Pfungen",
@@ -1028,14 +1028,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "stadt.winterthur.ch",
    "ok": true,
-   "count": 284
+   "count": 279
   },
   "zuerich": {
    "name": "Zürich",
    "bezirk": "Zürich",
    "domain": "www.stadt-zuerich.ch",
    "ok": true,
-   "count": 244
+   "count": 233
   }
  },
  "quellen": {
@@ -1044,21 +1044,21 @@ window.FAMILIENAGENDA = {
    "bezirk": "Quellen",
    "domain": "zuercher-museen.ch",
    "ok": true,
-   "count": 18
+   "count": 16
   },
   "q-kath": {
    "name": "Katholische Pfarreien",
    "bezirk": "Quellen",
    "domain": "www.forum-magazin.ch",
    "ok": true,
-   "count": 413
+   "count": 404
   },
   "q-zauberlaterne": {
    "name": "Zauberlaterne",
    "bezirk": "Quellen",
    "domain": "www.lanterne-magique.org",
    "ok": true,
-   "count": 43
+   "count": 42
   },
   "q-purpur": {
    "name": "Theater PurPur",
@@ -1102,13 +1102,6 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 4
   },
-  "q-localcities": {
-   "name": "localcities.ch (Vereine, Höfe, Märkte)",
-   "bezirk": "Quellen",
-   "domain": "www.localcities.ch",
-   "ok": true,
-   "count": 240
-  },
   "q-kindaling": {
    "name": "kindaling (Familienanlässe privater Anbieter)",
    "bezirk": "Quellen",
@@ -1149,7 +1142,14 @@ window.FAMILIENAGENDA = {
    "bezirk": "Quellen",
    "domain": "gz-zh.ch",
    "ok": true,
-   "count": 147
+   "count": 133
+  },
+  "q-localcities": {
+   "name": "localcities.ch (Vereine, Höfe, Märkte)",
+   "bezirk": "Quellen",
+   "domain": "www.localcities.ch",
+   "ok": false,
+   "count": 161
   }
  },
  "events": [
@@ -1171,21 +1171,6 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7729858",
    "w": "https://kirche-fehraltorf.ch/neuer-kurs-singe-mit-de-chliinschte-jetzt-anmelden/"
-  },
-  {
-   "gemeinden": [
-    "n"
-   ],
-   "id": "n-17225-17306",
-   "name": "Erlebniswerkstatt: Herbstlichter",
-   "von": "2026-10-28",
-   "bis": "2026-11-25",
-   "ort": "Familienzentrum Küsnacht",
-   "veranstalter": "Familienzentrum Küsnacht",
-   "time": "14.45 - 16.30",
-   "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17225/eventdate/17306",
-   "w": "https://forms.gle/MTxBCfcR94hqncad8"
   },
   {
    "gemeinden": [
@@ -1270,21 +1255,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "rueschlikon"
-   ],
-   "id": "rueschlikon-7791316",
-   "name": "Kerzenziehen und Kaffeestube",
-   "von": "2026-11-11",
-   "bis": "2026-11-25",
-   "ort": "Oetikergut",
-   "veranstalter": "Gemeinnütziger Frauenverein Rüschlikon",
-   "time": "14.00 - 17.00",
-   "age": null,
-   "url": "https://www.rueschlikon.ch/_rte/anlass/7791316",
-   "w": "https://www.frauenvereinrueschlikon.ch/"
-  },
-  {
-   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7638211",
@@ -1344,7 +1314,7 @@ window.FAMILIENAGENDA = {
    "tip": 1,
    "name": "Die Zauberorgel",
    "von": "2026-11-14",
-   "bis": "2026-12-25",
+   "bis": "2026-12-26",
    "ort": "Zürcher Märchenbühne",
    "veranstalter": "",
    "time": "",
@@ -1437,7 +1407,7 @@ window.FAMILIENAGENDA = {
    "tip": 1,
    "name": "Der Löwe, der nicht schreiben konnte",
    "von": "2026-11-15",
-   "bis": "2026-12-25",
+   "bis": "2026-12-26",
    "ort": "Bernhard Theater",
    "veranstalter": "",
    "time": "",
@@ -1452,15 +1422,15 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "ru"
    ],
-   "id": "ru-6655-30185",
+   "id": "ru-6655-30186",
    "name": "Rütner Kerzenziehen",
    "von": "2026-11-16",
-   "bis": "2026-11-25",
+   "bis": "2026-11-26",
    "ort": "Altes Pfarrhaus",
-   "veranstalter": "Reformierte Kirche Rüti weitere Termine 25. November 2026 26. November",
+   "veranstalter": "Reformierte Kirche Rüti weitere Termine 26. November 2026 27. November",
    "time": "",
    "age": null,
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6655/eventdate/30185"
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6655/eventdate/30186"
   },
   {
    "gemeinden": [
@@ -1480,21 +1450,6 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.zumikon.ch/_rte/anlass/7774324",
    "w": "https://freizumi.ch/veranstaltungen/kerzenziehen/"
-  },
-  {
-   "gemeinden": [
-    "wi"
-   ],
-   "id": "wi-5200-5845",
-   "name": "Kerzenziehen",
-   "von": "2026-11-18",
-   "bis": "2026-11-25",
-   "ort": "Viva Kapelle",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5200/eventdate/5845",
-   "w": "https://www.bibli-wila.ch"
   },
   {
    "gemeinden": [
@@ -1561,15 +1516,15 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3985-58032",
+   "id": "horgen-3985-58033",
    "name": "Kerzenziehen im Baumgärtlihof",
    "von": "2026-11-19",
-   "bis": "2026-11-25",
+   "bis": "2026-11-26",
    "ort": "Senioren Begegnungszentrum Baumgärtlihof",
    "veranstalter": "",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3985/eventdate/58032"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3985/eventdate/58033"
   },
   {
    "gemeinden": [
@@ -1654,453 +1609,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "n"
-   ],
-   "id": "n-lc4801681",
-   "q": "q-localcities",
-   "name": "„Küsnachterli“ am Adventsmarkt",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Ortsmuseum Küsnacht, 8700 Küsnacht ZH",
-   "veranstalter": "",
-   "time": "12.00 - 20.30",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/kuesnacht-zh/429/4801681",
-   "w": "https://www.ortsmuseum-kuesnacht.ch/"
-  },
-  {
-   "gemeinden": [
-    "winterthur"
-   ],
-   "id": "winterthur-kt32817-0",
-   "name": "Abgesagt: Eltern-Coaching",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Familienzentrum Winterthur",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.kinderthur.ch/events/eltern-coaching-9/"
-  },
-  {
-   "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-5452928",
-   "name": "Adventsbasteln im \"90i\"",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Begenungszentrum 90i",
-   "veranstalter": "",
-   "time": "14.00 - 17.00",
-   "age": {
-    "min": 4,
-    "max": 6,
-    "label": "Kindergarten"
-   },
-   "url": "https://www.ruemlang.ch/_rte/anlass/5452928"
-  },
-  {
-   "gemeinden": [
-    "wz"
-   ],
-   "id": "wz-26463-2026-11-25",
-   "name": "Adventsgesteck basteln für Kinder von 8 bis 12 Jahren",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Zentrum Oberwetzikon",
-   "veranstalter": "",
-   "time": "13.30 - 15.00",
-   "age": {
-    "min": 8,
-    "max": 12,
-    "label": "8 bis 12 Jahre"
-   },
-   "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=26463"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-adventskalenderkreativerbastelnachmittagfuerkinder-1",
-   "name": "Adventskalender – Kreativer Bastelnachmittag für Kinder",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Quartierzentrum Bäckeranlage",
-   "veranstalter": "",
-   "time": "14.30 - 18.00",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/adventskalenderkreativerbastelnachmittagfuerkinder.html?calentry=1"
-  },
-  {
-   "gemeinden": [
-    "u"
-   ],
-   "id": "u-fa396819",
-   "q": "q-kath",
-   "name": "Adventskranz basteln",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Neuwiesenstrasse 17",
-   "veranstalter": "Kath. Pfarrei St. Andreas",
-   "time": "16.30",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/uster/agenda/20261125-adventskranz-basteln-396819/"
-  },
-  {
-   "gemeinden": [
-    "winterthur"
-   ],
-   "id": "winterthur-fa398141",
-   "q": "q-kath",
-   "name": "Adventskranz gemeinsam gestalten",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Pfarreizentrum St. Josef",
-   "veranstalter": "Kath. Pfarrei St. Josef",
-   "time": "15.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/winterthur-toess/agenda/20261125-adventskranz-gemeinsam-gestalten-398141/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-heuried/angebote/adventskranzbinden/2026-11-25Adventskra",
-   "q": "q-gz",
-   "name": "Adventskranzbinden - GZ Heuried",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "14.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-heuried/angebote/adventskranzbinden/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-affoltern/angebote/adventskraenze-binden/2026-11-25Adventskrä",
-   "q": "q-gz",
-   "name": "Adventskränze binden im GZ Affoltern",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "14.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-affoltern/angebote/adventskraenze-binden/"
-  },
-  {
-   "gemeinden": [
-    "n"
-   ],
-   "id": "n-16099-17639",
-   "name": "Adventsmarkt Küsnacht",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Freihof Küsnacht",
-   "time": "12.00 - 20.30",
-   "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16099/eventdate/17639",
-   "w": "https://www.freihof-kuesnacht.ch/"
-  },
-  {
-   "gemeinden": [
-    "winterthur"
-   ],
-   "id": "winterthur-kt24539-0",
-   "name": "AdventsZauber",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Kirchgemeindehaus Liebestrasse",
-   "veranstalter": "",
-   "time": "10.00 - 17.00",
-   "age": null,
-   "url": "https://www.kinderthur.ch/events/adventszauber-2/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-auf-kaktus-safari--im-rahmen-des-fereinplauschprogramm-21-16",
-   "name": "Auf Kaktus-Safari mit Sara Dorn",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Sukkulenten-Sammlung Zürich",
-   "veranstalter": "",
-   "time": "09.00 - 16.30",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/auf-kaktus-safari--im-rahmen-des-fereinplauschprogramm-21.html?calentry=16"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-adventsbasteln-1",
-   "name": "Ausgebucht – Adventsbasteln",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "FamilienTreff Entlisberg",
-   "veranstalter": "",
-   "time": "14.30 - 16.30",
-   "age": {
-    "min": 2,
-    "max": 5,
-    "label": "2 bis 5 Jahre"
-   },
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/adventsbasteln.html?calentry=1"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-vernetzte-natur-lebenswerte-stadt-266",
-   "name": "Ausstellung: Vernetzte Natur – Lebenswerte Stadt",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Stadtgärtnerei - Zentrum für Pflanzen und Bildung",
-   "veranstalter": "",
-   "time": "09.00 - 17.30",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=266"
-  },
-  {
-   "gemeinden": [
-    "birmensdorf"
-   ],
-   "id": "birmensdorf-7774471",
-   "name": "Basteln für schulpflichtige Kinder",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Gemeindezentrum Brüelmatt, Freizeitraum",
-   "veranstalter": "Elternforum Birmensdorf",
-   "time": "14.00 - 17.00",
-   "age": {
-    "min": 6,
-    "max": 12,
-    "label": "Primarschulalter"
-   },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774471",
-   "w": "http://www.elternforum-birmensdorf.ch"
-  },
-  {
-   "gemeinden": [
-    "elsau"
-   ],
-   "id": "elsau-7804981",
-   "name": "Basteln für unser Adventsfenster",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek Elsau",
-   "veranstalter": "Bibliothek Elsau",
-   "time": "14.00 - 16.00",
-   "age": null,
-   "url": "https://www.elsau.ch/_rte/anlass/7804981"
-  },
-  {
-   "gemeinden": [
-    "bb"
-   ],
-   "id": "bb-7533604",
-   "name": "Begehbarer Kleiderschrank",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "altes Pfarrhaus",
-   "veranstalter": "ref. Kirche Bubikon",
-   "time": "16.00 - 18.00",
-   "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7533604"
-  },
-  {
-   "gemeinden": [
-    "wd"
-   ],
-   "id": "wd-7706632",
-   "name": "Bienenwachs-Kerzenziehen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Chilestube",
-   "veranstalter": "Kirchgemeinde Wildberg",
-   "time": "16.00 - 22.00",
-   "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7706632",
-   "w": "https://ref-wildberg.ch"
-  },
-  {
-   "gemeinden": [
-    "urdorf"
-   ],
-   "id": "urdorf-7691986",
-   "name": "Bilderbuchgeschichten auf Englisch mit Tali",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Gemeindebibliothek Urdorf",
-   "veranstalter": "Gemeindebibliothek Urdorf",
-   "time": "15.00 - 15.30",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "ab 4 Jahren"
-   },
-   "url": "https://www.urdorf.ch/_rte/anlass/7691986",
-   "w": "https://www.bibliotheken-zh.ch/urdorf/"
-  },
-  {
-   "gemeinden": [
-    "hb"
-   ],
-   "id": "hb-7836-11572",
-   "name": "Brunegg Kerzenziehen 2026",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Stiftung Brunegg Brunegg 3",
-   "veranstalter": "Stiftung Brunegg Die Stiftung Brunegg in Hombrechtikon ermöglicht Mens",
-   "time": "14.00 - 18.00",
-   "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7836/eventdate/11572",
-   "w": "https://www.stiftung-brunegg.ch/"
-  },
-  {
-   "gemeinden": [
-    "wettswilamalbis"
-   ],
-   "id": "wettswilamalbis-3436-7735",
-   "name": "Buchstart-Treff",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek",
-   "veranstalter": "Bibliothek Wettswil",
-   "time": "10.00 - 10.30",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3436/eventdate/7735",
-   "w": "http://www.buchstart.ch"
-  },
-  {
-   "gemeinden": [
-    "adliswil"
-   ],
-   "id": "adliswil-6918175",
-   "name": "Buchstart+ Bylo nebylo - zweisprachiger Reim- und Spielspass in Tschechisch/Deutsch",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Regionalbibliothek Adliswil",
-   "veranstalter": "Bibliothek Adliswil",
-   "time": "16.30 - 17.15",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.adliswil.ch/_rte/anlass/6918175"
-  },
-  {
-   "gemeinden": [
-    "hw"
-   ],
-   "id": "hw-7735984",
-   "name": "Chasperlitheater in der Mediothek",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Mediothek Hinwil",
-   "veranstalter": "Mediothek Hinwil",
-   "time": "13.30 - 14.00",
-   "age": {
-    "min": 4,
-    "max": 6,
-    "label": "Kindergarten"
-   },
-   "url": "https://www.hinwil.ch/_rte/anlass/7735984",
-   "w": "https://www.bibliotheken-zh.ch/hinwil/"
-  },
-  {
-   "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-7736047",
-   "name": "Chinderkönigschor",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Röm.-kath. Kirche Christkönig",
-   "veranstalter": "Kath. Pfarrei Christkönig",
-   "time": "16.15 - 17.30",
-   "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736047",
-   "w": "http://www.schluefweg.ch/"
-  },
-  {
-   "gemeinden": [
-    "bonstetten"
-   ],
-   "id": "bonstetten-7752844",
-   "name": "Chlaustreffen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Burgwies",
-   "veranstalter": "SVP Bonstetten",
-   "time": "15.00 - 20.00",
-   "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7752844",
-   "w": "http://www.svp-bonstetten.ch"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10005375",
-   "name": "Chrabbel- & Spieltreff",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "15.00 - 17.00",
-   "age": {
-    "min": 0,
-    "max": 2,
-    "label": "Babys"
-   },
-   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-11-25/"
-  },
-  {
-   "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-7219304",
-   "name": "Chrabbelgruppe",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Begegnungszentrum 90i",
-   "veranstalter": "Delphine Kameraj (Leitung)",
-   "time": "9.30 - 11.30",
-   "age": {
-    "min": 0,
-    "max": 2,
-    "label": "Babys"
-   },
-   "url": "https://www.ruemlang.ch/_rte/anlass/7219304"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-3131",
-   "name": "Chuchi International - Chinder-Chuchi - ausverkauft!",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3131&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=e15df66cc9389ac139e0e679374fe037"
-  },
-  {
-   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4764069",
@@ -2133,21 +1641,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-7731919",
-   "name": "Das gefrorene Herz",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Kino Claudia",
-   "veranstalter": "Verein Kulturkino Claudia",
-   "time": "19.30 - 21.30",
-   "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7731919",
-   "w": "http://www.schluefweg.ch/"
-  },
-  {
-   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4769175",
@@ -2161,126 +1654,6 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4769175",
    "w": "https://www.schauspielhaus.ch/de/spielplan/38226/der-zauberer-von-oz"
-  },
-  {
-   "gemeinden": [
-    "l"
-   ],
-   "id": "l-6879-12599",
-   "name": "DIY: Adventskranzbinden",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Familienzentrum Robinson Herrliberg",
-   "veranstalter": "Familienzentrum Robinson Herrliberg",
-   "time": "14.30 - 21.30",
-   "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6879/eventdate/12599",
-   "w": "https://familienclub-herrliberg.ch/events/diy-adventskranzbinden/"
-  },
-  {
-   "gemeinden": [
-    "hw"
-   ],
-   "id": "hw-fa392837",
-   "q": "q-kath",
-   "name": "Einstimmen in den Advent",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "im Pfarreiheim",
-   "veranstalter": "Kath. Pfarrei Liebfrauen",
-   "time": "14.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/hinwil/agenda/20261125-einstimmen-in-den-advent-392837/"
-  },
-  {
-   "gemeinden": [
-    "o"
-   ],
-   "id": "o-3473-2045",
-   "name": "ElKi-Cafi Anduriña",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Schulhaus Dörfli",
-   "veranstalter": "Verein Anduriña Familienverein",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3473/eventdate/2045",
-   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
-  },
-  {
-   "gemeinden": [
-    "g"
-   ],
-   "id": "g-fa322817",
-   "q": "q-kath",
-   "name": "Eltern-Kind-Singen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Im St\\u00e4dtli 13",
-   "veranstalter": "Kath. Pfarrei Johannes XXIII",
-   "time": "09.30",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.forum-magazin.ch/greifensee/agenda/20261125-eltern-kind-singen-322817/"
-  },
-  {
-   "gemeinden": [
-    "turbenthal"
-   ],
-   "id": "turbenthal-7906-8469",
-   "name": "Erlebe den Seifenblasen‑Automat – Werkstatt im Schaudepot Tösstal",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Primarschulhaus Risi und Schaudepot",
-   "veranstalter": "Verein MINTgard Nicht kommerzieller Verein, welcher spannende Tüfteler",
-   "time": "13.30 - 17.15",
-   "age": null,
-   "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7906/eventdate/8469",
-   "w": "https://www.mintware.ch/veranstaltungen/a2b2fa86fd4ce716d0fd992456c5b338b1623858200536f67875236abda9f119-detail"
-  },
-  {
-   "gemeinden": [
-    "richterswil"
-   ],
-   "id": "richterswil-7740979",
-   "name": "Erzählmorgen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek",
-   "veranstalter": "Bibliothek",
-   "time": "9.30 - 10.00",
-   "age": {
-    "min": 3,
-    "max": 5,
-    "label": "3 bis 5 Jahre"
-   },
-   "url": "https://www.richterswil.ch/_rte/anlass/7740979",
-   "w": "http://bibliothek-richterswil.ch"
-  },
-  {
-   "gemeinden": [
-    "o"
-   ],
-   "id": "o-3456-2052",
-   "name": "Erziehungsberatung im ElKi",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Schulhaus Dörfli",
-   "veranstalter": "Verein Anduriña Familienverein",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3456/eventdate/2052"
   },
   {
    "gemeinden": [
@@ -2320,304 +1693,6 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.localcities.ch/de/veranstaltungen/kilchberg-zh/393/4618663"
-  },
-  {
-   "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-7765249",
-   "name": "Familien-Filmnachmittag",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Kino Claudia",
-   "veranstalter": "Freie Evangelische Gemeinde",
-   "time": "15.00 - 16.45",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.kloten.ch/_rte/anlass/7765249",
-   "w": "http://www.schluefweg.ch/"
-  },
-  {
-   "gemeinden": [
-    "horgen"
-   ],
-   "id": "horgen-4509-58826",
-   "name": "Familien-Mittagstisch - jeden Mittwoch",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bistro Spyrigarten",
-   "veranstalter": "",
-   "time": "12.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4509/eventdate/58826",
-   "w": "https://www.bistro-spyrigarten.ch/"
-  },
-  {
-   "gemeinden": [
-    "buelach"
-   ],
-   "id": "buelach-fa399699",
-   "q": "q-kath",
-   "name": "Familien-Nachmittag: Grittbänz backen mit Café und Zvieri",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Scheuchzerstrase 1",
-   "veranstalter": "Kath. Pfarrei Dreifaltigkeit",
-   "time": "14.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.forum-magazin.ch/buelach/agenda/20261125-familien-nachmittag-grittbanz-backen-mit-cafe-und-zvieri-399699/"
-  },
-  {
-   "gemeinden": [
-    "l"
-   ],
-   "id": "l-6930-12641",
-   "name": "Familiencafé offen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Familienzentrum Robinson Herrliberg",
-   "veranstalter": "Familienzentrum Robinson Herrliberg",
-   "time": "9.30 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6930/eventdate/12641",
-   "w": "https://familienclub-herrliberg.ch/events/familiencafe-elki-kafi/"
-  },
-  {
-   "gemeinden": [
-    "r"
-   ],
-   "id": "r-10541-14515",
-   "name": "Familienkafi",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Ortsverein Aesch Scheuren Forch",
-   "time": "9.30 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10541/eventdate/14515"
-  },
-  {
-   "gemeinden": [
-    "thalwil"
-   ],
-   "id": "thalwil-fa400991",
-   "q": "q-kath",
-   "name": "FamilienSpass",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Pfarreizentrum Thalwil",
-   "veranstalter": "Kath. Pfarrei St. Felix und Regula",
-   "time": "15.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.forum-magazin.ch/thalwil/agenda/20261125-familienspass-400991/"
-  },
-  {
-   "gemeinden": [
-    "thalwil"
-   ],
-   "id": "thalwil-7604602",
-   "name": "Familientreff",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Pfistertreff",
-   "veranstalter": "Fachstelle Frühe Förderung",
-   "time": "9.00 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.thalwil.ch/_rte/anlass/7604602"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-zm26739",
-   "q": "q-museen",
-   "name": "Geschichtenstunde aus China",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Museum Rietberg",
-   "veranstalter": "Museum Rietberg",
-   "time": "15.30 - 16.30",
-   "age": {
-    "min": 2,
-    "max": 6,
-    "label": "Kleinkinder und Kindergarten"
-   },
-   "url": "https://zuercher-museen.ch/museen/museum-rietberg/geschichtenstunde-aus-china-1"
-  },
-  {
-   "gemeinden": [
-    "wettswilamalbis"
-   ],
-   "id": "wettswilamalbis-3438-7737",
-   "name": "Geschichtenzeit",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek",
-   "veranstalter": "Bibliothek Wettswil",
-   "time": "14.30 - 15.00",
-   "age": {
-    "min": 2,
-    "max": 6,
-    "label": "Kleinkinder und Kindergarten"
-   },
-   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3438/eventdate/7737",
-   "w": "http://www.buchstart.ch"
-  },
-  {
-   "gemeinden": [
-    "o"
-   ],
-   "id": "o-3361-1986",
-   "name": "Gschichte Chischte",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek Schulhaus Dörfli",
-   "veranstalter": "Gemeinde-und Schulbibliothek Oetwil am See",
-   "time": "15.00 - 15.30",
-   "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
-   },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3361/eventdate/1986",
-   "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
-  },
-  {
-   "gemeinden": [
-    "e"
-   ],
-   "id": "e-7601410",
-   "name": "Gschichtezyt",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek Egg",
-   "veranstalter": "Bibliothek Egg",
-   "time": "15.00 - 15.30",
-   "age": {
-    "min": 2,
-    "max": 6,
-    "label": "Kleinkinder und Kindergarten"
-   },
-   "url": "https://www.egg.ch/_rte/anlass/7601410",
-   "w": "https://www.bibliotheken-zh.ch/egg/"
-  },
-  {
-   "gemeinden": [
-    "neftenbach"
-   ],
-   "id": "neftenbach-7556272",
-   "name": "Gschichtezyt",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek Neftenbach",
-   "veranstalter": "Gemeindebibliothek",
-   "time": "",
-   "age": {
-    "min": 2,
-    "max": 6,
-    "label": "Kleinkinder und Kindergarten"
-   },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7556272"
-  },
-  {
-   "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-fa399073",
-   "q": "q-kath",
-   "name": "GW Kids: 1. Klasse, Gruppe 1",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "R\\u00fcmelbachstrasse 40",
-   "veranstalter": "Kath. Pfarrei St. Peter",
-   "time": "13.30",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/ruemlang/agenda/20261125-gw-kids-1-klasse-gruppe-1-399073/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-schulsystem-portugiesisch-8",
-   "name": "Informações sobre o sistema escolar de Zurique",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Virtuelle Veranstaltung",
-   "veranstalter": "",
-   "time": "19.00 - 21.00",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/bildung/volksschule/verschiedene-sprachen/schulsystem-portugiesisch.html?calentry=8"
-  },
-  {
-   "gemeinden": [
-    "a"
-   ],
-   "id": "a-fa392642",
-   "q": "q-kath",
-   "name": "Jugendlounge in Uetikon",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Hasenackerstrasse 19",
-   "veranstalter": "Kath. Pfarrei St. Stephan",
-   "time": "14.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/maennedorf/agenda/20261125-jugendlounge-in-uetikon-392642/"
-  },
-  {
-   "gemeinden": [
-    "waedenswil"
-   ],
-   "id": "waedenswil-7787050",
-   "name": "Kasperlitheater Tüpflirund - Wiehnachtsmärt im Kasperlidorf",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Aula Untermosen",
-   "veranstalter": "Stadt Wädenswil Dienststelle Soziokultur",
-   "time": "15.00 - 16.45",
-   "age": null,
-   "url": "https://www.waedenswil.ch/_rte/anlass/7787050"
-  },
-  {
-   "gemeinden": [
-    "thalwil"
-   ],
-   "id": "thalwil-7823497",
-   "name": "KERZEN",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Abenteuerspielplatz Thalwil",
-   "veranstalter": "Abenteuerspielplatz Thalwil",
-   "time": "14.00 - 17.00",
-   "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7823497",
-   "w": "https://www.abenteuerspielplatz.ch/"
   },
   {
    "gemeinden": [
@@ -2661,55 +1736,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-7736404",
-   "name": "Kerzenziehen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Viva Kirche Rümlang",
-   "veranstalter": "Viva Kirche Rümlang",
-   "time": "14.00 - 17.00",
-   "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736404",
-   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
-  },
-  {
-   "gemeinden": [
-    "urdorf"
-   ],
-   "id": "urdorf-7638154",
-   "name": "Kerzenziehen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
-   "veranstalter": "Familienverein Urdorf",
-   "time": "14.00 - 19.00",
-   "age": {
-    "min": 4,
-    "max": 6,
-    "label": "Kindergarten"
-   },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638154",
-   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-gruenau/angebote/kerzenziehen/2026-11-25KERZENZIEH",
-   "q": "q-gz",
-   "name": "KERZENZIEHEN - GZ Grünau",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "14.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-gruenau/angebote/kerzenziehen/"
-  },
-  {
-   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-lc4906753",
@@ -2740,21 +1766,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "wallisellen"
-   ],
-   "id": "wallisellen-7784791",
-   "name": "Kerzenziehen 2026",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Alters- und Pflegezentrum Wägelwiesen",
-   "veranstalter": "Elternforum Wallisellen",
-   "time": "",
-   "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784791",
-   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
-  },
-  {
-   "gemeinden": [
     "hw"
    ],
    "id": "hw-lc4872685",
@@ -2768,285 +1779,6 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/hinwil/353/4872685",
    "w": "https://www.ref-hinwil.ch"
-  },
-  {
-   "gemeinden": [
-    "hb"
-   ],
-   "id": "hb-7164-11040",
-   "name": "Kerzenziehen MOJUGA",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Jugendhaus MOJUGA",
-   "veranstalter": "Stiftung MOJUGA Die MOJUGA Stiftung leistet die offene Kinder- und Jug",
-   "time": "14.00 - 18.00",
-   "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7164/eventdate/11040",
-   "w": "https://www.jugendarbeit-hombi.ch/"
-  },
-  {
-   "gemeinden": [
-    "marthalen"
-   ],
-   "id": "marthalen-7278281",
-   "name": "Kerzenziehen öffentlich",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
-   "time": "13.30",
-   "age": null,
-   "url": "https://www.marthalen.ch/_rte/anlass/7278281",
-   "w": "https://www.gziw.ch"
-  },
-  {
-   "gemeinden": [
-    "ba"
-   ],
-   "id": "ba-7759402",
-   "name": "Kerzenziehen und Giessen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Scheune",
-   "veranstalter": "Kerzenkreativ",
-   "time": "15.00 - 19.00",
-   "age": null,
-   "url": "https://www.bauma.ch/_rte/anlass/7759402",
-   "w": "http://kerzenkreativ.ch"
-  },
-  {
-   "gemeinden": [
-    "du"
-   ],
-   "id": "du-7667143",
-   "name": "KINDER-COIFFEUR",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "ELKI-Treff, Altes Sekundarschulhaus Nauen",
-   "veranstalter": "Familienverein Dürnten",
-   "time": "14.30 - 16.30",
-   "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7667143",
-   "w": "http://www.familienvereinduernten.ch"
-  },
-  {
-   "gemeinden": [
-    "h"
-   ],
-   "id": "h-7669834",
-   "name": "Kinderbasteln",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek Fehraltorf",
-   "veranstalter": "Bibliothek Fehraltorf",
-   "time": "14.00 - 15.30",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "ab 4 Jahren"
-   },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7669834"
-  },
-  {
-   "gemeinden": [
-    "otelfingen"
-   ],
-   "id": "otelfingen-3266-3778",
-   "name": "Kindergeschichten",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Schul- und Regionalbibliothek Otelfingen",
-   "veranstalter": "Schul- und Regionalbibliothek Otelfingen",
-   "time": "16.15 - 17.00",
-   "age": {
-    "min": 4,
-    "max": 6,
-    "label": "Kindergarten"
-   },
-   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3266/eventdate/3778"
-  },
-  {
-   "gemeinden": [
-    "a",
-    "i",
-    "t"
-   ],
-   "id": "a-7827283",
-   "name": "Kinderkino Die Zauberlaterne: Shaun das Schaf – UFO-Alarm",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Kino Wildenmann",
-   "veranstalter": "Die Zauberlaterne Männedorf",
-   "time": "15.30 - 17.00",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "Kinder"
-   },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827283",
-   "w": "https://www.lanterne-magique.org/de/clubs/mannedorf/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-hoengg/angebote/kinderkino-on-tour/2026-11-25Kinderkino",
-   "q": "q-gz",
-   "name": "Kinderkino on Tour! - GZ Höngg",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "15.00",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "Kinder"
-   },
-   "url": "https://gz-zh.ch/gz-hoengg/angebote/kinderkino-on-tour/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-achwiesen/angebote/kinderkonzert-kunterwunderbunt/2026-11-25Kinderkonz",
-   "q": "q-gz",
-   "name": "Kinderkonzert Kunterwunderbunt",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "Kinder"
-   },
-   "url": "https://gz-zh.ch/gz-bachwiesen/angebote/kinderkonzert-kunterwunderbunt/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-kd9718-2026-11-25",
-   "q": "q-kindaling",
-   "name": "Kindertreff",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Zürich Oerlikon / Seebach / Affoltern",
-   "veranstalter": "GZ Hirzenbach",
-   "time": "14.00",
-   "age": {
-    "min": 3,
-    "max": 12,
-    "label": "3 bis 12 Jahre"
-   },
-   "url": "https://www.kindaling.de/sonstige-veranstaltungen/kindertreff/zuerich-oerlikon-seebach-affoltern",
-   "w": "https://gz-zh.ch/gz-oerlikon/"
-  },
-  {
-   "gemeinden": [
-    "rheinau"
-   ],
-   "id": "rheinau-7200890",
-   "name": "Kino",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Gemeinde- und Schulbibliothek Rheinau",
-   "veranstalter": "Gemeinde- und Schulbibliothek Rheinau",
-   "time": "17.30 - 19.30",
-   "age": null,
-   "url": "https://www.rheinau.ch/_rte/anlass/7200890",
-   "w": "http://bibliothek-rheinau.ch"
-  },
-  {
-   "gemeinden": [
-    "turbenthal",
-    "wi"
-   ],
-   "id": "turbenthal-7943-8491",
-   "name": "Krabbelgruppe",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Mehrzwecksaal der Schreinerei Furrer",
-   "veranstalter": "Familienverein Wila Wir sind miteinander unterwegs und füreinander da:",
-   "time": "9.30 - 11.00",
-   "age": {
-    "min": 0,
-    "max": 2,
-    "label": "Babys"
-   },
-   "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7943/eventdate/8491",
-   "w": "https://www.familienverein-wila.ch/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-riesbach/angebote/adventskranz-binden/2026-11-25Kranzen - ",
-   "q": "q-gz",
-   "name": "Kranzen - GZ Riesbach",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "14.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-riesbach/angebote/adventskranz-binden/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4856803",
-   "q": "q-localcities",
-   "name": "Kreativer Nachmittag mit Robotik und Coding für Kinder",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "PBZ Pestalozzi-Bibliothek Affoltern, 8046 Zürich",
-   "veranstalter": "",
-   "time": "14.30",
-   "age": {
-    "min": 7,
-    "max": 12,
-    "label": "ab 7 Jahren"
-   },
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4856803",
-   "w": "https://www.pbz.ch/event/kreativer-nachmittag-mit-robotik-und-coding-fuer-kinder-13/"
-  },
-  {
-   "gemeinden": [
-    "affolternamalbis"
-   ],
-   "id": "affolternamalbis-7802590",
-   "name": "Kreativkurs für die ganze Familie; Adventskranz",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Familienzentrum Bezirk Affoltern",
-   "veranstalter": "Familienzentrum Bezirk Affoltern",
-   "time": "14.00 - 16.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7802590",
-   "w": "https://familienzentrum-bezirk-affoltern.ch/"
-  },
-  {
-   "gemeinden": [
-    "wallisellen"
-   ],
-   "id": "wallisellen-7765351",
-   "name": "Laternenbasteln",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Kath. Pfarreizentrum Wallisellen",
-   "veranstalter": "St.Nikolausgesellschaft Wallisellen",
-   "time": "14.00 - 17.00",
-   "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7765351",
-   "w": "https://www.chlaus.org/"
   },
   {
    "gemeinden": [
@@ -3067,50 +1799,6 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4893683",
    "w": "https://www.landesmuseum.ch"
-  },
-  {
-   "gemeinden": [
-    "aeugst"
-   ],
-   "id": "aeugst-2700-2125",
-   "name": "Lebkuchen verzieren",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2700/eventdate/2125",
-   "w": "https://elternverein-aeugst.ch/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-hoengg/angebote/lebkuchenhaeuser-verzieren/2026-11-25Lebkuchenh",
-   "q": "q-gz",
-   "name": "Lebkuchenhäuser verzieren - GZ Höngg",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "14.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-hoengg/angebote/lebkuchenhaeuser-verzieren/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-2026-12-marroni-gluehwein-2",
-   "name": "Marroni und Glühwein",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Restaurant Wyrot",
-   "veranstalter": "",
-   "time": "14.30 - 16.30",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/trotte/2026-12-marroni-gluehwein.html?calentry=2"
   },
   {
    "gemeinden": [
@@ -3146,283 +1834,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "il"
-   ],
-   "id": "il-7836130",
-   "name": "MINI DECKI - wir nähen Patchworkdecken für geflüchtete Kinder und Jugendliche",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Altes Schulhaus Illnau",
-   "veranstalter": "Forum 21 Illnau-Effretikon",
-   "time": "8.30 - 11.30",
-   "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7836130",
-   "w": "https://minidecki.ch"
-  },
-  {
-   "gemeinden": [
-    "winterthur"
-   ],
-   "id": "winterthur-kt32051-0",
-   "name": "Miniclub Bibliothek Töss",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bibliothek Töss",
-   "veranstalter": "",
-   "time": "09.30 - 10.15",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-3/"
-  },
-  {
-   "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-7232162",
-   "name": "Mütter- und Väterberatung",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Begegnungszentrum 90i",
-   "veranstalter": "kjz Regensdorf",
-   "time": "9.00 - 11.30",
-   "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7232162",
-   "w": "https://outlook.office365.com/owa/calendar/Ruemlang@AJBKTZH.onmicrosoft.com/bookings/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-oerlikon/angebote/oerliker-kerzenziehen/2026-11-25Oerliker K",
-   "q": "q-gz",
-   "name": "Oerliker Kerzenziehen - GZ Oerlikon",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "13.30",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
-  },
-  {
-   "gemeinden": [
-    "bb"
-   ],
-   "id": "bb-7722796",
-   "name": "Offene Schwimmhalle für Kinder bis 1. Klasse",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Schwimmhalle Bergli",
-   "veranstalter": "Gemeinde Bubikon",
-   "time": "14.30 - 16.30",
-   "age": {
-    "min": 0,
-    "max": 7,
-    "label": "bis 1. Klasse"
-   },
-   "url": "https://www.bubikon.ch/_rte/anlass/7722796"
-  },
-  {
-   "gemeinden": [
-    "il"
-   ],
-   "id": "il-7757008",
-   "name": "Öffentliches Kerzenziehen im Jugendhaus und auf dem Märtplatz Effretikon",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Soziokultur Illnau-Effretikon",
-   "veranstalter": "Soziokultur Illnau-Effretikon",
-   "time": "14.00 - 17.00",
-   "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7757008",
-   "w": "https://www.soziokultur-ilef.ch/"
-  },
-  {
-   "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-7232372",
-   "name": "Purzelbaumvormittag",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Begegnungszentrum 90i",
-   "veranstalter": "Marina Ritter (Leitung)",
-   "time": "10.00 - 11.30",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.ruemlang.ch/_rte/anlass/7232372"
-  },
-  {
-   "gemeinden": [
-    "buelach"
-   ],
-   "id": "buelach-7684516",
-   "name": "Quartiertreff",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Heilsarmee Zürich-Unterland",
-   "veranstalter": "Heilsarmee Zürich - Unterland",
-   "time": "14.00 - 17.00",
-   "age": {
-    "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
-   },
-   "url": "https://www.buelach.ch/_rte/anlass/7684516",
-   "w": "https://zh-unterland.heilsarmee.ch/"
-  },
-  {
-   "gemeinden": [
-    "rafz"
-   ],
-   "id": "rafz-6949474",
-   "name": "s'Bibliteam verzellt Bilderbüechli",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Gemeindebibliothek Rafz",
-   "veranstalter": "Gemeindebibliothek Rafz",
-   "time": "14.00 - 15.00",
-   "age": {
-    "min": 4,
-    "max": 7,
-    "label": "4 bis 7 Jahre"
-   },
-   "url": "https://www.rafz.ch/_rte/anlass/6949474",
-   "w": "https://www.bibliotheken-zh.ch/rafz/"
-  },
-  {
-   "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-lc4794769",
-   "q": "q-localcities",
-   "name": "Salto Kaleido - Familientag",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Parkplatz Holberg, 8302 Kloten",
-   "veranstalter": "",
-   "time": "14.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4794769",
-   "w": "https://www.ticketcorner.ch/artist/salto/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
-  },
-  {
-   "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-lc4911485",
-   "q": "q-localcities",
-   "name": "SHOWTICKET – Familientag",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Parkplatz Holberg, 8302 Kloten",
-   "veranstalter": "",
-   "time": "14.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.localcities.ch/de/veranstaltungen/kloten/189/4911485",
-   "w": "https://www.ticketcorner.ch/artist/salto/?affiliate=GUI&utm_source=GUI&utm_medium=dp&utm_campaign=guidle"
-  },
-  {
-   "gemeinden": [
-    "du"
-   ],
-   "id": "du-7657129",
-   "name": "Singe mit de Chliine",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Ref. Kirchgemeindehaus Nauen",
-   "veranstalter": "Reformierte Kirche Dürnten",
-   "time": "9.15 - 10.00",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.duernten.ch/_rte/anlass/7657129",
-   "w": "https://www.refduernten.ch/home"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-bach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/2026-11-25Sprach-Caf",
-   "q": "q-gz",
-   "name": "Sprach-Café Deutsch mit/ohne Kinder - GZ Hirzenbach",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "10.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-hirzenbach/angebote/sprach-cafe-deutsch-mit-ohne-kinder/"
-  },
-  {
-   "gemeinden": [
-    "v"
-   ],
-   "id": "v-17259-106196",
-   "name": "Volketswiler Kerzenziehen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Werkraum Schulhaus Feldhof",
-   "veranstalter": "Verein Kerzenziehen Volketswil Volketswiler Kerzenziehen (Bienenwachs)",
-   "time": "15.00 - 21.30",
-   "age": {
-    "min": 3,
-    "max": 4,
-    "label": "3 bis 4 Jahre"
-   },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17259/eventdate/106196",
-   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
-  },
-  {
-   "gemeinden": [
-    "winterthur"
-   ],
-   "id": "winterthur-kt33642-0",
-   "name": "Weihnachtsmann als Box basteln",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Sternen Zauberei",
-   "veranstalter": "",
-   "time": "14.00 - 17.00",
-   "age": {
-    "min": 6,
-    "max": 12,
-    "label": "ab 6 Jahren"
-   },
-   "url": "https://www.kinderthur.ch/events/weihnachtsmann-als-box-basteln/"
-  },
-  {
-   "gemeinden": [
-    "ru"
-   ],
-   "id": "ru-6650-26618",
-   "name": "Wie Kinder von Anfang an die Welt entdecken «Vom Greifen zum Begreifen»",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Amthaus",
-   "veranstalter": "Heike Deigendesch Anmeldeformular Anmelden",
-   "time": "19.30 - 20.30",
-   "age": null,
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6650/eventdate/26618"
-  },
-  {
-   "gemeinden": [
     "d"
    ],
    "id": "d-lc4678655",
@@ -3439,36 +1850,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "hausenamalbis"
-   ],
-   "id": "hausenamalbis-fa392382",
-   "q": "q-kath",
-   "name": "Z'mittag Träff",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Bifangstrasse 4",
-   "veranstalter": "Kath. Pfarrei Herz Jesu",
-   "time": "12.00",
-   "age": null,
-   "url": "https://www.forum-magazin.ch/hausen-am-albis/agenda/20261125-zmittag-traff-392382/"
-  },
-  {
-   "gemeinden": [
-    "a"
-   ],
-   "id": "a-/clubs/mannedorf/2026-11-25Zauberlate",
-   "q": "q-zauberlaterne",
-   "name": "Zauberlaterne – Filmclub für Kinder (Männedorf)",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "Zauberlaterne",
-   "time": "13.30",
-   "age": null,
-   "url": "https://www.lanterne-magique.org/clubs/mannedorf/"
-  },
-  {
-   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-lc4878721",
@@ -3482,52 +1863,6 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4878721",
    "w": "https://zauberpark.ch/tickets/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-lc4812965",
-   "q": "q-localcities",
-   "name": "Zauberpark mit Joris",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Flughafenpark im Circle, 8058 Zürich",
-   "veranstalter": "",
-   "time": "20.15",
-   "age": null,
-   "url": "https://www.localcities.ch/de/veranstaltungen/zuerich/609/4812965",
-   "w": "https://www.ticketcorner.ch/event/zauberpark-am-flughafen-zuerich-music-act-flughafenpark-im-circle-21725738/?affiliate=ZPF"
-  },
-  {
-   "gemeinden": [
-    "kloten",
-    "ruemlang"
-   ],
-   "id": "kloten-7578052",
-   "name": "Zauberpark mit Tante Carmen",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Flughafenpark im Circle",
-   "veranstalter": "Zauberpark",
-   "time": "17.00",
-   "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578052",
-   "w": "http://www.schluefweg.ch/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-schulsystem-bengalisch-2",
-   "name": "জুৱিখেৱ স্কুল ব্যবস্থা সম্পর্কে তথ্য",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "Virtuelle Veranstaltung",
-   "veranstalter": "",
-   "time": "19.00 - 21.00",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/bildung/volksschule/verschiedene-sprachen/schulsystem-bengalisch.html?calentry=2"
   },
   {
    "gemeinden": [
@@ -4964,21 +3299,6 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "zuerich"
    ],
-   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-11-27Kinderball",
-   "q": "q-gz",
-   "name": "Kinderballett - GZ Leimbach",
-   "von": "2026-11-27",
-   "bis": "2026-11-27",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "13.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
    "id": "zuerich-achwiesen/angebote/kinderkonzert-kunterwunderbunt/2026-11-27Kinderkonz",
    "q": "q-gz",
    "name": "Kinderkonzert Kunterwunderbunt",
@@ -5234,6 +3554,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.opfikon.ch/_rte/anlass/7748305",
    "w": "https://www.ref-opfikon.ch/veranstaltung/15642"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/open-friday-2/2026-11-27Open Frida",
+   "q": "q-gz",
+   "name": "Open Friday - Kerzenziehen - GZ Leimbach",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "18.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/open-friday-2/"
   },
   {
    "gemeinden": [
@@ -5645,25 +3980,6 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 16.00",
    "age": null,
    "url": "https://www.wald-zh.ch/_rte/anlass/7832923"
-  },
-  {
-   "gemeinden": [
-    "dietlikon"
-   ],
-   "id": "dietlikon-fa368991",
-   "q": "q-kath",
-   "name": "Adventsworkshop für Familien",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "Pfarreizentrum St. Michael",
-   "veranstalter": "Kath. Pfarrei St. Michael",
-   "time": "14.00",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://www.forum-magazin.ch/dietlikon/agenda/20261128-adventsworkshop-fur-familien-368991/"
   },
   {
    "gemeinden": [
@@ -6409,25 +4725,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "rs"
-   ],
-   "id": "rs-7832746",
-   "name": "Fiire mit de Chliine",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "Ref. Kirche Russikon",
-   "veranstalter": "Ref. Kirche",
-   "time": "9.45 - 10.15",
-   "age": {
-    "min": 0,
-    "max": 4,
-    "label": "Kleinkinder mit Eltern"
-   },
-   "url": "https://www.russikon.ch/_rte/anlass/7832746",
-   "w": "https://www.kircherussikon.ch"
-  },
-  {
-   "gemeinden": [
     "truellikon"
    ],
    "id": "truellikon-7823851",
@@ -6477,7 +4774,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3182-59556",
+   "id": "horgen-3182-59672",
    "name": "Gschichtehöck im Advent an der Offenen Kirchentüre",
    "von": "2026-11-28",
    "bis": "2026-11-28",
@@ -6485,7 +4782,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 15.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3182/eventdate/59556",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3182/eventdate/59672",
    "w": "https://refhorgen.ch/gemeindeleben/kinder-und-familie/gschichtehoeck-fiire-mit-de-chliine/"
   },
   {
@@ -6955,7 +5252,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-2785-59550",
+   "id": "horgen-2785-59666",
    "name": "Offene Kirchentür am Horgner Weihnachtsmarkt",
    "von": "2026-11-28",
    "bis": "2026-11-28",
@@ -6963,7 +5260,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.00 - 18.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/2785/eventdate/59550",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/2785/eventdate/59666",
    "w": "https://refhorgen.ch/veranstaltung/57956"
   },
   {
@@ -8718,7 +7015,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-29",
    "ort": "Bauma",
    "veranstalter": "",
-   "time": "10.30 - 12.00",
+   "time": "",
    "age": null,
    "url": "https://dvzo.ch/samichlaus-express/"
   },
@@ -9565,20 +7862,6 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7735288",
    "w": "https://www.urbangolfdietlikon.ch"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-voloshkagemeinsammitdenkleinsten-2",
-   "name": "Voloshka –Gemeinsam mit den Kleinsten",
-   "von": "2026-11-30",
-   "bis": "2026-11-30",
-   "ort": "Quartierraum Zentralstrasse",
-   "veranstalter": "",
-   "time": "09.30 - 10.30",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/voloshkagemeinsammitdenkleinsten.html?calentry=2"
   },
   {
    "gemeinden": [
@@ -11389,7 +9672,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-12-02",
    "ort": "",
    "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "13.30",
+   "time": "14.00",
    "age": null,
    "url": "https://gz-zh.ch/gz-oerlikon/angebote/oerliker-kerzenziehen/"
   },
@@ -12703,6 +10986,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "oberengstringen"
+   ],
+   "id": "oberengstringen-7848118",
+   "name": "Rorate - Feier",
+   "von": "2026-12-03",
+   "bis": "2026-12-05",
+   "ort": "Röm.-kath. Kirche Oberengstringen",
+   "veranstalter": "Luigi Lore'",
+   "time": "6.30 - 18.00",
+   "age": null,
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7848118",
+   "w": "https://www.kath-kirche-engstringen.ch"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7765429",
@@ -13554,21 +11852,6 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 22.00",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7695001"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-12-04Kinderball",
-   "q": "q-gz",
-   "name": "Kinderballett - GZ Leimbach",
-   "von": "2026-12-04",
-   "bis": "2026-12-04",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "13.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
   },
   {
    "gemeinden": [
@@ -14776,7 +13059,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3184-59557",
+   "id": "horgen-3184-59673",
    "name": "Gschichtehöck im Advent",
    "von": "2026-12-05",
    "bis": "2026-12-05",
@@ -14784,8 +13067,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3184/eventdate/59557",
-   "w": "https://refhorgen.ch/gemeindeleben/kinder-und-familie/gschichtehoeck-fiire-mit-de-chliine/"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3184/eventdate/59673"
   },
   {
    "gemeinden": [
@@ -21442,21 +19724,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-12-11Kinderball",
-   "q": "q-gz",
-   "name": "Kinderballett - GZ Leimbach",
-   "von": "2026-12-11",
-   "bis": "2026-12-11",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "13.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
-  },
-  {
-   "gemeinden": [
     "hedingen"
    ],
    "id": "hedingen-359-927",
@@ -21574,6 +19841,21 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-hegi-4/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-/gz-leimbach/angebote/open-friday-2/2026-12-11Open Frida",
+   "q": "q-gz",
+   "name": "Open Friday - Kerzenziehen - GZ Leimbach",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "",
+   "veranstalter": "Zürcher Gemeinschaftszentren",
+   "time": "18.00",
+   "age": null,
+   "url": "https://gz-zh.ch/gz-leimbach/angebote/open-friday-2/"
   },
   {
    "gemeinden": [
@@ -22797,6 +21079,21 @@ window.FAMILIENAGENDA = {
    "time": "10.30",
    "age": null,
    "url": "https://www.uster.ch/_rte/anlass/7835479"
+  },
+  {
+   "gemeinden": [
+    "ruemlang"
+   ],
+   "id": "ruemlang-7847851",
+   "name": "5. Adventsingen",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Evang.-ref. Kirche Rümlang",
+   "veranstalter": "Gospel Singers Rümlang",
+   "time": "17.30 - 19.00",
+   "age": null,
+   "url": "https://www.ruemlang.ch/_rte/anlass/7847851",
+   "w": "https://gospel-singers-ruemlang.ch/"
   },
   {
    "gemeinden": [
@@ -24261,20 +22558,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-voloshkagemeinsammitdenkleinsten-3",
-   "name": "Voloshka –Gemeinsam mit den Kleinsten",
-   "von": "2026-12-14",
-   "bis": "2026-12-14",
-   "ort": "Quartierraum Zentralstrasse",
-   "veranstalter": "",
-   "time": "09.30 - 10.30",
-   "age": null,
-   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/voloshkagemeinsammitdenkleinsten.html?calentry=3"
-  },
-  {
-   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-lc4901213",
@@ -24369,7 +22652,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "aesch"
    ],
-   "id": "aesch-7376536",
+   "id": "aesch-7848034",
    "name": "Buchstart",
    "von": "2026-12-15",
    "bis": "2026-12-15",
@@ -24381,7 +22664,7 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "Kleinkinder mit Eltern"
    },
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7376536",
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848034",
    "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
   },
   {
@@ -24463,6 +22746,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7552450",
    "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
+  },
+  {
+   "gemeinden": [
+    "hettlingen"
+   ],
+   "id": "hettlingen-7848562",
+   "name": "FinkeZwitschere",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Pfarrschüür",
+   "veranstalter": "Ref. Kirche Hettlingen",
+   "time": "9.00",
+   "age": null,
+   "url": "https://www.hettlingen.ch/_rte/anlass/7848562",
+   "w": "https://www.ref-hettlingen.ch"
   },
   {
    "gemeinden": [
@@ -26915,21 +25213,6 @@ window.FAMILIENAGENDA = {
    "age": null,
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3367/eventdate/1988",
    "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-leimbach/angebote/kinderballett-3/2026-12-18Kinderball",
-   "q": "q-gz",
-   "name": "Kinderballett - GZ Leimbach",
-   "von": "2026-12-18",
-   "bis": "2026-12-18",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "13.00",
-   "age": null,
-   "url": "https://gz-zh.ch/gz-leimbach/angebote/kinderballett-3/"
   },
   {
    "gemeinden": [
@@ -29505,6 +27788,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "hettlingen"
+   ],
+   "id": "hettlingen-7848577",
+   "name": "Familiewiehnacht",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Kirche",
+   "veranstalter": "Ref. Kirche Hettlingen",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.hettlingen.ch/_rte/anlass/7848577",
+   "w": "https://www.ref-hettlingen.ch"
+  },
+  {
+   "gemeinden": [
     "maschwanden"
    ],
    "id": "maschwanden-923-2026-12-24",
@@ -30083,6 +28385,25 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.localcities.ch/de/veranstaltungen/urdorf/617/4886871"
+  },
+  {
+   "gemeinden": [
+    "wa"
+   ],
+   "id": "wa-7848877",
+   "name": "Familiengottesdienst Weihnachten",
+   "von": "2026-12-25",
+   "bis": "2026-12-25",
+   "ort": "Chrischonakapelle Sagenrain",
+   "veranstalter": "Chrischona-Gemeinde Wald",
+   "time": "9.30 - 10.30",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.wald-zh.ch/_rte/anlass/7848877",
+   "w": "https://www.chrischona-wald.ch"
   },
   {
    "gemeinden": [
@@ -31334,25 +29655,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-zm26735",
-   "q": "q-museen",
-   "name": "Familienführung",
-   "von": "2027-01-03",
-   "bis": "2027-01-03",
-   "ort": "Museum Rietberg",
-   "veranstalter": "Museum Rietberg",
-   "time": "10.15 - 11.15",
-   "age": {
-    "min": 0,
-    "max": 12,
-    "label": "Familien, alle Alter"
-   },
-   "url": "https://zuercher-museen.ch/museen/museum-rietberg/familienfuehrung-3-1"
-  },
-  {
-   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7794025",
@@ -31945,6 +30247,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "oberglatt"
+   ],
+   "id": "oberglatt-2531-4596",
+   "name": "Dreikönigstag",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Gemeindevorplatz ( vor der Kirche) zu Ben's Kamelfarm",
+   "veranstalter": "Ev. ref. Kirchgemeinde Oberglatt Seite drucken",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2531/eventdate/4596",
+   "w": "https://www.kircheoberglatt.ch"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7729135",
@@ -32206,6 +30523,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849885",
+   "name": "Zwerglikaffi mit Mütter- und Väterberatung",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Familienzentrum",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": null,
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849885",
+   "w": "https://www.elternforum-birmensdorf.ch/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-/spielplan/kalendarium/alice-im-wunderland/2027-01-0711:00",
@@ -32236,6 +30568,25 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/bilderbuchkino-baecki.html?calentry=3"
+  },
+  {
+   "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849858",
+   "name": "Chrabbelgruppe",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "Kath.Kirch",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "9.30 - 11.00",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849858",
+   "w": "https://www.elternforum-birmensdorf.ch/"
   },
   {
    "gemeinden": [
@@ -32586,6 +30937,25 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7730344",
    "w": "http://www.stadtbibliothek-duebendorf.ch"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848037",
+   "name": "Buchstart",
+   "von": "2027-01-08",
+   "bis": "2027-01-08",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848037",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -34125,6 +32495,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848070",
+   "name": "Lego-Nachmittag",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "14.00 - 15.30",
+   "age": null,
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848070",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-5478352",
@@ -34244,7 +32629,7 @@ window.FAMILIENAGENDA = {
    "bis": "2027-01-13",
    "ort": "",
    "veranstalter": "Zauberlaterne",
-   "time": "",
+   "time": "13.30",
    "age": null,
    "url": "https://www.lanterne-magique.org/clubs/mannedorf/"
   },
@@ -34276,6 +32661,25 @@ window.FAMILIENAGENDA = {
    "time": "15.00 - 16.00",
    "age": null,
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1878/eventdate/1396"
+  },
+  {
+   "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849861",
+   "name": "Chrabbelgruppe",
+   "von": "2027-01-14",
+   "bis": "2027-01-14",
+   "ort": "Kath. Kirche",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849861",
+   "w": "https://www.elternforum-birmensdorf.ch/"
   },
   {
    "gemeinden": [
@@ -34763,6 +33167,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7850260",
+   "name": "Eisdisco 2027",
+   "von": "2027-01-16",
+   "bis": "2027-01-16",
+   "ort": "Kunsteisbahn Brand",
+   "veranstalter": "Fachstelle Sport",
+   "time": "18.30 - 22.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7850260"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-zm27179",
@@ -35011,7 +33429,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3653-59574",
+   "id": "horgen-3653-59690",
    "name": "Ausstellung LEGO Stadt",
    "von": "2027-01-17",
    "bis": "2027-01-17",
@@ -35023,7 +33441,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "8 bis 12 Jahre"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3653/eventdate/59574",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3653/eventdate/59690",
    "w": "https://refhorgen.ch/veranstaltung/61657"
   },
   {
@@ -35126,6 +33544,20 @@ window.FAMILIENAGENDA = {
     "label": "Kinder"
    },
    "url": "https://gz-zh.ch/gz-bachwiesen/angebote/kinderkonzert-kunterwunderbunt/"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-konzertbloomingrhythms-1",
+   "name": "Konzert – Blooming Rhythms",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "Quartierzentrum Bäckeranlage",
+   "veranstalter": "",
+   "time": "15.30 - 17.30",
+   "age": null,
+   "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/konzertbloomingrhythms.html?calentry=1"
   },
   {
    "gemeinden": [
@@ -35834,25 +34266,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-hoengg/angebote/kinderkino-on-tour/2027-01-20Kinderkino",
-   "q": "q-gz",
-   "name": "Kinderkino on Tour! - GZ Höngg",
-   "von": "2027-01-20",
-   "bis": "2027-01-20",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "15.00",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "Kinder"
-   },
-   "url": "https://gz-zh.ch/gz-hoengg/angebote/kinderkino-on-tour/"
-  },
-  {
-   "gemeinden": [
     "wz"
    ],
    "id": "wz-17122-2027-01-20",
@@ -36043,6 +34456,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849888",
+   "name": "Zwerglikaffi mit Mütter- und Väterberatung",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Familienzentrum",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": null,
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849888",
+   "w": "https://www.elternforum-birmensdorf.ch/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-besichtigung-kita-selnau-6",
@@ -36086,6 +34514,25 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 15.00",
    "age": null,
    "url": "https://www.elsau.ch/_rte/anlass/7785907"
+  },
+  {
+   "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849867",
+   "name": "Chrabbelgruppe",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "Kath. Kirche",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849867",
+   "w": "https://www.elternforum-birmensdorf.ch/"
   },
   {
    "gemeinden": [
@@ -36947,21 +35394,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "kloten"
-   ],
-   "id": "kloten-7847704",
-   "name": "Gospelkonzert - FEEL THE SPIRIT",
-   "von": "2027-01-24",
-   "bis": "2027-01-24",
-   "ort": "Evang.-ref. Kirche",
-   "veranstalter": "Gospel Singers Rümlang",
-   "time": "17.00 - 18.30",
-   "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7847704",
-   "w": "http://www.schluefweg.ch/"
-  },
-  {
-   "gemeinden": [
     "wa"
    ],
    "id": "wa-7804261",
@@ -37412,6 +35844,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "du"
+   ],
+   "id": "du-fa414166",
+   "q": "q-kath",
+   "name": "ELKI Treffen/Cheminéeraum",
+   "von": "2027-01-27",
+   "bis": "2027-01-27",
+   "ort": "Kirchenrainstrasse 4",
+   "veranstalter": "Kath. Pfarrei Heilige Dreifaltigkeit",
+   "time": "09.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.forum-magazin.ch/rueti/agenda/20270127-elki-treffenchemineeraum-414166/"
+  },
+  {
+   "gemeinden": [
     "g"
    ],
    "id": "g-fa336238",
@@ -37678,6 +36129,25 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.lanterne-magique.org/clubs/zurich-filmpodium/"
+  },
+  {
+   "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849870",
+   "name": "Chrabbelgruppe",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "Kath. Kirche",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849870",
+   "w": "https://www.elternforum-birmensdorf.ch/"
   },
   {
    "gemeinden": [
@@ -38473,6 +36943,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.ilef.ch/_rte/anlass/7822867",
    "w": "https://www.hcie.ch"
+  },
+  {
+   "gemeinden": [
+    "ruemlang"
+   ],
+   "id": "ruemlang-7847854",
+   "name": "Gospelkonzert - FEEL THE SPIRIT",
+   "von": "2027-01-31",
+   "bis": "2027-01-31",
+   "ort": "kath. Kirche Rümlang",
+   "veranstalter": "Gospel Singers Rümlang",
+   "time": "17.00 - 18.30",
+   "age": null,
+   "url": "https://www.ruemlang.ch/_rte/anlass/7847854",
+   "w": "https://gospel-singers-ruemlang.ch/"
   },
   {
    "gemeinden": [
@@ -39346,6 +37831,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849891",
+   "name": "Zwerglikaffi mit Mütter- und Väterberatung",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Familienzentrum",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": null,
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849891",
+   "w": "https://www.elternforum-birmensdorf.ch/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-art-on-ice-1",
@@ -39390,6 +37890,25 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/bilderbuchkino-baecki.html?calentry=4"
+  },
+  {
+   "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849873",
+   "name": "Chrabbelgruppe",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Kath. Kirche",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849873",
+   "w": "https://www.elternforum-birmensdorf.ch/"
   },
   {
    "gemeinden": [
@@ -40861,6 +39380,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849879",
+   "name": "Chrabbelgruppe",
+   "von": "2027-02-11",
+   "bis": "2027-02-11",
+   "ort": "Kath. Kirche",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849879",
+   "w": "https://www.elternforum-birmensdorf.ch/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006433",
@@ -40894,6 +39432,26 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604824"
+  },
+  {
+   "gemeinden": [
+    "zuerich"
+   ],
+   "id": "zuerich-kd33233-2027-02-11",
+   "q": "q-kindaling",
+   "name": "Familientreff",
+   "von": "2027-02-11",
+   "bis": "2027-02-11",
+   "ort": "Zürich Albisrieden",
+   "veranstalter": "GZ Heuried",
+   "time": "15.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.kindaling.de/krabbelgruppe/familientreff-standort-manesse/zuerich-albisrieden",
+   "w": "http://gz-zh.ch/gz-heuried"
   },
   {
    "gemeinden": [
@@ -41618,6 +40176,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848040",
+   "name": "Buchstart",
+   "von": "2027-02-16",
+   "bis": "2027-02-16",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848040",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33511-0",
@@ -41794,6 +40371,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848085",
+   "name": "Spiele-Nami",
+   "von": "2027-02-17",
+   "bis": "2027-02-17",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "14.00 - 15.30",
+   "age": null,
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848085",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7764793",
@@ -41838,6 +40430,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849894",
+   "name": "Zwerglikaffi mit Mütter- und Väterberatung",
+   "von": "2027-02-17",
+   "bis": "2027-02-17",
+   "ort": "Familienzentrum",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": null,
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849894",
+   "w": "https://www.elternforum-birmensdorf.ch/"
+  },
+  {
+   "gemeinden": [
     "wz"
    ],
    "id": "wz-27614-2027-02-18",
@@ -41871,6 +40478,25 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836538"
+  },
+  {
+   "gemeinden": [
+    "birmensdorf"
+   ],
+   "id": "birmensdorf-7849882",
+   "name": "Chrabbelgruppe",
+   "von": "2027-02-18",
+   "bis": "2027-02-18",
+   "ort": "Kath. Kirche",
+   "veranstalter": "Elternforum Birmensdorf",
+   "time": "",
+   "age": {
+    "min": 0,
+    "max": 2,
+    "label": "Babys"
+   },
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7849882",
+   "w": "https://www.elternforum-birmensdorf.ch/"
   },
   {
    "gemeinden": [
@@ -42052,7 +40678,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-4405-59659",
+   "id": "horgen-4405-59775",
    "name": "Winterwoche für Familien mit Kindern, Enkeln und Jugendlichen 2.0",
    "von": "2027-02-19",
    "bis": "2027-02-24",
@@ -42064,7 +40690,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "Familien, alle Alter"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4405/eventdate/59659",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4405/eventdate/59775",
    "w": "https://www.sonne-bezau.at/"
   },
   {
@@ -42396,6 +41022,25 @@ window.FAMILIENAGENDA = {
    "time": "09.30",
    "age": null,
    "url": "https://www.forum-magazin.ch/effretikon/agenda/20270224-chaferburg-405695/"
+  },
+  {
+   "gemeinden": [
+    "du"
+   ],
+   "id": "du-fa414175",
+   "q": "q-kath",
+   "name": "ELKI Treffen/Cheminéeraum",
+   "von": "2027-02-24",
+   "bis": "2027-02-24",
+   "ort": "Kirchenrainstrasse 4",
+   "veranstalter": "Kath. Pfarrei Heilige Dreifaltigkeit",
+   "time": "09.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.forum-magazin.ch/rueti/agenda/20270224-elki-treffenchemineeraum-414175/"
   },
   {
    "gemeinden": [
@@ -42908,7 +41553,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-4483-59585",
+   "id": "horgen-4483-59702",
    "name": "Kolibri-Familiengottesdienst",
    "von": "2027-02-28",
    "bis": "2027-02-28",
@@ -42920,7 +41565,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "Familien, alle Alter"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4483/eventdate/59585",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4483/eventdate/59702",
    "w": "https://refhorgen.ch/veranstaltung/62184"
   },
   {
@@ -43356,25 +42001,6 @@ window.FAMILIENAGENDA = {
     "label": "3 bis 6 Jahre"
    },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-4/"
-  },
-  {
-   "gemeinden": [
-    "zuerich"
-   ],
-   "id": "zuerich-/gz-hoengg/angebote/kinderkino-on-tour/2027-03-03Kinderkino",
-   "q": "q-gz",
-   "name": "Kinderkino on Tour! - GZ Höngg",
-   "von": "2027-03-03",
-   "bis": "2027-03-03",
-   "ort": "",
-   "veranstalter": "Zürcher Gemeinschaftszentren",
-   "time": "15.00",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "Kinder"
-   },
-   "url": "https://gz-zh.ch/gz-hoengg/angebote/kinderkino-on-tour/"
   },
   {
    "gemeinden": [
@@ -45215,7 +43841,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3078-59577",
+   "id": "horgen-3078-59693",
    "name": "Ökumenischer Kindergottesdienst",
    "von": "2027-03-14",
    "bis": "2027-03-14",
@@ -45223,7 +43849,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3078/eventdate/59577",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3078/eventdate/59693",
    "w": "https://refhorgen.ch/veranstaltung/61974"
   },
   {
@@ -46898,6 +45524,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4315-10162",
+   "name": "Buchstart-Treff",
+   "von": "2027-03-31",
+   "bis": "2027-03-31",
+   "ort": "Dettenbühlstrasse 1",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "10.00 - 10.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4315/eventdate/10162",
+   "w": "http://www.buchstart.ch"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7736065",
@@ -46965,6 +45610,25 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604650"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4317-10163",
+   "name": "Geschichtenzeit",
+   "von": "2027-03-31",
+   "bis": "2027-03-31",
+   "ort": "Dettenbühlstrasse 1",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4317/eventdate/10163",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -47244,6 +45908,25 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-7/"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848043",
+   "name": "Buchstart",
+   "von": "2027-04-03",
+   "bis": "2027-04-03",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848043",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -49011,7 +47694,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-4387-59657",
+   "id": "horgen-4387-59773",
    "name": "Städtereise Mailand",
    "von": "2027-04-16",
    "bis": "2027-04-18",
@@ -49023,7 +47706,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 15 Jahren"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4387/eventdate/59657",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4387/eventdate/59773",
    "w": "https://refhorgen.ch/veranstaltung/64759"
   },
   {
@@ -49512,6 +48195,21 @@ window.FAMILIENAGENDA = {
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7816999",
    "w": "https://zh.ch/kjz.pfaeffikon"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848103",
+   "name": "Muttertagsbasteln",
+   "von": "2027-04-21",
+   "bis": "2027-04-21",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848103",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh"
   },
   {
    "gemeinden": [
@@ -51219,6 +49917,25 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-16/"
+  },
+  {
+   "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848049",
+   "name": "Buchstart",
+   "von": "2027-05-21",
+   "bis": "2027-05-21",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848049",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -54493,6 +53210,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848052",
+   "name": "Buchstart",
+   "von": "2027-06-29",
+   "bis": "2027-06-29",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848052",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7827691",
@@ -56388,6 +55124,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848055",
+   "name": "Buchstart",
+   "von": "2027-09-01",
+   "bis": "2027-09-01",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848055",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7729183",
@@ -57533,6 +56288,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848058",
+   "name": "Buchstart",
+   "von": "2027-10-05",
+   "bis": "2027-10-05",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848058",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
+  },
+  {
+   "gemeinden": [
     "affolternamalbis"
    ],
    "id": "affolternamalbis-7836595",
@@ -57602,6 +56376,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848076",
+   "name": "Lego-Nachmittag",
+   "von": "2027-10-06",
+   "bis": "2027-10-06",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "14.00 - 15.30",
+   "age": null,
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848076",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604911",
@@ -57640,7 +56429,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3548-59597",
+   "id": "horgen-3548-59714",
    "name": "Chindermusicalwuche 2027",
    "von": "2027-10-12",
    "bis": "2027-10-15",
@@ -57648,7 +56437,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "9.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3548/eventdate/59597",
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3548/eventdate/59714",
    "w": "https://refhorgen.ch/veranstaltung/62568"
   },
   {
@@ -58214,6 +57003,25 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aesch"
+   ],
+   "id": "aesch-7848064",
+   "name": "Buchstart",
+   "von": "2027-11-06",
+   "bis": "2027-11-06",
+   "ort": "Gemeindebibliothek Aesch",
+   "veranstalter": "Gemeindebibliothek Aesch ZH",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7848064",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
+  },
+  {
+   "gemeinden": [
     "m"
    ],
    "id": "m-7832986",
@@ -58670,6 +57478,25 @@ window.FAMILIENAGENDA = {
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604932"
+  },
+  {
+   "gemeinden": [
+    "hw"
+   ],
+   "id": "hw-7841068",
+   "name": "Kinofilm «Röntgenbild einer Familie»",
+   "von": "2027-11-26",
+   "bis": "2027-11-26",
+   "ort": "Areal im Tobel",
+   "veranstalter": "Kultur Hadlikon",
+   "time": "20.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.hinwil.ch/_rte/anlass/7841068",
+   "w": "https://kulturhadlikon.ch"
   }
  ]
 };
