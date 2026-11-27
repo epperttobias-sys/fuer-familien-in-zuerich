@@ -83,6 +83,10 @@
 "e": "4. Advent Window 2026",
 "p": "4. Adventsfenster 2026"
 },
+"49. Chlausmärt in Dübendorf mit Chlauseinzug": {
+"e": "49. Chlausmärt in Dübendorf with Chlausinzug",
+"p": "49. Chlausmärt in Dübendorf mit Chlauseinzug"
+},
 "5. Adventsfenster 2026": {
 "e": "5th Advent Window 2026",
 "p": "5. Adventsfenster 2026"
@@ -134,6 +138,10 @@
 "Abenteuerspielplatz, Weiher, Minigolf": {
 "e": "Adventure playground, pond, mini golf",
 "p": "Abenteuerspielplatz, Weiher, Minigolf"
+},
+"Abgesagt Light up the Night: Gemeinsam durch den Advent": {
+"e": "Canceled Light up the Night: Together through Advent",
+"p": "Abgesagt Light up the Night: Gemeinsam durch den Advent"
 },
 "Abgesagt: Eltern-Coaching": {
 "e": "Canceled: Parent coaching",
@@ -367,6 +375,10 @@
 "e": "Advent chat",
 "p": "Adventsplausch"
 },
+"Adventsplausch im Pfarrhaus Flaach": {
+"e": "Advent chat in the rectory of Flaach",
+"p": "Adventsplausch im Pfarrhaus Flaach"
+},
 "Adventssingen im Käferberg": {
 "e": "Adventssingen in Käferberg",
 "p": "Adventssingen im Käferberg"
@@ -439,6 +451,10 @@
 "e": "Alice dances",
 "p": "Alice tanzt"
 },
+"Alma Adventsmarkt": {
+"e": "Alma Advent Market",
+"p": "Alma Adventsmarkt"
+},
 "Als die Tiere den Wald verliessen": {
 "e": "When the animals left the forest",
 "p": "Als die Tiere den Wald verliessen"
@@ -486,6 +502,10 @@
 "Aquarina Adventszauber": {
 "e": "Aquarina Advent Magic",
 "p": "Aquarina Adventszauber"
+},
+"Arktisch coole Stempeljagd": {
+"e": "Arctic cool stamp hunting",
+"p": "Arktisch coole Stempeljagd"
 },
 "Art On Ice": {
 "e": "Art On Ice",
@@ -630,6 +650,10 @@
 "Basteln mit alten Heftli": {
 "e": "Crafting with old Heftli",
 "p": "Basteln mit alten Heftli"
+},
+"Bastelnachmittag": {
+"e": "Crafting afternoon",
+"p": "Bastelnachmittag"
 },
 "Bastelnachmittag für Kinder in Begleitung einer Erwachsenen Person": {
 "e": "Crafting afternoon for children accompanied by an adult person",
@@ -866,6 +890,18 @@
 "Buchstart - Gschichtezyt": {
 "e": "Book Start - Story Time",
 "p": "Buchstart - Geschichtenzeit"
+},
+"Buchstart - Gschichtezyt mit Mütter - Väter - Beratung": {
+"e": "Book start - Storytime with mothers - Fathers - Advice",
+"p": "Buchstart - Geschichtenzeit mit Mütter - Väter - Beratung"
+},
+"Buchstart - Gschichtezyt mit Mütter-Väter Beratung": {
+"e": "Buchstart - Story Time with Mothers-Fathers Advice",
+"p": "Buchstart - Geschichtenzeit mit Mütter-Väter Beratung"
+},
+"Buchstart - Gschichtezyt mit Mütter-Väter-Beratung": {
+"e": "Buchstart - Story Time with Mothers-Fathers-Consultancy",
+"p": "Buchstart - Geschichtenzeit mit Mütter-Väter-Beratung"
 },
 "Buchstart - Reim und Spiel": {
 "e": "Bookstart - Rhyme and game",
@@ -1203,6 +1239,10 @@
 "e": "Chlausmärt 2026",
 "p": "Chlausmärt 2026"
 },
+"Chlausmärt 2027": {
+"e": "Chlausmärt 2027",
+"p": "Chlausmärt 2027"
+},
 "Chlausmärt Fehraltorf": {
 "e": "Chlausmärt Fehraltorf",
 "p": "Chlausmärt Fehraltorf"
@@ -1459,6 +1499,10 @@
 "e": "Derborence le temps des animaux",
 "p": "Derborence le temps des animaux"
 },
+"Deutsch lernen am Morgen mit Kinderbetreuung A1": {
+"e": "Learn German in the morning with child care A1",
+"p": "Deutsch lernen am Morgen mit Kinderbetreuung A1"
+},
 "Die Einsamen im Meer": {
 "e": "The Lonely in the Sea",
 "p": "Die Einsamen im Meer"
@@ -1602,6 +1646,10 @@
 "ELKI-TREFF": {
 "e": "Elki-treff",
 "p": "Elki-treff"
+},
+"ELKI-Treff": {
+"e": "ELKI-Treff",
+"p": "ELKI-Treff"
 },
 "EVK KinderKino": {
 "e": "EVK ChildrenCinema",
@@ -1811,6 +1859,10 @@
 "e": "Narrcafé: It's a child's play",
 "p": "Erzählcafé: Das ist ein Kinderspiel"
 },
+"Erzählkino - Bilderbuchgeschichten auf der Leinwand": {
+"e": "Narrative Cinema - picture book stories on the screen",
+"p": "Erzählkino - Bilderbuchgeschichten auf der Leinwand"
+},
 "Erzählmorgen": {
 "e": "Telling Tomorrow",
 "p": "Erzählmorgen"
@@ -1854,6 +1906,10 @@
 "Eucharistiefeier am Sonntag und Versöhnungsfeier mit Familien": {
 "e": "Eucharistic celebration on Sunday and celebration of reconciliation with families",
 "p": "Eucharistiefeier am Sonntag und Versöhnungsfeier mit Familien"
+},
+"Eucharistiefeier mit Aussendung der Sternsingern27": {
+"e": "Eucharistic celebration with the sending of the Star Singers27",
+"p": "Eucharistiefeier mit Aussendung der Sternsingern27"
 },
 "Eucharistiefeier mit Kindersegnung": {
 "e": "Eucharistic Celebration with Child Blessing",
@@ -1906,6 +1962,10 @@
 "Fahrt zur Krippenaustellung": {
 "e": "Journey to the crib exhibition",
 "p": "Fahrt zur Krippenaustellung"
+},
+"Famiglia Dimitri - Zirkus auf dem Bauernhof": {
+"e": "Famiglia Dimitri - Circus on the farm",
+"p": "Famiglia Dimitri - Zirkus auf dem Bauernhof"
 },
 "Familie Flöz: Dr. Nest": {
 "e": "Flöz family: Dr. Nest",
@@ -2423,6 +2483,10 @@
 "e": "Holiday Workshop Nature Museum",
 "p": "Ferienwerkstatt Naturmuseum"
 },
+"Fest Taufe Jesu: Taufgelübdeerneuerung, Wort-GD mit Kommunionfeier": {
+"e": "Feast of Christ's Baptism: Baptism Renewal, Word-GD with Communion Celebration",
+"p": "Fest Taufe Jesu: Taufgelübdeerneuerung, Wort-GD mit Kommunionfeier"
+},
 "Festliche Klänge mit dem Kinder- und Jugendchor der Musikschule Horgen": {
 "e": "Festive sounds with the children's and youth choir of the music school Horgen",
 "p": "Festliche Klänge mit dem Kinder- und Jugendchor der Musikschule Horgen"
@@ -2470,6 +2534,10 @@
 "Fiire mit de Chliine zur Fasnacht": {
 "e": "Celebrating with the little ones for Carnival",
 "p": "Feiern mit den Kleinen zur Fasnacht"
+},
+"Fiire mit de Chliine, anschl. Zvieri": {
+"e": "Celebrations with the little ones, followed by Zvieri snack",
+"p": "Feiern mit den Kleinen, anschl. Zvieri-Snack"
 },
 "Fiire mit de Chliine, ref. Kirche": {
 "e": "Celebrations with the little ones, ref. Church",
@@ -2686,6 +2754,10 @@
 "Gasthaus der Stiftung Pigna mit Gartenrestaurant. Draussen gibt es einen Spielplatz mit Sandkasten, Schaukeln und Rutschbahnen, drinnen eine Spielecke mit Spielsachen und Kinderportionen. Täglich geöffnet.": {
 "e": "Guest house of the Pigna Foundation with garden restaurant. Outside there is a playground with sandbox, swings and slides, inside a play area with toys and children's portions. Open daily.",
 "p": "Gasthaus der Stiftung Pigna mit Gartenrestaurant. Draussen gibt es einen Spielplatz mit Sandkasten, Schaukeln und Rutschbahnen, drinnen eine Spielecke mit Spielsachen und Kinderportionen. Täglich geöffnet."
+},
+"Geisterbahn - Familienaufführung Figurentheater Matou": {
+"e": "Ghost train - Family performance Figurentheater Matou",
+"p": "Geisterbahn - Familienaufführung Figurentheater Matou"
 },
 "Geisterstunde": {
 "e": "Ghost hour",
@@ -3070,6 +3142,10 @@
 "Hey, hey, hey Taxi": {
 "e": "Hey, hey, hey Taxi",
 "p": "Hey, hey, hey Taxi"
+},
+"Himmelsfrau und Schildkröteninsel": {
+"e": "Skywoman and Turtle Island",
+"p": "Himmelsfrau und Schildkröteninsel"
 },
 "Hits aus dem Kinderzimmer \"Chinder Helde\"": {
 "e": "Hits from the children's room \"Kinder Helde\"",
@@ -3546,6 +3622,10 @@
 "Kerzenziehen öffentlich": {
 "e": "Candle-drawing public",
 "p": "Kerzenziehen öffentlich"
+},
+"Kids & Teens Show": {
+"e": "Kids & Teens Show",
+"p": "Kids & Teens Show"
 },
 "Kids Church": {
 "e": "Kids Church",
@@ -4455,6 +4535,10 @@
 "e": "MS Sports Camps Winterthur 2027",
 "p": "MS Sports Camps Winterthur 2027"
 },
+"MS Sports Fussball Camp Affoltern am Albis 2027": {
+"e": "MS Sports Football Camp Affoltern at the Albis 2027",
+"p": "MS Sports Fussball Camp Affoltern am Albis 2027"
+},
 "MS Sports Fussball Camp Fällanden 2027": {
 "e": "MS Sports Football Camp Fällanden 2027",
 "p": "MS Sports Fussball Camp Fällanden 2027"
@@ -4510,6 +4594,10 @@
 "Medienflohmarkt": {
 "e": "Media flea market",
 "p": "Medienflohmarkt"
+},
+"Meerestiere der Arktis": {
+"e": "Arctic marine animals",
+"p": "Meerestiere der Arktis"
 },
 "Meiers Weihnachtszauber": {
 "e": "Meier's Christmas Magic",
@@ -4582,6 +4670,10 @@
 "Minimum": {
 "e": "Minimum",
 "p": "Minimum"
+},
+"Mir gönd zum Samichlaus in Wald": {
+"e": "To Saint Nicholas in the forest",
+"p": "Mir gönd zum Sankt Nikolaus in Wald"
 },
 "Misa de Navidad": {
 "e": "Misa de Navidad",
@@ -4778,6 +4870,18 @@
 "NLA Unihockey: UHC Uster - Tigers Langnau": {
 "e": "NLA Unihockey: UHC Uster - Tigers Langnau",
 "p": "NLA Unihockey: UHC Uster - Tigers Langnau"
+},
+"NONAMini – Einhorn der Meere": {
+"e": "NONAMini – Unicorn of the seas",
+"p": "NONAMini – Einhorn der Meere"
+},
+"NONAMini – Mit dem Kanu durchs Waldland": {
+"e": "NONAMini – Canoe through the forest land",
+"p": "NONAMini – Mit dem Kanu durchs Waldland"
+},
+"NONAMini – Wir reisen in die Arktis": {
+"e": "NONAMini – We travel to the Arctic",
+"p": "NONAMini – Wir reisen in die Arktis"
 },
 "Nativity Play": {
 "e": "Nativity Play",
@@ -5027,6 +5131,10 @@
 "e": "Pasta per tutti",
 "p": "Pasta per tutti"
 },
+"Perlenzauber-Werkstatt": {
+"e": "Perlenzauber workshop",
+"p": "Perlenzauber-Werkstatt"
+},
 "Pfadi Aktivität": {
 "e": "Pathi Activity",
 "p": "Pfadi Aktivität"
@@ -5042,6 +5150,10 @@
 "Pfaffhauser Sommerfest": {
 "e": "Pfaffhauser Summer Festival",
 "p": "Pfaffhauser Sommerfest"
+},
+"Pflanzentag": {
+"e": "Plant Day",
+"p": "Pflanzentag"
 },
 "Pfäffiker Dorfete 2027": {
 "e": "Pfäffiker Dorfete 2027",
@@ -5310,6 +5422,10 @@
 "SHOWTICKET – Familientag": {
 "e": "Showticket – Family Day",
 "p": "Showticket – Familientag"
+},
+"SP Dübendorf am Chlausmärt": {
+"e": "SP Dübendorf am Chlausmärt",
+"p": "SP Dübendorf am Chlausmärt"
 },
 "SPIEL- NACHMITTAG": {
 "e": "Game afternoon",
@@ -5863,6 +5979,10 @@
 "e": "Toys inside, large yard and playground nearby",
 "p": "Spielsachen drinnen, grosser Hof und Spielplatz in der Nähe"
 },
+"Spielstreifzüge im Familienzentrum": {
+"e": "Games in the Family Center",
+"p": "Spielstreifzüge im Familienzentrum"
+},
 "Spielturm mit Klettern, Rutschen und Schaukeln, grosse Wiese": {
 "e": "Playing tower with climbing, slides and swings, large meadow",
 "p": "Spielturm mit Klettern, Rutschen und Schaukeln, grosse Wiese"
@@ -5934,6 +6054,10 @@
 "Startklar-Fit für Kindergarten und Schule": {
 "e": "Start-Fit for kindergarten and school",
 "p": "Startklar-Fit für Kindergarten und Schule"
+},
+"Steinbock-Safari": {
+"e": "Capricorn safari",
+"p": "Steinbock-Safari"
 },
 "Sterndeuter-Tag für Untikinder": {
 "e": "Sterndeuter Day for Untikinder",
@@ -6111,6 +6235,10 @@
 "e": "TierZeit Kids in the City Library: Wild animal tracks",
 "p": "TierZeit Kids in der Stadtbibliothek: Wildtierspuren"
 },
+"Tierpark-Brunch": {
+"e": "Animal park brunch",
+"p": "Tierpark-Brunch"
+},
 "Tiger im Tank": {
 "e": "Tiger in the tank",
 "p": "Tiger im Tank"
@@ -6211,6 +6339,10 @@
 "e": "Understand the chickens: Workshop for children in the Nature Museum",
 "p": "Verstehe die Hühner: Workshop für Kinder im Naturmuseum"
 },
+"Versöhnungsweg für Familien": {
+"e": "Way of reconciliation for families",
+"p": "Versöhnungsweg für Familien"
+},
 "Views of the Alps on a clear day. Recommended at South Foehn wether conditions.": {
 "e": "Views of the Alps on a clear day. Recommended at South Foehn wether conditions.",
 "p": "Views of the Alps on a clear day. Recommended at South Foehn wether conditions."
@@ -6222,6 +6354,10 @@
 "Voloshka –Gemeinsam mit den Kleinsten": {
 "e": "Voloshka – Together with the smallest",
 "p": "Voloshka –Gemeinsam mit den Kleinsten"
+},
+"Von Bär bis Biber. Wer trägt das wärmste Fell?": {
+"e": "From bear to beaver, who wears the warmest fur?",
+"p": "Von Bär bis Biber. Wer trägt das wärmste Fell?"
 },
 "Von Eisbär, Arktis und Polarlicht": {
 "e": "Of polar bear, Arctic and polar light",
@@ -6427,6 +6563,10 @@
 "e": "Christmas tins for children",
 "p": "Weihnachtsbasteln für Kinder"
 },
+"Weihnachtsbazar - GZ Schindlergut": {
+"e": "Christmas bazar - GZ Schindlergut",
+"p": "Weihnachtsbazar - GZ Schindlergut"
+},
 "Weihnachtsdorf 2026": {
 "e": "Christmas Village 2026",
 "p": "Weihnachtsdorf 2026"
@@ -6511,9 +6651,17 @@
 "e": "Christmas market Dielsdorf 2026",
 "p": "Weihnachtsmarkt Dielsdorf 2026"
 },
+"Weihnachtsmarkt Dörfli 2026 im Herzen von Zürich": {
+"e": "Christmas market Dörfli 2026 in the heart of Zurich",
+"p": "Weihnachtsmarkt Dörfli 2026 im Herzen von Zürich"
+},
 "Weihnachtsmarkt Hettlingen 2026": {
 "e": "Christmas market Hettlingen 2026",
 "p": "Weihnachtsmarkt Hettlingen 2026"
+},
+"Weihnachtsmarkt Winterthur 2026": {
+"e": "Christmas market Winterthur 2026",
+"p": "Weihnachtsmarkt Winterthur 2026"
 },
 "Weihnachtsmarkt Winterthur mit Zauberwald": {
 "e": "Christmas market Winterthur with magic forest",
@@ -6539,9 +6687,17 @@
 "e": "Christmas market, performance of the chindsgichor",
 "p": "Weihnachtsmarkt, Auftritt des Chindsgichors"
 },
+"Weihnachtsmenü im Zunfthaus zur Zimmerleuten": {
+"e": "Christmas menu in the guild house for carpenters",
+"p": "Weihnachtsmenü im Zunfthaus zur Zimmerleuten"
+},
 "Weihnachtsmusical der Memory-Kinder": {
 "e": "Christmas musical of memory children",
 "p": "Weihnachtsmusical der Memory-Kinder"
+},
+"Weihnachtsmusical: Foif Könige unterwägs nach Bethlehem - e Legände": {
+"e": "Christmas musical: Foif Kings subjugated to Bethlehem - e Legände",
+"p": "Weihnachtsmusical: Foif Könige unterwägs nach Bethlehem - e Legände"
 },
 "Weihnachtsmusik bei Kerzenlicht": {
 "e": "Christmas music by candlelight",
@@ -6767,6 +6923,10 @@
 "e": "Word-god celebration of the Caritas project 1 million stars with",
 "p": "Wortgottesfeier zum Caritasprojekt 1 Million Sterne mit"
 },
+"Wunsch-Schildkröten": {
+"e": "Wish-toads",
+"p": "Wunsch-Schildkröten"
+},
 "Während Saison ab 19:00 gratis ohne Personal": {
 "e": "During season from 19:00 free without staff",
 "p": "Während Saison ab 19:00 gratis ohne Personal"
@@ -6966,6 +7126,10 @@
 "Zürcher Silvesterlauf": {
 "e": "Zurich New Year's Eve Run",
 "p": "Zürcher Silvesterlauf"
+},
+"Zürcher Weihnachtsallee": {
+"e": "Zurich Christmas Avenue",
+"p": "Zürcher Weihnachtsallee"
 },
 "Züri Dance Award": {
 "e": "Züri Dance Award",
